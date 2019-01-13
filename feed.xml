@@ -1,1 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-01-13T18:15:39+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-01-13T21:51:34+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Learning how to learn” - my impression and conclusions</title><link href="http://merelycurious.github.io/post/learning-how-to-learn-course-review" rel="alternate" type="text/html" title="&quot;Learning how to learn&quot; - my impression and conclusions" /><published>2019-01-12T21:00:00+01:00</published><updated>2019-01-12T21:00:00+01:00</updated><id>http://merelycurious.github.io/post/learning_how_to_learn_course_review</id><content type="html" xml:base="http://merelycurious.github.io/post/learning-how-to-learn-course-review">&lt;p&gt;Recently I took somewhat famous &lt;a href=&quot;https://www.coursera.org/learn/learning-how-to-learn&quot;&gt;&quot;Learning how to learn&quot;&lt;/a&gt; course at Coursera.&lt;/p&gt;
+
+&lt;p&gt;My experience was pretty mixed. I would like to share my impression and a brief summary.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;impression&quot;&gt;Impression&lt;/h2&gt;
+
+&lt;p&gt;Before I started the course it looked very intriguing: “invaluable learning techniques used by experts”, promises to “change your thinking and change your life” and so on. However, afterwards the course felt pretty shallow. They did touch various interesting topics, but they almost never went into any details (e.g. why something is like how they say or how exactly this works in a brain). They also used multiple analogies without explaining their underlying concepts.&lt;/p&gt;
+
+&lt;p&gt;The end of the course was extremely chaotic. We jumped from topic to topic and sometimes the topics were not even mentioned in the videos (“Renaissance Learning”).&lt;/p&gt;
+
+&lt;p&gt;The tests are odd as well. Approximately half of the answers were obviously nonsensical. One did not even have to read a question to understand that these answers were wrong. The other half are just pretty close quotations from the videos.&lt;/p&gt;
+
+&lt;p&gt;The lists of recommended articles were difficult to use. The articles there were not explicitly matched with the facts from videos. Also there were many of them. Overall I struggled to read these articles due to lacking background.&lt;/p&gt;
+
+&lt;p&gt;The videos are pretty short (3-10 minutes) and in the end of each video the lecturer says something like “I am &amp;lt;some name&amp;gt;, thanks for learning how to learn”. I heard this phrase probably around 50 times during the course…&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I can’t say that you shouldn’t take this course, but I also cannot recommend it. I feel like this information could have been presented in a much shorter way or with more background details, but I don’t regret ~6 hours spent.&lt;/p&gt;
+
+&lt;p&gt;Important disclaimer: while I personally don’t look very found of the course, I tried applying what I learned to learning how to juggle clubs and it worked surprisingly well. I am going to tell about this in a separate post.&lt;/p&gt;
+
+&lt;h2 id=&quot;brief-summary&quot;&gt;Brief summary&lt;/h2&gt;
+
+&lt;p&gt;Let me briefly share what I learned, so that I recall it one more time and remember it better. Yeap, I learned this during the course.&lt;/p&gt;
+
+&lt;h3 id=&quot;modes-of-thinking&quot;&gt;Modes of thinking&lt;/h3&gt;
+
+&lt;p&gt;Our brain has 2 modes of thinking:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Focused&lt;/li&gt;
+  &lt;li&gt;Diffused.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One is always in one of these two modes. The focused mode is used when you are thinking specifically about something you are familiar with. Usually in this mode you just follow the approach you learned before. In diffused mode, you can get into “new territory”, gain new ideas, combine already known ideas in unusual ways and gain high level context about what you already learned. Basically, when you sit and think how to solve a given problem, you are in focused mode. Then, when you go to make a tea, you enter the diffused mode. The diffused mode explains why often you get great ideas during a walk, while taking a shower or before sleep.&lt;/p&gt;
+
+&lt;p&gt;The lecturer shared anecdotal stories about e.g. Edison, who would intentionally get into diffused mode by relaxation. He would hold metal balls in his hand, sit in a chair, relax and fall asleep. While he felt asleep, he would involuntarily drop the balls on the floor and this would wake him up. During this “getting asleep” time, he would enter diffused mode and get new ideas.&lt;/p&gt;
+
+&lt;p&gt;Writing a to-do list before sleep or just in advance utilizes your diffused mode. You start unconsiously working on the items and already have some ideas when you actually start working on them.&lt;/p&gt;
+
+&lt;h3 id=&quot;memory&quot;&gt;Memory&lt;/h3&gt;
+
+&lt;p&gt;We have 2 kinds of memory:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Working&lt;/li&gt;
+  &lt;li&gt;Long term.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Working memory has only 4 slots and it is not very efficient. One needs to apply mental effort to keep data in these 4 slots. Long term memory is like a storage warehouse - good for long-term storage of a lot of data, but retrieval is trickier.&lt;/p&gt;
+
+&lt;p&gt;One can move data from working to long term memory by repetition and practice (better when over several days).&lt;/p&gt;
+
+&lt;p&gt;Writing a to-do list helps to free some space in your working memory.&lt;/p&gt;
+
+&lt;h4 id=&quot;importance-of-sleep&quot;&gt;Importance of sleep&lt;/h4&gt;
+
+&lt;p&gt;Sleep is very important for memory and learning. Just being awake creates toxic waste products in a brain. They get cleaned during sleep. Moreover, a brain also organizes memories during sleep (garbage collecting unimportant data, rehearsing and strenghtening important data).&lt;/p&gt;
+
+&lt;h4 id=&quot;chunks&quot;&gt;Chunks&lt;/h4&gt;
+
+&lt;p&gt;All data in memory is organized as chunks. A chunk incapsulates all the details of the underlying skill and, thus, takes only 1 slot in working memory (i.e. like a hyperlink - this “increases” your working memory). It also requires less mental effort to perform. E.g. solving quadratic equations. You can have a chunk for “quadratic equations solving” and then just use it instead of going through all of the underlying details.&lt;/p&gt;
+
+&lt;p&gt;One can combine multiple chunks into one chunk. One can create a chunk from scratch by practising a specific skill. E.g. in language learning, saying a sentence requires multiple skills (form a sentence with proper grammar, remember the words from vocabulary, pronounce them correctly). Thus, you can practise each subskill, form a chunk for each of them and then combine them into one chunk responsible for the entire skill.&lt;/p&gt;
+
+&lt;p&gt;Do the following to “chunk”:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Focus 100% of your attention&lt;/li&gt;
+  &lt;li&gt;Understand the basic idea&lt;/li&gt;
+  &lt;li&gt;Gain context (e.g. when to use this chunk)&lt;/li&gt;
+  &lt;li&gt;Practise&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Context is very important, since then you know when and how to apply and how to combine different chunks.&lt;/p&gt;
+
+&lt;p&gt;You can transfer knowledge to new areas through chunks. A chunk can make it much easier to understand similar chunks in different fields.&lt;/p&gt;
+
+&lt;h4 id=&quot;memory-palace-technique&quot;&gt;Memory palace technique&lt;/h4&gt;
+
+&lt;p&gt;Humans have good visual and spatial memory due to evolutionary reasons. One can utilize this to remember better. E.g. try to represent what you learn with an unusual image.&lt;/p&gt;
+
+&lt;p&gt;Memory palace technique involves imagining a well known place, where you put objects you need to remember in unusual or weird ways. E.g. for a shoping list you can imagine your living room with a huge loaf of bread in your chair and a bunch of broken eggs on your sofa and milk dripping from the ceiling. Coming up with these weird ways is difficult at first, but gets better with practise.&lt;/p&gt;
+
+&lt;h3 id=&quot;illusion-of-competence&quot;&gt;Illusion of competence&lt;/h3&gt;
+
+&lt;p&gt;When you are reading a book or seeing a solution of a sample problem, you will likely feel that it is easy and that you can manage it. This is an illusion of competence. In order to avoid it, try to recall what you have read so far or go through the sample problem on your own after (or instead of) looking at the solution. Testing yourself also helps. Overall, actively recaling the informination is more efficient than just rereading when you try to learn something.&lt;/p&gt;
+
+&lt;h3 id=&quot;overlearning&quot;&gt;Overlearning&lt;/h3&gt;
+
+&lt;p&gt;Once you learned a concept, practising it further can lead to automaticity. This is good in some areas (sport, public speaking), but normally you don’t want this.&lt;/p&gt;
+
+&lt;p&gt;Overlearning can cause Einstellung, i.e. when an idea you have learned makes it hard to learn something new (you just follow the old familiar approach instead). A peculiar saying was mentioned to illustrate this: “Science progresses one funeral at a time”.&lt;/p&gt;
+
+&lt;p&gt;People also tend to practise areas they are already good at (this feels better). Instead one should do deliberate practice - identify areas they struggle with and practise them.&lt;/p&gt;
+
+&lt;h3 id=&quot;interleaving&quot;&gt;Interleaving&lt;/h3&gt;
+
+&lt;p&gt;When you need to practise multiple skills (even from different subjects), it is much better to practise each of them a bit by bit one by one multiple times instead of just learning the first skill completely and then going to the next one. In other words, if you want to learn skills A and B, practising in order “ABABAB” is better than “AAABBB”.&lt;/p&gt;
+
+&lt;h3 id=&quot;procrastination&quot;&gt;Procrastination&lt;/h3&gt;
+
+&lt;p&gt;Something you don’t like activates pain-like feeling and you shift your attention to something more pleassant. Similar to addiction.&lt;/p&gt;
+
+&lt;p&gt;One solution is to focus on process (let’s write for 20 minutes) instead of product (get homework done). &lt;a href=&quot;https://en.wikipedia.org/wiki/Pomodoro_Technique&quot;&gt;Pomodoro technique&lt;/a&gt; (setting timer for 25 minutes of focused work and then having 5 minute break) helps to focus on process.&lt;/p&gt;
+
+&lt;h4 id=&quot;habit&quot;&gt;Habit&lt;/h4&gt;
+
+&lt;p&gt;Procrastination is closely related to a habit.
+A habit consist of 4 parts:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The cue (trigger)&lt;/li&gt;
+  &lt;li&gt;Routine&lt;/li&gt;
+  &lt;li&gt;Reward&lt;/li&gt;
+  &lt;li&gt;Belief&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To overwrite a habit, one needs to change their reaction to a cue. A cue can be a location, time or even your feelings. Rewarding yourself e.g. after learning session can be helpful as well.&lt;/p&gt;
+
+&lt;p&gt;Planning your quiting time in your to-do list helps to focus on process. Also try to accomplish the least pleasurable but most important tasks first (“eat your frogs in the morning”).&lt;/p&gt;
+
+&lt;p&gt;When you start your learning session, it is normal if you don’t feel too excited about it. Everyone has such feelings, you can just start anyway for couple of minutes and see how it goes. Most likely you will get into it very quickly and just continue working.&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Recently I took somewhat famous &quot;Learning how to learn&quot; course at Coursera. My experience was pretty mixed. I would like to share my impression and a brief summary.</summary></entry></feed>
