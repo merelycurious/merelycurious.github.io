@@ -1,4 +1,199 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-01-19T20:02:08+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“My time costs X” fallacy</title><link href="http://merelycurious.github.io/post/my-time-costs-x-fallacy" rel="alternate" type="text/html" title="&quot;My time costs X&quot; fallacy" /><published>2019-01-19T15:00:00+01:00</published><updated>2019-01-19T15:00:00+01:00</updated><id>http://merelycurious.github.io/post/my_time_costs_x_fallacy</id><content type="html" xml:base="http://merelycurious.github.io/post/my-time-costs-x-fallacy">&lt;p&gt;Often I hear people invoking “my time costs X” argument when discussing ways to save money. Usually that’s how they explain why it does not make sense to spend time to save some amount Y, especially when it is much smaller than what they earn (i.e. X).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-01-27T20:33:39+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Frugal travel or how much does FIWE 2019 cost</title><link href="http://merelycurious.github.io/post/how-much-travel-to-fiwe-2019-cost" rel="alternate" type="text/html" title="Frugal travel or how much does FIWE 2019 cost" /><published>2019-01-27T20:00:00+01:00</published><updated>2019-01-27T20:00:00+01:00</updated><id>http://merelycurious.github.io/post/how_much_travel_to_fiwe_2019_cost</id><content type="html" xml:base="http://merelycurious.github.io/post/how-much-travel-to-fiwe-2019-cost">&lt;p&gt;I’ve accidentally discovered that there will be another &lt;a href=&quot;https://whatlifecouldbe.eu/fiwe/fiwe-2019/&quot;&gt;Financial Independence Week Europe (2019)&lt;/a&gt; in Budapest in May. 
+I felt like it might be interesting to go there. However, before commiting, I definitely should know how much it will cost,
+since my willingness to go is a function of cost. For example, with &lt;a href=&quot;https://www.fichautauqua.com/&quot;&gt;Chautauqua 2019&lt;/a&gt; everything is extremely simple - 
+€2300 is just too much.&lt;/p&gt;
+
+&lt;p&gt;So let’s see how much FIWE 2019 actually costs (at least for me) and consider some frugal (aka cheap) ways of attending.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;So, before we start, we can break down our task into multiple subtasks:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;One needs to get to Budapest and back.&lt;/li&gt;
+  &lt;li&gt;One needs to stay somewhere in Budapest.&lt;/li&gt;
+  &lt;li&gt;Conference fee.&lt;/li&gt;
+  &lt;li&gt;Food.&lt;/li&gt;
+  &lt;li&gt;Fun.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These are inevitable expenses (assuming that you are going to the conference) and they provide a good lower bound,
+which we can improve later.&lt;/p&gt;
+
+&lt;h2 id=&quot;conference-fee&quot;&gt;Conference fee&lt;/h2&gt;
+
+&lt;p&gt;€25.&lt;/p&gt;
+
+&lt;p&gt;This was easy, wasn’t it? While we at it, thanks a lot to the organizers, this is the real frugal conference fee (do you still remember €2300?).&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-to-budapest-and-back&quot;&gt;Getting to Budapest and back&lt;/h2&gt;
+
+&lt;p&gt;This one is less obvious, but still manageable.&lt;/p&gt;
+
+&lt;p&gt;In May I will likely be in Munich, so that’s my starting point. The main part of the conference happens from 2nd to 4th of May,
+but since I will be travelling there anyway, I consider it reasonable to stay for FIWE Extra as well (i.e. until evening of 8th of May).
+Thus, our constraints are Munich, 2nd-8th of May. Let’s consider travel options.&lt;/p&gt;
+
+&lt;h3 id=&quot;bus&quot;&gt;Bus&lt;/h3&gt;
+
+&lt;p&gt;Geography wasn’t my favorite subject, so let’s check the bus first (in case if Budapest is not that far from Munich).
+Flixbus is a somewhat default bus option in Europe.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fiwe_2019_costs/flixbus.png&quot; alt=&quot;Screenshot of Flixbus website with trips from Munich to Budapest. The prices are 30-40 euros and duration is at least 13 hours.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh. Ok, Budapest is much further than I thought. Spending 13 hours in a bus is just inefficient and for 40 euros one way there must be alternatives.&lt;/p&gt;
+
+&lt;h3 id=&quot;direct-flight&quot;&gt;Direct flight&lt;/h3&gt;
+
+&lt;p&gt;Let’s be naive and see how much it costs to have a flight from Munich.
+We can do this in Google flights.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fiwe_2019_costs/google_flights_direct.png&quot; alt=&quot;Screenshot of Google Flights website showing a Lufthansa flight. No price is shown.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And it costs 140 euros. Plus 11.2 * 2 to get to and back from the Munich airport. Plus something for Budapest airport (but I am lazy to look it up now).&lt;/p&gt;
+
+&lt;p&gt;Summary: 22.4 (MUC &amp;lt;-&amp;gt; MUC airport) + 140 (MUC&amp;lt;-&amp;gt;BUD flight)  + ? (BUD &amp;lt;-&amp;gt; BUD airport)&lt;/p&gt;
+
+&lt;h4 id=&quot;other-dates&quot;&gt;Other dates&lt;/h4&gt;
+
+&lt;p&gt;Sometimes playing with the dates helps (e.g. ticket price difference is larger than one night stay), but not in this case.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fiwe_2019_costs/google_flights_direct_other_dates.png&quot; alt=&quot;Screenshot of Google Flights website showing price matrix for different dates around 2nd and 8th. 140 is the cheapest.&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;direct-flight-but-not-from-muc&quot;&gt;Direct flight, but not from MUC&lt;/h3&gt;
+
+&lt;p&gt;I happened to know about Memmingen airport, which has a bunch of lowcosters.
+Check Google Flights again  - and no flights whatsoever.&lt;/p&gt;
+
+&lt;p&gt;But I don’t give up yet. I know about azair.com flights search engine, which is very flexible.
+By default it suggests me to search starting from MUC,SZG,FMM,INN,NUE and this works well.&lt;/p&gt;
+
+&lt;p&gt;There are really cheap (like €36 for a return flight cheap) flights from Nuernberg.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fiwe_2019_costs/azair_nuernberg.png&quot; alt=&quot;Screenshot of azair.com with cheap flights from Nuernberg.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we just need to get to NUE airport. There is blablacar, but this does not sound good before a flight.
+So Flixbus, it is. Unfortunately, they don’t have a schedule for May and April yet,  but in March
+the prices are 5-6 euros. The only issue is that the outward flight is pretty early (10:40am),
+but there are no early morning buses. So I could come one day earlier and explore Nürnberg as well.
+Or the schedule for May may change. Or my application for FIWE won’t be approved. We will see. Also the return flight
+is pretty early too, so I might need to stay in BUD until 9th.&lt;/p&gt;
+
+&lt;p&gt;Summary: 12 (MUC&amp;lt;-&amp;gt;NUE) + ? (a night in NUE) + ? (NUE&amp;lt;-&amp;gt;NUE airport) + 36 (NUE&amp;lt;-&amp;gt;BUD flight) + ? (BUD &amp;lt;-&amp;gt; BUD airport) + ? (a night in BUD).&lt;/p&gt;
+
+&lt;h3 id=&quot;direct-flight-but-not-from-muc-1&quot;&gt;Direct flight, but not from MUC&lt;/h3&gt;
+
+&lt;p&gt;This is not a typo. Didn’t I say that azair.com is very flexible? It also has a list of nearby airports and knows about various local lowcosters.
+Moveover it allows you to search for all trips e.g. from 7 to 9 days between two dates. Pretty cool, huh? So let’s add all airports close to Munich&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fiwe_2019_costs/azair_airports_close_to_muc.png&quot; alt=&quot;Screenshot of azair.com with list of airports close to Munich.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And yes, how I could have forgotten about Stuttgart. Sorry, Stuttgart.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fiwe_2019_costs/azair_airports_close_to_muc_to_bud.png&quot; alt=&quot;Screenshot of azair.com with flights from airports close to MUC to BUD. Stuttgart is cheapest.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Still magically low 36 euros, but a bit better timing. Wrong date though, but I don’t mind spending additional day in Budapest.&lt;/p&gt;
+
+&lt;p&gt;So Flixbus again - direct early bus from MUC to STU airport, 3 hours, 10-14 euros.
+Getting back is a bit less pleasant (on 8th there is a bus at 12:35 from the airport, but the next one is at 22:00).
+But I don’t have to commit now, I just consider my options.&lt;/p&gt;
+
+&lt;p&gt;Summary: 20-28 (MUC&amp;lt;-&amp;gt;STU) + 36 (STU&amp;lt;-&amp;gt;BUD flight) + ? (BUD &amp;lt;-&amp;gt; BUD airport) + ? (a night in BUD).&lt;/p&gt;
+
+&lt;h3 id=&quot;making-budapest-just-a-part-of-vacation&quot;&gt;Making Budapest just a part of vacation&lt;/h3&gt;
+
+&lt;p&gt;Actually you can make the problem even harder by allowing traveling with changes and spending time in stopover cities.
+Inside Europe this works well with buses and blablacar.&lt;/p&gt;
+
+&lt;p&gt;Usually you should start by looking at the map and checking which cities between the target cities sound interesting.
+I’ve been to Vienna, so I am not interested for now. Bratislava sounds interesting. However, I don’t want to visit
+the same city on the return trip (picky). So probably Graz in Austria is the second. But then it is not connected well to Budapest.
+And Bratislava is not connected well to Munich. So blablacar, but this is a risky territory if you want to be at a given 
+time at a given place with high probability (especially since one can’t book well in advance).&lt;/p&gt;
+
+&lt;p&gt;As you can see, the optimization problem gets too large here. And if you allow more than one stopover… Don’t do this, it is just too tricky to plan
+(unless everything is well connected with a bus or you don’t mind unexpectly spending additional day in one of the cities visited).&lt;/p&gt;
+
+&lt;p&gt;So, nope for now. But if I hadn’t visited Vienna…&lt;/p&gt;
+
+&lt;h3 id=&quot;travel-options-overview&quot;&gt;Travel options overview&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Flight from MUC &amp;gt;= 162.4&lt;/p&gt;
+
+    &lt;p&gt;22.4 (MUC &amp;lt;-&amp;gt; MUC airport) + 140 (MUC&amp;lt;-&amp;gt;BUD flight)  + ? (BUD &amp;lt;-&amp;gt; BUD airport)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Flight from NUE &amp;gt;= 48&lt;/p&gt;
+
+    &lt;p&gt;12 (MUC&amp;lt;-&amp;gt;NUE) + ? (a night in NUE) + ? (NUE&amp;lt;-&amp;gt;NUE airport) + 36 (NUE&amp;lt;-&amp;gt;BUD flight) + ? (BUD &amp;lt;-&amp;gt; BUD airport) + ? (a night in BUD).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Flight from STU &amp;gt;= 64&lt;/p&gt;
+
+    &lt;p&gt;20-28 (MUC&amp;lt;-&amp;gt;STU) + 36 (STU&amp;lt;-&amp;gt;BUD flight) + ? (BUD &amp;lt;-&amp;gt; BUD airport) + ? (a night in BUD).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We can fill in accomodation prices later.&lt;/p&gt;
+
+&lt;h2 id=&quot;accomodation&quot;&gt;Accomodation&lt;/h2&gt;
+
+&lt;p&gt;With accomodation there is less room for optimization. Usually it is just Airbnb or hostels depending on my prediction how social I will feel during the trip.&lt;/p&gt;
+
+&lt;h3 id=&quot;airbnb&quot;&gt;Airbnb&lt;/h3&gt;
+
+&lt;p&gt;With Airbnb it is important to remember that you can filter by price (especially if you save money):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fiwe_2019_costs/airbnb_price_filter.png&quot; alt=&quot;Screenshot of airbnb price filter.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;They say average nightly price is 74, but there are plenty of options cheaper than that.&lt;/p&gt;
+
+&lt;p&gt;Overall, there are some options for 15-18 euros per night, which might be too extreme.
+But 20-25 range seems ok and 30 per night should be plenty.&lt;/p&gt;
+
+&lt;p&gt;As a way to optimize, I could cooperate with fellow conference goers and book something together.
+This is definitely quite far fetched (I haven’t even applied yet), but it would bring the price down
+for sure.&lt;/p&gt;
+
+&lt;p&gt;Summary: 15-30 per night&lt;/p&gt;
+
+&lt;h3 id=&quot;hostels&quot;&gt;Hostels&lt;/h3&gt;
+
+&lt;p&gt;For hostels booking.com seems to work okeyish. I definitely couldn’t ever recommend it just due to how pushy the UI is, but it is the only site I know, where I can quickly see for how many people a room in a hostel is.&lt;/p&gt;
+
+&lt;p&gt;Overall, the prices are from 8 to 13 euro for a bed. 8 euro is a mind-boggling number.&lt;/p&gt;
+
+&lt;p&gt;Summary: 8-13 per night&lt;/p&gt;
+
+&lt;h2 id=&quot;food&quot;&gt;Food&lt;/h2&gt;
+
+&lt;p&gt;Food is tricky to estimate, since we will likely eat as a group. However, we can give it a try.&lt;/p&gt;
+
+&lt;p&gt;Usually numbeo.com (&lt;a href=&quot;https://www.numbeo.com/cost-of-living/in/Budapest?displayCurrency=EUR&quot;&gt;Budapest’s page&lt;/a&gt;) is very handy for this task. 
+So meal in an inexpensive restaurant is 5.6 euro on average (7.78 upper bound), 12 eggs - 1.7, bananas - 1.34, apples - 1.06.
+Let’s say I will have 2 eggs - banana - apple breakfast (~0.76 euro) and lunch/dinner in an inexpensive restaurant (~14 euro). I could do all three meals myself in airbnb’s or hostel’s kitchen, but the main goal is the conference, so let’s not waste time and focus on it. I would rather spend time in a restaurant talking with others than saving 3-5 euros per meal.&lt;/p&gt;
+
+&lt;p&gt;Summary: 15 euro per day&lt;/p&gt;
+
+&lt;h2 id=&quot;fun&quot;&gt;Fun&lt;/h2&gt;
+
+&lt;p&gt;Fun is impossible to estimate at this stage, since the plan is not known.
+So let this be a surprise. In worst case I could drop out of any pricey group-goings, but again this is a FI conference and I would be extremly suprised.&lt;/p&gt;
+
+&lt;h2 id=&quot;total&quot;&gt;Total&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;€25 conference fee&lt;/li&gt;
+  &lt;li&gt;\&amp;gt;= €64 flight from Stuttgart&lt;/li&gt;
+  &lt;li&gt;€8-30 per night for accomodation&lt;/li&gt;
+  &lt;li&gt;~€15 per day for food&lt;/li&gt;
+  &lt;li&gt;€? for some fun&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Grand total is &amp;gt;= €265 - 419 + fun.&lt;/p&gt;
+
+&lt;p&gt;Now let’s see whether my application will be approved.&lt;/p&gt;</content><author><name></name></author><category term="frugality" /><category term="travel" /><category term="FIWE" /><category term="FIRE" /><summary type="html">I’ve accidentally discovered that there will be another Financial Independence Week Europe (2019) in Budapest in May. I felt like it might be interesting to go there. However, before commiting, I definitely should know how much it will cost, since my willingness to go is a function of cost. For example, with Chautauqua 2019 everything is extremely simple - €2300 is just too much. So let’s see how much FIWE 2019 actually costs (at least for me) and consider some frugal (aka cheap) ways of attending.</summary></entry><entry><title type="html">“My time costs X” fallacy</title><link href="http://merelycurious.github.io/post/my-time-costs-x-fallacy" rel="alternate" type="text/html" title="&quot;My time costs X&quot; fallacy" /><published>2019-01-19T15:00:00+01:00</published><updated>2019-01-19T15:00:00+01:00</updated><id>http://merelycurious.github.io/post/my_time_costs_x_fallacy</id><content type="html" xml:base="http://merelycurious.github.io/post/my-time-costs-x-fallacy">&lt;p&gt;Often I hear people invoking “my time costs X” argument when discussing ways to save money. Usually that’s how they explain why it does not make sense to spend time to save some amount Y, especially when it is much smaller than what they earn (i.e. X).&lt;/p&gt;
 
 &lt;p&gt;They are likely wrong. Let’s see why.&lt;/p&gt;
 
