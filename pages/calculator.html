@@ -1,0 +1,292 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<h4> General assumptions </h4>
+
+<span title="How much money do you need to reach FIRE?">FIRE target ($): <input id="fire_target" value=1000000> </span>
+
+<br>
+
+<span title="How many percents do you expect your portfolio to grow (e.g. being invested in stock market)?">Expected return (%): <input id="expected_return" value=4> </span>
+
+<h4> Your path to FIRE </h4>
+
+<span title="How much money do you already have now?">Current networth ($): <input id="current_networth" value=0> </span>
+
+<br> 
+
+<span title="How much money will you add to your networth every month?">Monthly contributions ($): <input id="regular_monthly_contributions" value=1000> </span>
+
+<br>
+
+<span title="How much money will you add to your networth every year?">Yearly contributions ($): <input id="regular_yearly_contributions" value=1000> </span>
+
+<br>
+
+<div id="irregular_monthly_contributions">
+
+</div>
+
+<button id="add_irregular_monthly_contributions_button"> Add irregular monthly contributions </button>
+<button id="copy_last_year_button" hidden> Copy last irregular contributions year </button>
+<br><br>
+
+<button id="calculate_button"> Calculate </button>
+	
+<br><br>
+
+<div id="output_div">
+
+</div>
+
+<br> 
+
+</body>
+
+<script>
+
+	var headers = ["year", "month", "source 1", "source 2", "source 3", "source 4", "source 5"];
+
+	var generate_irregular_montly_contributions_form = function(year) {
+		var div = document.getElementById("irregular_monthly_contributions");
+
+		var table = document.createElement("table");
+		table.border = "1";
+		div.appendChild(table);
+
+		var row = table.insertRow(-1);
+		for (var i = 0; i < headers.length; ++i) {
+			var header_cell = document.createElement("th");
+	        header_cell.innerHTML = headers[i];
+	        row.appendChild(header_cell);
+		}
+
+		var current_year = (new Date()).getFullYear();
+		var current_month = (new Date()).getMonth();
+
+		var start_month = year == current_year ? current_month : 0;
+		for (var month = start_month; month < 12; ++month) { 
+			row = table.insertRow(-1);
+			var cell = row.insertCell(-1);
+        	cell.innerHTML = "" + year;
+
+        	cell = row.insertCell(-1);
+        	cell.innerHTML = "" + (month + 1);
+
+        	for (var i = 2; i < headers.length; ++i) {
+        		var input = document.createElement("input");
+        		input.id=("" + year) + "_" + month + "_" + i;
+        		var cell = row.insertCell(-1);
+        		cell.appendChild(input);
+        	}
+		}
+	}
+	
+
+	var read_irregular_contributions = function() {
+		var current_year = (new Date()).getFullYear();
+		var current_month = (new Date()).getMonth();
+
+		contributions = {};
+
+		for (var yearId = 0; yearId < 100; ++yearId) {
+			var start_month = yearId == 1 ? current_month : 0;
+			for (var month = start_month; month < 12; ++month) { 
+				var year = current_year + yearId;
+
+				var sum = 0;
+				for (var i = 2; i < headers.length; ++i) {
+					var id = ("" + year) + "_" + month + "_" + i;
+					var input = document.getElementById(id);
+					var value = 0;
+					if (input) {
+						value = parseFloat(input.value);
+						if (isNaN(value)) value = 0;
+					}
+					sum += value;	
+				}
+
+				contributions["" + year + "_" + month] = sum;
+			}
+		}
+
+		return contributions;
+	}
+
+	var get_input_value = function(object_id) {
+		return parseFloat(document.getElementById(object_id).value);
+	}
+
+	var simulate_yearly = function(fire_target, expected_return,
+								   current_networth,
+								   regular_yearly_contributions,
+								   regular_monthly_contributions,
+								   irregular_monthly_contributions) {
+
+		var monthly_return = Math.pow(1 + expected_return / 100, 1./12);
+
+		var current_year = (new Date()).getFullYear();
+		var current_month = (new Date()).getMonth();
+		var state = [[current_year, current_networth]];
+		for (var year = 0; year < 100; ++year) {
+			var start_month = year == 1 ? current_month : 0;
+			for (var month = start_month; month < 12; ++month) {
+				current_networth *= monthly_return
+				current_networth += regular_monthly_contributions
+
+				current_networth += irregular_monthly_contributions["" + (current_year + year) + "_" + month];
+
+				if (month == 11) {
+					current_networth += regular_yearly_contributions
+				}
+
+				state.push([current_year + year, month, current_networth])
+
+				if (current_networth > fire_target) {
+					return state;
+				}
+			}									
+		}
+
+		return state;
+	}
+
+	var calculate = function() {
+		var fire_target = get_input_value("fire_target");
+		var expected_return = get_input_value("expected_return");
+		var current_networth = get_input_value("current_networth");
+		var monthly_contributions = get_input_value("regular_monthly_contributions")
+		var yearly_contributions = get_input_value("regular_yearly_contributions");
+
+		var irregular_monthly_contributions = read_irregular_contributions();
+
+		var output_div = document.getElementById("output_div");
+
+		var state = simulate_yearly(
+			fire_target, expected_return, current_networth, yearly_contributions, monthly_contributions, irregular_monthly_contributions);
+
+		var current_year = (new Date()).getFullYear();
+		var current_month = (new Date()).getMonth();
+		var default_months_to_fire = (state[state.length-1][0] - current_year) * 12 + state[state.length-1][1] - current_month;
+
+		while (output_div.firstChild) {
+		    output_div.removeChild(output_div.firstChild);
+		}
+
+		var div = document.createElement("div");
+		div.textContent = "Default FIRE date: " + state[state.length-1][0] + "/" + (state[state.length-1][1] + 1);
+		output_div.appendChild(div)
+
+		output_div.appendChild(document.createElement("br"));
+
+		div = document.createElement("div");
+		div.textContent = "FIRE date if you spend now once: ";
+		output_div.appendChild(div)
+		// Spending now.
+		var amounts_now = [100, 1000, 10000];
+		for (var i = 0; i < amounts_now.length; ++i) {
+			var new_state = simulate_yearly(
+			fire_target, expected_return, current_networth - amounts_now[i], yearly_contributions, monthly_contributions, irregular_monthly_contributions);
+
+			var fire_year = new_state[new_state.length-1][0];
+			var fire_month = new_state[new_state.length-1][1]
+
+			var new_months_to_fire = (new_state[new_state.length-1][0] - current_year) * 12 + new_state[new_state.length-1][1] - current_month;
+
+			var month_later = new_months_to_fire - default_months_to_fire;
+
+			div = document.createElement("div");
+			div.textContent = "             " + amounts_now[i] + " -> " + fire_year + "/" + fire_month + " (" + month_later + " months later)";
+			output_div.appendChild(div)
+		}
+
+		output_div.appendChild(document.createElement("br"));
+
+		div = document.createElement("div");
+		div.textContent = "FIRE date if you spend every month: ";
+		output_div.appendChild(div)
+		var amounts = [1, 10, 100, 1000];
+		for (var i = 0; i < amounts.length; ++i) {
+			var new_state = simulate_yearly(
+			fire_target, expected_return, current_networth, yearly_contributions, monthly_contributions - amounts[i], irregular_monthly_contributions);
+
+			var fire_year = new_state[new_state.length-1][0];
+			var fire_month = new_state[new_state.length-1][1]
+
+			var new_months_to_fire = (new_state[new_state.length-1][0] - current_year) * 12 + new_state[new_state.length-1][1] - current_month;
+
+			var month_later = new_months_to_fire - default_months_to_fire;
+
+			div = document.createElement("div");
+			div.textContent = "             " + amounts[i] + " -> " + fire_year + "/" + fire_month + " (" + month_later + " months later)";
+			output_div.appendChild(div)
+		}
+
+		output_div.appendChild(document.createElement("br"));
+
+		div = document.createElement("div");
+		div.textContent = "FIRE date if you spend every year: ";
+		output_div.appendChild(div)
+		var amounts = [100, 1000, 10000];
+		for (var i = 0; i < amounts.length; ++i) {
+			var new_state = simulate_yearly(
+			fire_target, expected_return, current_networth, yearly_contributions - amounts[i], monthly_contributions, irregular_monthly_contributions);
+
+			var fire_year = new_state[new_state.length-1][0];
+			var fire_month = new_state[new_state.length-1][1]
+
+			var new_months_to_fire = (new_state[new_state.length-1][0] - current_year) * 12 + new_state[new_state.length-1][1] - current_month;
+
+			var month_later = new_months_to_fire - default_months_to_fire;
+
+			div = document.createElement("div");
+			div.textContent = "             " + amounts[i] + " -> " + fire_year + "/" + fire_month + " (" + month_later + " months later)";
+			output_div.appendChild(div)
+		}
+	}
+
+	var calculate_button = document.getElementById("calculate_button");
+	calculate_button.addEventListener("click", calculate);
+
+
+	var next_irregular_contributions_year = (new Date()).getFullYear();
+	var add_next_irregular_contributions_year = function() {
+		generate_irregular_montly_contributions_form(next_irregular_contributions_year);
+		++next_irregular_contributions_year;
+
+		var copy_last_year_button = document.getElementById("copy_last_year_button");
+		copy_last_year_button.hidden = false;
+	}
+	var add_irregular_monthly_contributions_button = document.getElementById("add_irregular_monthly_contributions_button");
+	add_irregular_monthly_contributions_button.addEventListener("click", add_next_irregular_contributions_year);
+
+
+	var copy_last_year = function() {
+		add_next_irregular_contributions_year();
+
+		var current_year = (new Date()).getFullYear();
+		var current_year = (new Date()).getMonth();
+		var last_year = next_irregular_contributions_year - 2;
+		var this_year = next_irregular_contributions_year - 1;
+		var start_month = last_year == current_year ? current_month : 0;
+
+		for (var month = start_month; month < 12; ++month) { 
+			for (var i = 2; i < headers.length; ++i) {
+				var last_year_id = ("" + last_year) + "_" + month + "_" + i;
+				var new_year_id = ("" + this_year) + "_" + month + "_" + i;
+				document.getElementById(new_year_id).value = document.getElementById(last_year_id).value;
+			}
+		}
+	}
+	var copy_last_year_button = document.getElementById("copy_last_year_button");
+	copy_last_year_button.addEventListener("click", copy_last_year);
+
+
+</script>
+
+</html>
