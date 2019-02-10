@@ -1,4 +1,166 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-01-27T23:25:05+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Frugal travel or how much does FIWE 2019 cost</title><link href="http://merelycurious.github.io/post/how-much-travel-to-fiwe-2019-cost" rel="alternate" type="text/html" title="Frugal travel or how much does FIWE 2019 cost" /><published>2019-01-27T20:00:00+01:00</published><updated>2019-01-27T20:00:00+01:00</updated><id>http://merelycurious.github.io/post/how_much_travel_to_fiwe_2019_cost</id><content type="html" xml:base="http://merelycurious.github.io/post/how-much-travel-to-fiwe-2019-cost">&lt;p&gt;I’ve accidentally discovered that there will be another &lt;a href=&quot;https://whatlifecouldbe.eu/fiwe/fiwe-2019/&quot;&gt;Financial Independence Week Europe (2019)&lt;/a&gt; in Budapest in May. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-02-10T19:02:46+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Buying ETFs on Interactive Brokers (from Germany)</title><link href="http://merelycurious.github.io/post/interactive-brokers-buying-etfs" rel="alternate" type="text/html" title="Buying ETFs on Interactive Brokers (from Germany)" /><published>2019-02-10T19:01:00+01:00</published><updated>2019-02-10T19:01:00+01:00</updated><id>http://merelycurious.github.io/post/interactive_brokers_buying_etfs</id><content type="html" xml:base="http://merelycurious.github.io/post/interactive-brokers-buying-etfs">&lt;p&gt;I started using Interactive Brokers to buy ETFs and there was quite a steap learning curve.
+Thus, let me share what I learned, so that you don’t have to go through this yourself.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Overall I suspect that investing in ETFs longterm on Interactive Brokers is cheaper than on any other broker in Germany. 
+That’s why I decided to give it a try.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-ticker-from-isin&quot;&gt;Getting “Ticker” from ISIN&lt;/h2&gt;
+
+&lt;p&gt;My first confusion was that Interactive Brokers did not understand what ISIN is. Previously I always used ISIN codes to buy all the ETFs and everything worked, but in IB nothing was found. However, there is a way to convert ISIN to another code (“Ticker”), which IB understands:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sign in into WebTrater (i.e. fancy complicated trading interface)&lt;/li&gt;
+  &lt;li&gt;Press on “Search” tab (this should open a new window)&lt;/li&gt;
+  &lt;li&gt;Choose “Simple” tab and enter the ISIN you are interested in (e.g. IE00B5BMR087). The ETF should appear below.
+&lt;img src=&quot;/assets/post_resources/buying_etf_on_ib/search_result.png&quot; alt=&quot;Interactive Brokers search result window for IE00B5BMR087.&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Open ETF’s page&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/buying_etf_on_ib/etf_page.png&quot; alt=&quot;Interactive Brokers search result for IE00B5BMR087 showing which exchanges it is traded on and with which symbols.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you can see which exchanges this ETF is traded on. Usually different exchanges have different currencies, so just choose by the currency (IBIS2 for EUR in this case). In “Symbol” column you can see which symbol is used to denote this ETF on a given exchange, thus, if you want to buy IE00B5BMR087 in EUR on Interactive Brokers, you should do so by buying SXR8 symbol.&lt;/p&gt;
+
+&lt;p&gt;Alternatively this information is available on JustETF as well in “Listing” tab (&lt;a href=&quot;https://www.justetf.com/en/etf-profile.html?groupField=index&amp;amp;from=search&amp;amp;isin=IE00B5BMR087&amp;amp;query=IE00B5BMR087&amp;amp;tab=listing&quot;&gt;e.g. for IE00B5BMR087&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Finally to verify you can search the symbol in Google and this should lead to the official fund website.&lt;/p&gt;
+
+&lt;h2 id=&quot;buying-by-ticker&quot;&gt;Buying by ticker&lt;/h2&gt;
+
+&lt;p&gt;Navigating the fancy super complicated investing interface of WebTrader was not easy at first.
+So here is how you can buy SXR8:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to “Market”&lt;/li&gt;
+  &lt;li&gt;Click “Add row”&lt;/li&gt;
+  &lt;li&gt;Paste the symbol you found above (e.g. SXR8 for IE00B5BMR087)&lt;/li&gt;
+  &lt;li&gt;There is only one option for exchange at this step - SMART, but no worries. SMART is just an Interactive Broker’s wrapper, which redirects your orders to presumably the best exchange for you. However, you can choose a specific exchange manually as well when filling the order&lt;/li&gt;
+  &lt;li&gt;Press “Add”&lt;/li&gt;
+  &lt;li&gt;The symbol should appear in your Market View&lt;/li&gt;
+  &lt;li&gt;Click on price in “Ask” column&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Order management view should get populated with the symbol
+&lt;img src=&quot;/assets/post_resources/buying_etf_on_ib/order_view.png&quot; alt=&quot;Interactive Brokers order management view for SXR8.&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Change the quantity (by default it is 100)&lt;/li&gt;
+  &lt;li&gt;Everything else is usually sane by default. Order Type “LMT” means limit, i.e. your order won’t be executed unless the price is below or equal to “Limit Price”. “TIF” means how long the order should be active. You can change the exchange if your have any preference. However, if you are using a proper ticket, all of the exchanges should use the same currency (EUR in this case), so there is not much difference.&lt;/li&gt;
+  &lt;li&gt;Click preview order&lt;/li&gt;
+  &lt;li&gt;For some exchanges you can see exact commission at this step. Unfortunately I was not able to understand why this works only for some exchanges and not always&lt;/li&gt;
+  &lt;li&gt;“Submit order”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Happy investing!&lt;/p&gt;</content><author><name></name></author><category term="investing" /><category term="brokers" /><category term="Interactive Brokers" /><summary type="html">I started using Interactive Brokers to buy ETFs and there was quite a steap learning curve. Thus, let me share what I learned, so that you don’t have to go through this yourself.</summary></entry><entry><title type="html">A peculiar story about DHL, UTF-8 and Skype</title><link href="http://merelycurious.github.io/post/funny-story-about-utf8-skype-and-dhl" rel="alternate" type="text/html" title="A peculiar story about DHL, UTF-8 and Skype" /><published>2019-02-10T19:00:00+01:00</published><updated>2019-02-10T19:00:00+01:00</updated><id>http://merelycurious.github.io/post/funny_story_about_utf8_skype_and_dhl</id><content type="html" xml:base="http://merelycurious.github.io/post/funny-story-about-utf8-skype-and-dhl">&lt;p&gt;Recently I needed to send a parcel and I decided to use DHL and pay online.
+Unfortunately the form always showed me an obscure error. I tried to debug it. In the end I managed to find out the precise cause of the error and it happened to be related to UTF-8 encoding and Skype.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;preamble&quot;&gt;Preamble&lt;/h2&gt;
+
+&lt;p&gt;I already tried to pay online for sending through DHL long time ago and didn’t manage due to precisely the same error. Still this time I was eager to try again, because it was more convenient than filling everything in a hurry in a store (and 1 Euro cheaper, of course).&lt;/p&gt;
+
+&lt;p&gt;Everything starts from &lt;a href=&quot;https://www.dhl.de/content/de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditor&quot;&gt;DHL online franking form&lt;/a&gt;.
+The form itself looks pretty usual - sender, recipient, customs. I filled everything in.
+This took quite some time (customs part is the most unpleasant).
+And then the final part of the form comes - what to do with the package if delivery fails?
+Destroy or return to the sender? I felt like receiving my stuff back, so please return to the sender.
+And that’s where the story starts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/story_about_dhl/dhl_form_error.png&quot; alt=&quot;Screenshot of DHL form asking what to do when delivery fails. &amp;quot;Return to sender&amp;quot; is selected and below there is an error &amp;quot;Please give a valid telephone number&amp;quot;.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The “delivery failed” part of the form shows an error and clearly asks for a valid telephone number.
+Hm, probably they would like to call me when returning the parcel, seems reasonable, but they did not even ask for my phone above (there is no such field).
+Moreover the recipient phone number looks ok to me (I’ve checked international phone number format). I was confused.&lt;/p&gt;
+
+&lt;p&gt;One obvious workaround is to let them destroy the parcel (presumably they don’t need my phone for that), but the error does not go away.
+Even if you fill in the form from scratch (yes, I did this), you just get exactly the same error when choosing to destroy the package.&lt;/p&gt;
+
+&lt;p&gt;Last time I had exactly the same issue and I just concluded that the form is buggy. I needed to send the parcel soon, so I went the old way - to a shop and that was it. However, this time I was curious to understand what was wrong.&lt;/p&gt;
+
+&lt;h2 id=&quot;hypothesis-1-form-field-missing&quot;&gt;Hypothesis 1: Form field missing&lt;/h2&gt;
+
+&lt;p&gt;My original hypothesis was that they indeed wanted my phone number, but the form was buggy and the field was not shown. Since the form just sends a POST request, I could modify the request and resend it manually without the form. Indeed the form posts to &lt;code class=&quot;highlighter-rouge&quot;&gt;https://www.dhl.de/int-versenden/gw/rest/api/ShipmentEditor&lt;/code&gt; and the sender part has an empty &lt;code class=&quot;highlighter-rouge&quot;&gt;phone&lt;/code&gt; field. So I copied the request as cURL command, modified the phone number and got precisely the same error back.&lt;/p&gt;
+
+&lt;p&gt;However, the error in raw json response had &lt;code class=&quot;highlighter-rouge&quot;&gt;property&lt;/code&gt; field and the value was &lt;code class=&quot;highlighter-rouge&quot;&gt;address.receiver&lt;/code&gt;. So they did not like the recepient phone, just the error message was positioned very poorely (hey, DHL, I hope you are reading this).&lt;/p&gt;
+
+&lt;h2 id=&quot;hypothesis-2-recipient-phone-number-problem&quot;&gt;Hypothesis 2: Recipient phone number problem&lt;/h2&gt;
+
+&lt;h3 id=&quot;wrong-format&quot;&gt;Wrong format&lt;/h3&gt;
+
+&lt;p&gt;I checked international phone number format again just in case. Everything seemed correct. I tried using my own phone number exactly in the same format and it worked.&lt;/p&gt;
+
+&lt;h3 id=&quot;their-phone-validation-does-not-know-the-country--area-code-i-am-sending-too&quot;&gt;Their phone validation does not know the country / area code I am sending too&lt;/h3&gt;
+
+&lt;p&gt;Since my phone number worked, I assumed that their validation is not very familiar with the destination country.
+I tried a phone number from the destination country, but from another carrier - error.
+I tried imitating my phone number (i.e. length and positions of zeroes), but with other country area code - same error.
+Then I decided to go to their website in the destination country and just take their phone number. This worked, but their area code was different.&lt;/p&gt;
+
+&lt;h3 id=&quot;their-validation-does-not-know-area-code&quot;&gt;Their validation does not know area code&lt;/h3&gt;
+
+&lt;p&gt;They had another phone with a different code and it worked too. This felt weird, but I still needed to send the parcel.
+Theoretically I could just use their customer support number as the recipient telephone number and provide a proper one in “additional address details” field, but this felt risky. Fortunately, I decided to play a bit more and modified the area code in their number to match the one I needed.
+It still worked. Then I modified the remainder of the number to fully match my original number and it actually worked. But why?&lt;/p&gt;
+
+&lt;h3 id=&quot;something-is-wrong-with-my-original-recipient-number-string&quot;&gt;Something is wrong with my original recipient number string&lt;/h3&gt;
+
+&lt;p&gt;Now I had two phone numbers looking exactly the same, but one caused an error and another one worked. Here I remembered that I copied the first number from Skype (to avoid making any typos), the second one I copied from DHL website and then edited it in the form itself.&lt;/p&gt;
+
+&lt;p&gt;I saved both strings into separate txt files and looked at their byte representations (whitespaces are mine for convenience):&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;from Skype
+e280aa 2b34343031323334353637383930 e280ac 0a
+from their website + modification
+       2b34343031323334353637383930        0a
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;As you can see from Skype we get the phone number with &lt;code class=&quot;highlighter-rouge&quot;&gt;e280aa&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;e280ac&lt;/code&gt;. Since I used &lt;code class=&quot;highlighter-rouge&quot;&gt;web.skype.com&lt;/code&gt; for this, I looked at the code&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/story_about_dhl/skype_phone_html.png&quot; alt=&quot;Screenshot of Web Skype html code with &amp;amp;#8234\; and &amp;amp;#8236\; around the number.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;and there were these characters, just encoded differently.&lt;/p&gt;
+
+&lt;p&gt;After some googling, I found out that &lt;code class=&quot;highlighter-rouge&quot;&gt;e280aa&lt;/code&gt; is a UTF8 charachter called &lt;code class=&quot;highlighter-rouge&quot;&gt;LEFT-TO-RIGHT EMBEDDING&lt;/code&gt; 
+&lt;a href=&quot;https://www.fileformat.info/info/unicode/char/202a/index.htm&quot;&gt;(U+202A)&lt;/a&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;e280ac&lt;/code&gt; - &lt;code class=&quot;highlighter-rouge&quot;&gt;POP DIRECTIONAL FORMATTING&lt;/code&gt;
+&lt;a href=&quot;https://www.fileformat.info/info/unicode/char/202c/index.htm&quot;&gt;(U+202C)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;victory&quot;&gt;Victory&lt;/h2&gt;
+
+&lt;p&gt;Ok, so now I knew what was causing the issue and could bypass it and send my parcel. Did I just do that? Obviously not.
+I was curious why these characters were in Skype in the first place.&lt;/p&gt;
+
+&lt;p&gt;Just looking at the UI did not help:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/story_about_dhl/skype_web_ui.png&quot; alt=&quot;Screenshot of Web Skype UI showing a phone number. Nothing unusual.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, left-to-rigth and directional formatting ringed a bell - this may have something to do with right-to-left languages.
+Let’s check the UI in some right-to-left language:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/story_about_dhl/skype_web_ui_ar.png&quot; alt=&quot;Screenshot of Web Skype UI in some right-to-left language (AR), everything is &amp;quot;mirrored&amp;quot;, except the phone number.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wow, so everything is mirrored, but not the phone number. Now let’s remove these characters&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/story_about_dhl/skype_modified_phone_ar_html.png&quot; alt=&quot;Screenshot of Web Skype html code without &amp;amp;#8234\; and &amp;amp;#8236\; around the number.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;and we get&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/story_about_dhl/skype_web_ui_ar_without_chars.png&quot; alt=&quot;Screenshot of Web Skype UI in some right-to-left language (AR) without &amp;amp;#8234\; and &amp;amp;#8236\; around the number, the number is written as 440123456789+ now.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; just jumps behind the number (i.e. gets written from right-to-left due to the language).
+This now seems reasonable. The Arabic numerals are written and read from left-to-right (i.e. like in English) even in right-to-left languages, so the phone number itself is just a number and should not change. However, the unary plus &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; could move and these 2 UTF characters just do the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;browser: &amp;lt;prints some text right-to-left and meets e280aa&amp;gt;
+e280aa: hey, browser! How-dee-do? Could you do me a
+        favor and print left-to-right for a bit?
+browser: oh, sure, not a big deal. &amp;lt;prints the
+         phone number with '+' on the left of it and meets e280ac&amp;gt;
+e280ac: hey, browsee! How are html standards these days?
+        e280aa asked me to ask you to go back
+        to right-to-left, thanks a lot for helping us out!
+browser: oh, whatever &amp;lt;continues printing right-to-left&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then I just sent the parcel and indeed the experience was much better when prepaying online (+1 Euro cheaper as well).&lt;/p&gt;</content><author><name></name></author><category term="funny" /><category term="bugs" /><category term="technology" /><summary type="html">Recently I needed to send a parcel and I decided to use DHL and pay online. Unfortunately the form always showed me an obscure error. I tried to debug it. In the end I managed to find out the precise cause of the error and it happened to be related to UTF-8 encoding and Skype.</summary></entry><entry><title type="html">Frugal travel or how much does FIWE 2019 cost</title><link href="http://merelycurious.github.io/post/how-much-travel-to-fiwe-2019-cost" rel="alternate" type="text/html" title="Frugal travel or how much does FIWE 2019 cost" /><published>2019-01-27T20:00:00+01:00</published><updated>2019-01-27T20:00:00+01:00</updated><id>http://merelycurious.github.io/post/how_much_travel_to_fiwe_2019_cost</id><content type="html" xml:base="http://merelycurious.github.io/post/how-much-travel-to-fiwe-2019-cost">&lt;p&gt;I’ve accidentally discovered that there will be another &lt;a href=&quot;https://whatlifecouldbe.eu/fiwe/fiwe-2019/&quot;&gt;Financial Independence Week Europe (2019)&lt;/a&gt; in Budapest in May. 
 I felt like it might be interesting to go there. However, before commiting, I definitely should know how much it will cost,
 since my willingness to go is a function of cost. For example, with &lt;a href=&quot;https://www.fichautauqua.com/&quot;&gt;Chautauqua 2019&lt;/a&gt; everything is extremely simple - 
 €2300 is just too much.&lt;/p&gt;

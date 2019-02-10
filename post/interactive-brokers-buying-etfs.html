@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Buying ETFs on Interactive Brokers (from Germany) | Merely curious</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Buying ETFs on Interactive Brokers (from Germany)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I started using Interactive Brokers to buy ETFs and there was quite a steap learning curve. Thus, let me share what I learned, so that you don’t have to go through this yourself." />
+<meta property="og:description" content="I started using Interactive Brokers to buy ETFs and there was quite a steap learning curve. Thus, let me share what I learned, so that you don’t have to go through this yourself." />
+<link rel="canonical" href="http://merelycurious.github.io/post/interactive-brokers-buying-etfs" />
+<meta property="og:url" content="http://merelycurious.github.io/post/interactive-brokers-buying-etfs" />
+<meta property="og:site_name" content="Merely curious" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-02-10T19:01:00+01:00" />
+<script type="application/ld+json">
+{"description":"I started using Interactive Brokers to buy ETFs and there was quite a steap learning curve. Thus, let me share what I learned, so that you don’t have to go through this yourself.","@type":"BlogPosting","url":"http://merelycurious.github.io/post/interactive-brokers-buying-etfs","headline":"Buying ETFs on Interactive Brokers (from Germany)","dateModified":"2019-02-10T19:01:00+01:00","datePublished":"2019-02-10T19:01:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://merelycurious.github.io/post/interactive-brokers-buying-etfs"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://merelycurious.github.io/feed.xml" title="Merely curious" /><script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-131503689-1', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Merely curious</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/queue/">Future post ideas</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Buying ETFs on Interactive Brokers (from Germany)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-02-10T19:01:00+01:00" itemprop="datePublished">Feb 10, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I started using Interactive Brokers to buy ETFs and there was quite a steap learning curve.
+Thus, let me share what I learned, so that you don’t have to go through this yourself.</p>
+
+<!--more-->
+
+<p>Overall I suspect that investing in ETFs longterm on Interactive Brokers is cheaper than on any other broker in Germany. 
+That’s why I decided to give it a try.</p>
+
+<h2 id="getting-ticker-from-isin">Getting “Ticker” from ISIN</h2>
+
+<p>My first confusion was that Interactive Brokers did not understand what ISIN is. Previously I always used ISIN codes to buy all the ETFs and everything worked, but in IB nothing was found. However, there is a way to convert ISIN to another code (“Ticker”), which IB understands:</p>
+
+<ol>
+  <li>Sign in into WebTrater (i.e. fancy complicated trading interface)</li>
+  <li>Press on “Search” tab (this should open a new window)</li>
+  <li>Choose “Simple” tab and enter the ISIN you are interested in (e.g. IE00B5BMR087). The ETF should appear below.
+<img src="/assets/post_resources/buying_etf_on_ib/search_result.png" alt="Interactive Brokers search result window for IE00B5BMR087." /></li>
+  <li>Open ETF’s page</li>
+</ol>
+
+<p><img src="/assets/post_resources/buying_etf_on_ib/etf_page.png" alt="Interactive Brokers search result for IE00B5BMR087 showing which exchanges it is traded on and with which symbols." /></p>
+
+<p>Here you can see which exchanges this ETF is traded on. Usually different exchanges have different currencies, so just choose by the currency (IBIS2 for EUR in this case). In “Symbol” column you can see which symbol is used to denote this ETF on a given exchange, thus, if you want to buy IE00B5BMR087 in EUR on Interactive Brokers, you should do so by buying SXR8 symbol.</p>
+
+<p>Alternatively this information is available on JustETF as well in “Listing” tab (<a href="https://www.justetf.com/en/etf-profile.html?groupField=index&amp;from=search&amp;isin=IE00B5BMR087&amp;query=IE00B5BMR087&amp;tab=listing">e.g. for IE00B5BMR087</a>).</p>
+
+<p>Finally to verify you can search the symbol in Google and this should lead to the official fund website.</p>
+
+<h2 id="buying-by-ticker">Buying by ticker</h2>
+
+<p>Navigating the fancy super complicated investing interface of WebTrader was not easy at first.
+So here is how you can buy SXR8:</p>
+
+<ol>
+  <li>Go to “Market”</li>
+  <li>Click “Add row”</li>
+  <li>Paste the symbol you found above (e.g. SXR8 for IE00B5BMR087)</li>
+  <li>There is only one option for exchange at this step - SMART, but no worries. SMART is just an Interactive Broker’s wrapper, which redirects your orders to presumably the best exchange for you. However, you can choose a specific exchange manually as well when filling the order</li>
+  <li>Press “Add”</li>
+  <li>The symbol should appear in your Market View</li>
+  <li>Click on price in “Ask” column</li>
+  <li>
+    <p>Order management view should get populated with the symbol
+<img src="/assets/post_resources/buying_etf_on_ib/order_view.png" alt="Interactive Brokers order management view for SXR8." /></p>
+  </li>
+  <li>Change the quantity (by default it is 100)</li>
+  <li>Everything else is usually sane by default. Order Type “LMT” means limit, i.e. your order won’t be executed unless the price is below or equal to “Limit Price”. “TIF” means how long the order should be active. You can change the exchange if your have any preference. However, if you are using a proper ticket, all of the exchanges should use the same currency (EUR in this case), so there is not much difference.</li>
+  <li>Click preview order</li>
+  <li>For some exchanges you can see exact commission at this step. Unfortunately I was not able to understand why this works only for some exchanges and not always</li>
+  <li>“Submit order”</li>
+</ol>
+
+<p>Happy investing!</p>
+
+
+  </div><a class="u-url" href="/post/interactive-brokers-buying-etfs" hidden></a>
+</article>
+
+      </div>
+    </main>
+<footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Merely curious</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Everything I find interesting enough.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer></body>
+
+</html>
