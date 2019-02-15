@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-02-13T22:14:44+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Interactive Brokers commissions: fixed vs tiered</title><link href="http://merelycurious.github.io/post/interactive-brokers-fixed-vs-tiered-commissions" rel="alternate" type="text/html" title="Interactive Brokers commissions: fixed vs tiered" /><published>2019-02-13T21:00:00+01:00</published><updated>2019-02-13T21:00:00+01:00</updated><id>http://merelycurious.github.io/post/interactive_brokers_fixed_vs_tiered_commissions</id><content type="html" xml:base="http://merelycurious.github.io/post/interactive-brokers-fixed-vs-tiered-commissions">&lt;p&gt;I continue exploring Interactive Brokers and today I will compare their fixed and tiered pricing models.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-02-15T09:30:48+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Througth experiment: losing everything</title><link href="http://merelycurious.github.io/post/thought-experiment-losing-everything" rel="alternate" type="text/html" title="Througth experiment: losing everything" /><published>2019-02-15T09:00:00+01:00</published><updated>2019-02-15T09:00:00+01:00</updated><id>http://merelycurious.github.io/post/thought_experiment_losing_everything</id><content type="html" xml:base="http://merelycurious.github.io/post/thought-experiment-losing-everything">&lt;p&gt;Imagine that one day you wake up and find out that all your savings have been completely wiped out (e.g. by a cybercriminal).
+That’s how the new thought experiment by SavingNinja starts. Here you can see my thoughts about this unfortunate situation.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Before we get to my response, let me introduce you the concept, so that you understand all the background.&lt;/p&gt;
+
+&lt;h2 id=&quot;preamble&quot;&gt;Preamble&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://thesavingninja.com/category/thought-experiments/&quot;&gt;“Thought experiments”&lt;/a&gt;
+is a project by SavingNinja. The idea is that some hypothetical situation is posted every 2 month
+and participants must write down their thoughts without any preparation or major editing.
+This should uncover their inner views and feelings.&lt;/p&gt;
+
+&lt;h2 id=&quot;if-you-lost-everything-thought-experiment&quot;&gt;“If You Lost Everything” thought experiment&lt;/h2&gt;
+
+&lt;p&gt;The experiment’s page is &lt;a href=&quot;https://thesavingninja.com/if-you-lost-everything&quot;&gt;here&lt;/a&gt; (it also contains links to other bloggers’ posts)
+and the “problem” statement is:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You wake up one rainy morning and after checking on your accounts you find out that you’ve been ‘wiped-out’ by a cybercriminal. You’ve lost all of the money and assets that you’ve ever owned and you can’t get them back. What will you do?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;my-reply&quot;&gt;My reply&lt;/h2&gt;
+
+&lt;p&gt;Oh… That’s unfortunate. So I definitely would feel like shit for some time.
+Probably, at first I would assume that it is a bug in the online banking or something.
+Probably, even call them to confirm. Once I understand that it is not a bug
+and the situation is real, I will probably try to calm myself down by saying that
+bank will try to do something about this. I think they would try to do something,
+but for your experiment let’s assume that it is was my fault (e.g. I used a compromised
+computer) and there is no way to return the money. So I would be dissapointed for some time.
+It is not clear from the experiment statement whether I lost my job as well,
+but I assume - not. So that would definitely be a very good thing. Since I rent, it is hard
+to imagine losing my accomodation so fast, but perhaps someone could write something to
+the landlord pretending to be me and screw this as well. Since the option with accomodation
+and work is pretty easy and boring, let’s consider it first.&lt;/p&gt;
+
+&lt;h3 id=&quot;i-still-have-accomodation-and-job&quot;&gt;I still have accomodation and job.&lt;/h3&gt;
+
+&lt;p&gt;I would continue going to work, I have couple months worth
+of expenses in cash at home - thank you for giving me one example how this could be useful.
+So I could definitely weather this until my next salary.
+Would I go for FIRE again? Oh, that’s a very tricky question.
+On one hand this wouldn’t change my lifestyle, frugality and tendency to efficiency,
+but on other hand going for the second time through something you already did (like
+writing a report which got lost due to some computer error) feels very bad.
+The loss would for sure demotivate me badly. However, it won’t help me to spend more by any means,
+so I technically won’t have any other option, and, thus, I will continue spending moderately
+and perhaps try to get to FIRE again as a result. (BUT this feels so frustrating, I can feel this frustration in me right now).&lt;/p&gt;
+
+&lt;h3 id=&quot;no-job-and-no-accomodation&quot;&gt;No job and no accomodation&lt;/h3&gt;
+
+&lt;p&gt;So let’s say that a very malicious (and determined) cybercriminal pretended to be me and screwed up
+my job (this one hard to imagine, even if they say that I did something wrong there would be some kind
+of investigation first (I hope)) and my accomodation as well.&lt;/p&gt;
+
+&lt;p&gt;So I am standing in the street with my wallet and some clothing and that’s it.
+I have 100-200 euro in my wallet, so this would be enough for one night.
+Also I have my phone, so I could call my friends and ask them to host me for one night
+(or more….). I would definitely call police immediately, just in case there is any chance 
+they could still do something.&lt;/p&gt;
+
+&lt;p&gt;After that I would try to find a job. I would probably couch-surf at my friends’ places for some time.
+Meanwhile applying into various companies and asking them to speed up the process.
+I would definitely help my friends in their houses (perhaps cooking, cleaning) as a way to 
+partially repay for my prolonged presence. I could extend this to other people as well
+(finding various small hustles). The goal here is to get to net 0 with my living expenses (mostly food 
+and accomodation). I hope that I would be able to find some job pretty fast
+and start looking for a new appartment (very likely some WG (shared appartment) for the first time to save some
+money). After that the problem is reduced to “accomodation and job”, which was described above.&lt;/p&gt;
+
+&lt;h3 id=&quot;fire-after-starting-from-0&quot;&gt;FIRE after starting from 0?&lt;/h3&gt;
+
+&lt;p&gt;I am curious to look more into my feelings about FIRE after losing everything.
+I definitely thought about something similar before, but in a different context.
+Occasionally I have some doubts inside me about the stock market and I get this thought
+“What if I missed something and all my investments go completely busted to 0?”.
+How would I feel about this? What would I do?
+By the way, this case feels much harder to me emotionally, because here this is my mistake
+and I am the one solely responsible for the loss. In your example, it felt more like
+an external impact, which was outside of my control.&lt;/p&gt;
+
+&lt;p&gt;I want to believe that I would accept losing my investments. In some sense I know that it is
+some kind of a gamble. I could save cash without investing, but then it would take me forever
+to reach anything FI like (basically, without passive income I would collect money constantly for some
+time and when I have enough money to cover my expenses before I die, I would be FI, but this time
+would be pretty short I assume). Wow, I should try to calculate this and write a post about this.
+So this case (no investments) is extremly sad and this basically means just working full
+time my entire life and having almost conventional retirement, which makes me sad
+(but I understand that I am privileged and many people didn’t/don’t have even that).
+And that’s why I started looking into stock market and kind of accept the risk.
+So my feeling would be: “Yeah, I screwed up very badly, but the possible positive outcome
+was still much better than completely no investments”. So I would consider this as
+a very expensive lesson. However, this would be sad as well, since if the stock market
+does not work, then there would probably be no achievable way for an average person to become FI.&lt;/p&gt;
+
+&lt;p&gt;So trying to become FI again would probably be very hard. I could still try to come up
+with some business of mine. But this is very tricky and highly volatile effort,
+so reaching FIRE this way seems very uncertaion to me.&lt;/p&gt;
+
+&lt;p&gt;Oh, Saving Ninja, thank you for this pleasants thoughts right before I go to bed.
+I hope I won’t have any dreams like that.
+So now I will turn all my positivity to compensate . Yeah, they can take my money away, but
+they can’t take my skills and my brain (unless they kill me, but then I probably don’t get 
+to think about what to do next), so I will be sad for some time just due to the sudden change,
+but then I will gather all my will, start working even harder and bounce back.
+Probably even stronger and better than before (but a couple years older as well).
+And I will definitely pay much more attention to cyber security. Or don’t use computers at all?..&lt;/p&gt;</content><author><name></name></author><category term="though experiment" /><summary type="html">Imagine that one day you wake up and find out that all your savings have been completely wiped out (e.g. by a cybercriminal). That’s how the new thought experiment by SavingNinja starts. Here you can see my thoughts about this unfortunate situation.</summary></entry><entry><title type="html">Interactive Brokers commissions: fixed vs tiered</title><link href="http://merelycurious.github.io/post/interactive-brokers-fixed-vs-tiered-commissions" rel="alternate" type="text/html" title="Interactive Brokers commissions: fixed vs tiered" /><published>2019-02-13T21:00:00+01:00</published><updated>2019-02-13T21:00:00+01:00</updated><id>http://merelycurious.github.io/post/interactive_brokers_fixed_vs_tiered_commissions</id><content type="html" xml:base="http://merelycurious.github.io/post/interactive-brokers-fixed-vs-tiered-commissions">&lt;p&gt;I continue exploring Interactive Brokers and today I will compare their fixed and tiered pricing models.
 I will also tell how to actually switch to tiered pricing.&lt;/p&gt;
 
 &lt;!--more--&gt;
