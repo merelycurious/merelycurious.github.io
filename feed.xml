@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-02-28T09:06:57+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Do you underestimate Total Expense Ratio effect when investing?</title><link href="http://merelycurious.github.io/post/underestimating-ter" rel="alternate" type="text/html" title="Do you underestimate Total Expense Ratio effect when investing?" /><published>2019-02-28T08:00:00+01:00</published><updated>2019-02-28T08:00:00+01:00</updated><id>http://merelycurious.github.io/post/underestimating_ter</id><content type="html" xml:base="http://merelycurious.github.io/post/underestimating-ter">&lt;p&gt;I suspect that it is very easy to underestimate the difference between paying 1% and 0.1% in yearly fees.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-03-01T22:43:01+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Do you underestimate Total Expense Ratio effect when investing?</title><link href="http://merelycurious.github.io/post/underestimating-ter" rel="alternate" type="text/html" title="Do you underestimate Total Expense Ratio effect when investing?" /><published>2019-02-28T08:00:00+01:00</published><updated>2019-02-28T08:00:00+01:00</updated><id>http://merelycurious.github.io/post/underestimating_ter</id><content type="html" xml:base="http://merelycurious.github.io/post/underestimating-ter">&lt;p&gt;I suspect that it is very easy to underestimate the difference between paying 1% and 0.1% in yearly fees.
 Let’s calculate this difference. Moreover, let’s consider other kinds of fees and their impact on a long-term ETF investor.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -156,8 +156,11 @@ by comparing prices at different brokers and I assume that govermental regulatio
 &lt;p&gt;Ok, easy ones now.
 Some brokers take some money just for having an account with them (hi, Interactive Brokers).
 This is likely much cheaper than 0.5% of all your networth (otherwise, RUN from a broker like that).
-Still you may take it into account. E.g. for Interactive Brokers it is 10 euro assuming that you have
-less than 100k with them, so overall 120 euro per year. Not too bad, but spare 120 euro per year won’t hurt.&lt;/p&gt;
+Still you may take it into account. E.g. for Interactive Brokers it is 10 USD assuming that you have
+less than 100k USD (or equivalent) with them, so overall 120 USD per year. Not too bad, but spare ~120 USD per year won’t hurt.
+However, they count your transaction fees against this monthly fee. In other words in the end of the
+month you pay either 10 USD or all your transaction fees if they are in total larger than 10 USD.
+So it will be somewhat smaller than 120 USD per year, but not too much if you buy one ETF and only once a month.&lt;/p&gt;
 
 &lt;p&gt;Oh, by the way here is a funny fact about Interactive Brokers and percentage based fees. They have a percentage based fee,
 but it is so low that it may be in the end twice cheaper than flatex’s 5.9 euro. So do your math when choosing a broker!&lt;/p&gt;
