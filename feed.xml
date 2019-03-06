@@ -1,4 +1,311 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-03-04T20:57:02+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Life as Dominion (board game)</title><link href="http://merelycurious.github.io/post/life-learning-and-dominion" rel="alternate" type="text/html" title="Life as Dominion (board game)" /><published>2019-03-04T20:00:00+01:00</published><updated>2019-03-04T20:00:00+01:00</updated><id>http://merelycurious.github.io/post/life_learning_and_dominion</id><content type="html" xml:base="http://merelycurious.github.io/post/life-learning-and-dominion">&lt;p&gt;I’ve played &lt;a href=&quot;https://en.wikipedia.org/wiki/Dominion_(card_game)&quot;&gt;Dominion&lt;/a&gt; and I really liked how the game
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-03-06T08:19:02+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Overview of brokers in Germany</title><link href="http://merelycurious.github.io/post/german-brokers-overview" rel="alternate" type="text/html" title="Overview of brokers in Germany" /><published>2019-03-06T08:00:00+01:00</published><updated>2019-03-06T08:00:00+01:00</updated><id>http://merelycurious.github.io/post/german_brokers_overview</id><content type="html" xml:base="http://merelycurious.github.io/post/german-brokers-overview">&lt;p&gt;There are many brokers and choosing one is non-trivial.
+Let’s see how they differ from a perspective of a long term ETF investor living in Germany.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;assumptionssimplifications&quot;&gt;Assumptions/simplifications&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;the investor buys ETFs monthly&lt;/li&gt;
+  &lt;li&gt;at some European or German stock exchanges&lt;/li&gt;
+  &lt;li&gt;directly without a saving plan (Sparplan)&lt;/li&gt;
+  &lt;li&gt;pays German taxes&lt;/li&gt;
+  &lt;li&gt;stock exchange fees are ignored (they are mostly the same across brokers)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;overview-table&quot;&gt;Overview table&lt;/h2&gt;
+
+&lt;p&gt;Here is a high level overview.
+You can find more details and explanations below the table.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&quot;header&quot;&gt;
+&lt;th rowspan=&quot;2&quot;&gt;Broker (pricing mode)&lt;/th&gt;
+&lt;th rowspan=&quot;2&quot;&gt;Account fee&lt;/th&gt;
+&lt;th colspan=&quot;3&quot;&gt;Transaction fee&lt;/th&gt;
+&lt;!-- amount --&gt;
+&lt;!-- min --&gt;
+&lt;!-- max --&gt;
+&lt;th rowspan=&quot;2&quot;&gt;English&lt;/th&gt;
+&lt;th rowspan=&quot;2&quot;&gt;German taxes&lt;/th&gt;
+&lt;th rowspan=&quot;2&quot;&gt;Peculiarities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;amount&lt;/th&gt;
+&lt;th&gt;min&lt;/th&gt;
+&lt;th&gt;max&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;flatex&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5.9&lt;/td&gt;
+&lt;td&gt;5.9&lt;/td&gt;
+&lt;td&gt;5.9&lt;/td&gt;
+&lt;td&gt;Yes (but not everything)&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;-0.4% yearly on cash (negativzinsen), stock dividends fee&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onvista (festpreis)&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Only some nationalities, owned by comdirect&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onvista (free buys)&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0 with “free buy” or 0.23% (without or when selling) &lt;/td&gt;
+&lt;td&gt;5.99 without “free buy” or when selling&lt;/td&gt;
+&lt;td&gt;39 without “free buy” or when selling&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Only some nationalities, only some ETFs, amounts and not forever, owned by comdirect&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;finanzen.net&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Wrapper around onvista, only some nationalities&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ing diba&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0.25%&lt;/td&gt;
+&lt;td&gt;4.9&lt;/td&gt;
+&lt;td&gt;69.9&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;comdirect&lt;/td&gt;
+&lt;td&gt;0 for 3 years, then 1.95 EUR/month unless two trades per quarter&lt;/td&gt;
+&lt;td&gt;0.25%&lt;/td&gt;
+&lt;td&gt;9.9&lt;/td&gt;
+&lt;td&gt;59.9&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;max blue&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0.25%&lt;/td&gt;
+&lt;td&gt;8.9&lt;/td&gt;
+&lt;td&gt;49.9&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;owned by Deutsche Bank&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DKB&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;10 EUR if &amp;lt;= 10k EUR transaction, 25 EUR otherwise&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Consorbank&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0.25%&lt;/td&gt;
+&lt;td&gt;9.95&lt;/td&gt;
+&lt;td&gt;69&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Interactive Brokers (fixed)&lt;/td&gt;
+&lt;td&gt;10 USD (unless having 100k USD)&lt;/td&gt;
+&lt;td&gt;0.1%&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;29&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Interactive Brokers (tiered)&lt;/td&gt;
+&lt;td&gt;10 USD (unless having 100k USD)&lt;/td&gt;
+&lt;td&gt;0.08%&lt;/td&gt;
+&lt;td&gt;1.25&lt;/td&gt;
+&lt;td&gt;29&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lynx&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0.14%&lt;/td&gt;
+&lt;td&gt;5.8&lt;/td&gt;
+&lt;td&gt;99&lt;/td&gt;
+&lt;td&gt;Maybe&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;German wrapper around IB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Degiro&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0.038%&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;infinity&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Controversial&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;german-brokers-all-do-german-taxes-for-you&quot;&gt;German brokers (all do German taxes for you)&lt;/h2&gt;
+
+&lt;p&gt;All German brokers do all the taxes for you and take the money to pay the tax away before you get your dividends.
+This is convenient.&lt;/p&gt;
+
+&lt;h3 id=&quot;constant-transaction-fee&quot;&gt;Constant transaction fee&lt;/h3&gt;
+
+&lt;p&gt;With these brokers your transaction fee does not depend on the amount of money in the transaction.
+I’ve already wrote a &lt;a href=&quot;/post/underestimating-ter&quot;&gt;post&lt;/a&gt; why this is good and how
+much money one can save with such a broker (spoiler: more than you think).&lt;/p&gt;
+
+&lt;h4 id=&quot;flatex&quot;&gt;flatex&lt;/h4&gt;
+
+&lt;p&gt;Flatex takes a constant fee (5.9 EUR). Some pages are available in English, but the trading interfance
+and customer service aren’t (however, some people there agreed to speak English). Still better than nothing, since I am
+not aware of any other German broker having anything in English.
+As was said above, Flatex (like any other German broker) does taxes (they even take the money for tax away before you actually get your dividends).
+If you hold EUR with them, you will pay 0.4% per year from its amount. However, this applies
+only to EUR, not ETFs or stock. If you are going to buy stocks, there is a 5.9 EUR fee for stock dividends
+larger than 15 EUR (this does not apply to ETFs).&lt;/p&gt;
+
+&lt;h4 id=&quot;onvista&quot;&gt;onvista&lt;/h4&gt;
+
+&lt;p&gt;Onvista has been bought recently by comdirect. They also have a constant fee (5 EUR), but only
+in their Festdepot. If you use Free-buy mode, selling (or buying without a free buy) costs
+0.23% (min 5.99, max 39 eur), which is comparable to all other percentage-based fee brokers. Moreover, Free-buy mode
+seems to be a temporary deal and the current end date is 31.12.2019. Moreover it applies only to some
+ETFs and only to some amounts of money (&amp;gt;= 1500 EUR per order) and to actually get at least one free
+buy you have to have done a 2000 EUR transaction in the previous month. They do German taxes as well.
+The only disadvantage is that they accept only citizens of Germany, France, Ireland, Austria, Luxemburg, Hungary.&lt;/p&gt;
+
+&lt;h4 id=&quot;finanzennet&quot;&gt;finanzen.net&lt;/h4&gt;
+
+&lt;p&gt;Just a wrapper around onvista Festdepot (even their price conditions have exactly the same formating and styling, just a 
+different color). And guess what - they also accept only citizens of Germany, France, Ireland, Austria, Luxemburg, Hungary.&lt;/p&gt;
+
+&lt;h3 id=&quot;percentage-based-transaction-fee&quot;&gt;Percentage-based transaction fee&lt;/h3&gt;
+
+&lt;p&gt;With these brokers your transaction fee depends on the amount of money in the transaction.&lt;/p&gt;
+
+&lt;h4 id=&quot;ing-diba&quot;&gt;Ing Diba&lt;/h4&gt;
+
+&lt;p&gt;0.25% (min 4.9, max 69.9). Nothing special.&lt;/p&gt;
+
+&lt;h4 id=&quot;comdirect&quot;&gt;comdirect&lt;/h4&gt;
+
+&lt;p&gt;0.25% (min 9.9, max 59.9). The account is free only for the first 3 years,
+after that it costs 1.95 EUR per month, unless you do at least 2 thread per quarter.&lt;/p&gt;
+
+&lt;h4 id=&quot;max-blue&quot;&gt;max blue&lt;/h4&gt;
+
+&lt;p&gt;0.25% (min 8.9, max 49.9). Owned by Deutsche Bank.&lt;/p&gt;
+
+&lt;h4 id=&quot;dkb&quot;&gt;DKB&lt;/h4&gt;
+
+&lt;p&gt;DKB decided to be original with their pricing.
+For transaction below 10k, you pay 10 EUR, above 10k - 25 eur.
+This is actually extremly expensive when investing monthly,
+e.g. for 1k you lose 1% due to this fee.&lt;/p&gt;
+
+&lt;h4 id=&quot;consorsbank&quot;&gt;Consorsbank&lt;/h4&gt;
+
+&lt;p&gt;0.25% (min 9.95, max 69)&lt;/p&gt;
+
+&lt;h2 id=&quot;non-german-brokers-no-more-german-taxes-for-you&quot;&gt;Non-German brokers (no more German taxes for you)&lt;/h2&gt;
+
+&lt;p&gt;Brokers in this category don’t do any taxes for you.
+You can get a list of your transactions from them,
+but you will have to figure out how much taxes to pay yourself.
+May be not fun.&lt;/p&gt;
+
+&lt;h3 id=&quot;interactive-brokers&quot;&gt;Interactive Brokers&lt;/h3&gt;
+
+&lt;p&gt;IB has 2 modes of pricing - fixed and tiered.
+In fixed you pay 0.1% (min 4, max 29), in tiered 0.08% (min 1.25, max 29).
+I wrote in great details about them &lt;a href=&quot;/post/interactive-brokers-fixed-vs-tiered-commissions&quot;&gt;before&lt;/a&gt;,
+including which one is better and when (spoiler: tiered, practically always).
+IB is a very advanced broker. Many use it for professional trading. 
+As a result the learning curve is steep.
+E.g. just buying ETFs is already non-trivial 
+(&lt;a href=&quot;/post/interactive-brokers-buying-etfs&quot;&gt;here&lt;/a&gt; is my post about this).
+On the other hand you get access to a lot of exchanges and this access is much more
+direct than what you get at any of the german brokers (they simplify the process a lot).
+Also IB has good currency exchange fees (0.2%) and API, so you can automate the process.
+The downside - 10 USD fee per month, which is counted against your transaction fees.
+That is if you spend 5 EUR for transactions, you pay only 10 USD - 5 EUR at the end of 
+the month. If you have more than 100k USD with them (or equivalent, e.g. ETFs or stocks or EUR),
+the fee is waived.&lt;/p&gt;
+
+&lt;h3 id=&quot;lynx&quot;&gt;Lynx&lt;/h3&gt;
+
+&lt;p&gt;German wrapper around IB.
+Each transaction costs 0.14% (min 5.8, max 99),
+which is cheaper than normal German brokers, but you get no taxes done here.&lt;/p&gt;
+
+&lt;h3 id=&quot;degiro&quot;&gt;degiro&lt;/h3&gt;
+
+&lt;p&gt;0.038% (min 2). Degiro is cheap, but there is a lot of controversy around them.
+First, they have two kinds of accounts - basic and custody.
+In basic one, they can lend your securities to other people to make money,
+but not for you. As a result, there is some risk that the people won’t return
+your securities. Theoretically the broker should manage this risk, but stuff happens.&lt;/p&gt;
+
+&lt;p&gt;Another interesting peculiarity is that Degiro is associated with a hedgefund and there is
+presumably &lt;a href=&quot;http://www.amsterdamtrader.com/2015/09/degiro-clients-as-counterparty-for-hedgefund.html&quot;&gt;some evidence&lt;/a&gt;
+that this hedgefund has abused their position and took advantage of Degiro clients.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/EuropeFIRE/comments/6j50yz/brokers_you_get_what_you_pay_for/&quot;&gt;This great post on reddit&lt;/a&gt;
+considers all the disadvantages in more details.&lt;/p&gt;
+
+&lt;p&gt;Since investing in ETFs is a long term game, using a controversial broker sounds silly,
+so I personally wouldn’t do it.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;If you prefer easy level of difficulty for your German taxes, then go with some of constant fee German ones (flatex or onvista).
+If you happen to use the percentage based fee one, consider switching. I wrote about this already,
+&lt;a href=&quot;/post/underestimating-ter&quot;&gt;working 2.4 month full time just for your broker&lt;/a&gt; does not sound
+fun.&lt;/p&gt;
+
+&lt;p&gt;If you don’t mind doing the taxes on your own, but want more hard core experience and more possibilities,
+go with IB. This works especially well when you expect to have 100k USD with them soonish or 
+do frequent currency exchange or buy some exotic financial instruments. This will also be cheaper 
+than using any constant fee German brokers (assuming 100k USD with them and investing 1-2k EUR per month).&lt;/p&gt;
+
+&lt;p&gt;Happy investing with a great broker!&lt;/p&gt;</content><author><name></name></author><category term="investing" /><category term="expenses" /><category term="brokers" /><summary type="html">There are many brokers and choosing one is non-trivial. Let’s see how they differ from a perspective of a long term ETF investor living in Germany.</summary></entry><entry><title type="html">Life as Dominion (board game)</title><link href="http://merelycurious.github.io/post/life-learning-and-dominion" rel="alternate" type="text/html" title="Life as Dominion (board game)" /><published>2019-03-04T20:00:00+01:00</published><updated>2019-03-04T20:00:00+01:00</updated><id>http://merelycurious.github.io/post/life_learning_and_dominion</id><content type="html" xml:base="http://merelycurious.github.io/post/life-learning-and-dominion">&lt;p&gt;I’ve played &lt;a href=&quot;https://en.wikipedia.org/wiki/Dominion_(card_game)&quot;&gt;Dominion&lt;/a&gt; and I really liked how the game
 could be used as a model for learning and life in general.&lt;/p&gt;
 
 &lt;!--more--&gt;
