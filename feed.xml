@@ -1,4 +1,402 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-03-06T08:19:02+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Overview of brokers in Germany</title><link href="http://merelycurious.github.io/post/german-brokers-overview" rel="alternate" type="text/html" title="Overview of brokers in Germany" /><published>2019-03-06T08:00:00+01:00</published><updated>2019-03-06T08:00:00+01:00</updated><id>http://merelycurious.github.io/post/german_brokers_overview</id><content type="html" xml:base="http://merelycurious.github.io/post/german-brokers-overview">&lt;p&gt;There are many brokers and choosing one is non-trivial.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://merelycurious.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://merelycurious.github.io/" rel="alternate" type="text/html" /><updated>2019-03-17T12:49:26+01:00</updated><id>http://merelycurious.github.io/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lectures 1-3)</title><link href="http://merelycurious.github.io/post/human-behavioral-biology-sapolsky-course-summary-lectures-1-3" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lectures 1-3)" /><published>2019-03-17T12:00:00+01:00</published><updated>2019-03-17T12:00:00+01:00</updated><id>http://merelycurious.github.io/post/human_behavioral_biology_sapolsky_course_summary_lectures_1_3</id><content type="html" xml:base="http://merelycurious.github.io/post/human-behavioral-biology-sapolsky-course-summary-lectures-1-3">&lt;p&gt;I watch “Human Behavioral Biology” course by Robest Sapolsky (from Stanford) on Youtube.
+It is very interesting. Here is my summary of the first three lectures.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;lecture-1-introduction-to-human-behavioral-biology&quot;&gt;Lecture 1: “Introduction to Human Behavioral Biology”&lt;/h2&gt;
+
+&lt;h3 id=&quot;what-the-course-is-about&quot;&gt;What the course is about&lt;/h3&gt;
+
+&lt;p&gt;What is common between “having a period”, “having a brain tumor”, “eating a lot of junk food” and “taking anabolic steroids”?
+All have been succesfully used in courts as a defense for a murderer.&lt;/p&gt;
+
+&lt;p&gt;Points of the course:
+1) Sometimes what happens in your body can dramatically influence what happens in your brain (examples above).
+2) Sometimes something in your head can affect your entire body (e.g. when one imagines that they will die
+their heart starts beating faster).
+In other words, the course is about the connection between physiology and behavior, emotions, memories.&lt;/p&gt;
+
+&lt;h3 id=&quot;categorical-thinking&quot;&gt;Categorical thinking&lt;/h3&gt;
+
+&lt;p&gt;We divide everything into categories, because this makes it easier to store information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/human_behavioral_biology_summary/1_spectrum.png&quot; alt=&quot;Illustration of spectrum divided into categories&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E.g. it is much easier to remember whether you saw a triangle, a square or a circle than some weird shape,
+because we don’t have a word (i.e. a category) for latter.&lt;/p&gt;
+
+&lt;p&gt;Disadvantages of categorical thinking:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;You can’t differentiate two facts that fall in the same category (b &amp;amp; p in Finnish or two similar colors) - you underestimate their difference.&lt;/li&gt;
+  &lt;li&gt;We have trouble seeing how similar things are right across the category boundaries (e.g. 65% on the test leads to fail and 66% to pass) - we overestimate the difference.&lt;/li&gt;
+  &lt;li&gt;When you pay attention to boundaries, you miss the big picture (e.g. phone numbers are supposed to be 3 digits followed by 4).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;avoiding-categorical-thinking&quot;&gt;Avoiding categorical thinking&lt;/h3&gt;
+
+&lt;p&gt;The goal of the course is to think about biology of behavior without falling into categorical thinking.
+The category (bucket) you are in affects how you explain the world. We want to avoid this.&lt;/p&gt;
+
+&lt;p&gt;There are 3 main challenges - recognizing when we:
+1) just like other animals and accepting that. E.g. ovulation syncronization in females living together.
+2) we appear to be like any other organism, but do something very different.
+Examples:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;chess master capturing a piece feeling like a baboon who won a fight&lt;/li&gt;
+  &lt;li&gt;we get stressed when reading something bad happening to a character in a novel.&lt;/li&gt;
+  &lt;li&gt;we can feel compasionate about other species. This is the same physiology as in other animals, but we use it in unrecognizable ways.
+3) do something that no other animal even remotely does (e.g. non=reproductive sex, language use).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the course we will overview various buckets first - evolution, molecular genetics.
+Then we will look at behaviors and consider them through each bucket separately.&lt;/p&gt;
+
+&lt;h2 id=&quot;lecture-2-behavioral-evolution-i&quot;&gt;Lecture 2: Behavioral Evolution I&lt;/h2&gt;
+
+&lt;p&gt;Darwin didn’t discover evolution. He came up with a mechanism for it - natural selection.
+Darwinian evolution:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;there are heritable traits (i.e. genetic)&lt;/li&gt;
+  &lt;li&gt;there is variability among those traits (ways in which they can occur)&lt;/li&gt;
+  &lt;li&gt;some versions of those traits are more adaptive (work better for you) then others&lt;/li&gt;
+  &lt;li&gt;this is not about survival, but reproduction.
+When you have all of these, you get evolution and populations.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When you add mutations - you can get large changes.&lt;/p&gt;
+
+&lt;p&gt;This applies well to physiology, but how to apply this to behavior? Exactly the same:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;there are heritable behaviors (i.e. behaviors have genetic components, this is an important assumption)&lt;/li&gt;
+  &lt;li&gt;types/classes of behaviors have variation&lt;/li&gt;
+  &lt;li&gt;some are more adaptive than others.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There was a false belief that &lt;del&gt;“animals behave for the good of the species”&lt;/del&gt;.
+Actually animals behave to pass as many copies of their genes as possible (reproduction of the fittest).
+Sometimes this may look like behavior for the good of the species.&lt;/p&gt;
+
+&lt;p&gt;Ways to pass your genes:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Individual selection - maximize number of times you reproduce through natural selection (useful traits improving
+adaptability) and sexual selection (arbitrary trais).&lt;/li&gt;
+  &lt;li&gt;Kin selection - helping out relatives to reproduce (cooperate with relatives to a different degree, which depends on how
+closely they are related to you) by decreasing your own reproductive success.&lt;/li&gt;
+  &lt;li&gt;Reciprical altruism - cooperation among non-relatives, but it must be reciprical (you must get something out of it and not
+more than you put it), e.g. group hunting.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;prisoner-dilema&quot;&gt;Prisoner Dilema&lt;/h3&gt;
+
+&lt;p&gt;Reciprical altruism leads to cheating and being good at detecting cheating against you. When to cheat and when to cooperate is studied in game theory. The basic “model” is &lt;a href=&quot;https://en.wikipedia.org/wiki/Prisoner%27s_dilemma&quot;&gt;Prisoner Dilema&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;tit-for-tat-strategy&quot;&gt;“Tit for Tat” strategy&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;You cooperate&lt;/li&gt;
+  &lt;li&gt;Next time:
+    &lt;ul&gt;
+      &lt;li&gt;If they cooperated last time, you cooperate&lt;/li&gt;
+      &lt;li&gt;Otherwise you cheat&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Advantages:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Nice (kind)&lt;/li&gt;
+  &lt;li&gt;Retaliates&lt;/li&gt;
+  &lt;li&gt;Forgiving&lt;/li&gt;
+  &lt;li&gt;Deterministic.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This drives other strategies into extintion when multiple agents play multiples games with each other.&lt;/p&gt;
+
+&lt;p&gt;However, there is a vulnerability - signal error. 
+What if there is a posibility of a mistake (noise in the signal),
+e.g. cooperation looks like cheating.
+This wipes out 50% of cooperation:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ++-+-+...
+  +++-+-...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;forgiving-tit-for-tat-ftft&quot;&gt;Forgiving Tit for Tat (fTfT)&lt;/h4&gt;
+&lt;p&gt;Improved version of TfT. 
+Like normal TfT but after “saw pattern” for 5 rounds - forgive and cooperate.
+fTfT outcompetes TfT when you can have signal error.
+It has another vulnerability - it can be exploited by strategies without forgiveness.&lt;/p&gt;
+
+&lt;h4 id=&quot;tft---ftft&quot;&gt;“Tft -&amp;gt; fTfT”&lt;/h4&gt;
+&lt;p&gt;Start off with pure TfT. If for N rounds the other party didn’t cheat, switch to fTfT.
+I.e. you begin to “trust” someone and this protects you from signal error.&lt;/p&gt;
+
+&lt;h4 id=&quot;pavlov&quot;&gt;Pavlov&lt;/h4&gt;
+&lt;p&gt;When I do something and I get rewarded, do it again next time. If I lose, I switch.
+This allows you to exploit someone, who is forgiving.&lt;/p&gt;
+
+&lt;p&gt;Random mention: “The political uses of madness” - an article by Daniel Ellsburg on the optimal benefits of perceived madness 
+(&lt;a href=&quot;https://archive.org/details/ThePoliticalUsesOfMadness&quot;&gt;source1&lt;/a&gt;,
+&lt;a href=&quot;https://ia600102.us.archive.org/20/items/ThePoliticalUsesOfMadness/ELS005-001.pdf&quot;&gt;source2&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h4 id=&quot;examples-in-nature&quot;&gt;Examples in nature&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;vampire bats. Females share their nest with non-relatives. Everyone feeds all babies.
+When they think that one female cheats on them, they stop feeding her kids.&lt;/li&gt;
+  &lt;li&gt;black hamlet fish. They can change their gender. Pair of them flip their gender back and forth. Being female
+is more “expensive”. If one fish ends up being a male too many times, other fish will stop cooperating with them
+(TfT).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Exceptions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;lion. Non-relatives in a pride. If you fake a sound of other lion in the bush, in many prides one lion
+stays behind the group, while all other go to check and risk by doing this. However, this lion is not punished.
+In real world you can have many ongoing games at the same time or others just don’t pay attention.&lt;/li&gt;
+  &lt;li&gt;naked mole-rat. Big cooperative colonies (possibly non-relatives). 1-2 animals don’t do any work, but no 
+one punishes them. They are even larger, because they eat more. However, when the rainy season comes
+they plug the entry to the tunnel with their bodies (example of another ongoing “game” and role
+diversification).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;application-to-behavior-analysis&quot;&gt;Application to behavior analysis&lt;/h3&gt;
+
+&lt;p&gt;How to use the fact that species maximize copies of their genes to analyze behavior? 
+Imagine that we have two skulls - one male and one female.
+Just by their relative size to each other we can conclude a lot:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&quot;header&quot;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Males much larger&lt;/th&gt;
+&lt;th&gt;Males the same&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;male aggression&lt;/td&gt;
+&lt;td&gt;high (their body is built for this and females select for this)&lt;/td&gt;
+&lt;td&gt;low&lt;/td&gt;
+&lt;/tr&gt; 
+&lt;tr&gt;
+&lt;td&gt;variability in male reproductive success&lt;/td&gt;
+&lt;td&gt;high (5% males do 95% of reproduction)&lt;/td&gt;
+&lt;td&gt;low (every male gets 1-2 kids)&lt;/td&gt;
+&lt;/tr&gt; 
+&lt;tr&gt;
+&lt;td&gt;what females want&lt;/td&gt;
+&lt;td&gt;large body size&lt;/td&gt;
+&lt;td&gt;“good personality” - parental behavior (e.g. male birds bring food to females as
+evidence that they can feed kids)&lt;/td&gt;
+&lt;/tr&gt; 
+&lt;tr&gt;
+&lt;td&gt;parental behavior in males&lt;/td&gt;
+&lt;td&gt;low (not interested in kids)&lt;/td&gt;
+&lt;td&gt;high (care about kids)&lt;/td&gt;
+&lt;/tr&gt; 
+&lt;tr&gt;
+&lt;td&gt;life span&lt;/td&gt;
+&lt;td&gt;high variation&lt;/td&gt;
+&lt;td&gt;no difference by gender&lt;/td&gt;
+&lt;/tr&gt; 
+&lt;tr&gt;
+&lt;td&gt;twinning&lt;/td&gt;
+&lt;td&gt;rare (impossible to feed on your own)&lt;/td&gt;
+&lt;td&gt;more frequent (male helps to feed)&lt;/td&gt;
+&lt;/tr&gt; 
+&lt;tr&gt;
+&lt;td&gt;kids abandonment by females&lt;/td&gt;
+&lt;td&gt;rare (kids will die for sure, male won’t take care)&lt;/td&gt;
+&lt;td&gt;more frequent (male will feed them anyway)&lt;/td&gt;
+&lt;/tr&gt; 
+&lt;tr&gt;
+&lt;td&gt;species kind&lt;/td&gt;
+&lt;td&gt;tournament&lt;/td&gt;
+&lt;td&gt;pair bonding monogamous&lt;/td&gt;
+&lt;/tr&gt; 
+&lt;tr&gt;
+&lt;td&gt;example&lt;/td&gt;
+&lt;td&gt;peacock (feathers show that you can waste a lot of energy)&lt;/td&gt;
+&lt;td&gt;tamarin monkey (one can’t distinguish males and females visually)&lt;/td&gt;
+&lt;/tr&gt; 
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;We could see this only by ratio of male and female skull sizes.
+Humans fall in between these two kinds of species.&lt;/p&gt;
+
+&lt;h2 id=&quot;lecture-3-behavioral-evolution-ii&quot;&gt;Lecture 3: Behavioral Evolution II&lt;/h2&gt;
+
+&lt;p&gt;Let’s use “individual maximizes number of copies of their genes” to explain more behaviors.&lt;/p&gt;
+
+&lt;h3 id=&quot;explaining-infanticide&quot;&gt;Explaining infanticide&lt;/h3&gt;
+
+&lt;p&gt;Babies are cute - they are trying to reduce aggression by this. There are species with infanticide (e.g. lions).
+Patterns:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;adult male is the one killing&lt;/li&gt;
+  &lt;li&gt;infants who are most likely to be offsprings of other males are killed&lt;/li&gt;
+  &lt;li&gt;average interbirth interval in females is larger than the average tenure of high ranking male.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In other words, the new alpha male e.g. just killed the previous one, but all females won’t ovulate
+for 2.5 years, while you will be alpha male only for 1.5 years. Thus, by killing kids:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;reproductive success of other males is decreased&lt;/li&gt;
+  &lt;li&gt;females will start ovulating sooner (by stopping nursing).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This illustrates that individuals optimize number of copies of their genes instead of doing good for the species.
+Another example is mountain gorilla. They have infanticide even though they are at risk of extinction. 
+In other words, they even endanger their species more to increase their own reproductive success.&lt;/p&gt;
+
+&lt;p&gt;Peculiarly infanticide does not happen if previous alpha was a relative.
+Two male lions can even share a pride of they are brothers (adelphic polyandry).&lt;/p&gt;
+
+&lt;p&gt;Females have developed number of adaptations due to this as well.
+In some species females have spontaneous abortion due to smell of the new male
+(there is no point to invest more resources into the kid, since it will be killed anyway).
+Females can also try to protect their kids. If they are older, they will risk their life more
+(they are less likely to have another kid). Maternal grandmothers defend even more (they won’t
+reproduce at all).
+Another strategy is to have pseudo estross (i.e. fake ovulation) during pregnancy.
+The new male mates and thinks that the kid is his.&lt;/p&gt;
+
+&lt;p&gt;Baboons do blackmail kidnaping of kids. If alpha attacks an individual, they can grab
+alpha’s kid implying “attack me and I will kill the kid”.&lt;/p&gt;
+
+&lt;h3 id=&quot;gender-ratio-fluctuations&quot;&gt;Gender ratio fluctuations&lt;/h3&gt;
+
+&lt;p&gt;In tournament species having a son is a volatile way (gamble) to pass your geans (may work out
+very well, but most likely won’t). Having a daughter is a conservative way (they will have few kids,
+but with high probability). However, giving birth to a male requires more energy. Higher 
+ranking females have more sons (can take the risks). During environment distress (e.g. famine)
+more daughters are born. This can produce sex ratio fluctuations (having sons is better
+when there are few males).&lt;/p&gt;
+
+&lt;h3 id=&quot;intrasexual-competition&quot;&gt;Intrasexual competition&lt;/h3&gt;
+
+&lt;p&gt;Males and females can have different reproductive goals.&lt;/p&gt;
+
+&lt;p&gt;This can be achieved by means of imprinted genes - their effect depends on which parent they come from.
+There is a genetic mechanism to achieve this. Examples of such genes and their usage in intrasexual competition:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Imprinted genes coming from father tend to improve fetal growth (i.e. the kid should get as much energy from
+the female as possible, males in migratory species do not care about future reproduction of a particular female,
+but only about their kid).&lt;/li&gt;
+  &lt;li&gt;From mother - slow down fetal development (this particular kid is less important to a female than their overall
+reproductive life).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This mechanism malfunctions if one of the genes gets disabled due to a mutation.&lt;/p&gt;
+
+&lt;p&gt;There are imprinted genes, which work only after birth. E.g. from male one can get “suck more milk” (i.e.
+get more calories from female). You only see this in tournament species.&lt;/p&gt;
+
+&lt;p&gt;Humans have imprinted genes. By their quantity we are again in between pair bonding and tournament species.&lt;/p&gt;
+
+&lt;p&gt;There is sperm competition in polyandrous species.
+In some fly species sperm makes toxins that kill sperm of other males.
+However, they cause harm to females too.
+This makes no sense for the good of species,
+but does for individual success.&lt;/p&gt;
+
+&lt;h3 id=&quot;direction-of-male-aggression&quot;&gt;Direction of male aggression&lt;/h3&gt;
+
+&lt;p&gt;There are species (e.g. chimpanzee) with exogamy (individuals leaving the group after puberty to avoid
+interbreading). If males leave the group - you get high aggression inside the group among males (they 
+are not relatives). If females - among groups (chimpanzee genocide and border patrols). Human military tries
+to create this kinship artificially, chimpanzees have it by nature.&lt;/p&gt;
+
+&lt;h3 id=&quot;cooperation&quot;&gt;Cooperation&lt;/h3&gt;
+
+&lt;p&gt;You can start cooperation by reintroducing highly interbread group (close relatives) into general population.
+This small group can outcompete others (due to their kinship) and others are forced to start cooperating as well.
+This is a push towards group selection (highly interbread group with kinship cooperation can drive others who don’t cooperate
+to extintion). In humans - trust in business or low interest loans.&lt;/p&gt;
+
+&lt;p&gt;It can be the case that strategy A dominates B when there is only one individual in each group,
+but A is dominated by B when there are many individuals in each group. E.g. a group of aggresive chickens would
+injure each other. However, when there are only two chickens, an agressive one will outperform non-agressive.
+This is a group selection as well (but due to personal benefit in the end).&lt;/p&gt;
+
+&lt;p&gt;Thus, we observe multilevel selection:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;single gene level&lt;/li&gt;
+  &lt;li&gt;individual&lt;/li&gt;
+  &lt;li&gt;group&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;critisism&quot;&gt;Critisism&lt;/h3&gt;
+
+&lt;p&gt;Critisism of applying Darwinian principles to behaviour:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Heritability of behavior - what are the molecular principles driving this?&lt;/li&gt;
+  &lt;li&gt;Adaptivenes - everything you see has an adaptive explanation for
+why it emerged evolutionarily - there are non-adaptive traits. 
+Why do humans have chins? Otherwise you can’t get a flat face. These are so called
+spandrel traits, they are just an inevitable result of other traits.&lt;/li&gt;
+  &lt;li&gt;Gradualism - evolutionary change occurs in gradual incremental steps.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There is also political critisism - founding social bioligists were whire south american males (i.e. 
+they could just be justifying male domination because this is positive for them).&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">I watch “Human Behavioral Biology” course by Robest Sapolsky (from Stanford) on Youtube. It is very interesting. Here is my summary of the first three lectures.</summary></entry><entry><title type="html">Crazy pistachio</title><link href="http://merelycurious.github.io/post/crazy-pistachio" rel="alternate" type="text/html" title="Crazy pistachio" /><published>2019-03-17T11:00:00+01:00</published><updated>2019-03-17T11:00:00+01:00</updated><id>http://merelycurious.github.io/post/crazy_pistachio</id><content type="html" xml:base="http://merelycurious.github.io/post/crazy-pistachio">&lt;p&gt;I saw such an expensive package of pistachio in a supermarket that I couldn’t help not to share my find with you.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;I was strolling around the supermarket, busy checking all the discounts available.
+I quickly checked the baking section and then noticed something odd:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/crazy_pistachio/crazy.jpg&quot; alt=&quot;Dr.Oetker choped pistachio for baking, 2.49 euro for 25 grams&quot; height=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically, we are offered here 25 grams of pistachio (already peeled and choped) for &lt;em&gt;mere&lt;/em&gt; 2.49 euro.
+How kind of them. In other words 100 grams of this goodness brings you back by 9.96 euro.&lt;/p&gt;
+
+&lt;p&gt;Oops! That’s a lot. 100 euro per kilo. I can’t remember any other product in an ordinary supermarket
+costing something like that (except spices).&lt;/p&gt;
+
+&lt;p&gt;Since I normally try to vaguely remember average prices for things I buy, I quickly checked my ordinary source of
+pistachio:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/crazy_pistachio/sane.jpg&quot; alt=&quot;&amp;quot;Bravo&amp;quot; non-peeled pistachio, 3.19 euro for 250 grams&quot; height=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, just looking at them makes me feel better (after 100 euro per kilo).&lt;/p&gt;
+
+&lt;p&gt;Here your suspicion level should raise and you should ask me: “Wait, but these are not peeled, are you trying to fool us?”.
+Yeap, they are not peelled. However, &lt;em&gt;peeling loss percentage&lt;/em&gt; for pistachio is 38.26%-43.39%. No worries, I just learned
+that there is “peeling loss percentage” as well. Now you are wondering how I knew that. Apparently people write peer reviewed
+articles about this and I took the numbers from “Physical properties of pistachio nut and its kernel as a function of moisture content and variety. Part II. Gravimetrical properties” by Seyed M.A.Razavi et al. Google scholar reports that this article
+has 53 citations.&lt;/p&gt;
+
+&lt;p&gt;Back to our pistachio. Let’s say the shell takes 50% of weight. Thus, in the second case after peeling pistachio on our own
+(I know, it is hard to believe that this is possible (at least according to Dr.Oetker), but bear with me) we get 125 grams for 3.19 euro, which is equivalent to 2.55 euro for 100 grams, i.e. almost 4 times cheaper than the first options. “Hey, wait, but these are not choped?” - em, we can chop them as well.&lt;/p&gt;
+
+&lt;p&gt;And the saddest part is that I saw this in the supermarket, which means that this is actually pretty profitable,
+otherwise they would have stopped doing this much earlier. I honestly can’t imagine people buying this.
+Perhaps they are in extreme hurry to bake a pistachio cake and then they run as fast as they can to the supermarket,
+directly to the baking section, grab everything chaotically and run away paying as they leave. Or they need precisely 25 grams
+of pistacio and they have less than 3.19 euro available to them. Or they don’t know that 3.19 euro option exists. Or they are scared
+of peeling pistachio. Or they don’t care.&lt;/p&gt;
+
+&lt;p&gt;Even if I needed exactly 25 grams of pistachio (not sure why, but oh well), I just couldn’t buy this Dr.Oetker package.
+I would rather buy 250 grams, peel them, take 25 grams and freeze the rest or just eat it thinking about how peculiar the
+world is.&lt;/p&gt;
+
+&lt;p&gt;Also note that even though we just saved a bunch of money by peeling and choping some pistachios on our own, pistachio is still
+on the expensive side (25 euro per kilo). You should definitely keep this in mind when selecting your nuts.
+You may get the desired effect (or pretty comparable) by buying much cheaper nuts and, thus, saving even more.&lt;/p&gt;
+
+&lt;p&gt;Happy conscious shopping!&lt;/p&gt;</content><author><name></name></author><category term="saving" /><category term="expenses" /><category term="fun" /><summary type="html">I saw such an expensive package of pistachio in a supermarket that I couldn’t help not to share my find with you.</summary></entry><entry><title type="html">Overview of brokers in Germany</title><link href="http://merelycurious.github.io/post/german-brokers-overview" rel="alternate" type="text/html" title="Overview of brokers in Germany" /><published>2019-03-06T08:00:00+01:00</published><updated>2019-03-06T08:00:00+01:00</updated><id>http://merelycurious.github.io/post/german_brokers_overview</id><content type="html" xml:base="http://merelycurious.github.io/post/german-brokers-overview">&lt;p&gt;There are many brokers and choosing one is non-trivial.
 Let’s see how they differ from a perspective of a long term ETF investor living in Germany.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1064,141 +1462,4 @@ So let this be a surprise. In worst case I could drop out of any pricey group-go
 
 &lt;p&gt;Grand total is &amp;gt;= €265 - 419 + fun.&lt;/p&gt;
 
-&lt;p&gt;Now let’s see whether my application will be approved.&lt;/p&gt;</content><author><name></name></author><category term="frugality" /><category term="travel" /><category term="FIWE" /><category term="FIRE" /><summary type="html">I’ve accidentally discovered that there will be another Financial Independence Week Europe (2019) in Budapest in May. I felt like it might be interesting to go there. However, before commiting, I definitely should know how much it will cost, since my willingness to go is a function of cost. For example, with Chautauqua 2019 everything is extremely simple - €2300 is just too much. So let’s see how much FIWE 2019 actually costs (at least for me) and consider some frugal (aka cheap) ways of attending.</summary></entry><entry><title type="html">“My time costs X” fallacy</title><link href="http://merelycurious.github.io/post/my-time-costs-x-fallacy" rel="alternate" type="text/html" title="&quot;My time costs X&quot; fallacy" /><published>2019-01-19T15:00:00+01:00</published><updated>2019-01-19T15:00:00+01:00</updated><id>http://merelycurious.github.io/post/my_time_costs_x_fallacy</id><content type="html" xml:base="http://merelycurious.github.io/post/my-time-costs-x-fallacy">&lt;p&gt;Often I hear people invoking “my time costs X” argument when discussing ways to save money. Usually that’s how they explain why it does not make sense to spend time to save some amount Y, especially when it is much smaller than what they earn (i.e. X).&lt;/p&gt;
-
-&lt;p&gt;They are likely wrong. Let’s see why.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Before we start, I would like to draw your attention to the fact that calculating X is less obvious than it looks. Your work can lead to non-obvious expenses and you may be spending more time on it than you think. For example, you need to commute, perhaps buy business clothes, go somewhere for lunch or even you may be tired in the evening after work. All of these adds up to your 8 hours a days. If you did not working, you wouldn’t have to do all of these, thus, they are caused by your work and should be taken into account when calculating X.&lt;/p&gt;
-
-&lt;p&gt;Ok, let’s assume that we trust the number X. I.e. a person works full time (e.g. 40 hours a week) and makes X &amp;lt;some currency&amp;gt; per hour after taking into account all effects of the job on their life. Basically their argument against saving amount Y by spending some time is that they can make amount Y in minutes/hours by working instead.&lt;/p&gt;
-
-&lt;p&gt;This is a fallacy because most likely they just can’t work additional hours. I agree that there are various exceptions here like paid overtime (but this is not very sustainable) or freelance. However, often people invoking this argument just work fixed 40 hours a week. That is for them the actual comparison is between “work 40 hours a week + do something instead of saving Y” vs “work 40 hours a week + spend time to save Y”. Thus, from the perspective of getting more money, saving Y &amp;gt; 0 always makes sense. However, this just applies to “saving non-zero amount” in some way, the exact way of doing this may indeed make no sense, due to existence of more efficient ways.&lt;/p&gt;
-
-&lt;p&gt;In other words, one should not compare this saving money gig with their work time. It takes your free time instead. After work you can have a rest / spend time with your family / do sports or try to save amount Y.&lt;/p&gt;
-
-&lt;p&gt;It is also funny to consider that person’s time is in a way priceless - one will likely have a finite life and there is no way to get any time back. At the same time, by saying “my time costs X” people ignore this fact. Moreover, from this perspective even their working time could be considered wasteful, because they sell their priceless time only for X per hour.&lt;/p&gt;
-
-&lt;p&gt;Thus, think twice before saying “my time costs X”. Your time likely costs much more to you, but you should still go forward with that weird way to save money if you feel like it.&lt;/p&gt;</content><author><name></name></author><category term="fallacy" /><category term="frugality" /><category term="saving" /><summary type="html">Often I hear people invoking “my time costs X” argument when discussing ways to save money. Usually that’s how they explain why it does not make sense to spend time to save some amount Y, especially when it is much smaller than what they earn (i.e. X). They are likely wrong. Let’s see why.</summary></entry><entry><title type="html">“Learning how to learn” - my impression and conclusions</title><link href="http://merelycurious.github.io/post/learning-how-to-learn-course-review" rel="alternate" type="text/html" title="&quot;Learning how to learn&quot; - my impression and conclusions" /><published>2019-01-12T21:00:00+01:00</published><updated>2019-01-12T21:00:00+01:00</updated><id>http://merelycurious.github.io/post/learning_how_to_learn_course_review</id><content type="html" xml:base="http://merelycurious.github.io/post/learning-how-to-learn-course-review">&lt;p&gt;Recently I took somewhat famous &lt;a href=&quot;https://www.coursera.org/learn/learning-how-to-learn&quot;&gt;&quot;Learning how to learn&quot;&lt;/a&gt; course at Coursera.&lt;/p&gt;
-
-&lt;p&gt;My experience was pretty mixed. I would like to share my impression and a brief summary.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;impression&quot;&gt;Impression&lt;/h2&gt;
-
-&lt;p&gt;Before I started the course it looked very intriguing: “invaluable learning techniques used by experts”, promises to “change your thinking and change your life” and so on. However, afterwards the course felt pretty shallow. They did touch various interesting topics, but they almost never went into any details (e.g. why something is like how they say or how exactly this works in a brain). They also used multiple analogies without explaining their underlying concepts.&lt;/p&gt;
-
-&lt;p&gt;The end of the course was extremely chaotic. We jumped from topic to topic and sometimes the topics were not even mentioned in the videos (“Renaissance Learning”).&lt;/p&gt;
-
-&lt;p&gt;The tests are odd as well. Approximately half of the answers were obviously nonsensical. One did not even have to read a question to understand that these answers were wrong. The other half are just pretty close quotations from the videos.&lt;/p&gt;
-
-&lt;p&gt;The lists of recommended articles were difficult to use. The articles there were not explicitly matched with the facts from videos. Also there were many of them. Overall I struggled to read these articles due to lacking background.&lt;/p&gt;
-
-&lt;p&gt;The videos are pretty short (3-10 minutes) and in the end of each video the lecturer says something like “I am &amp;lt;some name&amp;gt;, thanks for learning how to learn”. I heard this phrase probably around 50 times during the course…&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;I can’t say that you shouldn’t take this course, but I also cannot recommend it. I feel like this information could have been presented in a much shorter way or with more background details, but I don’t regret ~6 hours spent.&lt;/p&gt;
-
-&lt;p&gt;Important disclaimer: while I personally don’t look very found of the course, I tried applying what I learned to learning how to juggle clubs and it worked surprisingly well. I am going to tell about this in a separate post.&lt;/p&gt;
-
-&lt;h2 id=&quot;brief-summary&quot;&gt;Brief summary&lt;/h2&gt;
-
-&lt;p&gt;Let me briefly share what I learned, so that I recall it one more time and remember it better. Yeap, I learned this during the course.&lt;/p&gt;
-
-&lt;h3 id=&quot;modes-of-thinking&quot;&gt;Modes of thinking&lt;/h3&gt;
-
-&lt;p&gt;Our brain has 2 modes of thinking:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Focused&lt;/li&gt;
-  &lt;li&gt;Diffused.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;One is always in one of these two modes. The focused mode is used when you are thinking specifically about something you are familiar with. Usually in this mode you just follow the approach you learned before. In diffused mode, you can get into “new territory”, gain new ideas, combine already known ideas in unusual ways and gain high level context about what you already learned. Basically, when you sit and think how to solve a given problem, you are in focused mode. Then, when you go to make a tea, you enter the diffused mode. The diffused mode explains why often you get great ideas during a walk, while taking a shower or before sleep.&lt;/p&gt;
-
-&lt;p&gt;The lecturer shared anecdotal stories about e.g. Edison, who would intentionally get into diffused mode by relaxation. He would hold metal balls in his hand, sit in a chair, relax and fall asleep. While he felt asleep, he would involuntarily drop the balls on the floor and this would wake him up. During this “getting asleep” time, he would enter diffused mode and get new ideas.&lt;/p&gt;
-
-&lt;p&gt;Writing a to-do list before sleep or just in advance utilizes your diffused mode. You start unconsiously working on the items and already have some ideas when you actually start working on them.&lt;/p&gt;
-
-&lt;h3 id=&quot;memory&quot;&gt;Memory&lt;/h3&gt;
-
-&lt;p&gt;We have 2 kinds of memory:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Working&lt;/li&gt;
-  &lt;li&gt;Long term.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Working memory has only 4 slots and it is not very efficient. One needs to apply mental effort to keep data in these 4 slots. Long term memory is like a storage warehouse - good for long-term storage of a lot of data, but retrieval is trickier.&lt;/p&gt;
-
-&lt;p&gt;One can move data from working to long term memory by repetition and practice (better when over several days).&lt;/p&gt;
-
-&lt;p&gt;Writing a to-do list helps to free some space in your working memory.&lt;/p&gt;
-
-&lt;h4 id=&quot;importance-of-sleep&quot;&gt;Importance of sleep&lt;/h4&gt;
-
-&lt;p&gt;Sleep is very important for memory and learning. Just being awake creates toxic waste products in a brain. They get cleaned during sleep. Moreover, a brain also organizes memories during sleep (garbage collecting unimportant data, rehearsing and strenghtening important data).&lt;/p&gt;
-
-&lt;h4 id=&quot;chunks&quot;&gt;Chunks&lt;/h4&gt;
-
-&lt;p&gt;All data in memory is organized as chunks. A chunk incapsulates all the details of the underlying skill and, thus, takes only 1 slot in working memory (i.e. like a hyperlink - this “increases” your working memory). It also requires less mental effort to perform. E.g. solving quadratic equations. You can have a chunk for “quadratic equations solving” and then just use it instead of going through all of the underlying details.&lt;/p&gt;
-
-&lt;p&gt;One can combine multiple chunks into one chunk. One can create a chunk from scratch by practising a specific skill. E.g. in language learning, saying a sentence requires multiple skills (form a sentence with proper grammar, remember the words from vocabulary, pronounce them correctly). Thus, you can practise each subskill, form a chunk for each of them and then combine them into one chunk responsible for the entire skill.&lt;/p&gt;
-
-&lt;p&gt;Do the following to “chunk”:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Focus 100% of your attention&lt;/li&gt;
-  &lt;li&gt;Understand the basic idea&lt;/li&gt;
-  &lt;li&gt;Gain context (e.g. when to use this chunk)&lt;/li&gt;
-  &lt;li&gt;Practise&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Context is very important, since then you know when and how to apply and how to combine different chunks.&lt;/p&gt;
-
-&lt;p&gt;You can transfer knowledge to new areas through chunks. A chunk can make it much easier to understand similar chunks in different fields.&lt;/p&gt;
-
-&lt;h4 id=&quot;memory-palace-technique&quot;&gt;Memory palace technique&lt;/h4&gt;
-
-&lt;p&gt;Humans have good visual and spatial memory due to evolutionary reasons. One can utilize this to remember better. E.g. try to represent what you learn with an unusual image.&lt;/p&gt;
-
-&lt;p&gt;Memory palace technique involves imagining a well known place, where you put objects you need to remember in unusual or weird ways. E.g. for a shoping list you can imagine your living room with a huge loaf of bread in your chair and a bunch of broken eggs on your sofa and milk dripping from the ceiling. Coming up with these weird ways is difficult at first, but gets better with practise.&lt;/p&gt;
-
-&lt;h3 id=&quot;illusion-of-competence&quot;&gt;Illusion of competence&lt;/h3&gt;
-
-&lt;p&gt;When you are reading a book or seeing a solution of a sample problem, you will likely feel that it is easy and that you can manage it. This is an illusion of competence. In order to avoid it, try to recall what you have read so far or go through the sample problem on your own after (or instead of) looking at the solution. Testing yourself also helps. Overall, actively recaling the informination is more efficient than just rereading when you try to learn something.&lt;/p&gt;
-
-&lt;h3 id=&quot;overlearning&quot;&gt;Overlearning&lt;/h3&gt;
-
-&lt;p&gt;Once you learned a concept, practising it further can lead to automaticity. This is good in some areas (sport, public speaking), but normally you don’t want this.&lt;/p&gt;
-
-&lt;p&gt;Overlearning can cause Einstellung, i.e. when an idea you have learned makes it hard to learn something new (you just follow the old familiar approach instead). A peculiar saying was mentioned to illustrate this: “Science progresses one funeral at a time”.&lt;/p&gt;
-
-&lt;p&gt;People also tend to practise areas they are already good at (this feels better). Instead one should do deliberate practice - identify areas they struggle with and practise them.&lt;/p&gt;
-
-&lt;h3 id=&quot;interleaving&quot;&gt;Interleaving&lt;/h3&gt;
-
-&lt;p&gt;When you need to practise multiple skills (even from different subjects), it is much better to practise each of them a bit by bit one by one multiple times instead of just learning the first skill completely and then going to the next one. In other words, if you want to learn skills A and B, practising in order “ABABAB” is better than “AAABBB”.&lt;/p&gt;
-
-&lt;h3 id=&quot;procrastination&quot;&gt;Procrastination&lt;/h3&gt;
-
-&lt;p&gt;Something you don’t like activates pain-like feeling and you shift your attention to something more pleassant. Similar to addiction.&lt;/p&gt;
-
-&lt;p&gt;One solution is to focus on process (let’s write for 20 minutes) instead of product (get homework done). &lt;a href=&quot;https://en.wikipedia.org/wiki/Pomodoro_Technique&quot;&gt;Pomodoro technique&lt;/a&gt; (setting timer for 25 minutes of focused work and then having 5 minute break) helps to focus on process.&lt;/p&gt;
-
-&lt;h4 id=&quot;habit&quot;&gt;Habit&lt;/h4&gt;
-
-&lt;p&gt;Procrastination is closely related to a habit.
-A habit consist of 4 parts:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;The cue (trigger)&lt;/li&gt;
-  &lt;li&gt;Routine&lt;/li&gt;
-  &lt;li&gt;Reward&lt;/li&gt;
-  &lt;li&gt;Belief&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;To overwrite a habit, one needs to change their reaction to a cue. A cue can be a location, time or even your feelings. Rewarding yourself e.g. after learning session can be helpful as well.&lt;/p&gt;
-
-&lt;p&gt;Planning your quiting time in your to-do list helps to focus on process. Also try to accomplish the least pleasurable but most important tasks first (“eat your frogs in the morning”).&lt;/p&gt;
-
-&lt;p&gt;When you start your learning session, it is normal if you don’t feel too excited about it. Everyone has such feelings, you can just start anyway for couple of minutes and see how it goes. Most likely you will get into it very quickly and just continue working.&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Recently I took somewhat famous &quot;Learning how to learn&quot; course at Coursera. My experience was pretty mixed. I would like to share my impression and a brief summary.</summary></entry></feed>
+&lt;p&gt;Now let’s see whether my application will be approved.&lt;/p&gt;</content><author><name></name></author><category term="frugality" /><category term="travel" /><category term="FIWE" /><category term="FIRE" /><summary type="html">I’ve accidentally discovered that there will be another Financial Independence Week Europe (2019) in Budapest in May. I felt like it might be interesting to go there. However, before commiting, I definitely should know how much it will cost, since my willingness to go is a function of cost. For example, with Chautauqua 2019 everything is extremely simple - €2300 is just too much. So let’s see how much FIWE 2019 actually costs (at least for me) and consider some frugal (aka cheap) ways of attending.</summary></entry></feed>
