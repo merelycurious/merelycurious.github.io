@@ -88,7 +88,7 @@ Even if you fill in the form from scratch (yes, I did this), you just get exactl
 
 <p>My original hypothesis was that they indeed wanted my phone number, but the form was buggy and the field was not shown. Since the form just sends a POST request, I could modify the request and resend it manually without the form. Indeed the form posts to <code class="highlighter-rouge">https://www.dhl.de/int-versenden/gw/rest/api/ShipmentEditor</code> and the sender part has an empty <code class="highlighter-rouge">phone</code> field. So I copied the request as cURL command, modified the phone number and got precisely the same error back.</p>
 
-<p>However, the error in raw json response had <code class="highlighter-rouge">property</code> field and the value was <code class="highlighter-rouge">address.receiver</code>. So they did not like the recepient phone, just the error message was positioned very poorely (hey, DHL, I hope you are reading this).</p>
+<p>However, the error in raw json response had <code class="highlighter-rouge">property</code> field and the value was <code class="highlighter-rouge">address.receiver</code>. So they did not like the recipient phone, just the error message was positioned very poorly (hey, DHL, I hope you are reading this).</p>
 
 <h2 id="hypothesis-2-recipient-phone-number-problem">Hypothesis 2: Recipient phone number problem</h2>
 
@@ -100,7 +100,7 @@ Even if you fill in the form from scratch (yes, I did this), you just get exactl
 
 <p>Since my phone number worked, I assumed that their validation is not very familiar with the destination country.
 I tried a phone number from the destination country, but from another carrier - error.
-I tried imitating my phone number (i.e. length and positions of zeroes), but with other country area code - same error.
+I tried imitating my phone number (i.e. length and positions of zeros), but with other country area code - same error.
 Then I decided to go to their website in the destination country and just take their phone number. This worked, but their area code was different.</p>
 
 <h3 id="their-validation-does-not-know-area-code">Their validation does not know area code</h3>
@@ -127,7 +127,7 @@ from their website + modification
 
 <p>and there were these characters, just encoded differently.</p>
 
-<p>After some googling, I found out that <code class="highlighter-rouge">e280aa</code> is a UTF8 charachter called <code class="highlighter-rouge">LEFT-TO-RIGHT EMBEDDING</code> 
+<p>After some googling, I found out that <code class="highlighter-rouge">e280aa</code> is a UTF8 character called <code class="highlighter-rouge">LEFT-TO-RIGHT EMBEDDING</code> 
 <a href="https://www.fileformat.info/info/unicode/char/202a/index.htm">(U+202A)</a>, <code class="highlighter-rouge">e280ac</code> - <code class="highlighter-rouge">POP DIRECTIONAL FORMATTING</code>
 <a href="https://www.fileformat.info/info/unicode/char/202c/index.htm">(U+202C)</a>.</p>
 
@@ -140,7 +140,7 @@ I was curious why these characters were in Skype in the first place.</p>
 
 <p><img src="/assets/post_resources/story_about_dhl/skype_web_ui.png" alt="Screenshot of Web Skype UI showing a phone number. Nothing unusual." /></p>
 
-<p>However, left-to-rigth and directional formatting ringed a bell - this may have something to do with right-to-left languages.
+<p>However, left-to-right and directional formatting ringed a bell - this may have something to do with right-to-left languages.
 Let’s check the UI in some right-to-left language:</p>
 
 <p><img src="/assets/post_resources/story_about_dhl/skype_web_ui_ar.png" alt="Screenshot of Web Skype UI in some right-to-left language (AR), everything is &quot;mirrored&quot;, except the phone number." /></p>
