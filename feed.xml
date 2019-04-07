@@ -1,4 +1,238 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-04-02T08:19:29+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“So Good They Can’t Ignore You” - impression and summary</title><link href="https://merelycurious.me/post/book-summary-so-good-they-cannot-ignore-you" rel="alternate" type="text/html" title="&quot;So Good They Can't Ignore You&quot; - impression and summary" /><published>2019-04-02T08:00:00+02:00</published><updated>2019-04-02T08:00:00+02:00</updated><id>https://merelycurious.me/post/book_summary_so_good_they_cannot_ignore_you</id><content type="html" xml:base="https://merelycurious.me/post/book-summary-so-good-they-cannot-ignore-you">&lt;p&gt;I’ve read “So Good They Can’t Ignore You” by Cal Newport.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-04-07T08:23:34+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 6)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-6" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 6)" /><published>2019-04-07T08:00:00+02:00</published><updated>2019-04-07T08:00:00+02:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_6</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-6">&lt;p&gt;Continuing watching and writing a summary for Robert Sapolsky’s course “Human Behavioral Biology”.
+Lecture 6.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;lecture-6-behavioral-genetics-i&quot;&gt;Lecture 6: Behavioral Genetics I&lt;/h2&gt;
+&lt;p&gt;Let’s see how the methodology for studying genetic component of behavior changed with time.&lt;/p&gt;
+
+&lt;h2 id=&quot;species&quot;&gt;Species&lt;/h2&gt;
+&lt;p&gt;When the field started, people assumed that &lt;del&gt;if a trait is universal in a species, it must be genetic&lt;/del&gt;.
+This is very limited approach, which works for flies, but does not for more complex organisms.&lt;/p&gt;
+
+&lt;h2 id=&quot;families&quot;&gt;Families&lt;/h2&gt;
+&lt;p&gt;The next step was to consider families. The closer related two individuals are, the more genes they share.
+If you have a behavioral trait that becomes more common the more closely related two individuals are,
+it must have genetic component. However, the more related two individuals are, the more they share their environment
+as well. Thus, with this approach one cannot distinguish genetic component of behavior from environmental influence.
+This was a classic approach 70-80 years ago.&lt;/p&gt;
+
+&lt;h2 id=&quot;twins&quot;&gt;Twins&lt;/h2&gt;
+&lt;p&gt;Then let’s control for environment. Examine relatives in the same environment, but having different genes.
+For example, one can consider identical (monozygotic) twins (sharing 100% genes) vs fraternal (dizygotic) twins
+(sharing 50% genes). If they all live in the same environment and fraternal twins differ in some way, while
+identical twins don’t - this must have genetic basis. Problems:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sometimes fraternal twins have different sex -&amp;gt; let’s restrict to same sex fraternal twins.&lt;/li&gt;
+  &lt;li&gt;These twins are still treated differently as pairs. As a result, there is more environment differentiation for fraternal twins.&lt;/li&gt;
+  &lt;li&gt;Identical twins can have one or two placentas (based on when the split happened - before or after 5 days since fertilization).
+In one placenta case, they have same blood flow. With two placentas - there can be differences in blood flow.
+As a result, in one placenta case they have much more similar environment.
+For example, they are more likely to have similar IQ when having one placenta (when compared to two placenta case).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;different-sexes&quot;&gt;Different sexes&lt;/h2&gt;
+&lt;p&gt;What if we have everything exactly the same except sex? Does not work either.
+1 hour old boys have more arm movement than girls. However, moms already (from the first time 
+they hold the child) treat them differently (holding for different duration of time and in different proximity to
+their face).&lt;/p&gt;
+
+&lt;h3 id=&quot;sat-scores-and-gender-study&quot;&gt;SAT scores and gender study&lt;/h3&gt;
+&lt;p&gt;One loud example of this is a study about 13 year old pupils’ SAT scores in math.
+In particular, how they depend on sex. The results were that more boys had higher scores.
+The paper was published in Nature and concluded that since they had the same lessons
+(there was no school curriculum differentiation yet at that age), this must be a biological difference.
+Press quickly called this “the math gene” and it was claimed that boys tended to have it more often.
+However, there were differences in their environment. Other studies has shown that even in the first grade
+a boy is more likely to be called when raising his hand for a math problem. Boys are also more likely
+to be praised for correct answers in elementary school.&lt;/p&gt;
+
+&lt;h2 id=&quot;adoption-studies&quot;&gt;Adoption studies&lt;/h2&gt;
+&lt;p&gt;Look at individuals raised in the same environment, but with different genes (adoption studies).
+Consider someone who was adopted as a child. Who are they more likely to share a trait with -
+biological parents or adoptive? In animals this can be done by cross-fostering,
+i.e. switching newborns (or only 50% of them) across mothers.&lt;/p&gt;
+
+&lt;h3 id=&quot;biological-component-of-schizophrenia&quot;&gt;Biological component of schizophrenia&lt;/h3&gt;
+&lt;p&gt;Seymour Kety tried to test whether schizophrenia has biologic component
+(The significance of genetic factors in the etiology of schizophrenia: Results from the national study of adoptees in Denmark, 1987). 
+The study considered adopted individuals who had schizophrenia. Are they more likely to share this trait with their
+biological or adoptive parents? Entire database of adoptees in Denmark was researched (Scandinavian countries
+record a lot of data). In general population probability to develop schizophrenia is 1%.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Probability to develop schizophrenia based on whether biological/adoptive parents have schizophrenia.
+Numbers are from the course. The original source: Seymour Kety,
+“The significance of genetic factors in the etiology of schizophrenia: Results from the national study of adoptees in Denmark”, 1987&lt;/em&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&quot;header&quot;&gt;
+&lt;th rowspan=&quot;2&quot; colspan=&quot;2&quot;&gt;&lt;/th&gt;
+&lt;th colspan=&quot;2&quot;&gt;Biological parents&lt;/th&gt;
+&lt;!-- schizophrenia --&gt;
+&lt;!-- no schizophrenia --&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;schizophrenia&lt;/th&gt;
+&lt;th&gt;no schizophrenia&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th rowspan=&quot;2&quot;&gt;adoptive&lt;/th&gt;
+&lt;th&gt;schizophrenia&lt;/th&gt;
+&lt;td&gt;17%&lt;/td&gt;
+&lt;td&gt;3%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;no schizophrenia&lt;/th&gt;
+&lt;td&gt;9%&lt;/td&gt;
+&lt;td&gt;1%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Yes, having biological parent with schizophrenia increases probability, having both (biological and adoptive) - increases it even further
+(non-additive synergisms). This was the first study to show heritable basis for a psychiatric disorder. This became a gold standard for
+behavioral genetics studies. People started applying this approach to depression, alcoholism, criminal behavior. They observed similar
+results. Problems:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;the adoption does not happen immediately after the birth.&lt;/li&gt;
+  &lt;li&gt;prenatal environment shared with mom (this can be measured by difference of probability to share a trait with mom and dad).&lt;/li&gt;
+  &lt;li&gt;paternity uncertainty - sometimes a person claiming to be a father is not a father.&lt;/li&gt;
+  &lt;li&gt;adoptive family placements are not random (in some countries like US kids are matched across a lot of domains before adoption).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;identical-twins-separated-at-birth&quot;&gt;Identical twins separated at birth&lt;/h2&gt;
+&lt;p&gt;The best approach so far is to consider identical twins separated at birth (they can be adopted in different households).
+This uncovers 50% heritability of IQ, position on introvert-extrovert scale, degree of aggression.&lt;/p&gt;
+
+&lt;p&gt;Problem: non-random placements. To mitigate, compare similarities between monozygotic and dizygotic twins (they both have non-random
+placement), but this makes the sample size small.&lt;/p&gt;
+
+&lt;h2 id=&quot;looking-at-non-learned-traits&quot;&gt;Looking at non-learned traits&lt;/h2&gt;
+&lt;p&gt;Can we consider traits which happen without learning? 
+E.g. smiling (even blind babies smile), beginning to babble at the same age
+(even for deaf babies). Random observation - even fetuses smile during third trimester.
+Prenatal effects can affect such traits too.&lt;/p&gt;
+
+&lt;h2 id=&quot;environment-begins-earlier-than-birth&quot;&gt;Environment begins earlier than birth&lt;/h2&gt;
+&lt;p&gt;Let’s consider some ways which can affect the child before birth.&lt;/p&gt;
+
+&lt;h3 id=&quot;sharing-blood-with-mom&quot;&gt;Sharing blood with mom&lt;/h3&gt;
+
+&lt;h4 id=&quot;hormones&quot;&gt;Hormones&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rats have dozen of fetuses which have more similar blood environment with adjacent sibling fetuses.
+As a result, the more male siblings a rat fetus has adjacent to them, the later it will reach puberty 
+(local endocrine effects).&lt;/li&gt;
+  &lt;li&gt;Children born to younger or older mothers reach puberty later (due to lower estrogen levels in mothers).&lt;/li&gt;
+  &lt;li&gt;Stress in mother propagates to fetus through stress hormones. In rats this causes smaller brain in adulthood,
+thinner cortex, less learning abilities, more prone towards anxiety, stronger cognitive decline in old age.
+This also decreases brain region responsible for dealing with stress hormones. As a result such offsprings 
+have more stress hormones themselves. Their offsprings will be affected even more by this. This environmental effect
+can be observed even in grand children (“the grandmother effect”). I.e. this is inheriting of a non-genetic trait
+    &lt;ul&gt;
+      &lt;li&gt;non-Mendelian inheritance.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;nutrients&quot;&gt;Nutrients.&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Dutch_famine_of_1944%E2%80%9345&quot;&gt;Dutch Hunger Winter&lt;/a&gt; - almost immediate decline in available
+food due to war in winter 1944.&lt;/p&gt;
+
+    &lt;p&gt;Third trimester fetuses learn how many calories are available in the world during a specific time period.
+They “study” nutritional profile. Then based on the results they can “choose” how their body should function through metabolic programming.&lt;/p&gt;
+
+    &lt;p&gt;Individuals who were third trimester fetuses during Dutch Hunger Winter (i.e. built their nutritional profile during the famine) were
+trying to store as much nutrients as possible and their kidneys tried to store more salt as well.
+When normal diet returned (also almost immediate change) - affected individuals showed 19x increase in incidents of obesity,
+diabetes, hypertension, metabolic syndrome. This is a very dramatic difference.&lt;/p&gt;
+
+    &lt;p&gt;This did not happen to newborns or first trimester fetuses. This is now studied as part of “fetal origins of adult diseases”.
+E.g. stress hormones during fetal life cause higher anxiety in adulthood.&lt;/p&gt;
+
+    &lt;p&gt;People in Stalingrad didn’t get this effect, because there the food decrease was steady.&lt;/p&gt;
+
+    &lt;p&gt;What happens when people affected get pregnant themselves? Their bodies take too much calories from blood,
+and as a result fetus is born with mild version of “Dutch Hunger Winter” phenomenon (again non-Mendelian inheritance).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Females (including in humans) can consume different amounts of estrogen (E.g. vitoestrogen from plants).
+When consumed more - fetus has consistent increase in estrogen dependent breast cancer in adulthood.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;learning&quot;&gt;Learning.&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;In rats one can inject sucrose water with particular taste (fetuses drink amniotic fluid).
+ After birth this taste will be preferred when given a choice.&lt;/li&gt;
+  &lt;li&gt;Mom’s voice in humans. Fetuses hear a lot, but especially moms voice. 
+When reading “Cat in hat” a lot out loud vs random collection of sentences (controlled for length and rhytmicity),
+newborns prefer “Cat in hat” (they make sucking motion when they like something). When fathers read, this does not work
+anymore.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;. Environment does not being at birth.&lt;/p&gt;
+
+&lt;p&gt;Remember strains of rats with different levels of anxiety mentioned in previous lectures? There was “an adoption” study,
+where fetuses were transfered during pregnancy. As a result, it was not a genetic trait, but a prenatal effect.&lt;/p&gt;
+
+&lt;h3 id=&quot;genetic-influence-from-mother&quot;&gt;Genetic influence from mother&lt;/h3&gt;
+&lt;p&gt;If you see more shared traits with mother than with father, these can be attributed to prenatal effects.
+However, one gets more genetic influence from mother, e.g.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;when father is not real father&lt;/li&gt;
+  &lt;li&gt;mitochondria has its own DNA. Sperm does not carry mitochondria, but only DNA. As a result, one inherits all their
+mitochondria DNA from mother.&lt;/li&gt;
+  &lt;li&gt;imprinted genes - work differently based on whom they come from.&lt;/li&gt;
+  &lt;li&gt;sperm does not have transcription factors. All transcription factors in a fertilized egg are from mother.
+Imagine there is a transcription factor A and it is needed to produce more of A and to activate gene X.
+If due to an environmental change, A stops being produced, there will be no A in the egg and
+this will disable X for offsprings forever (i.e. genes are inherited, but won’t be expressed due to acquired trait in mother - lamarckian traits).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;indirect-genetic-effects&quot;&gt;Indirect genetic effects&lt;/h2&gt;
+&lt;p&gt;There can also be indirect genetic effects:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Consider 50% heritability of your position on introvert-extrovert scale.
+This conclusion held through all the concerns above.
+However, height and appearance are highly inheritable.
+Taller people are treated better and considered more attractive.
+People treated more positively during childhood become more extroverted. Most of introvert-extrovert heritability
+is mediated by heritability of physical traits.&lt;/li&gt;
+  &lt;li&gt;Heritability of rank in turkeys - actually it is due to the color of their feathers, which is inherited.&lt;/li&gt;
+  &lt;li&gt;Chicks are able to peck for grabs very early. However, newborn chicks have heritable tendency to find their toes very
+interesting, as a result they peck at their toes and learn to do proper pecking.&lt;/li&gt;
+  &lt;li&gt;70% heritability of political party affiliation in US. Mediating variable - how people feel about ambiguity. Conservatives
+are more ambiguity averse.&lt;/li&gt;
+  &lt;li&gt;Rats and mouse strains with various levels of aggression. Mediation: aggressive strains have lower threshold for pain sensitivity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;epigenetic-effects&quot;&gt;Epigenetic effects&lt;/h2&gt;
+&lt;p&gt;DNA cover can block transcription factors from reaching DNA permanently.
+This happened in Dutch Hunger Winter people. 
+Another example: pet newborn rat for 3 min/day for 2 weeks after it is born -&amp;gt; larger brain, better learning.
+Pet it for 1.5 hours/day instead -&amp;gt; smaller brain, shorter life expectancy.
+It is interesting what counts as stimulation (3 min) vs stress (1.5 hours). However, this actually changes mother behavior.
+3 min petting causes mom to get excited and to lick and groom the kid more. 1.5 hours causes ignorance for long period of time.
+Petting itself does not matter, but only mother reaction.
+Licking and grooming by mother causes larger brain and all other possible outcomes mentioned above. 
+This can have multi-generational effect - licked and groomed daughters will lick and groom their kids more (
+again non-Mendelian inheritance). This changes access of transcription factors, which are related to activating genes for making receptors for
+stress hormones. It is also reversible. Cross-fostering after non-grooming mom improves kids state.&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Continuing watching and writing a summary for Robert Sapolsky’s course “Human Behavioral Biology”. Lecture 6.</summary></entry><entry><title type="html">“So Good They Can’t Ignore You” - impression and summary</title><link href="https://merelycurious.me/post/book-summary-so-good-they-cannot-ignore-you" rel="alternate" type="text/html" title="&quot;So Good They Can't Ignore You&quot; - impression and summary" /><published>2019-04-02T08:00:00+02:00</published><updated>2019-04-02T08:00:00+02:00</updated><id>https://merelycurious.me/post/book_summary_so_good_they_cannot_ignore_you</id><content type="html" xml:base="https://merelycurious.me/post/book-summary-so-good-they-cannot-ignore-you">&lt;p&gt;I’ve read “So Good They Can’t Ignore You” by Cal Newport.
 Here is my impression (pretty mixed and rather on the negative side) and summary.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2050,187 +2284,4 @@ can easily be a life long goal.&lt;/p&gt;
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Learn good skills early!&lt;/p&gt;
 
-&lt;p&gt;Happy learning!&lt;/p&gt;</content><author><name></name></author><category term="philosophy" /><category term="my thoughts" /><category term="analogy" /><category term="learning" /><category term="life" /><summary type="html">I’ve played Dominion and I really liked how the game could be used as a model for learning and life in general.</summary></entry><entry><title type="html">Do you underestimate Total Expense Ratio effect when investing?</title><link href="https://merelycurious.me/post/underestimating-ter" rel="alternate" type="text/html" title="Do you underestimate Total Expense Ratio effect when investing?" /><published>2019-02-28T08:00:00+01:00</published><updated>2019-02-28T08:00:00+01:00</updated><id>https://merelycurious.me/post/underestimating_ter</id><content type="html" xml:base="https://merelycurious.me/post/underestimating-ter">&lt;p&gt;I suspect that it is very easy to underestimate the difference between paying 1% and 0.1% in yearly fees.
-Let’s calculate this difference. Moreover, let’s consider other kinds of fees and their impact on a long-term ETF investor.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;classes-of-fees&quot;&gt;Classes of fees&lt;/h2&gt;
-
-&lt;p&gt;When investing, I define 4 classes of fees based on their nature (i.e. how and when they are applied):&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Yearly percentage-based&lt;/li&gt;
-  &lt;li&gt;One time percentage-based&lt;/li&gt;
-  &lt;li&gt;Yearly constant&lt;/li&gt;
-  &lt;li&gt;One time constant&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Let’s consider examples for each.&lt;/p&gt;
-
-&lt;h3 id=&quot;yearly-percentage-based&quot;&gt;Yearly percentage-based&lt;/h3&gt;
-
-&lt;p&gt;Your financial adviser (fund) takes X% of the money they manage every year as a fee.
-For funds, this is called Total Expense Ratio (TER).&lt;/p&gt;
-
-&lt;h3 id=&quot;one-time-percentage-based&quot;&gt;One time percentage-based&lt;/h3&gt;
-
-&lt;p&gt;Your broker takes X% of the money during the transaction e.g. when buying or selling ETFs.&lt;/p&gt;
-
-&lt;h3 id=&quot;yearly-constant&quot;&gt;Yearly constant&lt;/h3&gt;
-
-&lt;p&gt;Your broker takes X euro each year e.g. as an account management fee.&lt;/p&gt;
-
-&lt;h3 id=&quot;one-time-constant&quot;&gt;One time constant&lt;/h3&gt;
-
-&lt;p&gt;Your broker takes X euro during the transaction e.g. when buying or selling ETFs.&lt;/p&gt;
-
-&lt;h2 id=&quot;their-impact&quot;&gt;Their impact&lt;/h2&gt;
-
-&lt;p&gt;The classes above are ordered based on how badly they can affect you when you invest long-term.
-Yearly percentage-based fee is the worst offender.&lt;/p&gt;
-
-&lt;h3 id=&quot;yearly-percentage-based-1&quot;&gt;Yearly percentage-based&lt;/h3&gt;
-
-&lt;p&gt;How do you feel when you see 1% yearly fee? Before I started looking into investing,
-I did consider this cheap and not that important. I speculate that we get conditioned
-during our life to some scale of numbers, which mostly works in ordinary life situations.
-E.g. if the price for a bus ticket increases 1%, this would be a minor nuisance.
-And we naturally use the same logic when we first get to investing.
-1% yearly fee - sounds low enough to be ignored.&lt;/p&gt;
-
-&lt;p&gt;However, investing is different from ordinary life due to compounding
-and exponential growth, which we rarely observe otherwise. As a result, our heuristical rules
- don’t work here.&lt;/p&gt;
-
-&lt;p&gt;Let’s consider an example. We invest 1000 euro in two assets (e.g. funds). Both assets 
-have 4% after inflation yearly return, but the first asset has 1% yearly fees, while the second &lt;em&gt;only&lt;/em&gt; 0.9%.&lt;/p&gt;
-
-&lt;p&gt;After the first year, we will have 1000 * 1.04 = 1040 in both assets before applying the fees.
-After the fees it is 1040 * 0.99 = 1029.6 in 1% fee asset and 1040 * 0.991 = 1030.64 in 0.9% one.
-At this stage the difference is only 1.04 euro. However, we are long term investors here and our timeline spans 30-60 years.
-As a result, we are also missing future returns attached to this 1.04 euro. E.g. with 4% yearly growth, in 30 years it becomes
-1.04 * 1.04^30 = 3.37 euro. 
-Please note that the growth is after inflation, so these are today’s euros in terms of inflation.
-As a result, 1.04 euro we payed in the fees in the future becomes 3.37 inflation adjusted euros, they just don’t go
-into our pocket (or rather brokerage account) anymore.&lt;/p&gt;
-
-&lt;p&gt;At this stage, it still may look like I am crazy. We are discussing here 3.37 euro in the future 
-and losing ~5 euros is not a life changing event.
-However, this fee is applied each year and the numbers add up.
-After 30 years, the difference is 69.23 euro (&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1t02HivZF_u40cJXL_E_osgcCK_6dEeoJ8NAhv5CRkDs/edit&quot;&gt;spreadsheet&lt;/a&gt;, make a copy if you would like to play with it). This doesn’t look much, but the overall value of your
-0.9%-fee investment after 30 years is 2399.4 euro and this difference is 2.88% of the overall value.
-In other words by choosing 0.9% yearly fee investment instead of 1%, you get 2.88% more money in 30 years
-(assuming investing only once and 4% after inflation return).&lt;/p&gt;
-
-&lt;p&gt;However, investing 1000 euro once is unusual, we all invest monthly instead. What happens in this case?
-The relative effect of this fee difference decreases, because the later investments have less exposure to the yearly fee.
-However, since the overall value now is much larger, the absolute effect of the fee is much larger as well.
-E.g. if we invest 1000 euro every month, after 30 years the difference is 1.61%
-(8810 euro difference with 548068 total, &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1t02HivZF_u40cJXL_E_osgcCK_6dEeoJ8NAhv5CRkDs/edit#gid=1042145595&quot;&gt;spreadsheet&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;So this is not too bad, right? What is all the fuss about?
-It is actually pretty bad. Above I took a pretty mild case of 0.9% vs 1%.
-In real life you can easily get 1% mutual fund yearly fee and 0.1% ETF fee.
-If you invest 1000 euro once (under same assumptions as above), after 30 years the difference between
-1% and 0.1% yearly fee funds values will be 23% (699 euro difference with 3029 total for 0.1% one fund).
-So going from 1% to 0.1% brings you almost a quarter more money in 30 years.
-Would anyone here by any chance like to improve your investment return by guaranteed mere 23% in 30 years (equivalent to 0.6% yearly)?&lt;/p&gt;
-
-&lt;p&gt;If you invest 1000 euro monthly, the difference is &lt;em&gt;only&lt;/em&gt; 13% (85834 euro with 625092 total for 0.1% fund).
-As a reminder, these are inflation adjusted (i.e. today’s euros). So going from 1% to 0.1% fee fund brings you almost 100k more here. Looks like this is a good compensation for paying attention to fees.&lt;/p&gt;
-
-&lt;p&gt;I hope that now 1% yearly fee brings some weird feeling of opposition deep inside you
-and you immediately imagine 0.1% (or even 0.07%) instead.&lt;/p&gt;
-
-&lt;h3 id=&quot;one-time-percentage-based-1&quot;&gt;One time percentage-based&lt;/h3&gt;
-
-&lt;p&gt;Now we have considered the elephant in the room (yearly percentage based fees), but there are 
-more ways to lose (or save) money when investing.&lt;/p&gt;
-
-&lt;p&gt;Let’s consider one time percentage-based fees. In order to invest you need a broker and all
-brokers want something in return for their service.
-Some brokers want a part of the money you invest as a fee for the transaction.&lt;/p&gt;
-
-&lt;p&gt;In Germany I often see 0.25% per transaction (e.g. Ing Diba, maxblue). 
-Sometimes brokers have “saving plan” &lt;em&gt;deal&lt;/em&gt; and there it can be even larger (0.4% at maxblue).
-Worth noting that they also have minimal and maximal fees per transaction.&lt;/p&gt;
-
-&lt;p&gt;For maxblue the limits are 8.9 and 49.9 if you use normal brokerage and no limits for saving plans.
-On one hand this is nice for us, because if you decide (for some weird reason) to sell all your ETFs
-and they are worth 1 million, you will pay not 2500 euro, but just 49.9 euro.
-Unfortunately, this is the only advantage and how often do you do 1 million transactions these days?
-On the other hand, the minimal fee penalizes you &lt;em&gt;badly&lt;/em&gt; if you buy ETFs monthly (not as badly as yearly percentage
-fees above, but we like to optimize stuff). E.g. if you buy with 1000 euro, you won’t pay 2.5 euro, but 8.9.
-If you buy with 100 euro, the situation is even worse - instead of 0.25, you still pay 8.9 (almost 10%, don’t do this).&lt;/p&gt;
-
-&lt;p&gt;Thus, when investing moderate amounts monthly, minimal fee affects your return badly.
-I think the default solution to this is to have a saving plan instead.
-E.g. for maxblue, you will pay 0.4% of the transaction amount, but only when &lt;strong&gt;buying&lt;/strong&gt;, and
-0.25% with 8.9 and 49.9 limits when selling. So when buying for 100 euro, you pay 4 euro instead of 8.9 above.
-A bit better.&lt;/p&gt;
-
-&lt;p&gt;Obviously you have your own unique circumstances, so you should see for yourself what the best way is.
-My main point here - if there is a one time percentage-based fee, take it into account.
-E.g. if your broker takes 0.25% without limits for each transaction and you are a long term ETF investor,
-effectively you are giving away at least 0.5% of &lt;em&gt;all your net worth&lt;/em&gt;. If the already familiar feeling
-of opposition from the previous section didn’t visit you here, please read it again. You pay 0.5% of 
-&lt;strong&gt;all&lt;/strong&gt; your net worth (my feeling of opposition makes me feel bad even to write this). It’s like you take all
-what you earned in your life and then say - oh, I don’t need this two hundreds part of it, please help yourself
-my lovely broker.
-If your working career was 40 years, this is equivalent to you working at least 2.4 months full time just for your
-broker to pay this fee.&lt;/p&gt;
-
-&lt;p&gt;I am also saying “at least” 0.5%. When you buy, you will definitely pay 0.25%. However, when you sell, the fee
-also affects all the growth of your investment. You could consider this as your net worth as well, but this 
-is definitely more than 0.5% of all the money you invested.&lt;/p&gt;
-
-&lt;p&gt;Here you can say - oh, this is all very nice, but what do you suggest? 
-Yeap, we still need a broker to buy and sell, I agree.
-However, there are brokers who don’t have explicit percentage based fees.
-E.g. flatex and Onvista (be careful with Onvista, only some account modes (festpreis) don’t have this fee at all,
-the free buys one has well hidden 0.25% fee when selling). So check your broker and consider switching.&lt;/p&gt;
-
-&lt;p&gt;Please note that percentage based fee per se is not bad. E.g. flatex takes 5.9 per transaction.
-If you invest 100 euro per month, 0.4% at maxblue will be a better deal for your.
-Here you should be worried about selling (are you?). As of now, one can theoretically move
-their assets from one brokerage account to another (even probably for free, but I am not familiar with this topic).
-Thus, theoretically you can buy all your ETFs at one broker for a very long time and after reaching your 
-financial goals, just move all your assets to another one, where selling is cheaper for you.
-This also partially protects you against your broker changing their fees (e.g. flatex starting to take 10% instead of 5.9).
-However, I have no clue whether this applies to saving plans.&lt;/p&gt;
-
-&lt;p&gt;I have also said “explicit” above. Technically a broker could try to take a percentage based fees
-in some other ways (e.g. through spread or poor asset price). I wasn’t able to detect this myself
-by comparing prices at different brokers and I assume that governmental regulations forbid this (hey, MiFiD and friends).&lt;/p&gt;
-
-&lt;h3 id=&quot;yearly-constant-1&quot;&gt;Yearly constant&lt;/h3&gt;
-
-&lt;p&gt;Ok, easy ones now.
-Some brokers take some money just for having an account with them (hi, Interactive Brokers).
-This is likely much cheaper than 0.5% of all your net worth (otherwise, RUN from a broker like that).
-Still you may take it into account. E.g. for Interactive Brokers it is 10 USD assuming that you have
-less than 100k USD (or equivalent) with them, so overall 120 USD per year. Not too bad, but spare ~120 USD per year won’t hurt.
-However, they count your transaction fees against this monthly fee. In other words in the end of the
-month you pay either 10 USD or all your transaction fees if they are in total larger than 10 USD.
-So it will be somewhat smaller than 120 USD per year, but not too much if you buy one ETF and only once a month.&lt;/p&gt;
-
-&lt;p&gt;Oh, by the way here is a funny fact about Interactive Brokers and percentage based fees. They have a percentage based fee,
-but it is so low that it may be in the end twice cheaper than flatex’s 5.9 euro. So do your math when choosing a broker!&lt;/p&gt;
-
-&lt;h3 id=&quot;one-time-constant-1&quot;&gt;One time constant&lt;/h3&gt;
-
-&lt;p&gt;As I already explained above some brokers just take some constant fee for each transaction.
-I assume that normally you would do 12 transaction per year (+ perhaps 1-5 to rebalance).
-So with flatex we are talking about ~5.9 * 12 = ~71 euro (this does not take into account stock exchanges fees,
-but we can’t avoid them anyway).
-This one has the smallest impact, but you are welcome to take it into account as well.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Choose funds with low TER. Train your feeling of opposition when seeing 1% yearly fee.&lt;/li&gt;
-  &lt;li&gt;Consider brokers without percentage based fees transaction fees, but do your math for your specific situation and investing plans.&lt;/li&gt;
-  &lt;li&gt;If you fancy - take into account broker account fees and constant transaction fees.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Happy low fee investing!&lt;/p&gt;</content><author><name></name></author><category term="etf" /><category term="investing" /><category term="expenses" /><summary type="html">I suspect that it is very easy to underestimate the difference between paying 1% and 0.1% in yearly fees. Let’s calculate this difference. Moreover, let’s consider other kinds of fees and their impact on a long-term ETF investor.</summary></entry></feed>
+&lt;p&gt;Happy learning!&lt;/p&gt;</content><author><name></name></author><category term="philosophy" /><category term="my thoughts" /><category term="analogy" /><category term="learning" /><category term="life" /><summary type="html">I’ve played Dominion and I really liked how the game could be used as a model for learning and life in general.</summary></entry></feed>
