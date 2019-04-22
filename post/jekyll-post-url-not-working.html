@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Jekyll post_url tag not working | Merely curious</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Jekyll post_url tag not working" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Recently I’ve had Jekyll complaining about post_url not working due to a missing file, but the file was there. This took me some time to figure out and I would like to share the issue (a non-obvious stray whitespace in the filename) as well as other ways this could have happened." />
+<meta property="og:description" content="Recently I’ve had Jekyll complaining about post_url not working due to a missing file, but the file was there. This took me some time to figure out and I would like to share the issue (a non-obvious stray whitespace in the filename) as well as other ways this could have happened." />
+<link rel="canonical" href="https://merelycurious.me/post/jekyll-post-url-not-working" />
+<meta property="og:url" content="https://merelycurious.me/post/jekyll-post-url-not-working" />
+<meta property="og:site_name" content="Merely curious" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-04-22T08:00:00+02:00" />
+<script type="application/ld+json">
+{"description":"Recently I’ve had Jekyll complaining about post_url not working due to a missing file, but the file was there. This took me some time to figure out and I would like to share the issue (a non-obvious stray whitespace in the filename) as well as other ways this could have happened.","@type":"BlogPosting","url":"https://merelycurious.me/post/jekyll-post-url-not-working","headline":"Jekyll post_url tag not working","dateModified":"2019-04-22T08:00:00+02:00","datePublished":"2019-04-22T08:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://merelycurious.me/post/jekyll-post-url-not-working"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://merelycurious.me/feed.xml" title="Merely curious" /><script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-131503689-1', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Merely curious</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/queue/">Future post ideas</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Jekyll post_url tag not working</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-04-22T08:00:00+02:00" itemprop="datePublished">Apr 22, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Recently I’ve had Jekyll complaining about <code class="highlighter-rouge">post_url</code> not working due to a missing file,
+but the file was there. This took me some time to figure out and I would like to 
+share the issue (a non-obvious stray whitespace in the filename) as well as other ways this could have happened.</p>
+
+<!--more-->
+
+<h2 id="brief-intro">Brief intro</h2>
+<p>Some of you may not know what Jekyll or <code class="highlighter-rouge">post_url</code> is.
+Let me briefly explain.</p>
+
+<h3 id="jekyll">Jekyll</h3>
+<p><a href="https://jekyllrb.com/">Jekyll</a> is a tool for creating static html blogs.
+Basically you give Jekyll your blog “source code” and Jekyll “compiles” it 
+into nicely looking static html blog, which you can then host somewhere (like GitHub pages).
+As an example, this blog is done precisely like that - Jekyll + GitHub pages.
+Can’t I write plain html myself without any fancy “compiling”? I can, but that’s cumbersome.
+I would have to explicitly care about html when writing my posts and also manually add all the 
+boilerplate to each page. Instead I just write a text of the post (i.e. the most exciting part of the process) using
+special language called markdown and Jekyll does all the remaining boring stuff for me.</p>
+
+<h3 id="post_url-tag">post_url tag</h3>
+<p>This markdown language has special commands, which one can use to make writing easier.
+This can be something simple like making text <strong>bold</strong> or <em>italic</em> or something more
+complex like creating a table or adding a link somewhere. These commands are called tags.
+<code class="highlighter-rouge">post_url</code> is a tag for adding a link to another post in your blog.
+Obviously, I could just hardcode a direct link, but <code class="highlighter-rouge">post_url</code> has couple advantages:</p>
+<ul>
+  <li>complains if the link is broken</li>
+  <li>changes the link if something changes (e.g. domain name or post url change)</li>
+  <li>allows not to think about what the link will actually be and, thus, saves times.</li>
+</ul>
+
+<h2 id="the-problem">The problem</h2>
+<p>I was happily writing 
+<a href="/post/human-behavioral-biology-sapolsky-course-summary-lectures-4-5">a summary for lectures 4-5 of Robert Sapolsky’s course</a> 
+and I wanted to add a link to 
+<a href="/post/human-behavioral-biology-sapolsky-course-summary-lectures-1-3">the summary of lectures 1-3</a>.
+So I wrote</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1-3 - Intro &amp; Behavioral Evolution]({% post_url 2019-03-17-human_behavioral_biology_sapolsky_course_summary_lectures_1_3  %})
+</code></pre></div></div>
+<p>The name of the file I just copied. To my sheer surprise this didn’t work:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Liquid Exception: Could not find post 
+"2019-03-17-human_behavioral_biology_sapolsky_course_summary_lectures_1_3"
+in tag 'post_url'. Make sure the post exists and the name is correct. 
+in /blog/source/_posts/2019-03-26-human_behavioral_biology_sapolsky_course_summary_lectures_4_5.markdown
+             ERROR: YOUR SITE COULD NOT BE BUILT:
+                    ------------------------------------
+                    Could not find post "2019-03-17-human_behavioral_biology_sapolsky_course_summary_lectures_1_3" 
+                    in tag 'post_url'. Make sure the post exists and the name is correct.
+</code></pre></div></div>
+
+<h2 id="the-solution">The solution</h2>
+<p>After googling for some time, I accidentally noticed that
+the filename of the post I was trying to link to had a space right before the extension:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                                    this little guy here
+                                                                        \
+2019-03-17-human_behavioral_biology_sapolsky_course_summary_lectures_1_3 .markdown
+</code></pre></div></div>
+<p>When I copied the filename, the space was copied as well, but Jekyll ignored it, because that’s
+how tags work.</p>
+
+<p>What’s funny is that Jekyll tags handle spaces inside the file name well, e.g. a file named</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2019-03-17-human behavioral biology sapolsky course summary lectures_1_3.markdown
+</code></pre></div></div>
+<p>works perfectly fine.</p>
+
+<h2 id="other-possible-causes">Other possible causes</h2>
+<p>Since I spent time googling this, let’s collect here other possible causes, which could lead to this error:</p>
+<ul>
+  <li>Post is not published. This can happen for multiple reasons, e.g.
+    <ul>
+      <li>explicit <code class="highlighter-rouge">published: false</code></li>
+      <li>published date is from the future (including due to timezone)</li>
+      <li>wrong folder (it should be in <code class="highlighter-rouge">_posts</code>)</li>
+      <li>the file is missing the date prefix or it is not separated from the rest of the filename with <code class="highlighter-rouge">-</code></li>
+    </ul>
+  </li>
+  <li>The post belongs to a collection (use <a href="https://jekyllrb.com/docs/liquid/tags/#link"><code class="highlighter-rouge">link</code> tag</a> instead)</li>
+</ul>
+
+<p>If this does not solve your problem (or you are curious), you might look
+<a href="https://github.com/jekyll/jekyll/blob/master/lib/jekyll/tags/post_url.rb">at the source code</a>.</p>
+
+<p>Happy error free blogging!</p>
+
+  </div><a class="u-url" href="/post/jekyll-post-url-not-working" hidden></a>
+</article>
+
+      </div>
+    </main>
+<footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Merely curious</li><li><a class="u-email" href="mailto:merelycurious protonmail.com">merelycurious protonmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://www.twitter.com/merely_curious_"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">merely_curious_</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Everything I find interesting enough.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer></body>
+
+</html>

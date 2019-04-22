@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-04-20T08:36:35+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Thought experiment overview: projects when FIRE’d</title><link href="https://merelycurious.me/post/thought-experiment-overview-projects-when-fire" rel="alternate" type="text/html" title="Thought experiment overview: projects when FIRE'd" /><published>2019-04-17T08:00:00+02:00</published><updated>2019-04-17T08:00:00+02:00</updated><id>https://merelycurious.me/post/thought_experiment_overview_projects_when_fire</id><content type="html" xml:base="https://merelycurious.me/post/thought-experiment-overview-projects-when-fire">&lt;p&gt;Let’s see what other people are going to do once they reach FIRE
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-04-22T08:32:54+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Jekyll post_url tag not working</title><link href="https://merelycurious.me/post/jekyll-post-url-not-working" rel="alternate" type="text/html" title="Jekyll post_url tag not working" /><published>2019-04-22T08:00:00+02:00</published><updated>2019-04-22T08:00:00+02:00</updated><id>https://merelycurious.me/post/jekyll_post_url_not_working</id><content type="html" xml:base="https://merelycurious.me/post/jekyll-post-url-not-working">&lt;p&gt;Recently I’ve had Jekyll complaining about &lt;code class=&quot;highlighter-rouge&quot;&gt;post_url&lt;/code&gt; not working due to a missing file,
+but the file was there. This took me some time to figure out and I would like to 
+share the issue (a non-obvious stray whitespace in the filename) as well as other ways this could have happened.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;brief-intro&quot;&gt;Brief intro&lt;/h2&gt;
+&lt;p&gt;Some of you may not know what Jekyll or &lt;code class=&quot;highlighter-rouge&quot;&gt;post_url&lt;/code&gt; is.
+Let me briefly explain.&lt;/p&gt;
+
+&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is a tool for creating static html blogs.
+Basically you give Jekyll your blog “source code” and Jekyll “compiles” it 
+into nicely looking static html blog, which you can then host somewhere (like GitHub pages).
+As an example, this blog is done precisely like that - Jekyll + GitHub pages.
+Can’t I write plain html myself without any fancy “compiling”? I can, but that’s cumbersome.
+I would have to explicitly care about html when writing my posts and also manually add all the 
+boilerplate to each page. Instead I just write a text of the post (i.e. the most exciting part of the process) using
+special language called markdown and Jekyll does all the remaining boring stuff for me.&lt;/p&gt;
+
+&lt;h3 id=&quot;post_url-tag&quot;&gt;post_url tag&lt;/h3&gt;
+&lt;p&gt;This markdown language has special commands, which one can use to make writing easier.
+This can be something simple like making text &lt;strong&gt;bold&lt;/strong&gt; or &lt;em&gt;italic&lt;/em&gt; or something more
+complex like creating a table or adding a link somewhere. These commands are called tags.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;post_url&lt;/code&gt; is a tag for adding a link to another post in your blog.
+Obviously, I could just hardcode a direct link, but &lt;code class=&quot;highlighter-rouge&quot;&gt;post_url&lt;/code&gt; has couple advantages:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;complains if the link is broken&lt;/li&gt;
+  &lt;li&gt;changes the link if something changes (e.g. domain name or post url change)&lt;/li&gt;
+  &lt;li&gt;allows not to think about what the link will actually be and, thus, saves times.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-problem&quot;&gt;The problem&lt;/h2&gt;
+&lt;p&gt;I was happily writing 
+&lt;a href=&quot;/post/human-behavioral-biology-sapolsky-course-summary-lectures-4-5&quot;&gt;a summary for lectures 4-5 of Robert Sapolsky’s course&lt;/a&gt; 
+and I wanted to add a link to 
+&lt;a href=&quot;/post/human-behavioral-biology-sapolsky-course-summary-lectures-1-3&quot;&gt;the summary of lectures 1-3&lt;/a&gt;.
+So I wrote&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[1-3 - Intro &amp;amp; Behavioral Evolution]({% post_url 2019-03-17-human_behavioral_biology_sapolsky_course_summary_lectures_1_3  %})
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The name of the file I just copied. To my sheer surprise this didn’t work:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Liquid Exception: Could not find post 
+&quot;2019-03-17-human_behavioral_biology_sapolsky_course_summary_lectures_1_3&quot;
+in tag 'post_url'. Make sure the post exists and the name is correct. 
+in /blog/source/_posts/2019-03-26-human_behavioral_biology_sapolsky_course_summary_lectures_4_5.markdown
+             ERROR: YOUR SITE COULD NOT BE BUILT:
+                    ------------------------------------
+                    Could not find post &quot;2019-03-17-human_behavioral_biology_sapolsky_course_summary_lectures_1_3&quot; 
+                    in tag 'post_url'. Make sure the post exists and the name is correct.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;the-solution&quot;&gt;The solution&lt;/h2&gt;
+&lt;p&gt;After googling for some time, I accidentally noticed that
+the filename of the post I was trying to link to had a space right before the extension:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                                    this little guy here
+                                                                        \
+2019-03-17-human_behavioral_biology_sapolsky_course_summary_lectures_1_3 .markdown
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;When I copied the filename, the space was copied as well, but Jekyll ignored it, because that’s
+how tags work.&lt;/p&gt;
+
+&lt;p&gt;What’s funny is that Jekyll tags handle spaces inside the file name well, e.g. a file named&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2019-03-17-human behavioral biology sapolsky course summary lectures_1_3.markdown
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;works perfectly fine.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-possible-causes&quot;&gt;Other possible causes&lt;/h2&gt;
+&lt;p&gt;Since I spent time googling this, let’s collect here other possible causes, which could lead to this error:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Post is not published. This can happen for multiple reasons, e.g.
+    &lt;ul&gt;
+      &lt;li&gt;explicit &lt;code class=&quot;highlighter-rouge&quot;&gt;published: false&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;published date is from the future (including due to timezone)&lt;/li&gt;
+      &lt;li&gt;wrong folder (it should be in &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;)&lt;/li&gt;
+      &lt;li&gt;the file is missing the date prefix or it is not separated from the rest of the filename with &lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The post belongs to a collection (use &lt;a href=&quot;https://jekyllrb.com/docs/liquid/tags/#link&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; tag&lt;/a&gt; instead)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If this does not solve your problem (or you are curious), you might look
+&lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/lib/jekyll/tags/post_url.rb&quot;&gt;at the source code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Happy error free blogging!&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="software" /><category term="troubleshooting" /><summary type="html">Recently I’ve had Jekyll complaining about post_url not working due to a missing file, but the file was there. This took me some time to figure out and I would like to share the issue (a non-obvious stray whitespace in the filename) as well as other ways this could have happened.</summary></entry><entry><title type="html">Thought experiment overview: projects when FIRE’d</title><link href="https://merelycurious.me/post/thought-experiment-overview-projects-when-fire" rel="alternate" type="text/html" title="Thought experiment overview: projects when FIRE'd" /><published>2019-04-17T08:00:00+02:00</published><updated>2019-04-17T08:00:00+02:00</updated><id>https://merelycurious.me/post/thought_experiment_overview_projects_when_fire</id><content type="html" xml:base="https://merelycurious.me/post/thought-experiment-overview-projects-when-fire">&lt;p&gt;Let’s see what other people are going to do once they reach FIRE
 (based on their responses to SavingNinja thought experiment #5).&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2042,361 +2125,4 @@ Recognizing the obstacle is the most important part.&lt;/p&gt;
 because positive fantasies come from our needs (deficiencies) and they change with time.&lt;/p&gt;
 
 &lt;p&gt;Important: don’t switch o’s. Once you think about obstacle first, it won’t work anymore, because you can discover the real obstacle
-only in the framework of the outcome.&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">I took &quot;The science of wellbeing&quot; course at Coursera. I absolutely loved it! I would like to share my impression and a not so brief summary.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lectures 1-3)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lectures-1-3" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lectures 1-3)" /><published>2019-03-17T12:00:00+01:00</published><updated>2019-03-17T12:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lectures_1_3</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lectures-1-3">&lt;p&gt;I watch “Human Behavioral Biology” course by Robert Sapolsky (from Stanford) on Youtube.
-It is very interesting. Here is my summary of the first three lectures.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;lecture-1-introduction-to-human-behavioral-biology&quot;&gt;Lecture 1: “Introduction to Human Behavioral Biology”&lt;/h2&gt;
-
-&lt;h3 id=&quot;what-the-course-is-about&quot;&gt;What the course is about&lt;/h3&gt;
-
-&lt;p&gt;What is common between “having a period”, “having a brain tumor”, “eating a lot of junk food” and “taking anabolic steroids”?
-All have been successfully used in courts as a defense for a murderer.&lt;/p&gt;
-
-&lt;p&gt;Points of the course:
-1) Sometimes what happens in your body can dramatically influence what happens in your brain (examples above).
-2) Sometimes something in your head can affect your entire body (e.g. when one imagines that they will die
-their heart starts beating faster).
-In other words, the course is about the connection between physiology and behavior, emotions, memories.&lt;/p&gt;
-
-&lt;h3 id=&quot;categorical-thinking&quot;&gt;Categorical thinking&lt;/h3&gt;
-
-&lt;p&gt;We divide everything into categories, because this makes it easier to store information.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/human_behavioral_biology_summary/1_spectrum.png&quot; alt=&quot;Illustration of spectrum divided into categories&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;E.g. it is much easier to remember whether you saw a triangle, a square or a circle than some weird shape,
-because we don’t have a word (i.e. a category) for latter.&lt;/p&gt;
-
-&lt;p&gt;Disadvantages of categorical thinking:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;You can’t differentiate two facts that fall in the same category (b &amp;amp; p in Finnish or two similar colors) - you underestimate their difference.&lt;/li&gt;
-  &lt;li&gt;We have trouble seeing how similar things are right across the category boundaries (e.g. 65% on the test leads to fail and 66% to pass) - we overestimate the difference.&lt;/li&gt;
-  &lt;li&gt;When you pay attention to boundaries, you miss the big picture (e.g. phone numbers are supposed to be 3 digits followed by 4).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;avoiding-categorical-thinking&quot;&gt;Avoiding categorical thinking&lt;/h3&gt;
-
-&lt;p&gt;The goal of the course is to think about biology of behavior without falling into categorical thinking.
-The category (bucket) you are in affects how you explain the world. We want to avoid this.&lt;/p&gt;
-
-&lt;p&gt;There are 3 main challenges - recognizing when we:
-1) just like other animals and accepting that. E.g. ovulation synchronization in females living together.
-2) we appear to be like any other organism, but do something very different.
-Examples:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;chess master capturing a piece feeling like a baboon who won a fight&lt;/li&gt;
-  &lt;li&gt;we get stressed when reading something bad happening to a character in a novel.&lt;/li&gt;
-  &lt;li&gt;we can feel compassionate about other species. This is the same physiology as in other animals, but we use it in unrecognizable ways.
-3) do something that no other animal even remotely does (e.g. non-reproductive sex, language use).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In the course we will overview various buckets first - evolution, molecular genetics.
-Then we will look at behaviors and consider them through each bucket separately.&lt;/p&gt;
-
-&lt;h2 id=&quot;lecture-2-behavioral-evolution-i&quot;&gt;Lecture 2: Behavioral Evolution I&lt;/h2&gt;
-
-&lt;p&gt;Darwin didn’t discover evolution. He came up with a mechanism for it - natural selection.
-Darwinian evolution:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;there are heritable traits (i.e. genetic)&lt;/li&gt;
-  &lt;li&gt;there is variability among those traits (ways in which they can occur)&lt;/li&gt;
-  &lt;li&gt;some versions of those traits are more adaptive (work better for you) then others&lt;/li&gt;
-  &lt;li&gt;this is not about survival, but reproduction.
-When you have all of these, you get evolution and populations.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;When you add mutations - you can get large changes.&lt;/p&gt;
-
-&lt;p&gt;This applies well to physiology, but how to apply this to behavior? Exactly the same:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;there are heritable behaviors (i.e. behaviors have genetic components, this is an important assumption)&lt;/li&gt;
-  &lt;li&gt;types/classes of behaviors have variation&lt;/li&gt;
-  &lt;li&gt;some are more adaptive than others.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;There was a false belief that &lt;del&gt;“animals behave for the good of the species”&lt;/del&gt;.
-Actually animals behave to pass as many copies of their genes as possible (reproduction of the fittest).
-Sometimes this may look like behavior for the good of the species.&lt;/p&gt;
-
-&lt;p&gt;Ways to pass your genes:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Individual selection - maximize number of times you reproduce through natural selection (useful traits improving
-adaptability) and sexual selection (arbitrary traits).&lt;/li&gt;
-  &lt;li&gt;Kin selection - helping out relatives to reproduce (cooperate with relatives to a different degree, which depends on how
-closely they are related to you) by decreasing your own reproductive success.&lt;/li&gt;
-  &lt;li&gt;Reciprocal altruism - cooperation among non-relatives, but it must be reciprocal (you must get something out of it and not
-more than you put it), e.g. group hunting.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;prisoner-dilemma&quot;&gt;Prisoner Dilemma&lt;/h3&gt;
-
-&lt;p&gt;Reciprocal altruism leads to cheating and being good at detecting cheating against you. When to cheat and when to cooperate is studied in game theory. The basic “model” is &lt;a href=&quot;https://en.wikipedia.org/wiki/Prisoner%27s_dilemma&quot;&gt;Prisoner Dilemma&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;tit-for-tat-strategy&quot;&gt;“Tit for Tat” strategy&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;You cooperate&lt;/li&gt;
-  &lt;li&gt;Next time:
-    &lt;ul&gt;
-      &lt;li&gt;If they cooperated last time, you cooperate&lt;/li&gt;
-      &lt;li&gt;Otherwise you cheat&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Advantages:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Nice (kind)&lt;/li&gt;
-  &lt;li&gt;Retaliates&lt;/li&gt;
-  &lt;li&gt;Forgiving&lt;/li&gt;
-  &lt;li&gt;Deterministic.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This drives other strategies into extinction when multiple agents play multiples games with each other.&lt;/p&gt;
-
-&lt;p&gt;However, there is a vulnerability - signal error. 
-What if there is a possibility of a mistake (noise in the signal),
-e.g. cooperation looks like cheating.
-This wipes out 50% of cooperation:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ++-+-+...
-  +++-+-...
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;forgiving-tit-for-tat-ftft&quot;&gt;Forgiving Tit for Tat (fTfT)&lt;/h4&gt;
-&lt;p&gt;Improved version of TfT. 
-Like normal TfT but after “saw pattern” for 5 rounds - forgive and cooperate.
-fTfT outcompetes TfT when you can have signal error.
-It has another vulnerability - it can be exploited by strategies without forgiveness.&lt;/p&gt;
-
-&lt;h4 id=&quot;tft---ftft&quot;&gt;“Tft -&amp;gt; fTfT”&lt;/h4&gt;
-&lt;p&gt;Start off with pure TfT. If for N rounds the other party didn’t cheat, switch to fTfT.
-I.e. you begin to “trust” someone and this protects you from signal error.&lt;/p&gt;
-
-&lt;h4 id=&quot;pavlov&quot;&gt;Pavlov&lt;/h4&gt;
-&lt;p&gt;When I do something and I get rewarded, do it again next time. If I lose, I switch.
-This allows you to exploit someone, who is forgiving.&lt;/p&gt;
-
-&lt;p&gt;Random mention: “The political uses of madness” - an article by Daniel Ellsburg on the optimal benefits of perceived madness 
-(&lt;a href=&quot;https://archive.org/details/ThePoliticalUsesOfMadness&quot;&gt;source1&lt;/a&gt;,
-&lt;a href=&quot;https://ia600102.us.archive.org/20/items/ThePoliticalUsesOfMadness/ELS005-001.pdf&quot;&gt;source2&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h4 id=&quot;examples-in-nature&quot;&gt;Examples in nature&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;vampire bats. Females share their nest with non-relatives. Everyone feeds all babies.
-When they think that one female cheats on them, they stop feeding her kids.&lt;/li&gt;
-  &lt;li&gt;black hamlet fish. They can change their gender. Pair of them flip their gender back and forth. Being female
-is more “expensive”. If one fish ends up being a male too many times, other fish will stop cooperating with them
-(TfT).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Exceptions:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;lion. Non-relatives in a pride. If you fake a sound of other lion in the bush, in many prides one lion
-stays behind the group, while all other go to check and risk by doing this. However, this lion is not punished.
-In real world you can have many ongoing games at the same time or others just don’t pay attention.&lt;/li&gt;
-  &lt;li&gt;naked mole-rat. Big cooperative colonies (possibly non-relatives). 1-2 animals don’t do any work, but no 
-one punishes them. They are even larger, because they eat more. However, when the rainy season comes
-they plug the entry to the tunnel with their bodies (example of another ongoing “game” and role
-diversification).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;application-to-behavior-analysis&quot;&gt;Application to behavior analysis&lt;/h3&gt;
-
-&lt;p&gt;How to use the fact that species maximize copies of their genes to analyze behavior? 
-Imagine that we have two skulls - one male and one female.
-Just by their relative size to each other we can conclude a lot:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr class=&quot;header&quot;&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;Males much larger&lt;/th&gt;
-&lt;th&gt;Males the same&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;male aggression&lt;/td&gt;
-&lt;td&gt;high (their body is built for this and females select for this)&lt;/td&gt;
-&lt;td&gt;low&lt;/td&gt;
-&lt;/tr&gt; 
-&lt;tr&gt;
-&lt;td&gt;variability in male reproductive success&lt;/td&gt;
-&lt;td&gt;high (5% males do 95% of reproduction)&lt;/td&gt;
-&lt;td&gt;low (every male gets 1-2 kids)&lt;/td&gt;
-&lt;/tr&gt; 
-&lt;tr&gt;
-&lt;td&gt;what females want&lt;/td&gt;
-&lt;td&gt;large body size&lt;/td&gt;
-&lt;td&gt;“good personality” - parental behavior (e.g. male birds bring food to females as
-evidence that they can feed kids)&lt;/td&gt;
-&lt;/tr&gt; 
-&lt;tr&gt;
-&lt;td&gt;parental behavior in males&lt;/td&gt;
-&lt;td&gt;low (not interested in kids)&lt;/td&gt;
-&lt;td&gt;high (care about kids)&lt;/td&gt;
-&lt;/tr&gt; 
-&lt;tr&gt;
-&lt;td&gt;life span&lt;/td&gt;
-&lt;td&gt;high variation&lt;/td&gt;
-&lt;td&gt;no difference by gender&lt;/td&gt;
-&lt;/tr&gt; 
-&lt;tr&gt;
-&lt;td&gt;twinning&lt;/td&gt;
-&lt;td&gt;rare (impossible to feed on your own)&lt;/td&gt;
-&lt;td&gt;more frequent (male helps to feed)&lt;/td&gt;
-&lt;/tr&gt; 
-&lt;tr&gt;
-&lt;td&gt;kids abandonment by females&lt;/td&gt;
-&lt;td&gt;rare (kids will die for sure, male won’t take care)&lt;/td&gt;
-&lt;td&gt;more frequent (male will feed them anyway)&lt;/td&gt;
-&lt;/tr&gt; 
-&lt;tr&gt;
-&lt;td&gt;species kind&lt;/td&gt;
-&lt;td&gt;tournament&lt;/td&gt;
-&lt;td&gt;pair bonding monogamous&lt;/td&gt;
-&lt;/tr&gt; 
-&lt;tr&gt;
-&lt;td&gt;example&lt;/td&gt;
-&lt;td&gt;peacock (feathers show that you can waste a lot of energy)&lt;/td&gt;
-&lt;td&gt;tamarin monkey (one can’t distinguish males and females visually)&lt;/td&gt;
-&lt;/tr&gt; 
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;We could see this only by ratio of male and female skull sizes.
-Humans fall in between these two kinds of species.&lt;/p&gt;
-
-&lt;h2 id=&quot;lecture-3-behavioral-evolution-ii&quot;&gt;Lecture 3: Behavioral Evolution II&lt;/h2&gt;
-
-&lt;p&gt;Let’s use “individual maximizes number of copies of their genes” to explain more behaviors.&lt;/p&gt;
-
-&lt;h3 id=&quot;explaining-infanticide&quot;&gt;Explaining infanticide&lt;/h3&gt;
-
-&lt;p&gt;Babies are cute - they are trying to reduce aggression by this. There are species with infanticide (e.g. lions).
-Patterns:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;adult male is the one killing&lt;/li&gt;
-  &lt;li&gt;infants who are most likely to be offsprings of other males are killed&lt;/li&gt;
-  &lt;li&gt;average interbirth interval in females is larger than the average tenure of high ranking male.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In other words, the new alpha male e.g. just killed the previous one, but all females won’t ovulate
-for 2.5 years, while you will be alpha male only for 1.5 years. Thus, by killing kids:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;reproductive success of other males is decreased&lt;/li&gt;
-  &lt;li&gt;females will start ovulating sooner (by stopping nursing).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This illustrates that individuals optimize number of copies of their genes instead of doing good for the species.
-Another example is mountain gorilla. They have infanticide even though they are at risk of extinction. 
-In other words, they even endanger their species more to increase their own reproductive success.&lt;/p&gt;
-
-&lt;p&gt;Peculiarly infanticide does not happen if previous alpha was a relative.
-Two male lions can even share a pride of they are brothers (adelphic polyandry).&lt;/p&gt;
-
-&lt;p&gt;Females have developed number of adaptations due to this as well.
-In some species females have spontaneous abortion due to smell of the new male
-(there is no point to invest more resources into the kid, since it will be killed anyway).
-Females can also try to protect their kids. If they are older, they will risk their life more
-(they are less likely to have another kid). Maternal grandmothers defend even more (they won’t
-reproduce at all).
-Another strategy is to have pseudo estrous (i.e. fake ovulation) during pregnancy.
-The new male mates and thinks that the kid is his.&lt;/p&gt;
-
-&lt;p&gt;Baboons do blackmail kidnaping of kids. If alpha attacks an individual, they can grab
-alpha’s kid implying “attack me and I will kill the kid”.&lt;/p&gt;
-
-&lt;h3 id=&quot;gender-ratio-fluctuations&quot;&gt;Gender ratio fluctuations&lt;/h3&gt;
-
-&lt;p&gt;In tournament species having a son is a volatile way (gamble) to pass your genes (may work out
-very well, but most likely won’t). Having a daughter is a conservative way (they will have few kids,
-but with high probability). However, giving birth to a male requires more energy. Higher 
-ranking females have more sons (can take the risks). During environment distress (e.g. famine)
-more daughters are born. This can produce sex ratio fluctuations (having sons is better
-when there are few males).&lt;/p&gt;
-
-&lt;h3 id=&quot;intrasexual-competition&quot;&gt;Intrasexual competition&lt;/h3&gt;
-
-&lt;p&gt;Males and females can have different reproductive goals.&lt;/p&gt;
-
-&lt;p&gt;This can be achieved by means of imprinted genes - their effect depends on which parent they come from.
-There is a genetic mechanism to achieve this. Examples of such genes and their usage in intrasexual competition:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Imprinted genes coming from father tend to improve fetal growth (i.e. the kid should get as much energy from
-the female as possible, males in migratory species do not care about future reproduction of a particular female,
-but only about their kid).&lt;/li&gt;
-  &lt;li&gt;From mother - slow down fetal development (this particular kid is less important to a female than their overall
-reproductive life).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This mechanism malfunctions if one of the genes gets disabled due to a mutation.&lt;/p&gt;
-
-&lt;p&gt;There are imprinted genes, which work only after birth. E.g. from male one can get “suck more milk” (i.e.
-get more calories from female). You only see this in tournament species.&lt;/p&gt;
-
-&lt;p&gt;Humans have imprinted genes. By their quantity we are again in between pair bonding and tournament species.&lt;/p&gt;
-
-&lt;p&gt;There is sperm competition in polyandrous species.
-In some fly species sperm makes toxins that kill sperm of other males.
-However, they cause harm to females too.
-This makes no sense for the good of species,
-but does for individual success.&lt;/p&gt;
-
-&lt;h3 id=&quot;direction-of-male-aggression&quot;&gt;Direction of male aggression&lt;/h3&gt;
-
-&lt;p&gt;There are species (e.g. chimpanzee) with exogamy (individuals leaving the group after puberty to avoid
-interbreading). If males leave the group - you get high aggression inside the group among males (they 
-are not relatives). If females - among groups (chimpanzee genocide and border patrols). Human military tries
-to create this kinship artificially, chimpanzees have it by nature.&lt;/p&gt;
-
-&lt;h3 id=&quot;cooperation&quot;&gt;Cooperation&lt;/h3&gt;
-
-&lt;p&gt;You can start cooperation by reintroducing highly interbread group (close relatives) into general population.
-This small group can outcompete others (due to their kinship) and others are forced to start cooperating as well.
-This is a push towards group selection (highly interbread group with kinship cooperation can drive others who don’t cooperate
-to extinction). In humans - trust in business or low interest loans.&lt;/p&gt;
-
-&lt;p&gt;It can be the case that strategy A dominates B when there is only one individual in each group,
-but A is dominated by B when there are many individuals in each group. E.g. a group of aggressive chickens would
-injure each other. However, when there are only two chickens, an aggressive one will outperform non-aggressive.
-This is a group selection as well (but due to personal benefit in the end).&lt;/p&gt;
-
-&lt;p&gt;Thus, we observe multilevel selection:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;single gene level&lt;/li&gt;
-  &lt;li&gt;individual&lt;/li&gt;
-  &lt;li&gt;group&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;criticism&quot;&gt;Criticism&lt;/h3&gt;
-
-&lt;p&gt;Criticism of applying Darwinian principles to behavior:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Heritability of behavior - what are the molecular principles driving this?&lt;/li&gt;
-  &lt;li&gt;Adaptiveness - everything you see has an adaptive explanation for
-why it emerged evolutionarily - there are non-adaptive traits. 
-Why do humans have chins? Otherwise you can’t get a flat face. These are so called
-spandrel traits, they are just an inevitable result of other traits.&lt;/li&gt;
-  &lt;li&gt;Gradualism - evolutionary change occurs in gradual incremental steps.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;There is also political criticism - founding social biologists were white south American males (i.e. 
-they could just be justifying male domination because this is positive for them).&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-of-following-lectures&quot;&gt;Summary of following lectures&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/post/human-behavioral-biology-sapolsky-course-summary-lectures-4-5&quot;&gt;4 &amp;amp; 5 - Molecular genetics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">I watch “Human Behavioral Biology” course by Robert Sapolsky (from Stanford) on Youtube. It is very interesting. Here is my summary of the first three lectures.</summary></entry></feed>
+only in the framework of the outcome.&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">I took &quot;The science of wellbeing&quot; course at Coursera. I absolutely loved it! I would like to share my impression and a not so brief summary.</summary></entry></feed>
