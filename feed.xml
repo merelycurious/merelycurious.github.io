@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-04-24T07:42:27+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">TODOs are your friends</title><link href="https://merelycurious.me/post/todos-are-your-friends" rel="alternate" type="text/html" title="TODOs are your friends" /><published>2019-04-24T07:00:00+02:00</published><updated>2019-04-24T07:00:00+02:00</updated><id>https://merelycurious.me/post/todos_are_your_friends</id><content type="html" xml:base="https://merelycurious.me/post/todos-are-your-friends">&lt;p&gt;I’ve started using TODOs not only in my code. Now I find them very useful
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-04-28T13:36:42+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">The worst that can happen</title><link href="https://merelycurious.me/post/the-worst-that-can-happen" rel="alternate" type="text/html" title="The worst that can happen" /><published>2019-04-28T13:00:00+02:00</published><updated>2019-04-28T13:00:00+02:00</updated><id>https://merelycurious.me/post/the_worst_that_can_happen</id><content type="html" xml:base="https://merelycurious.me/post/the-worst-that-can-happen">&lt;p&gt;Asking yourself “What is the worst that can happen as a result of a given activity?” can help you
+to start doing tasks where you are scared to fail or to avoid dangerous activities. Let’s see
+how it helps me.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;I don’t like feeling embarrassed, failing or showing my incompetence. 
+I’d bet many of you are the same. However, these fears are pretty irrational
+and they can prevent me from doing or even trying to do something where I can
+fail. I especially observe this in creative work and large complex tasks.
+In creative work there is always something sitting inside you and
+whispering (or shouting) “this is shit, no one will like it, people will laugh at you,
+don’t waste your time, you know this, just give up and call it a day, do something easy
+instead, even you don’t like it” and so on. In the case of large tasks, there are so
+many different parts to it that you just can’t have a complete plan. As a result you
+are not sure whether what you are doing now actually helps you to accomplish the task. In both
+cases this is like an internal built-in heuristic against wasting your time. There are
+situations where this makes sense, but nowadays this is rarely the case.&lt;/p&gt;
+
+&lt;p&gt;Asking “what is the worst that can happen” helps me to get through this heuristic.
+In most creative efforts (like writing this blog post or coding a game) the failure is not
+as bad as it is perceived to be. For example, I am writing this blog post now
+and I am not sure whether it will end up being interesting or useful to anyone. 
+But what is the worst that can happen? Someone won’t like this post and may write
+me an angry email. Or I won’t like this post myself and just delete it completely without
+publishing at all. Asking this question helps me to change my perspective. Instead of 
+being scared of this abstract notion of a failure (the last word should be read with a spooky voice),
+I actually try to make it explicit - yes, I can fail, but what does that mean precisely? Is it actually
+that bad and scary as I think? More formally you just explicitly estimate a lower bound for the outcome.
+Instead of saying abstract “failing is bad, I don’t like failing” you say how bad it actually is.
+This gives you something precise to cope with.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/the_worst_that_can_happen/before_after.png&quot; alt=&quot;Illustration showing one large spooky vague failure somewhere far away on the negative
+side before asking the question and a bunch of specific failures with definite locations
+on the negativity spectrum after.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One negative consequence present in any endeavor is wasting your time.
+You did something, it didn’t work out and is of no use now, the time spent doing it is gone
+(if I add “forever” here this feels even scarier). However, that’s fine. First, you tried
+to experiment with something, to do something risky and unusual and you didn’t manage.
+This is much better than just giving up and perhaps you have learned something in the process
+which may improve your chances next time. Second, even if you don’t “waste” your time on this task,
+how would you use it differently? At least for me this often means consuming some content
+(like Reddit or Youtube). But time spent doing this is gone forever too and I am not sure what
+is better, since I will very likely learn nothing from Reddit or Youtube in majority of cases.&lt;/p&gt;
+
+&lt;p&gt;Formulating a task in a specific way can help as well. One can say “I will do this large cool
+game perfectly and publish it immediately and show to millions of people” and this becomes hard.
+Just finishing a game is already tricky, doing this perfectly on the first try is impossible.
+Furthermore, the commitment to publish it just increases the amount of embarrassment you can get.
+Instead you can say “I will create the first version of my game somehow (it won’t be perfect but
+will show the concept) and I will show it to 1 person”. This person can even be you.&lt;/p&gt;
+
+&lt;p&gt;This blog is a good example of me applying “what the worst that can happen” iteratively.
+I am definitely not sure whether a given post will be interesting to anyone except me,
+but in the worst case it will be just there and people won’t read it (or I delete it instead of 
+publishing).&lt;/p&gt;
+
+&lt;p&gt;This approach can also be used to avoid dangerous and risky stuff. If you ask yourself
+“what the worst that can happen” and if the answer does look scary to you (e.g. physical injury
+for the rest of your life), you probably shouldn’t do this. However, this approach is not perfect 
+and you can’t just follow it blindly. This is just a lower bound of the outcome, which does not
+take into account how likely the outcome is. Reasoning with this approach one shouldn’t fly on planes,
+drive cars or even get on the street all, because the worst outcome there is death.
+Thus, once you feel that the lower bound is too pessimistic, you may consider some more likely outcome instead.&lt;/p&gt;
+
+&lt;p&gt;Happy highly motivated creative work!&lt;/p&gt;</content><author><name></name></author><category term="productivity" /><category term="perspective" /><category term="creative" /><summary type="html">Asking yourself “What is the worst that can happen as a result of a given activity?” can help you to start doing tasks where you are scared to fail or to avoid dangerous activities. Let’s see how it helps me.</summary></entry><entry><title type="html">TODOs are your friends</title><link href="https://merelycurious.me/post/todos-are-your-friends" rel="alternate" type="text/html" title="TODOs are your friends" /><published>2019-04-24T07:00:00+02:00</published><updated>2019-04-24T07:00:00+02:00</updated><id>https://merelycurious.me/post/todos_are_your_friends</id><content type="html" xml:base="https://merelycurious.me/post/todos-are-your-friends">&lt;p&gt;I’ve started using TODOs not only in my code. Now I find them very useful
 in this new context. E.g. they can be a hint to prioritize and to postpone less important tasks.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1392,132 +1458,4 @@ rate of diabetes starts to go down (evolution of resistance). This happened with
 If you have enough of them, this will look like gradual change (gradualism).
 In some sense both models (gradualism and punctuated equilibrium) are correct at the same.
 Punctuated equilibrium is observed on individual trait level and gradualism when considering
-multiple traits.&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Continuing writing a summary for Robert Sapolsky’s course “Human Behavioral Biology”. Lectures 4 and 5.</summary></entry><entry><title type="html">German supermarket discounts for fun and profit</title><link href="https://merelycurious.me/post/weekly-discounts-in-german-supermarkets" rel="alternate" type="text/html" title="German supermarket discounts for fun and profit" /><published>2019-03-24T10:00:00+01:00</published><updated>2019-03-24T10:00:00+01:00</updated><id>https://merelycurious.me/post/weekly_discounts_in_german_supermarkets</id><content type="html" xml:base="https://merelycurious.me/post/weekly-discounts-in-german-supermarkets">&lt;p&gt;I recently started buying discounted food more and here are my tips &amp;amp; tricks.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
-
-&lt;p&gt;If you are sure that you will buy something and there happens to be a discount for it,
-you save money by buying with the discount.&lt;/p&gt;
-
-&lt;h2 id=&quot;expiration-date-discounts&quot;&gt;“Expiration date” discounts&lt;/h2&gt;
-&lt;p&gt;Let’s start with discounts motivated by a product reaching its expiration date.
-Basically all products have some expiration date. After that date supermarkets
-can’t sell the product anymore, i.e. they lose the money used to buy the product in the first place.
-Thus, they are motivated to incentivize people to buy the product before the expiration date. 
-When there is not much time left, they create this incentive by adding a discount.
-Usually in German supermarkets it is 30% off and usually it is added 1-2 days before
-the expiration date, but occasionally this can happen even 1 week in advance.&lt;/p&gt;
-
-&lt;p&gt;As a result, this is a way to save 30% on some of your food. This mostly works for food
-with shorter storage time like meat and bread (but not e.g. canned food).&lt;/p&gt;
-
-&lt;p&gt;Is this safe? Yes, the food hasn’t actually expired yet.
-I also suspect that food producers actually have some safety margin
-in the expiration date. In other words they may set the expiration date much earlier to be extremely sure that the
-product won’t go bad before that time. This is just my speculation though. Overall, I am not aware of any safety issues
-with this approach. Obviously, you should inspect food you buy using all your senses and trust your self preservation
-mechanisms, but this applies to anything you consume.&lt;/p&gt;
-
-&lt;p&gt;Obviously, we can’t just store such food in the fridge for long. One example usage is to cook it soonish.
-Usually once you cook it, you can store it for a bit longer or you can just consume the cooked food immediately.
-To save even more, you can freeze such foods (this works especially well for meat).
-This way you can store it for couple months.&lt;/p&gt;
-
-&lt;p&gt;Such discounts are more frequent on Saturdays. I suspect this is because the shops are closed on Sundays, so on Saturday they have to sell
-all food which would otherwise go bad on Sunday and Monday. This works even better before large holidays (e.g. Christmas)
-presumably for the same reason.&lt;/p&gt;
-
-&lt;h2 id=&quot;weekly-discounts&quot;&gt;Weekly discounts&lt;/h2&gt;
-&lt;p&gt;There is the second kind of discounts. Almost all popular shops in Germany have “random” discounts which change each week. 
-This time they are not related to the expiration date (i.e. there is nothing unusual about the products).&lt;/p&gt;
-
-&lt;h3 id=&quot;ways-to-explain-this&quot;&gt;Ways to explain this&lt;/h3&gt;
-&lt;p&gt;I have a number of hypotheses why supermarkets do this:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;This brings people to the supermarket itself.
-    &lt;ol&gt;
-      &lt;li&gt;Once a person is there, they can lose their self control and buy more stuff (even non-discounted).&lt;/li&gt;
-      &lt;li&gt;The time spent getting to the shop can be considered as a sunk cost and promote buying more as well.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Discount itself may promote buying more of the discounted product, i.e. “I don’t actually need this,
-but next week there will be no discount, so I should buy it now to get the discount”.&lt;/li&gt;
-  &lt;li&gt;Storing stuff presumably costs money. Occasionally it may be better to sell stuff with a discount than to store it. I.e. the shop may
-“pass” you some portion of the money they would otherwise pay for storage, but which they managed to save by you buying the stuff.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;ways-to-discover&quot;&gt;Ways to discover&lt;/h3&gt;
-&lt;p&gt;There are 2 major ways to discover such discounts:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Go to the shop itself and look for brightly colored price tags.&lt;/li&gt;
-  &lt;li&gt;Check shop’s magazines online (the German keyword is “Prospekt”,
-e.g. &lt;a href=&quot;https://www.lidl.de/de/online-prospekt&quot;&gt;Lidl&lt;/a&gt;, &lt;a href=&quot;https://www.penny.de/angebote/prospekt-der-woche/&quot;&gt;Penny&lt;/a&gt;,
-&lt;a href=&quot;https://www.netto-online.de/ueber-netto/Online-Prospekte.chtm&quot;&gt;Netto&lt;/a&gt;).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I definitely prefer the second approach, since it is much more efficient (takes less time and you don’t look
-at non-discounted products at all).&lt;/p&gt;
-
-&lt;h3 id=&quot;possible-pitfalls&quot;&gt;Possible pitfalls&lt;/h3&gt;
-&lt;p&gt;You should keep in mind that supermarkets are doing this for a long time and, thus, in the end this must be
-profitable for them. As a result you should be careful and make sure that you are actually the one
-benefiting from these discounts. I can imagine the following possible pitfalls:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Are you able to control yourself at the shop itself and stick to buying only what you originally planned?
-Lists help.&lt;/li&gt;
-  &lt;li&gt;If you don’t need something in the first place, you just lose money by buying it (even when it is heavily discounted).
-E.g. you never eat rice, there is no point in buying it, even when it costs 50% less this week. Instead you should focus on things you
-would buy anyway. However, if your uncle loves rice and consumes 3 kilograms of it during his visits, buying rice with 50% discount
-and storing it saves you money.
-    &lt;ol&gt;
-      &lt;li&gt;There is a neat way in which you can check the magazines to avoid this issue - look only at the
-product pictures (but not prices) at first. I.e. if you don’t need something, don’t even check its price. Once you find
-something you need, check its price.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Discount on a more expensive product may be not a discount for you.
-E.g. you use shampoo A, which costs 1 euro per liter, but there is a discounted shampoo B which costs only 2 euro per liter
-instead of its normal price of 4 euro. If you buy B, you actually lose 1 euro (i.e. discounted B price minus normal A price) instead of
-saving 2 euro as it might have looked at first.
-    &lt;ol&gt;
-      &lt;li&gt;Another variation of this is seasonal food price fluctuations. E.g. in winter watermelons can have a discounted price of 
- only 0.99 per kilo instead of 1.99. However, they cost 0.4 per kilo during the season. So you still in some sense lose
- money when paying discounted 0.99. Obviously, if you consume watermelons all year round, you would actually save, so go for it!&lt;/li&gt;
-      &lt;li&gt;Another example could be if a shop increases the price right before having a discount. 
- I don’t think this is intentionally done in Germany, but still worth keeping in mind especially in other countries.
- Usually you start remembering normal prices for main staples with time. Alternatively, if you track your expenses 
- in great detail, you could use that info to double check the price (e.g. how much did this cost last time I bought it?).&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Different offers in magazines can apply to different dates. Yes, they like to have 5 pages with entire week discounts, 
-followed by one page for only e.g. Mon-Wed discounts. I think this is intended, because then people may miss this and
-when they buy a lot of stuff in addition to discounted things (but you shouldn’t do this anyway), they will miss that
-they are buying without the discount. However, if you don’t buy much, just check the receipt after buying. Normally, there is a paper
-magazine in the shop itself, so you can double check the discounted price there (or even show it to the cashier).&lt;/li&gt;
-  &lt;li&gt;There may be no discounted price tags on Monday yet. I’ve got an impression that discounted price tags appear after some time.
-So if you go on Monday morning, either take the paper magazine or note down the prices you expect.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;how-much-can-i-save&quot;&gt;How much can I save?&lt;/h3&gt;
-&lt;p&gt;This depends on you and how flexible you are. For example, Jacob from &lt;a href=&quot;http://earlyretirementextreme.com/&quot;&gt;Early Retirement Extreme&lt;/a&gt; suggests to buy &lt;strong&gt;only&lt;/strong&gt; discounted food and then decide what to cook out of it. This definitely requires quite some creativity
-and may be not that convenient. Alternatively you can go for some middle ground solution. For example, one can buy discounted food
-which can be stored for a long time. This mostly includes canned and frozen foods (already frozen vegetables/fruits or self frozen meat).
-Canned foods can be easily stored 1-2 years, so it is possible to buy reasonably large discounted batches and just store it and use
-whenever there is a need. Already frozen foods also have large lifespan, you just need a freezer and a reliable energy source.
-For self frozen there is no clear time bound, but its state may start to become worse after e.g. 3 months, so that’s a good rule of thumb
-I use. This way you still have flexibility (you can cook what you want right now), while partially benefiting from discounts available.&lt;/p&gt;
-
-&lt;p&gt;I observed 10-30% discounts, so if you manage to buy 100 euro of discounted food, you would save 10-30 euro. 
-While this is not a life changing sum of money and you definitely shouldn’t rely on this discount in your
-FIRE calculations (otherwise the calculations are too tight, trust me), it is also not that much of an effort and can be
-even pleasant if you like optimizing your life.&lt;/p&gt;
-
-&lt;p&gt;Some people may think here that this is not worth their time, because they earn so much more than that.
-I’ve already &lt;a href=&quot;/post/my-time-costs-x-fallacy&quot;&gt;looked into this (“My time costs X” fallacy)&lt;/a&gt;.
-In this particular case you can check the magazines literally in 5-10 minutes and you would have to go the shop anyway
-(unless you order your food online, but then you have more fruitful ways to save money, for example, by not ordering
-food online).&lt;/p&gt;
-
-&lt;p&gt;Happy discounted shopping!&lt;/p&gt;</content><author><name></name></author><category term="saving" /><summary type="html">I recently started buying discounted food more and here are my tips &amp;amp; tricks.</summary></entry></feed>
+multiple traits.&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Continuing writing a summary for Robert Sapolsky’s course “Human Behavioral Biology”. Lectures 4 and 5.</summary></entry></feed>
