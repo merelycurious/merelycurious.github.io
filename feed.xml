@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-04-30T08:43:09+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">FIRE is a marathon, not a sprint</title><link href="https://merelycurious.me/post/fire-marathon-not-sprint" rel="alternate" type="text/html" title="FIRE is a marathon, not a sprint" /><published>2019-04-30T08:00:00+02:00</published><updated>2019-04-30T08:00:00+02:00</updated><id>https://merelycurious.me/post/fire_marathon_not_sprint</id><content type="html" xml:base="https://merelycurious.me/post/fire-marathon-not-sprint">&lt;p&gt;I’ve caught myself delaying a lot of (mostly pleasant) stuff to post FIRE times (i.e. quite far in the future).
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-05-12T22:17:12+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Your time networth</title><link href="https://merelycurious.me/post/weekly-networth" rel="alternate" type="text/html" title="Your time networth" /><published>2019-05-12T22:00:00+02:00</published><updated>2019-05-12T22:00:00+02:00</updated><id>https://merelycurious.me/post/weekly_networth</id><content type="html" xml:base="https://merelycurious.me/post/weekly-networth">&lt;p&gt;Many people know how many percents of their networth is invested in X.
+However, occasionally it is much more important how you invest your time.
+I call this  (surprise) “time allocation”. Let’s see how to do this and a couple
+of unexpected examples, where percentage looks much scarier than the plain number of hours.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;trigger&quot;&gt;Trigger&lt;/h2&gt;
+&lt;p&gt;I started looking into this topic to estimate how much “free” time I normally
+have per week. The idea was to make sure that, when I plan something for a given week, I don’t set
+obviously unreasonable goals. At first this wasn’t anything special,
+I just used some quick spreadsheet and got the numbers. However, then I checked
+the percentages (i.e. how many percent of my weekly time a given activity takes)
+and was surprised by how much I underestimated them.&lt;/p&gt;
+
+&lt;h2 id=&quot;beauty&quot;&gt;Beauty&lt;/h2&gt;
+&lt;p&gt;This way of looking at your time allocation has many interesting properties.
+For example, if you do some activity every week (let’s imagine for the rest of your life),
+then this weekly time allocation becomes “rest of your life” time allocation.
+This definitely makes you feel differently. This implicitly forces you to prioritize:
+“Wait, this will take 10% of my life, do I actually need to do this?”.&lt;/p&gt;
+
+&lt;p&gt;Another observation is that time is your main resource.
+Yes, you can use money for some approximation, but money is just 
+a representation of your time.&lt;/p&gt;
+
+&lt;p&gt;If I know how you spend your money and your asset allocation, I do know
+a lot about you. But knowing how you spend your time, gives away almost everything about you,
+except your reasons for doing something, i.e. “why”.&lt;/p&gt;
+
+&lt;p&gt;There is a common advice to look at what people do and not what they say.
+This exercise partially helps you to look at what you do, instead of what you 
+feel you do or want to do. People are bad at estimates and it is very easy to say
+I am X (e.g. writer) and feel like you spend enough time on this activity.
+What if you discover that only 5% of your weekly time goes to X?
+Are you then just 5% of a writer?&lt;/p&gt;
+
+&lt;p&gt;It would also be peculiar to know at the end of a life how much time went 
+into something. This could be some kind of ultimate measure, how much of a writer
+a person was. Obviously, different activities consume time differently, so it may be
+that you are indeed a writer, this just didn’t require that much time.
+I agree. I don’t claim that this “answers your life question” or that it is completely perfect.
+No, but it gives an interesting perspective, which I enjoy and find useful.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately it may be tricky to get a complete picture, since majority
+of things we do are not repeated across weeks. I suggest you to start with at least
+something and just consider activities you do weekly.&lt;/p&gt;
+
+&lt;p&gt;I definitely plan to explore better time tracking (probably at a very low granularity
+for a short period of time). I do track my expenses, so optimizing time is an obvious next target.
+Having this data would help me to get a better picture of my actual time allocation.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to&quot;&gt;How to&lt;/h2&gt;
+&lt;p&gt;I hope that you are now intrigued enough to give it a try.
+I prepared 
+&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1qa4PZYtSACpZm2HEDDgZvoeXUAIYOmeBvLWaJYeERyQ/edit&quot;&gt;a spreadsheet&lt;/a&gt;,
+which you can reuse (just make a copy).
+5 minutes granularity was reasonable for me, so that’s what
+the spreadsheet has, however, you are welcome to use 1 hour.&lt;/p&gt;
+
+&lt;p&gt;Basically each cell means “how I spend the next 5 minutes”.
+Below there are cells with all the calculations (sums and ratios).
+The data is just an example to give you an idea what you can do.&lt;/p&gt;
+
+&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;
+&lt;p&gt;Let’s see how various activity durations correspond to percentages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 hour daily -&amp;gt; 1 hour / day * 7 days / (168 hours / week) = 4.1% week&lt;/li&gt;
+  &lt;li&gt;1 hour every working day -&amp;gt; 1 hour / day * 5 days / (168 hours / week) = 2.9% week&lt;/li&gt;
+  &lt;li&gt;1 hour once a week -&amp;gt; 1 hour / (168 hours / week) = 0.59% week&lt;/li&gt;
+  &lt;li&gt;1 minute daily -&amp;gt; 1 minute / day * / (60 minutes / hour * 168 hours / week) = 0.069% week&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Is anyone asking your for a commitment taking 1 hour once a week
+for the rest of your life? If you agree, you will “spend” 0.59% of the
+rest of your life.&lt;/p&gt;
+
+&lt;h2 id=&quot;possible-improvements&quot;&gt;Possible improvements&lt;/h2&gt;
+&lt;p&gt;Obviously everyone has to sleep and do exercises and this is good.
+However, when these are taken into account in the denominator, we are
+implicitly incentivized to spend less time on them. This feels wrong.
+Thus, you may subtract some activities from denominator (i.e. from 168 hours per week, sleep is
+an obvious candidate) to mitigate this issue. For my use case,
+this was not needed.&lt;/p&gt;
+
+&lt;p&gt;Happy conscious time planning!&lt;/p&gt;</content><author><name></name></author><category term="exercise" /><category term="productivity" /><category term="self improvement" /><category term="different perspective" /><summary type="html">Many people know how many percents of their networth is invested in X. However, occasionally it is much more important how you invest your time. I call this (surprise) “time allocation”. Let’s see how to do this and a couple of unexpected examples, where percentage looks much scarier than the plain number of hours.</summary></entry><entry><title type="html">FIRE is a marathon, not a sprint</title><link href="https://merelycurious.me/post/fire-marathon-not-sprint" rel="alternate" type="text/html" title="FIRE is a marathon, not a sprint" /><published>2019-04-30T08:00:00+02:00</published><updated>2019-04-30T08:00:00+02:00</updated><id>https://merelycurious.me/post/fire_marathon_not_sprint</id><content type="html" xml:base="https://merelycurious.me/post/fire-marathon-not-sprint">&lt;p&gt;I’ve caught myself delaying a lot of (mostly pleasant) stuff to post FIRE times (i.e. quite far in the future).
 Let’s see what caused this, what the risks are and how I now avoid this.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1186,106 +1272,4 @@ approximately 2 months and be either successful or fail. Each bet should follow 
 &lt;p&gt;Mission driven projects need to be remarkable. People who encounter them should want to
 “remark” about it, i.e. share. Projects should also be launched in a venue which 
 supports such remarks (i.e. allows and promotes sharing). “Purple Cow” by Seth Godin
-talks about this.&lt;/p&gt;</content><author><name></name></author><category term="book" /><category term="summary" /><category term="review" /><summary type="html">I’ve read “So Good They Can’t Ignore You” by Cal Newport. Here is my impression (pretty mixed and rather on the negative side) and summary.</summary></entry><entry><title type="html">“The science of wellbeing” - brief summary</title><link href="https://merelycurious.me/post/the-science-of-wellbeing-course-brief-summary" rel="alternate" type="text/html" title="&quot;The science of wellbeing&quot; - brief summary" /><published>2019-03-31T10:00:00+02:00</published><updated>2019-03-31T10:00:00+02:00</updated><id>https://merelycurious.me/post/the_science_of_wellbeing_course_brief_summary</id><content type="html" xml:base="https://merelycurious.me/post/the-science-of-wellbeing-course-brief-summary">&lt;p&gt;&lt;a href=&quot;/post/the-science-of-wellbeing-course-review&quot;&gt;My summary&lt;/a&gt;
-of &lt;a href=&quot;https://www.coursera.org/learn/the-science-of-well-being&quot;&gt;&quot;The science of wellbeing&quot;&lt;/a&gt; course at Coursera happened to be much larger than
-I originally expected. Here is a more concise one, so that one can quickly refresh all important details.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;important-warning-disclaimer&quot;&gt;Important-warning-disclaimer&lt;/h2&gt;
-&lt;p&gt;Below is my very brief summary of the course. If you are considering taking the course,
-don’t read this summary. This will spoil all the fun for you. Just go ahead and do the course.&lt;/p&gt;
-
-&lt;p&gt;If you don’t consider taking the course, please think again. It is really an amazing course and both of my
-summaries probably miss a lot of details. You will get much more by going through the course
-(it is only ~19 hours) and doing all the revirements and seeing all the research. Please do the course,
-you will like it and understand what I mean!&lt;/p&gt;
-
-&lt;p&gt;This summary is also too brief to make sense on its own. This is rather a cheat-sheet for people who
-took the entire course. Taking the course (or at least reading 
-&lt;a href=&quot;/post/the-science-of-wellbeing-course-review&quot;&gt;my larger summary&lt;/a&gt;)
-would explain a lot of the items below.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Ok, now let’s get started with a brief summary. Reading through everything in 
-&lt;a href=&quot;/post/the-science-of-wellbeing-course-review&quot;&gt;my “large” summary&lt;/a&gt;
-is possible, but takes a lot of time. Thus, I would like to summarize my summary even more and write
-something short, which I could quickly reread when I feel like I started to forget the details.&lt;/p&gt;
-
-&lt;h3 id=&quot;we-are-wrong&quot;&gt;We are wrong&lt;/h3&gt;
-&lt;p&gt;We think that having a good job, high salary, money, awesome stuff, true love, a perfect face/body or good grades will make us happy.
-Actually we miswant these (i.e. are mistaken about how much we will like something in the future),
-because of annoying features of our minds:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Our mind strongest intuitions are often totally wrong&lt;/li&gt;
-  &lt;li&gt;We judge everything relative to (often irrelevant) reference points (e.g. other people or what we had before)&lt;/li&gt;
-  &lt;li&gt;Hedonic adaptation - our minds are built to get used to stuff (both positive and negative)&lt;/li&gt;
-  &lt;li&gt;We don’t know about this adaptation and overestimate effects of negative and positive changes in our lives
-(due to focalism and immune neglect). You will be fine if you fail.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;what-to-do&quot;&gt;What to do?&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Prefer (non-material) experiences to physical stuff.
-    &lt;ol&gt;
-      &lt;li&gt;Anticipate them&lt;/li&gt;
-      &lt;li&gt;Talk about them with others&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Savour - step outside of an experience to review and appreciate it fully while it is still happening.
-    &lt;ol&gt;
-      &lt;li&gt;Laugh, giggle, express energy physically (jumping, yelling)&lt;/li&gt;
-      &lt;li&gt;Think how lucky and proud you are&lt;/li&gt;
-      &lt;li&gt;Don’t &lt;del&gt;think about future&lt;/del&gt;, don’t &lt;del&gt;remind yourself that experience will be over or could be better or
- will never be so good again&lt;/del&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Express gratitude
-    &lt;ol&gt;
-      &lt;li&gt;Tell other people if you are grateful to them&lt;/li&gt;
-      &lt;li&gt;Once a week write 5 items from the last week, which you are grateful for (take time to feel it through)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Reset your reference points
-    &lt;ol&gt;
-      &lt;li&gt;After a positive change, re-experience your previous state (either remember or find a real example)&lt;/li&gt;
-      &lt;li&gt;Curate information which you let into your life (e.g. no social media, no TV)&lt;/li&gt;
-      &lt;li&gt;Interrupt your consumption - split awesome things you love (and vice versa - squish all bad things together to use 
- hedonic adaptation)&lt;/li&gt;
-      &lt;li&gt;Increase variety and choose proper timing (don’t eat an ice cream 40 seconds after the previous one)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Want right things
-    &lt;ol&gt;
-      &lt;li&gt;Employing signature strengths in your career&lt;/li&gt;
-      &lt;li&gt;Getting into “flow” both at work and at leisure&lt;/li&gt;
-      &lt;li&gt;Growth mindset (“I can grow through hard work”) instead of fixed (&lt;del&gt;“talent is fixed”&lt;/del&gt;)&lt;/li&gt;
-      &lt;li&gt;Intrinsic motivation (doing something due to enjoying the activity itself) instead of extrinsic (due to external rewards)&lt;/li&gt;
-      &lt;li&gt;Opportunities to do acts of kindness (even small, even to random people)&lt;/li&gt;
-      &lt;li&gt;Social connections (even talking to strangers)&lt;/li&gt;
-      &lt;li&gt;Time affluence (feeling of having enough time to do things you actually want)&lt;/li&gt;
-      &lt;li&gt;Controlling your mind (i.e. decreasing mind-wandering through meditation)&lt;/li&gt;
-      &lt;li&gt;Exercise&lt;/li&gt;
-      &lt;li&gt;Enough sleep (and of good quality)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;how-to-implement&quot;&gt;How to implement?&lt;/h3&gt;
-&lt;p&gt;Just knowing is not sufficient. Strategies for better habits:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Situation support (fix bad environments, promote healthy environments)&lt;/li&gt;
-  &lt;li&gt;Set specific goals (e.g. quantitative). Specificity gives you a plan how to achieve the goal&lt;/li&gt;
-  &lt;li&gt;Visualize goals: positive outcome followed by possible obstacles&lt;/li&gt;
-  &lt;li&gt;Implementation intention through “if then” plans&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The last 3 can be combined into WOOP method:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Think about your (optionally the most important for now) wish (as specific as possible)&lt;/li&gt;
-  &lt;li&gt;Its best outcome&lt;/li&gt;
-  &lt;li&gt;Potential obstacles&lt;/li&gt;
-  &lt;li&gt;Your if/then plan&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This links the obstacle to the wish together with instruments to overcome it and helps to recognize existence of the obstacle&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><category term="summary" /><summary type="html">My summary of &quot;The science of wellbeing&quot; course at Coursera happened to be much larger than I originally expected. Here is a more concise one, so that one can quickly refresh all important details.</summary></entry></feed>
+talks about this.&lt;/p&gt;</content><author><name></name></author><category term="book" /><category term="summary" /><category term="review" /><summary type="html">I’ve read “So Good They Can’t Ignore You” by Cal Newport. Here is my impression (pretty mixed and rather on the negative side) and summary.</summary></entry></feed>
