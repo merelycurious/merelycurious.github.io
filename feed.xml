@@ -1,4 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-05-12T22:17:12+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Your time networth</title><link href="https://merelycurious.me/post/weekly-networth" rel="alternate" type="text/html" title="Your time networth" /><published>2019-05-12T22:00:00+02:00</published><updated>2019-05-12T22:00:00+02:00</updated><id>https://merelycurious.me/post/weekly_networth</id><content type="html" xml:base="https://merelycurious.me/post/weekly-networth">&lt;p&gt;Many people know how many percents of their networth is invested in X.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-05-14T07:23:07+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 7)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-7" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 7)" /><published>2019-05-14T07:00:00+02:00</published><updated>2019-05-14T07:00:00+02:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_7</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-7">&lt;p&gt;Slowly (but steadily) going through the Sapolsky’s course. Lecture 7.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;lecture-7-behavioral-genetics-ii&quot;&gt;Lecture 7: Behavioral Genetics II&lt;/h2&gt;
+
+&lt;h3 id=&quot;genetic-packages-metro-dogs-example&quot;&gt;Genetic packages (metro dogs example)&lt;/h3&gt;
+&lt;p&gt;Another example similar to the domesticated Siberian foxes case is metro dogs in Russia.
+They are effectively selected for avoiding humans, being in packs and aggressive temperament.
+As a result, they start looking like wolves very fast (e.g. tail shape). This appearance is not needed
+for their survival, but it comes as one genetic package.&lt;/p&gt;
+
+&lt;h3 id=&quot;behavioral-genetics-approaches&quot;&gt;Behavioral genetics approaches&lt;/h3&gt;
+&lt;p&gt;Modern version of behavioral genetics tries to find a gene for something. 
+In the classic version, a phenotype was considered and then individual genes
+were compared in individuals, which have different phenotype trait (e.g. eye color),
+i.e. something external. Alternatively one can look at proteins and how they function (i.e. an intermediate step between
+genes and traits). Finally one can investigate differences of protein sizes (without knowing
+the precise function). However, this works only in “simpler” cases, like looking for a gene
+for a specific disease like PKU, cystic fibrosis (but not TV taste). Now find a family where
+approximately half has the disease. Find a segment of DNA which everyone with the disease 
+has, but no one without. This usually gives you a stretch of DNA consisting of 10-30 genes.
+Somewhere in this sequence there is “the gene”.&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;One must be very certain in the conclusions before claiming anything
+(e.g. ways to detect diseases can be used to decide whether to abort pregnancies).&lt;/li&gt;
+  &lt;li&gt;Bio ethics - there is a very low statistical chance that you’ve got a wrong marker.
+Should people get tested for the disease using these markers anyway?&lt;/li&gt;
+  &lt;li&gt;Finding “the gene” - most diseases are not caused by one gene. There are ways to find multiple genes,
+e.g. gene microarrays (which involves forcing a cell to produce all RNA it has and then gluing it on a chip,
+keyword: QTL).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;starting-with-gene&quot;&gt;Starting with gene&lt;/h2&gt;
+&lt;p&gt;Another approach is to start from a gene and to study it across species.
+E.g. you have 2 different versions of a gene and try to see differences in behavior,
+protein function or size.&lt;/p&gt;
+
+&lt;p&gt;Issue - this way you look only where “the light is shining”.&lt;/p&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;vasopressin hormone - in rodents (vole) its receptor defines
+whether an individual is monogamous or polygamous. The difference is in promoter.
+After discovering this, one can ask whether this holds for people and try to see the differences.
+It does actually hold - if you have the monogamous promoter - more stable relationships. How good one at reading faces also
+depends on this. Families with autism have mutations in vasopressin receptor.&lt;/li&gt;
+  &lt;li&gt;BNDF protein - prompts growing new neurons. In rats causes creation of new connections in amygdala
+and impacts anxiety levels. There are different versions of it. You can study this in rats and then in people (this has been done). In humans the type of this protein identifies likelihood of anxiety disorder and level of stress hormones in blood.&lt;/li&gt;
+  &lt;li&gt;Dopamine (DF4 in rodents) - defines levels of risk-taking behavior in humans (novelty seeking).&lt;/li&gt;
+  &lt;li&gt;NPY - differences of levels of anxiety in humans.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However, all of these explain only a small portion of overall variability.&lt;/p&gt;
+
+&lt;h3 id=&quot;role-of-random-events-chance&quot;&gt;Role of random events (chance)&lt;/h3&gt;
+&lt;p&gt;Brownian motion - intrinsic movements of molecules (completely random).&lt;/p&gt;
+
+&lt;p&gt;Mitochondria has their own DNA and there can be different mitochondria DNA in one cell (mitochondria divides on its own). When a cell splits, the resulting set of mitochondria DNA in each daughter is random (based on 
+position of mitochondria in the cell during the split).
+The same is true for transcription factors and splicing enzymes.&lt;/p&gt;
+
+&lt;p&gt;As a result, it is not “Nature + Nurture”, but “Nature + Nurture + Chance”.&lt;/p&gt;
+
+&lt;h3 id=&quot;heritability&quot;&gt;Heritability&lt;/h3&gt;
+&lt;p&gt;All such studies result in some statement like “this trait has 53% heritability”.
+The meaning of this is often misunderstood.&lt;/p&gt;
+
+&lt;p&gt;Heritability does not tell how genes affect average value of a given trait,
+but instead the degree of variability around the average.
+E.g. imagine a trait with values 9, 10, 11 and another trait with values 1, 10, 19.
+In both cases the average is 10, but the variability is larger in the second case.
+In this example heritability does not tell how much genes determine the average value 10,
+but variability instead.&lt;/p&gt;
+
+&lt;p&gt;Another example - imagine a plant with 3 versions of a gene (A, B and C) defining how well it retains water.
+There is a difference of this trait across A, B and C (i.e. this gene has good predictive power).
+At the same time environment affects it much more, thus, heritability is actually low.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/human_behavioral_biology_summary/7_environment_vs_genes.png&quot; alt=&quot;A histogram showing environment affecting the trait value much more than the gene&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you happen to study only one environment, it will look like genes are much more important than they actually are.
+Unfortunately, that’s how science mostly works (take one species like some dessert rat and study it, i.e.
+control for environment). This removes ability to see the role of environment.&lt;/p&gt;
+
+&lt;p&gt;Random peculiar fact - how to measure protein size - put them somewhere where they move as a
+function of their size and measure difference in position (e.g. sinking in a gel).&lt;/p&gt;
+
+&lt;p&gt;In other words, if you had to predict trait level - would you choose environment or genes?&lt;/p&gt;
+
+&lt;p&gt;Humans inhabit a lot of environments. There are gene-environment interactions, which can change gene effect.&lt;/p&gt;
+
+&lt;p&gt;Studying only one environment inflates heritability.&lt;/p&gt;
+
+&lt;p&gt;More examples.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Heritability of number of fingers in humans. Genes define “5”, but not variability. The variability is 
+e.g. due to industrial incidents. Thus, 0% heritability.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Men with earing in 1950 were rare, but almost all women had earrings. The variability is caused by gender,
+thus, 100% heritability (if you had to guess, you would love to know individual’s gender).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;environment-is-important&quot;&gt;Environment is important&lt;/h4&gt;
+&lt;p&gt;Examples where environment plays crucial role in the outcome:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PKU is related to a disorder, when toxic phenylaline cannot be turned into a safer thing inside the body. 
+To predict the disease, would you like to know where the person lives or whether there is a mutation
+in the enzyme? Obviously, mutation, 100% heritability. But the disease highly depends on food.
+One can avoid certain foods and don’t be affected by the disease.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Consider another gene, which is related to depression.
+  There are 2 versions - “good” and “bad”, which affect how prone to depression one is.
+  However, this also depends on number of major childhood stressors they had 
+  (divorce, loss of parent). What do these genes do? It depends on your environment.
+  If you have no stressors, then the “bad” version actually makes you less prone to depressions
+  (the study observed tiny differences).&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/post_resources/human_behavioral_biology_summary/7_depression_gene.png&quot; alt=&quot;A plot showing the &amp;quot;bad&amp;quot; gene being better without any stressors, but much worse with stressors.&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;The number of stressors actually defines level of stress hormones.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There is a gene, which affects predisposition to aggression. The graph is the same as above, but the horizontal
+axis is “child abuse”.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;FAD2 - predicts IQ abilities and is involved in carbohydrates metabolism.
+The environment in this case is “breast feeding”.
+I.e. it predicts IQ abilities, if you have a diet high in carbohydrates very early in life.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;On average men are better at math than women. 
+However, is this genetic? When studied all over the world, 
+the greater the gender inequality was, the larger was the difference in math scores.
+It is not a function of gender, but the society type. In Iceland (smallest gender inequality)
+girls are even slightly better at math than boys. If we wanted to guess, we would rather 
+known whether they are from Tunisia or Iceland. Even when considering top 1%, this is still
+not much about genes (in the US in 1950 the ratio was 13 boys to 1 girl, nowadays - 3 to 1).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The more environments you study, the lower heritability is going to be. We are giving more opportunities to
+say “it depends”. As a result, it is meaningless to ask “what does this gene do?”, instead it should be
+“what does this gene do in this particular environment?”.&lt;/p&gt;
+
+&lt;p&gt;Single genes define a lot for flies. Even when you see a gene for X,
+is it just an indirect effect (like height causing being an extrovert)?&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Slowly (but steadily) going through the Sapolsky’s course. Lecture 7.</summary></entry><entry><title type="html">Your time networth</title><link href="https://merelycurious.me/post/weekly-networth" rel="alternate" type="text/html" title="Your time networth" /><published>2019-05-12T22:00:00+02:00</published><updated>2019-05-12T22:00:00+02:00</updated><id>https://merelycurious.me/post/weekly_networth</id><content type="html" xml:base="https://merelycurious.me/post/weekly-networth">&lt;p&gt;Many people know how many percents of their networth is invested in X.
 However, occasionally it is much more important how you invest your time.
 I call this  (surprise) “time allocation”. Let’s see how to do this and a couple
 of unexpected examples, where percentage looks much scarier than the plain number of hours.&lt;/p&gt;
@@ -1142,134 +1293,4 @@ Petting itself does not matter, but only mother reaction.
 Licking and grooming by mother causes larger brain and all other possible outcomes mentioned above. 
 This can have multi-generational effect - licked and groomed daughters will lick and groom their kids more (
 again non-Mendelian inheritance). This changes access of transcription factors, which are related to activating genes for making receptors for
-stress hormones. It is also reversible. Cross-fostering after non-grooming mom improves kids state.&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Continuing watching and writing a summary for Robert Sapolsky’s course “Human Behavioral Biology”. Lecture 6.</summary></entry><entry><title type="html">“So Good They Can’t Ignore You” - impression and summary</title><link href="https://merelycurious.me/post/book-summary-so-good-they-cannot-ignore-you" rel="alternate" type="text/html" title="&quot;So Good They Can't Ignore You&quot; - impression and summary" /><published>2019-04-02T08:00:00+02:00</published><updated>2019-04-02T08:00:00+02:00</updated><id>https://merelycurious.me/post/book_summary_so_good_they_cannot_ignore_you</id><content type="html" xml:base="https://merelycurious.me/post/book-summary-so-good-they-cannot-ignore-you">&lt;p&gt;I’ve read “So Good They Can’t Ignore You” by Cal Newport.
-Here is my impression (pretty mixed and rather on the negative side) and summary.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;impression&quot;&gt;Impression&lt;/h2&gt;
-
-&lt;p&gt;The book felt weird and very wordy. Basically the author developed their own theory about what makes one to like their job
-and how to reach this state. These ideas seemed reasonable and somewhat obvious. However, there was no attempt to prove anything
-any only ~10 anecdotes instead, which do illustrate the point, but does not prove it. One could easily ignore all the anecdotes.
-Also closer to the end the book started listing somewhat random advice from other books. Overall, the content could have been compressed 10-20x without losing much.&lt;/p&gt;
-
-&lt;p&gt;Score: 2/5 (this wasn’t a complete waste of time, but quite wasteful, I can’t recommend this book).&lt;/p&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-
-&lt;h3 id=&quot;follow-your-passion-is-harmful&quot;&gt;“Follow your passion” is harmful&lt;/h3&gt;
-&lt;p&gt;We are used to hear “follow your passion” advice from everywhere as a way to choose your career.
-However, this is wrong. Even Steve Jobs said the same advice, but his own story was different.
-If he had followed his passion, there would have been no Apple. Do what Steve Jobs did, not what he 
-said to do.&lt;/p&gt;
-
-&lt;p&gt;“Follow your passion” has been started with a book “What Color is Your Parachute?” by Bolles.&lt;/p&gt;
-
-&lt;p&gt;Passion advice is dangerous, because it makes you feel that there is a perfect job and that
-you will immediately recognize it. This leads to excessive career hoping and unhappiness.&lt;/p&gt;
-
-&lt;h3 id=&quot;great-job&quot;&gt;Great job&lt;/h3&gt;
-&lt;p&gt;Self Determination Theory explains intrinsic work motivation needs:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Autonomy - control over your day and feeling that your actions are important&lt;/li&gt;
-  &lt;li&gt;Competence - feeling that you are good at what you are doing&lt;/li&gt;
-  &lt;li&gt;Relatedness - feeling connection to other people&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thus, a great work requires creativity, impact and control. 
-Jobs with these features are rare and valuable. As a result, due to supply &amp;amp; demand
-you have to provide something rare and valuable in return (e.g. good skills).
-The author calls such skills “career capital”.&lt;/p&gt;
-
-&lt;h3 id=&quot;mindsets-passion-vs-craftsmanship&quot;&gt;Mindsets: passion vs craftsmanship&lt;/h3&gt;
-&lt;p&gt;In contrast to passion mindset (focusing on what a job offers you), there is craftsmanship mindset
-(focusing on what you produce).&lt;/p&gt;
-
-&lt;p&gt;In the passion mindset - answering “do I really love this?” and “what do I like?” is nearly impossible and leads to unhappiness.
-Also this forces you to focus on what you don’t like, but all entry level jobs are not perfect (low autonomy and few challenges).&lt;/p&gt;
-
-&lt;p&gt;Passion mindset claims that you need only courage to start your dream job, which will have creativity, impact and autonomy.
-Craftsmanship mindset requires you to build your skills first (“to be come so good they can’t ignore you”) to earn
-creativity, impact and autonomy.&lt;/p&gt;
-
-&lt;p&gt;Some jobs are just not good for craftsmanship mindset. The job is like that if it has any of these criteria:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;one cannot build skill in it to distinguish themselves from others&lt;/li&gt;
-  &lt;li&gt;one finds the results they produce useless or even harmful&lt;/li&gt;
-  &lt;li&gt;one is forced to work with people they don’t like.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;deliberate-practice&quot;&gt;Deliberate practice&lt;/h3&gt;
-&lt;p&gt;Why are some guitar players not that good, while others are much better even after the same amount of practice?
-They’ve practiced differently. If you don’t get out of your comfort level during practice, you won’t develop your
-skill that well. Instead you should do deliberate practice - focus on what you do badly and use immediate feedback
-to correct.&lt;/p&gt;
-
-&lt;p&gt;Steps to do deliberate practice:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Identify the career capital market you are in - winner-takes-all or an auction
-    &lt;ul&gt;
-      &lt;li&gt;Winner-takes-all - only one skill matters and everyone competes for it.&lt;/li&gt;
-      &lt;li&gt;Auction - many skills are important, everyone can propose a combination of skills.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Identify which career capital you need to pursue (i.e. which skill or skills).&lt;/li&gt;
-  &lt;li&gt;Define “good”, i.e. your feedback criteria and clear goals&lt;/li&gt;
-  &lt;li&gt;“Stretch”. Practice outside of your comfort zone and accept feedback even if it
-disagrees with your feelings. You may think that what you did is perfect, but you may
-be not the one deciding in the end and then your opinion won’t matter at all.&lt;/li&gt;
-  &lt;li&gt;Be patient - improving takes time.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Use open gates - some opportunities which you happened to have e.g. by chance - to gain
-career capital much faster.&lt;/p&gt;
-
-&lt;h3 id=&quot;gaining-control-at-work&quot;&gt;Gaining control at work&lt;/h3&gt;
-&lt;p&gt;Giving people control over what and how they do increases their happiness, satisfactions and
-fulfillment. Once you have career capital you can use it to gain control in your work.
-Gaining control before you have enough career capital is dangerous. I.e. you can start doing
-what you really want, but no one will find it valuable (e.g. a startup, which no one finds
-interesting).&lt;/p&gt;
-
-&lt;p&gt;Once you have enough career capital to pursue more control (i.e. become valuable enough),
-your current employer will try to prevent you from gaining this control, because
-this has negative impact for them (less control of you, possibility to lose you). They would
-rather use your career capital further and on the old terms.&lt;/p&gt;
-
-&lt;p&gt;Thus, courage is important to face this resistance. However, you should be valuable enough as well.&lt;/p&gt;
-
-&lt;h4 id=&quot;the-law-of-financial-viability&quot;&gt;The Law of Financial Viability&lt;/h4&gt;
-&lt;p&gt;How to identify whether you have enough career capital to go for more control?
-If you have an idea how to gain more control, seek evidence whether people are willing to pay you
-for it. If yes, proceed. Otherwise move on.
-“Willing to pay” may have different meaning, e.g. they actually pay you or you get a loan or you get hired.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Do what people are willing to pay for” Derek Sivers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Unless people are ready to pay you for an idea, it is not an idea you should go after.&lt;/p&gt;
-
-&lt;h3 id=&quot;mission&quot;&gt;Mission&lt;/h3&gt;
-&lt;p&gt;Building career on some mission can make it more fulfilling.&lt;/p&gt;
-
-&lt;p&gt;“Adjacent possible” - a set of discoveries that are possible to make from the current state of science.
-E.g. discovering oxygen required precise weight scales and thinking about air as something not void.
-These 2 inventions moved “oxygen discovery” into “adjacent possible”. This concept is considered 
-in greater detail in “Where Good Ideas Come From” by Steven Johnson.&lt;/p&gt;
-
-&lt;p&gt;To explore “adjacent possible” one has to reach the cutting edge. Finding a career mission is like
-a scientific breakthrough. Reaching the cutting edge is equivalent to building career capital.&lt;/p&gt;
-
-&lt;p&gt;Instead of going for one large bold idea, one should do small incremental “little bets”, which will
-mostly fail and only sometimes succeed. This way one can gather feedback. Each bet should take 
-approximately 2 months and be either successful or fail. Each bet should follow your mission idea.&lt;/p&gt;
-
-&lt;p&gt;Career capital helps to identify a good mission, little bets help to achieve it.&lt;/p&gt;
-
-&lt;h4 id=&quot;law-of-remarkability&quot;&gt;Law of remarkability&lt;/h4&gt;
-&lt;p&gt;Mission driven projects need to be remarkable. People who encounter them should want to
-“remark” about it, i.e. share. Projects should also be launched in a venue which 
-supports such remarks (i.e. allows and promotes sharing). “Purple Cow” by Seth Godin
-talks about this.&lt;/p&gt;</content><author><name></name></author><category term="book" /><category term="summary" /><category term="review" /><summary type="html">I’ve read “So Good They Can’t Ignore You” by Cal Newport. Here is my impression (pretty mixed and rather on the negative side) and summary.</summary></entry></feed>
+stress hormones. It is also reversible. Cross-fostering after non-grooming mom improves kids state.&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Continuing watching and writing a summary for Robert Sapolsky’s course “Human Behavioral Biology”. Lecture 6.</summary></entry></feed>
