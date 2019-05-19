@@ -1,4 +1,228 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-05-14T07:23:07+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 7)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-7" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 7)" /><published>2019-05-14T07:00:00+02:00</published><updated>2019-05-14T07:00:00+02:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_7</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-7">&lt;p&gt;Slowly (but steadily) going through the Sapolsky’s course. Lecture 7.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-05-19T07:31:14+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">The luckiest investor or what if you knew the future?</title><link href="https://merelycurious.me/post/luckiest-investor-or-investing-when-knowing-the-future" rel="alternate" type="text/html" title="The luckiest investor or what if you knew the future?" /><published>2019-05-19T07:00:00+02:00</published><updated>2019-05-19T07:00:00+02:00</updated><id>https://merelycurious.me/post/luckiest_investor_or_investing_when_knowing_the_future</id><content type="html" xml:base="https://merelycurious.me/post/luckiest-investor-or-investing-when-knowing-the-future">&lt;p&gt;Imagine that you have 1000 USD on the evening of 31st of December, 2018. In addition to that
+you happen to know daily prices of all US stocks in 2018. How much money could
+you make by taking into account the future and investing perfectly?&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
+&lt;p&gt;Obviously, this does not have that much practical sense, since we don’t know the future.
+However, I was curious how “knowing the future” outperforms passive investing.
+In other words this could be in some sense an upper for investment returns.&lt;/p&gt;
+
+&lt;h2 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h2&gt;
+
+&lt;p&gt;The world is complex, so let’s make a bunch of assumptions to simplify the problem a bit:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On a given day, only one of the following actions is allowed:
+    &lt;ul&gt;
+      &lt;li&gt;Buy one position with all your cash at the lowest price available during that day.&lt;/li&gt;
+      &lt;li&gt;Sell everything at the highest price available that day.&lt;/li&gt;
+      &lt;li&gt;Do nothing.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Transactions are free.&lt;/li&gt;
+  &lt;li&gt;One can buy only securities, which are available at 
+&lt;a href=&quot;https://iextrading.com/developer/docs/#getting-started&quot;&gt;IEX&lt;/a&gt; (I had to get the data somewhere).&lt;/li&gt;
+  &lt;li&gt;All transactions succeed no matter what (e.g. volumes are ignored).&lt;/li&gt;
+  &lt;li&gt;One can buy fractional shares.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It may look like holding at most one position at a time is limiting. However, the optimal
+trading sequence is like that. Imagine that you bought more than one stock. Then you sold them
+and got some profit:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;imagine you got the same profit from both. Then you could have bought only
+one of them originally and the overall sequence profit would have stayed exactly the same.
+In other words, if the first sequence (with more than one stock at a time) is optimal, then
+the resulting sequence with at most one stock at a time is also optimal.&lt;/li&gt;
+  &lt;li&gt;otherwise, one of them brings more profit. Thus, if you buy only this better stock (instead of two stocks),
+you will only improve overall sequence profit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s a simplistic proof.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;Let’s start with the results. This way if you are not interested in all the details,
+you don’t have to waste your time going through them.&lt;/p&gt;
+
+&lt;p&gt;So, you get 2235976324368894910070981708437303314132384811588503138465677325225209962386423808 USD.
+Yeap, for people confused, this is 2.2e+81 USD. 
+&amp;lt;here goes a default boring comparison with number of atoms in the universe&amp;gt;.
+This is equivalent to 63.93% return on investment, &lt;strong&gt;daily&lt;/strong&gt;. 
+A lot, right? Penny stocks happened to be very volatile, you know.
+And in order to achieve this, you just needed to do 
+&lt;a href=&quot;/assets/post_resources/luckiest_investor/sequence_with_penny_stocks.html&quot;&gt;these 107 transactions&lt;/a&gt;.
+Easy-peasy.&lt;/p&gt;
+
+&lt;p&gt;Obviously, now this feels boring and less exciting than I expected it to be.
+Moreover, I feel like buying stocks for 2.2e+81 USD can be tricky these days.
+What if we forbid penny stocks? In particular, let’s not buy anything cheaper than 5 USD per share.
+Boom, 1537713047211124526310105417510931136512 USD (i.e. 1.5e+39, daily ROI 25.64%,
+&lt;a href=&quot;/assets/post_resources/luckiest_investor/sequence_without_penny_stocks.html&quot;&gt;transactions&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Argh, this is still just some unrealistically large number. And I don’t recognize literally any of these stocks.
+Ok, let’s get &lt;em&gt;really conservative&lt;/em&gt; here and restrict ourselves to S&amp;amp;P 500 only. 
+Buying penny stocks can be tricky to execute, trading volumes can be low, volatility may be too &lt;em&gt;volatile&lt;/em&gt;.
+So S&amp;amp;P 500, it is. And… &lt;code class=&quot;highlighter-rouge&quot;&gt;30 853 548 412.13 USD&lt;/code&gt; (i.e. 3.1e+10, i.e. just almost 31 billions, ROI 3.1e+09%, daily 4.84%).
+So what did you have to do? Just 
+&lt;a href=&quot;/assets/post_resources/luckiest_investor/sequence_s_p_500.html&quot;&gt;these dozen of dozens transactions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ok, so this is now much more interesting (at least for me). The number is somewhat realistic
+and the first transaction involves AMD, which I know. I declare this a success!&lt;/p&gt;
+
+&lt;h2 id=&quot;further-research&quot;&gt;Further research&lt;/h2&gt;
+&lt;p&gt;I am curious to look more into “S&amp;amp;P 500 only” transactions, e.g.
+how long each company was in the portfolio, how large their relative impact
+on the final result was and so on. However, this post already took 7 hours
+and I haven’t even started writing the methodology yet. Moreover,
+I decided that I will have breakfast only after finishing this post
+and it is 12:03 already and I am starving now. And I have super tasty curry in the fridge,
+which I cooked yesterday. Obviously, it was not my original plan to eat curry for breakfast,
+but it is also not strictly a breakfast anymore. So I hope you understand me (and curry)
+and I may write another post about this some day.&lt;/p&gt;
+
+&lt;h2 id=&quot;methodology&quot;&gt;Methodology&lt;/h2&gt;
+&lt;p&gt;I am pretty sure you all would love to know how I got the numbers above.&lt;/p&gt;
+
+&lt;h3 id=&quot;dataset&quot;&gt;Dataset&lt;/h3&gt;
+&lt;p&gt;Obviously, I needed to get daily prices from somewhere, 
+so I took them from iextrading.com (&lt;a href=&quot;https://iextrading.com/developer/docs/&quot;&gt;API docs&lt;/a&gt;).
+These folks don’t even require registration (i.e. you don’t need an API key),
+which is great!&lt;/p&gt;
+
+&lt;p&gt;For S&amp;amp;P 500 I just used &lt;a href=&quot;https://datahub.io/core/s-and-p-500-companies#data&quot;&gt;some random datahub.io csv dataset&lt;/a&gt;,
+which was built from Wikipedia.&lt;/p&gt;
+
+&lt;h3 id=&quot;optimization&quot;&gt;Optimization&lt;/h3&gt;
+&lt;p&gt;Once we have the numbers, how do we find the optimal sequence of transactions?&lt;/p&gt;
+
+&lt;p&gt;The key observation here is that if we have X shares of a given stock Y on day
+Z, then we don’t care at all how we arrived in this state. E.g. we could have bought
+them yesterday or 1 week ago, but this has zero effect on the final outcome 
+(i.e. amount of money we have in the end).&lt;/p&gt;
+
+&lt;p&gt;This allows us to apply so-called dynamic programming. Basically for each day of
+2018 and each available stock 
+we want to calculate the maximum amount of that stock we could have had.
+I.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;best_quantity[2018-03-14][APPL]&lt;/code&gt; is a maximal number of APPL stock
+we could have had on Pi day in 2018 (i.e. by doing optimal transactions before).&lt;/p&gt;
+
+&lt;p&gt;According to the problem definition, we know that &lt;code class=&quot;highlighter-rouge&quot;&gt;best_quantity[2017-12-31][$]&lt;/code&gt; is 1000
+and &lt;code class=&quot;highlighter-rouge&quot;&gt;best_quantity[2017-12-31][&amp;lt;any stock&amp;gt;]&lt;/code&gt; is 0 (we have 1000 USD and no stocks
+at the beginning).&lt;/p&gt;
+
+&lt;p&gt;Then we can notice that we can calculate &lt;code class=&quot;highlighter-rouge&quot;&gt;best_quantity[&amp;lt;date&amp;gt; + 1]&lt;/code&gt; if we know
+&lt;code class=&quot;highlighter-rouge&quot;&gt;best_quantity[&amp;lt;date&amp;gt;]&lt;/code&gt;. If we are in a some state on some date, there are only
+3 actions we can perform:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hold what we have&lt;/li&gt;
+  &lt;li&gt;if we have cash, buy something&lt;/li&gt;
+  &lt;li&gt;if we have something, sell and get cash.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thus, we can just go over all states, try to perform the action and see whether
+this improves the result for the new state. For example, buying stock X means:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;best_quantity[&amp;lt;date&amp;gt; + 1][&amp;lt;stock X&amp;gt;] = 
+	max(best_quantity[&amp;lt;date&amp;gt; + 1][&amp;lt;stock X&amp;gt;],
+	    best_quantity[&amp;lt;date&amp;gt;][$] / &amp;lt;price of X on &amp;lt;date + 1&amp;gt;&amp;gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;In other words, imagine that you have &lt;code class=&quot;highlighter-rouge&quot;&gt;best_quantity[&amp;lt;date&amp;gt;][$]&lt;/code&gt; USD on the day &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;date&amp;gt;&lt;/code&gt; (evening)
+and you want to buy &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;stock X&amp;gt;&lt;/code&gt;. You can do this by waiting until tomorrow, i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;date + 1&amp;gt;&lt;/code&gt;
+and just buying that stock according to the current price. Why do we have &lt;code class=&quot;highlighter-rouge&quot;&gt;max&lt;/code&gt;?
+Because there may be other better ways to get more of this stock (e.g. by buying it earlier
+at a cheaper price and just holding).&lt;/p&gt;
+
+&lt;p&gt;By doing this for each date and each symbol, we get our final answer in 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;best_quantity[2018-12-31][$]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;How to get the actual optimal sequence of transactions? Each time some &lt;code class=&quot;highlighter-rouge&quot;&gt;best_quantity&lt;/code&gt; is improved,
+we can just save which action has led to this improvement (i.e. from which state
+we got there). Using this information, we can easily see how we got to &lt;code class=&quot;highlighter-rouge&quot;&gt;best_quantity[2018-12-31][$]&lt;/code&gt; and 
+go to the previous state. And then just repeat this process of going backwards, until we reach our initial state
+of having 1000 USD. Once we know 2 adjacent states, reverse engineering which action it was is trivial.&lt;/p&gt;
+
+&lt;h3 id=&quot;issues&quot;&gt;Issues&lt;/h3&gt;
+
+&lt;p&gt;Obviously, this wasn’t as smooth as I expected (and I have to explain spending at least 7 hours on this).&lt;/p&gt;
+
+&lt;h3 id=&quot;noisy-data&quot;&gt;Noisy data&lt;/h3&gt;
+&lt;p&gt;Mostly the issue was with weird prices in the data.&lt;/p&gt;
+
+&lt;p&gt;Basically, my first attempts returned something like 10^124 USD, which was
+somewhat larger than I expected. After inspecting the proposed sequence of stocks,
+I discovered some very lucrative transactions, e.g.:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2018-05-30 buy ZAZZT 7.87048936311242e+47 @ 0.9  
+2018-05-31 sell ZAZZT 8.185301067147553e+52 @ 103999.9  ROI = 115554.44444444444
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and in the data it was&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ['2018-05-29', None, None, None, 0.9],
+ ['2018-05-30', None, None, None, 0.9],
+ ['2018-05-31', 87359.95, 103999.9, 103999.9, 87359.95],
+ ['2018-06-01', None, None, None, 87359.95],
+ ['2018-06-04', None, None, None, 87359.95],
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;which looked very fishy, so I just dropped all price points where at least one value was missing
+(i.e. 35098 price points out of 1962200, i.e. 1.7% - yeah, I was worried to drop too much, so I checked
+the percentage).&lt;/p&gt;
+
+&lt;p&gt;This brought the result down to $10^115. This time the transactions were less awkward, but still odd.
+Example culprit:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2018-02-12 buy ZWZZT 2.5002156249822376e+16 @ 12.5  
+2018-02-14 sell ZWZZT 1.600121998608632e+21 @ 63999.36  ROI = 5118.9488
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ['2018-02-09', None, None, None, 18.1],
+ ['2018-02-12', 12.5, 12.5, 12.5, 12.5],
+ ['2018-02-13', None, None, None, 12.5],
+ ['2018-02-14', 5, 63999.36, 63999.36, 5],
+ ['2018-02-15', None, None, None, 5],
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Looks like an outlier.
+Thus, let’s kick out price points with all 4 values being the same
+(65112 out of 1927102) and with max-min ratio larger than 10 (20 points out of 
+remaining 1861990).&lt;/p&gt;
+
+&lt;p&gt;This gets us down to $10^84.
+The only suspiciously large ROI now was&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2018-10-04 buy ZXZZT 5.209604829132704e+61 @ 10.86  
+2018-10-10 sell ZXZZT 6.338984640830725e+66 @ 121678.8  ROI = 11203.309392265193
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Fighting this one was not obvious, so I started looking at trading volumes as well:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ['2018-10-03', 100, None, None, None, 10],
+ ['2018-10-04', 1200, 10.86, 11, 11, 10.86],
+ ['2018-10-05', 100, None, None, None, 10.86],
+ ['2018-10-08', 835, 0.0072, 0.0072, 0.0072, 0.0072],
+ ['2018-10-09', 800, 168998.31, 168998.31, 168998.31, 168998.31],
+ ['2018-10-10', 400, 121678.79, 121678.8, 121678.79, 121678.8],
+ ['2018-10-11', 100, None, None, None, 121678.8],
+ ['2018-10-12', 300, 115198.85, 127998.72, 127998.72, 115198.85],
+ ['2018-10-15', 400, 99999.9, 100000, 100000, 99999.9],
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For simplicity I just removed all price points with less than 1000 trading volume
+(51610 out of remaining 1861970).&lt;/p&gt;
+
+&lt;p&gt;This gave 2.235976324368895e+81, which you have already seen above.&lt;/p&gt;
+
+&lt;h3 id=&quot;penny-stocks&quot;&gt;Penny stocks&lt;/h3&gt;
+
+&lt;p&gt;After morally accepting that number, I noticed that majority of the transactions are just penny stocks anyway, 
+which is not that interesting (they are volatile as crazy). So I just stopped “buying” anything cheaper than $5 per share.
+I know that not all of these are penny stocks, but this affects only 226071 price points
+(and I am hungry, remember the curry), so the limit is $5.&lt;/p&gt;
+
+&lt;p&gt;This brought us down to 1.5377130472111245e+39 USD, which still didn’t feel completely satisfying.
+So that’s how I started limiting stocks to S&amp;amp;P 500.&lt;/p&gt;
+
+&lt;p&gt;And now I am going to finally eat my curry (“Hooray!” says my stomach).&lt;/p&gt;</content><author><name></name></author><category term="investing" /><category term="stocks" /><category term="coding" /><category term="mini-project" /><summary type="html">Imagine that you have 1000 USD on the evening of 31st of December, 2018. In addition to that you happen to know daily prices of all US stocks in 2018. How much money could you make by taking into account the future and investing perfectly?</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 7)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-7" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 7)" /><published>2019-05-14T07:00:00+02:00</published><updated>2019-05-14T07:00:00+02:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_7</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-7">&lt;p&gt;Slowly (but steadily) going through the Sapolsky’s course. Lecture 7.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1059,238 +1283,4 @@ Unfortunately, identifying them is extremely tricky (unless you accidentally stu
 without this premium feature like these second class apples), so I couldn’t come up with anything yet, but I am
 now very vigilant. Perhaps you have encountered some other examples already?&lt;/p&gt;
 
-&lt;p&gt;Anyway, happy conscious shopping!&lt;/p&gt;</content><author><name></name></author><category term="saving" /><category term="expenses" /><summary type="html">I’ve accidentally bought second class apples, which were not bad at all. This made me think that I’ve been paying more for the first class apples without explicitly realizing this. Let’s see why this is bad.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 6)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-6" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 6)" /><published>2019-04-07T08:00:00+02:00</published><updated>2019-04-07T08:00:00+02:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_6</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-6">&lt;p&gt;Continuing watching and writing a summary for Robert Sapolsky’s course “Human Behavioral Biology”.
-Lecture 6.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;lecture-6-behavioral-genetics-i&quot;&gt;Lecture 6: Behavioral Genetics I&lt;/h2&gt;
-&lt;p&gt;Let’s see how the methodology for studying genetic component of behavior changed with time.&lt;/p&gt;
-
-&lt;h2 id=&quot;species&quot;&gt;Species&lt;/h2&gt;
-&lt;p&gt;When the field started, people assumed that &lt;del&gt;if a trait is universal in a species, it must be genetic&lt;/del&gt;.
-This is very limited approach, which works for flies, but does not for more complex organisms.&lt;/p&gt;
-
-&lt;h2 id=&quot;families&quot;&gt;Families&lt;/h2&gt;
-&lt;p&gt;The next step was to consider families. The closer related two individuals are, the more genes they share.
-If you have a behavioral trait that becomes more common the more closely related two individuals are,
-it must have genetic component. However, the more related two individuals are, the more they share their environment
-as well. Thus, with this approach one cannot distinguish genetic component of behavior from environmental influence.
-This was a classic approach 70-80 years ago.&lt;/p&gt;
-
-&lt;h2 id=&quot;twins&quot;&gt;Twins&lt;/h2&gt;
-&lt;p&gt;Then let’s control for environment. Examine relatives in the same environment, but having different genes.
-For example, one can consider identical (monozygotic) twins (sharing 100% genes) vs fraternal (dizygotic) twins
-(sharing 50% genes). If they all live in the same environment and fraternal twins differ in some way, while
-identical twins don’t - this must have genetic basis. Problems:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Sometimes fraternal twins have different sex -&amp;gt; let’s restrict to same sex fraternal twins.&lt;/li&gt;
-  &lt;li&gt;These twins are still treated differently as pairs. As a result, there is more environment differentiation for fraternal twins.&lt;/li&gt;
-  &lt;li&gt;Identical twins can have one or two placentas (based on when the split happened - before or after 5 days since fertilization).
-In one placenta case, they have same blood flow. With two placentas - there can be differences in blood flow.
-As a result, in one placenta case they have much more similar environment.
-For example, they are more likely to have similar IQ when having one placenta (when compared to two placenta case).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;different-sexes&quot;&gt;Different sexes&lt;/h2&gt;
-&lt;p&gt;What if we have everything exactly the same except sex? Does not work either.
-1 hour old boys have more arm movement than girls. However, moms already (from the first time 
-they hold the child) treat them differently (holding for different duration of time and in different proximity to
-their face).&lt;/p&gt;
-
-&lt;h3 id=&quot;sat-scores-and-gender-study&quot;&gt;SAT scores and gender study&lt;/h3&gt;
-&lt;p&gt;One loud example of this is a study about 13 year old pupils’ SAT scores in math.
-In particular, how they depend on sex. The results were that more boys had higher scores.
-The paper was published in Nature and concluded that since they had the same lessons
-(there was no school curriculum differentiation yet at that age), this must be a biological difference.
-Press quickly called this “the math gene” and it was claimed that boys tended to have it more often.
-However, there were differences in their environment. Other studies has shown that even in the first grade
-a boy is more likely to be called when raising his hand for a math problem. Boys are also more likely
-to be praised for correct answers in elementary school.&lt;/p&gt;
-
-&lt;h2 id=&quot;adoption-studies&quot;&gt;Adoption studies&lt;/h2&gt;
-&lt;p&gt;Look at individuals raised in the same environment, but with different genes (adoption studies).
-Consider someone who was adopted as a child. Who are they more likely to share a trait with -
-biological parents or adoptive? In animals this can be done by cross-fostering,
-i.e. switching newborns (or only 50% of them) across mothers.&lt;/p&gt;
-
-&lt;h3 id=&quot;biological-component-of-schizophrenia&quot;&gt;Biological component of schizophrenia&lt;/h3&gt;
-&lt;p&gt;Seymour Kety tried to test whether schizophrenia has biologic component
-(The significance of genetic factors in the etiology of schizophrenia: Results from the national study of adoptees in Denmark, 1987). 
-The study considered adopted individuals who had schizophrenia. Are they more likely to share this trait with their
-biological or adoptive parents? Entire database of adoptees in Denmark was researched (Scandinavian countries
-record a lot of data). In general population probability to develop schizophrenia is 1%.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Probability to develop schizophrenia based on whether biological/adoptive parents have schizophrenia.
-Numbers are from the course. The original source: Seymour Kety,
-“The significance of genetic factors in the etiology of schizophrenia: Results from the national study of adoptees in Denmark”, 1987&lt;/em&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr class=&quot;header&quot;&gt;
-&lt;th rowspan=&quot;2&quot; colspan=&quot;2&quot;&gt;&lt;/th&gt;
-&lt;th colspan=&quot;2&quot;&gt;Biological parents&lt;/th&gt;
-&lt;!-- schizophrenia --&gt;
-&lt;!-- no schizophrenia --&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;th&gt;schizophrenia&lt;/th&gt;
-&lt;th&gt;no schizophrenia&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;th rowspan=&quot;2&quot;&gt;adoptive&lt;/th&gt;
-&lt;th&gt;schizophrenia&lt;/th&gt;
-&lt;td&gt;17%&lt;/td&gt;
-&lt;td&gt;3%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;th&gt;no schizophrenia&lt;/th&gt;
-&lt;td&gt;9%&lt;/td&gt;
-&lt;td&gt;1%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Yes, having biological parent with schizophrenia increases probability, having both (biological and adoptive) - increases it even further
-(non-additive synergisms). This was the first study to show heritable basis for a psychiatric disorder. This became a gold standard for
-behavioral genetics studies. People started applying this approach to depression, alcoholism, criminal behavior. They observed similar
-results. Problems:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;the adoption does not happen immediately after the birth.&lt;/li&gt;
-  &lt;li&gt;prenatal environment shared with mom (this can be measured by difference of probability to share a trait with mom and dad).&lt;/li&gt;
-  &lt;li&gt;paternity uncertainty - sometimes a person claiming to be a father is not a father.&lt;/li&gt;
-  &lt;li&gt;adoptive family placements are not random (in some countries like US kids are matched across a lot of domains before adoption).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;identical-twins-separated-at-birth&quot;&gt;Identical twins separated at birth&lt;/h2&gt;
-&lt;p&gt;The best approach so far is to consider identical twins separated at birth (they can be adopted in different households).
-This uncovers 50% heritability of IQ, position on introvert-extrovert scale, degree of aggression.&lt;/p&gt;
-
-&lt;p&gt;Problem: non-random placements. To mitigate, compare similarities between monozygotic and dizygotic twins (they both have non-random
-placement), but this makes the sample size small.&lt;/p&gt;
-
-&lt;h2 id=&quot;looking-at-non-learned-traits&quot;&gt;Looking at non-learned traits&lt;/h2&gt;
-&lt;p&gt;Can we consider traits which happen without learning? 
-E.g. smiling (even blind babies smile), beginning to babble at the same age
-(even for deaf babies). Random observation - even fetuses smile during third trimester.
-Prenatal effects can affect such traits too.&lt;/p&gt;
-
-&lt;h2 id=&quot;environment-begins-earlier-than-birth&quot;&gt;Environment begins earlier than birth&lt;/h2&gt;
-&lt;p&gt;Let’s consider some ways which can affect the child before birth.&lt;/p&gt;
-
-&lt;h3 id=&quot;sharing-blood-with-mom&quot;&gt;Sharing blood with mom&lt;/h3&gt;
-
-&lt;h4 id=&quot;hormones&quot;&gt;Hormones&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;Rats have dozen of fetuses which have more similar blood environment with adjacent sibling fetuses.
-As a result, the more male siblings a rat fetus has adjacent to them, the later it will reach puberty 
-(local endocrine effects).&lt;/li&gt;
-  &lt;li&gt;Children born to younger or older mothers reach puberty later (due to lower estrogen levels in mothers).&lt;/li&gt;
-  &lt;li&gt;Stress in mother propagates to fetus through stress hormones. In rats this causes smaller brain in adulthood,
-thinner cortex, less learning abilities, more prone towards anxiety, stronger cognitive decline in old age.
-This also decreases brain region responsible for dealing with stress hormones. As a result such offsprings 
-have more stress hormones themselves. Their offsprings will be affected even more by this. This environmental effect
-can be observed even in grand children (“the grandmother effect”). I.e. this is inheriting of a non-genetic trait
-    &lt;ul&gt;
-      &lt;li&gt;non-Mendelian inheritance.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;nutrients&quot;&gt;Nutrients.&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Dutch_famine_of_1944%E2%80%9345&quot;&gt;Dutch Hunger Winter&lt;/a&gt; - almost immediate decline in available
-food due to war in winter 1944.&lt;/p&gt;
-
-    &lt;p&gt;Third trimester fetuses learn how many calories are available in the world during a specific time period.
-They “study” nutritional profile. Then based on the results they can “choose” how their body should function through metabolic programming.&lt;/p&gt;
-
-    &lt;p&gt;Individuals who were third trimester fetuses during Dutch Hunger Winter (i.e. built their nutritional profile during the famine) were
-trying to store as much nutrients as possible and their kidneys tried to store more salt as well.
-When normal diet returned (also almost immediate change) - affected individuals showed 19x increase in incidents of obesity,
-diabetes, hypertension, metabolic syndrome. This is a very dramatic difference.&lt;/p&gt;
-
-    &lt;p&gt;This did not happen to newborns or first trimester fetuses. This is now studied as part of “fetal origins of adult diseases”.
-E.g. stress hormones during fetal life cause higher anxiety in adulthood.&lt;/p&gt;
-
-    &lt;p&gt;People in Stalingrad didn’t get this effect, because there the food decrease was steady.&lt;/p&gt;
-
-    &lt;p&gt;What happens when people affected get pregnant themselves? Their bodies take too much calories from blood,
-and as a result fetus is born with mild version of “Dutch Hunger Winter” phenomenon (again non-Mendelian inheritance).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Females (including in humans) can consume different amounts of estrogen (E.g. vitoestrogen from plants).
-When consumed more - fetus has consistent increase in estrogen dependent breast cancer in adulthood.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;learning&quot;&gt;Learning.&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;In rats one can inject sucrose water with particular taste (fetuses drink amniotic fluid).
- After birth this taste will be preferred when given a choice.&lt;/li&gt;
-  &lt;li&gt;Mom’s voice in humans. Fetuses hear a lot, but especially moms voice. 
-When reading “Cat in hat” a lot out loud vs random collection of sentences (controlled for length and rhytmicity),
-newborns prefer “Cat in hat” (they make sucking motion when they like something). When fathers read, this does not work
-anymore.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;. Environment does not being at birth.&lt;/p&gt;
-
-&lt;p&gt;Remember strains of rats with different levels of anxiety mentioned in previous lectures? There was “an adoption” study,
-where fetuses were transfered during pregnancy. As a result, it was not a genetic trait, but a prenatal effect.&lt;/p&gt;
-
-&lt;h3 id=&quot;genetic-influence-from-mother&quot;&gt;Genetic influence from mother&lt;/h3&gt;
-&lt;p&gt;If you see more shared traits with mother than with father, these can be attributed to prenatal effects.
-However, one gets more genetic influence from mother, e.g.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;when father is not real father&lt;/li&gt;
-  &lt;li&gt;mitochondria has its own DNA. Sperm does not carry mitochondria, but only DNA. As a result, one inherits all their
-mitochondria DNA from mother.&lt;/li&gt;
-  &lt;li&gt;imprinted genes - work differently based on whom they come from.&lt;/li&gt;
-  &lt;li&gt;sperm does not have transcription factors. All transcription factors in a fertilized egg are from mother.
-Imagine there is a transcription factor A and it is needed to produce more of A and to activate gene X.
-If due to an environmental change, A stops being produced, there will be no A in the egg and
-this will disable X for offsprings forever (i.e. genes are inherited, but won’t be expressed due to acquired trait in mother - lamarckian traits).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;indirect-genetic-effects&quot;&gt;Indirect genetic effects&lt;/h2&gt;
-&lt;p&gt;There can also be indirect genetic effects:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Consider 50% heritability of your position on introvert-extrovert scale.
-This conclusion held through all the concerns above.
-However, height and appearance are highly inheritable.
-Taller people are treated better and considered more attractive.
-People treated more positively during childhood become more extroverted. Most of introvert-extrovert heritability
-is mediated by heritability of physical traits.&lt;/li&gt;
-  &lt;li&gt;Heritability of rank in turkeys - actually it is due to the color of their feathers, which is inherited.&lt;/li&gt;
-  &lt;li&gt;Chicks are able to peck for grabs very early. However, newborn chicks have heritable tendency to find their toes very
-interesting, as a result they peck at their toes and learn to do proper pecking.&lt;/li&gt;
-  &lt;li&gt;70% heritability of political party affiliation in US. Mediating variable - how people feel about ambiguity. Conservatives
-are more ambiguity averse.&lt;/li&gt;
-  &lt;li&gt;Rats and mouse strains with various levels of aggression. Mediation: aggressive strains have lower threshold for pain sensitivity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;epigenetic-effects&quot;&gt;Epigenetic effects&lt;/h2&gt;
-&lt;p&gt;DNA cover can block transcription factors from reaching DNA permanently.
-This happened in Dutch Hunger Winter people. 
-Another example: pet newborn rat for 3 min/day for 2 weeks after it is born -&amp;gt; larger brain, better learning.
-Pet it for 1.5 hours/day instead -&amp;gt; smaller brain, shorter life expectancy.
-It is interesting what counts as stimulation (3 min) vs stress (1.5 hours). However, this actually changes mother behavior.
-3 min petting causes mom to get excited and to lick and groom the kid more. 1.5 hours causes ignorance for long period of time.
-Petting itself does not matter, but only mother reaction.
-Licking and grooming by mother causes larger brain and all other possible outcomes mentioned above. 
-This can have multi-generational effect - licked and groomed daughters will lick and groom their kids more (
-again non-Mendelian inheritance). This changes access of transcription factors, which are related to activating genes for making receptors for
-stress hormones. It is also reversible. Cross-fostering after non-grooming mom improves kids state.&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Continuing watching and writing a summary for Robert Sapolsky’s course “Human Behavioral Biology”. Lecture 6.</summary></entry></feed>
+&lt;p&gt;Anyway, happy conscious shopping!&lt;/p&gt;</content><author><name></name></author><category term="saving" /><category term="expenses" /><summary type="html">I’ve accidentally bought second class apples, which were not bad at all. This made me think that I’ve been paying more for the first class apples without explicitly realizing this. Let’s see why this is bad.</summary></entry></feed>
