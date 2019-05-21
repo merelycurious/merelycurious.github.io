@@ -1,4 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-05-19T07:31:14+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">The luckiest investor or what if you knew the future?</title><link href="https://merelycurious.me/post/luckiest-investor-or-investing-when-knowing-the-future" rel="alternate" type="text/html" title="The luckiest investor or what if you knew the future?" /><published>2019-05-19T07:00:00+02:00</published><updated>2019-05-19T07:00:00+02:00</updated><id>https://merelycurious.me/post/luckiest_investor_or_investing_when_knowing_the_future</id><content type="html" xml:base="https://merelycurious.me/post/luckiest-investor-or-investing-when-knowing-the-future">&lt;p&gt;Imagine that you have 1000 USD on the evening of 31st of December, 2018. In addition to that
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-05-21T08:09:23+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 8)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-8" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 8)" /><published>2019-05-21T08:00:00+02:00</published><updated>2019-05-21T08:00:00+02:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_8</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-8">&lt;p&gt;Lecture 8, recognizing relatives.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;follow-up-to-previous-lecture&quot;&gt;Follow-up to previous lecture&lt;/h3&gt;
+
+&lt;h4 id=&quot;heritability&quot;&gt;Heritability&lt;/h4&gt;
+&lt;p&gt;The fact that humans have 5 fingers is an inherited trait.
+However, the variability of #fingers is exclusively due to environment, thus, heritability
+is 0%. People often assume that heritability tells whether a trait is inherited.&lt;/p&gt;
+
+&lt;h4 id=&quot;previous-disciplines&quot;&gt;Previous disciplines&lt;/h4&gt;
+&lt;p&gt;The previous three approaches (behavioral evolution, molecular genetics, behavioral genetics)
+are just descriptions at different levels. For example one can view epigenetics as either of:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;the way how culture and environment affects biology&lt;/li&gt;
+  &lt;li&gt;the way in which environment turns genes on/off&lt;/li&gt;
+  &lt;li&gt;regulation of chromatin, remodeling, regulation of genes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;behavioral-genetics&quot;&gt;Behavioral genetics&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;classical - adoption studies, good at showing that environment has less impact than assumed.&lt;/li&gt;
+  &lt;li&gt;modern - we suspect that a given gene has some behavioral effect, let’s see which.
+Alternatively, we suspect that this behavior is genetic - let’s see the link.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;observed-effect-size&quot;&gt;Observed effect size&lt;/h4&gt;
+&lt;p&gt;When evaluating studies, keep the observed difference size in mind.
+For example, there was a study of 250k 18 years old in Norway, which has shown that 
+first borns have higher IQ than second borns. There could be multiple ways to explain this:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Parental investment - no, they controlled for this, if you are the only child, you have
+lower IQ than first born with younger siblings.&lt;/li&gt;
+  &lt;li&gt;“Tutoring” phenomenon&lt;/li&gt;
+  &lt;li&gt;Mother age (egg quality) - they controlled for this too.&lt;/li&gt;
+  &lt;li&gt;Each pregnancy causes immune suppression, a mother could become less healthy after the first pregnancy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Up to age 12 second borns have higher IQ than first borns. By age 18 it gets other way around.
+A second born IQ reverts to the level of first born, if the first born dies.&lt;/p&gt;
+
+&lt;p&gt;However, the difference was only 2.3 IQ points (as Sapolsky says “sneeze at the IQ test
+and you get this difference”), i.e. not important at all (even though the study has been done
+in a very elaborate fashion).&lt;/p&gt;
+
+&lt;h2 id=&quot;lecture-8-recognizing-relatives&quot;&gt;Lecture 8: Recognizing relatives&lt;/h2&gt;
+
+&lt;p&gt;Ability to recognize relatives can be present even in very primitive organisms. E.g. deer mice have 2 strains -
+monogamous and polygamous, the later has sperm competition. When sperm forms a clump,
+it travels better. However, in polygamous strain sperm tries to form a clump only with its own kind. 
+In the monogamous strain, this is not the case (happily forming a clump with any sperm).
+In the polygamous case, sperm “knows” who it is related. This is example of single cells recognizing
+relatives.&lt;/p&gt;
+
+&lt;p&gt;You can show innate relative recognition by cross fostering.&lt;/p&gt;
+
+&lt;h2 id=&quot;mechanisms&quot;&gt;Mechanisms&lt;/h2&gt;
+
+&lt;h3 id=&quot;pheromones&quot;&gt;Pheromones&lt;/h3&gt;
+&lt;p&gt;Pheromonal communication can be used for relative recognition. 
+One needs qualitative differences e.g. in urine (reflecting genetic makeup)
+and some mechanism to process the differences. This is achieved by creating a completely
+unique protein (major histocompatibility complex), which functions like a fingerprint.
+This protein is attached to each of your cells (at the surface). Your immune system
+uses it to detect your own cells. This protein can become soluble
+(saliva, urine) and give unique signature to pheromones coming off of you.
+These protein structure is also more similar in closer relatives.&lt;/p&gt;
+
+&lt;p&gt;Oxytocin and vasoprasin tune cells in olfactory system for better accuracy to recognize relatives and,
+if the match is good, take care of them (e.g. baby after birth).&lt;/p&gt;
+
+&lt;p&gt;There are only 2 areas in the brain, which have neurogenesis (new neurons generation) in adults  - hippocampus (learning) and behind olfactory bulb.
+In rats, new neurons in the olfactory bulb are created before giving birth. This way the mother can detect her babies better and
+bond to them. This can explain weird sense of smell during pregnancy as well as a desire for unusual
+foods. Basically, olfactory system gets heavily renovated to improve accuracy.&lt;/p&gt;
+
+&lt;p&gt;Baboons distinguish social implications of dominance reversal depending on family relatedness
+(if rank 4 submits to rank 27 - others have no interest if 4 and 27 are from the same family - “crazy relatives”).&lt;/p&gt;
+
+&lt;p&gt;When mating, one has contradicting goals - prevent inbreeding, but to pass as much of their own genes as possible.
+As a result, mating with the 3rd cousin (i.e. two of your grandparents are siblings, i.e. had the same parents) is the optimal solution.
+This is observed in nature. Humans also find the odor of 3rd cousin the most appealing.&lt;/p&gt;
+
+&lt;h4 id=&quot;non-innate-recognition&quot;&gt;Non innate recognition&lt;/h4&gt;
+&lt;p&gt;Non innate recognition requires imprinting, i.e. learning who’s mother / baby.
+The fact that learning occurs is innate. One can learn sounds, odor or appearance.&lt;/p&gt;
+
+&lt;p&gt;Goats don’t have innate ability to recognize relatives. Instead there are other approximations:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“smells like my vaginal fluids”&lt;/li&gt;
+  &lt;li&gt;lick the kid and “smells like my saliva”&lt;/li&gt;
+  &lt;li&gt;scent mark and “smells like me”&lt;/li&gt;
+  &lt;li&gt;mouth smells like my milk.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This can be used to detect siblings as well, e.g. “smells like my mom vaginal fluid”.
+This can be proven by cross fostering, the goat will take longer to decide (“hm, it does not smell
+that much like my vaginal fluid”), but in the end will take care of the kid anyway (“but there is no other baby,
+so yeah, it must be mine”).&lt;/p&gt;
+
+&lt;h3 id=&quot;cognitive&quot;&gt;Cognitive&lt;/h3&gt;
+&lt;p&gt;Humans do it cognitively. Hey, I see this one baby around me, it must be the one I just gave birth too.
+Who was the father? The only guy with whom I had sex. To detect sibling - “I saw mom giving birth to them”.&lt;/p&gt;
+
+&lt;p&gt;Baboons can also do this. Males care about kids more when they are sure.
+E.g. “if I am the only one who mated with her” (for example, female can be too young and
+not that fertile, thus, no interest from higher rank baboons and, as a result, mate with exactly one lower rank baboon).
+They also consider probabilities - the closer to female’s prime fertility point a baboon mated with her,
+the more likely he is to take care of the kids.&lt;/p&gt;
+
+&lt;p&gt;This works even in fish. In sunfish males are very paternal. If you bring another male
+(e.g. in an transparent container) between a female and a male (closer to the female), the latter male will assume
+that he is not the father.&lt;/p&gt;
+
+&lt;p&gt;Fusiform cortex is used to recognize faces.
+Normally it fires more for relatives (e.g. mom &amp;gt; stranger &amp;gt; chair).
+In autistic people it does not work well (mom ~ stranger ~ chair).
+Sheep and pigeons have it too.&lt;/p&gt;
+
+&lt;p&gt;Babies can distinguish mom smell after birth (but not dad’s) - when given two sources of smell,
+they prefer one with mom’s smell. The can recognize mom’s voice (by learning it from inside),
+but not dad’s (hard to hear it from inside).&lt;/p&gt;
+
+&lt;p&gt;How does this affect your decision who to mate with?
+One study considered Kibbutz in Israel, a collective community, which raises their kids all together.
+If two kids were raised in the same age group up to 6 years of age, they never marry each other.
+In other words, if it is someone, who you spend a lot of time before 6 years of age, you don’t mate with them
+(they are more like a sibling).&lt;/p&gt;
+
+&lt;p&gt;There are ways to manipulate us to feel more/less related than we are (pseudo kinship / pseudo speciation).
+Military does this a lot (us - brothers, them - non-humans).&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Lecture 8, recognizing relatives.</summary></entry><entry><title type="html">The luckiest investor or what if you knew the future?</title><link href="https://merelycurious.me/post/luckiest-investor-or-investing-when-knowing-the-future" rel="alternate" type="text/html" title="The luckiest investor or what if you knew the future?" /><published>2019-05-19T07:00:00+02:00</published><updated>2019-05-19T07:00:00+02:00</updated><id>https://merelycurious.me/post/luckiest_investor_or_investing_when_knowing_the_future</id><content type="html" xml:base="https://merelycurious.me/post/luckiest-investor-or-investing-when-knowing-the-future">&lt;p&gt;Imagine that you have 1000 USD on the evening of 31st of December, 2018. In addition to that
 you happen to know daily prices of all US stocks in 2018. How much money could
 you make by taking into account the future and investing perfectly?&lt;/p&gt;
 
@@ -1239,48 +1370,4 @@ to get a general overview, come back in couple days (or perhaps a week to be sur
 &lt;a href=&quot;https://twitter.com/merely_curious_&quot;&gt;tweet&lt;/a&gt; as well).
 This must be interesting.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;UPD Apr 20, 2019&lt;/strong&gt;: &lt;a href=&quot;/post/thought-experiment-overview-projects-when-fire&quot;&gt;the overview of other participant responses&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="thought experiment" /><category term="about me" /><summary type="html">Imagine that you have finally FIRE’d and now you are bored. Which projects would you? This is the new shiny thought experiment by SavingNinja. And I have a lot to do, indeed…</summary></entry><entry><title type="html">What are you actually paying for?</title><link href="https://merelycurious.me/post/what-you-pay-for-or-second-class-apples" rel="alternate" type="text/html" title="What are you actually paying for?" /><published>2019-04-12T08:00:00+02:00</published><updated>2019-04-12T08:00:00+02:00</updated><id>https://merelycurious.me/post/what_you_pay_for_or_second_class_apples</id><content type="html" xml:base="https://merelycurious.me/post/what-you-pay-for-or-second-class-apples">&lt;p&gt;I’ve accidentally bought second class apples, which were not bad at all.
-This made me think that I’ve been paying more for the first class apples without explicitly realizing this.
-Let’s see why this is bad.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;There was a “weekly” discount for apples (1 euro for 2 kilos) in Edeka.
-I discovered this in their “prospekt” (I wrote about supermarket discounts 
-&lt;a href=&quot;/post/weekly-discounts-in-german-supermarkets&quot;&gt;here&lt;/a&gt;).
-However, once I bought them (actually 6 kilograms), I discovered that they were
-“the second class”. Obviously, they did not look terribly bad, otherwise I would have
-noticed this earlier.&lt;/p&gt;
-
-&lt;p&gt;At home I had a more careful look. Indeed there was something unusual with 90% of apples.
-They had small damages or imperfections (at most 1 cm^2 in area, but most of them even much smaller than that).
-In my life I definitely have seen and even eaten apples, which were in a much worse condition (I can clearly
-remember an apple, which was in such a bad state, that I had to cut out almost half of it, but I ate the rest).
-If you compare these second class apples to what I had before, they are then rather 99%
-perfect. Here you basically cut out one very small piece and you get a perfectly fine apple.
-Obviously, you probably can’t store them as long as the first class apples, but I bought only 6 kilograms
-(not a tonne).&lt;/p&gt;
-
-&lt;p&gt;For me this uncovered an interesting issue. Such second class apples is a pretty rare guest in the supermarkets.
-I have seen apples for “processing” (Verarbeitung) before, these had no damages, but mostly weird shape instead.
-As far as I understood, they were meant for juicing. Obviously I also bought and ate them (and they were just fine).
-Apart from that all apples I observed in supermarkets are the first class (i.e. ideal shape and state).
-This is probably the first time I explicitly saw second class apples being sold. 
-However, when I buy the first class apples, I actually pay premium for them to be the first class.
-Since I haven’t thought about this before and never even had a choice, I was doing this implicitly.
-And as I learned after buying the second class apples, paying this premium actually makes no sense to me.
-I am as happy to consume second class apples as the first class. Basically, someone has made this decision
-not to bring second class apples to the market that often and now all buyers are paying more for their
-apples to be ideal (due to absence of choice), but without realizing and enjoying this. 
-I consider this premium a waste of money from buyer perspective, since without having a reference point
-(a concept which I learned during “Science of Wellbeing” course, my summary is 
-&lt;a href=&quot;/post/the-science-of-wellbeing-course-review&quot;&gt;here&lt;/a&gt;)
-of second class apples, they can’t enjoy how the first class apples are better than the second.
-For them, these are just normal average boring apples, not “not a second class” apples.&lt;/p&gt;
-
-&lt;p&gt;Now I am definitely curious which other premiums I’ve been paying for without realizing.
-Unfortunately, identifying them is extremely tricky (unless you accidentally stumble on a product
-without this premium feature like these second class apples), so I couldn’t come up with anything yet, but I am
-now very vigilant. Perhaps you have encountered some other examples already?&lt;/p&gt;
-
-&lt;p&gt;Anyway, happy conscious shopping!&lt;/p&gt;</content><author><name></name></author><category term="saving" /><category term="expenses" /><summary type="html">I’ve accidentally bought second class apples, which were not bad at all. This made me think that I’ve been paying more for the first class apples without explicitly realizing this. Let’s see why this is bad.</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;UPD Apr 20, 2019&lt;/strong&gt;: &lt;a href=&quot;/post/thought-experiment-overview-projects-when-fire&quot;&gt;the overview of other participant responses&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="thought experiment" /><category term="about me" /><summary type="html">Imagine that you have finally FIRE’d and now you are bored. Which projects would you? This is the new shiny thought experiment by SavingNinja. And I have a lot to do, indeed…</summary></entry></feed>
