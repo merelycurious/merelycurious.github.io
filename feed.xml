@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-06-11T23:25:39+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How to connect a Namecheap domain to Linode?</title><link href="https://merelycurious.me/post/connecting-namecheap-domain-to-linode" rel="alternate" type="text/html" title="How to connect a Namecheap domain to Linode?" /><published>2019-06-11T23:00:00+02:00</published><updated>2019-06-11T23:00:00+02:00</updated><id>https://merelycurious.me/post/connecting_namecheap_domain_to_linode</id><content type="html" xml:base="https://merelycurious.me/post/connecting-namecheap-domain-to-linode">&lt;p&gt;Occasionally I need to link a domain parked at Namecheap to a Linode
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-06-19T00:06:57+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Interactive Brokers monthly fee</title><link href="https://merelycurious.me/post/interactive-brokers-monthly-fee" rel="alternate" type="text/html" title="Interactive Brokers monthly fee" /><published>2019-06-18T23:30:00+02:00</published><updated>2019-06-18T23:30:00+02:00</updated><id>https://merelycurious.me/post/interactive_brokers_monthly_fee</id><content type="html" xml:base="https://merelycurious.me/post/interactive-brokers-monthly-fee">&lt;p&gt;Interactive Brokers have monthly “inactivity” (aka Monthly Minimum) fee.
+It is not obvious how one can see this fee being applied.
+Here is one way (spoiler: through statements).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Interactive Brokers have somewhat unusual fee structure 
+(&lt;a href=&quot;https://www.interactivebrokers.com/en/index.php?f=4969&quot;&gt;official source&lt;/a&gt;),
+which is always a pain to explain. Basically, they require one to spend at least
+10 USD for trading transactions per month. If one spends less, they anyway charge the difference
+up to 10 USD and call this “inactivity” fee. However, they remove this fee
+if one has 100k USD (or equivalent, e.g. in stocks) with them.&lt;/p&gt;
+
+&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;I’ve had an account for quite some time with IB now, but I have never seen this “inactivity” fee
+in action. In other words - when is it charged? How much did I actually pay?
+What if I misunderstand the system?&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+&lt;p&gt;So far I have found only one way to observe this fee - through statements:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Left Menu &amp;gt; Reports &amp;gt; Statements.&lt;/li&gt;
+  &lt;li&gt;Choose “Default Statements”.&lt;/li&gt;
+  &lt;li&gt;Choose “Activity” statement type.&lt;/li&gt;
+  &lt;li&gt;Choose  “Year to Date” period.&lt;/li&gt;
+  &lt;li&gt;Click “Run Statement”.&lt;/li&gt;
+  &lt;li&gt;Look for “Fees” section and open it.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/ib_monthly_fee/fee_statement_screenshot.png&quot; alt=&quot;Fee section from the statement showing the fee for April applied in May.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, in this case the fee for April was applied in May and it was 2.37 EUR.&lt;/p&gt;
+
+&lt;p&gt;Happy transparent and easy to understand fees!&lt;/p&gt;</content><author><name></name></author><category term="Interactive Brokers" /><category term="fees" /><summary type="html">Interactive Brokers have monthly “inactivity” (aka Monthly Minimum) fee. It is not obvious how one can see this fee being applied. Here is one way (spoiler: through statements).</summary></entry><entry><title type="html">How to connect a Namecheap domain to Linode?</title><link href="https://merelycurious.me/post/connecting-namecheap-domain-to-linode" rel="alternate" type="text/html" title="How to connect a Namecheap domain to Linode?" /><published>2019-06-11T23:00:00+02:00</published><updated>2019-06-11T23:00:00+02:00</updated><id>https://merelycurious.me/post/connecting_namecheap_domain_to_linode</id><content type="html" xml:base="https://merelycurious.me/post/connecting-namecheap-domain-to-linode">&lt;p&gt;Occasionally I need to link a domain parked at Namecheap to a Linode
 and each time I forget how to do it. Thus, here is a guide
 (i.e. a cheat-sheet for me).&lt;/p&gt;
 
@@ -1198,90 +1235,4 @@ say “it depends”. As a result, it is meaningless to ask “what does this ge
 “what does this gene do in this particular environment?”.&lt;/p&gt;
 
 &lt;p&gt;Single genes define a lot for flies. Even when you see a gene for X,
-is it just an indirect effect (like height causing being an extrovert)?&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Slowly (but steadily) going through the Sapolsky’s course. Lecture 7.</summary></entry><entry><title type="html">Your time networth</title><link href="https://merelycurious.me/post/weekly-networth" rel="alternate" type="text/html" title="Your time networth" /><published>2019-05-12T22:00:00+02:00</published><updated>2019-05-12T22:00:00+02:00</updated><id>https://merelycurious.me/post/weekly_networth</id><content type="html" xml:base="https://merelycurious.me/post/weekly-networth">&lt;p&gt;Many people know how many percents of their networth is invested in X.
-However, occasionally it is much more important how you invest your time.
-I call this  (surprise) “time allocation”. Let’s see how to do this and a couple
-of unexpected examples, where percentage looks much scarier than the plain number of hours.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;trigger&quot;&gt;Trigger&lt;/h2&gt;
-&lt;p&gt;I started looking into this topic to estimate how much “free” time I normally
-have per week. The idea was to make sure that, when I plan something for a given week, I don’t set
-obviously unreasonable goals. At first this wasn’t anything special,
-I just used some quick spreadsheet and got the numbers. However, then I checked
-the percentages (i.e. how many percent of my weekly time a given activity takes)
-and was surprised by how much I underestimated them.&lt;/p&gt;
-
-&lt;h2 id=&quot;beauty&quot;&gt;Beauty&lt;/h2&gt;
-&lt;p&gt;This way of looking at your time allocation has many interesting properties.
-For example, if you do some activity every week (let’s imagine for the rest of your life),
-then this weekly time allocation becomes “rest of your life” time allocation.
-This definitely makes you feel differently. This implicitly forces you to prioritize:
-“Wait, this will take 10% of my life, do I actually need to do this?”.&lt;/p&gt;
-
-&lt;p&gt;Another observation is that time is your main resource.
-Yes, you can use money for some approximation, but money is just 
-a representation of your time.&lt;/p&gt;
-
-&lt;p&gt;If I know how you spend your money and your asset allocation, I do know
-a lot about you. But knowing how you spend your time, gives away almost everything about you,
-except your reasons for doing something, i.e. “why”.&lt;/p&gt;
-
-&lt;p&gt;There is a common advice to look at what people do and not what they say.
-This exercise partially helps you to look at what you do, instead of what you 
-feel you do or want to do. People are bad at estimates and it is very easy to say
-I am X (e.g. writer) and feel like you spend enough time on this activity.
-What if you discover that only 5% of your weekly time goes to X?
-Are you then just 5% of a writer?&lt;/p&gt;
-
-&lt;p&gt;It would also be peculiar to know at the end of a life how much time went 
-into something. This could be some kind of ultimate measure, how much of a writer
-a person was. Obviously, different activities consume time differently, so it may be
-that you are indeed a writer, this just didn’t require that much time.
-I agree. I don’t claim that this “answers your life question” or that it is completely perfect.
-No, but it gives an interesting perspective, which I enjoy and find useful.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately it may be tricky to get a complete picture, since majority
-of things we do are not repeated across weeks. I suggest you to start with at least
-something and just consider activities you do weekly.&lt;/p&gt;
-
-&lt;p&gt;I definitely plan to explore better time tracking (probably at a very low granularity
-for a short period of time). I do track my expenses, so optimizing time is an obvious next target.
-Having this data would help me to get a better picture of my actual time allocation.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-to&quot;&gt;How to&lt;/h2&gt;
-&lt;p&gt;I hope that you are now intrigued enough to give it a try.
-I prepared 
-&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1qa4PZYtSACpZm2HEDDgZvoeXUAIYOmeBvLWaJYeERyQ/edit&quot;&gt;a spreadsheet&lt;/a&gt;,
-which you can reuse (just make a copy).
-5 minutes granularity was reasonable for me, so that’s what
-the spreadsheet has, however, you are welcome to use 1 hour.&lt;/p&gt;
-
-&lt;p&gt;Basically each cell means “how I spend the next 5 minutes”.
-Below there are cells with all the calculations (sums and ratios).
-The data is just an example to give you an idea what you can do.&lt;/p&gt;
-
-&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;
-&lt;p&gt;Let’s see how various activity durations correspond to percentages:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1 hour daily -&amp;gt; 1 hour / day * 7 days / (168 hours / week) = 4.1% week&lt;/li&gt;
-  &lt;li&gt;1 hour every working day -&amp;gt; 1 hour / day * 5 days / (168 hours / week) = 2.9% week&lt;/li&gt;
-  &lt;li&gt;1 hour once a week -&amp;gt; 1 hour / (168 hours / week) = 0.59% week&lt;/li&gt;
-  &lt;li&gt;1 minute daily -&amp;gt; 1 minute / day * / (60 minutes / hour * 168 hours / week) = 0.069% week&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Is anyone asking your for a commitment taking 1 hour once a week
-for the rest of your life? If you agree, you will “spend” 0.59% of the
-rest of your life.&lt;/p&gt;
-
-&lt;h2 id=&quot;possible-improvements&quot;&gt;Possible improvements&lt;/h2&gt;
-&lt;p&gt;Obviously everyone has to sleep and do exercises and this is good.
-However, when these are taken into account in the denominator, we are
-implicitly incentivized to spend less time on them. This feels wrong.
-Thus, you may subtract some activities from denominator (i.e. from 168 hours per week, sleep is
-an obvious candidate) to mitigate this issue. For my use case,
-this was not needed.&lt;/p&gt;
-
-&lt;p&gt;Happy conscious time planning!&lt;/p&gt;</content><author><name></name></author><category term="exercise" /><category term="productivity" /><category term="self improvement" /><category term="different perspective" /><summary type="html">Many people know how many percents of their networth is invested in X. However, occasionally it is much more important how you invest your time. I call this (surprise) “time allocation”. Let’s see how to do this and a couple of unexpected examples, where percentage looks much scarier than the plain number of hours.</summary></entry></feed>
+is it just an indirect effect (like height causing being an extrovert)?&lt;/p&gt;</content><author><name></name></author><category term="courses" /><category term="review" /><summary type="html">Slowly (but steadily) going through the Sapolsky’s course. Lecture 7.</summary></entry></feed>
