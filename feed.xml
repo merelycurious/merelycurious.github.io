@@ -1,4 +1,182 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-10T08:26:11+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Mindless eating” - impression and summary</title><link href="https://merelycurious.me/post/mindless-eating-book-summary" rel="alternate" type="text/html" title="&quot;Mindless eating&quot; - impression and summary" /><published>2019-07-09T08:00:00+02:00</published><updated>2019-07-09T08:00:00+02:00</updated><id>https://merelycurious.me/post/mindless_eating_book_summary</id><content type="html" xml:base="https://merelycurious.me/post/mindless-eating-book-summary">&lt;p&gt;Recently I read “Mindless Eating: Why We Eat More Than We Think” by Brian Wansink.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-13T17:31:56+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">801€ tax free capital gains each year in Germany</title><link href="https://merelycurious.me/post/801-tax-free-capital-gains" rel="alternate" type="text/html" title="801€ tax free capital gains each year in Germany" /><published>2019-07-13T16:00:00+02:00</published><updated>2019-07-13T16:00:00+02:00</updated><id>https://merelycurious.me/post/801_tax_free_capital_gains</id><content type="html" xml:base="https://merelycurious.me/post/801-tax-free-capital-gains">&lt;p&gt;In Germany, one does not pay any tax for their first 801€ of capital gains each year.
+I personally try to realize at least 801 EUR each year to use this benefit, but I am
+now curious how much of a difference in the long term this makes.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt;
+
+&lt;p&gt;Everyone has their own unique situation. This post is based on a number of assumptions,
+thus, don’t rely on it as is. Have a look at the assumption and see how well this applies 
+to your situation.&lt;/p&gt;
+
+&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
+
+&lt;p&gt;I met some people who did not bother with these 801€ per year at all. However, I do try to use them.
+Basically, when realizing 801€ of capital gains, one pays no taxes in Germany.
+Normally one would pay 26.25% tax (25% capital gain tax and 5% of that is solidarity tax).
+Thus, one can get free 801 * 26.25% = 210.26€ each year by doing this. This is definitely
+not a life changing sum, but I am curious what the impact is when saving e.g. for FIRE.&lt;/p&gt;
+
+&lt;p&gt;Dividends do count against this sum as well. Moreover not realized capital gains now have to be partially
+realized up to basic interest rate (Basiszins) each year which goes against these 801€ as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;simulation&quot;&gt;Simulation&lt;/h2&gt;
+
+&lt;h3 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h3&gt;
+
+&lt;p&gt;Let’s consider Jannet.
+We will use the following assumptions about Jannet and her life:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lives in Germany&lt;/li&gt;
+  &lt;li&gt;does not have any other capital gains except from her stock portfolio&lt;/li&gt;
+  &lt;li&gt;has other income, i.e. the capital gain tax is always 26.25% and never gets replaced
+with the progressive income tax (in a future post I will look more into how this works).
+This is very realistic for the collection phase&lt;/li&gt;
+  &lt;li&gt;starts from 0€ in January 2019&lt;/li&gt;
+  &lt;li&gt;(the strongest assumption) the market always has constant yearly and monthly returns of
+ 4% and 0.32737% respectively.&lt;/li&gt;
+  &lt;li&gt;earns 2k€ and invests 1k€ each month.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;methodology&quot;&gt;Methodology&lt;/h3&gt;
+
+&lt;p&gt;As we assumed above, Jannet contributes 1000€ every month to her portfolio.
+Her investment grows by 0.32737% at the end of every month.
+I.e. she has 0 at 1st of January 2019. She invests 1000€.
+In the end of February her 1000€ grow into 1003.27€ and she invests another 1000€,
+thus, having 2003.27€ overall pre-tax.&lt;/p&gt;
+
+&lt;p&gt;Now we compare the two following options. The first option is to never realize capital
+gains during the savings phase. I.e. she has 2003.27€ pre-tax and she does nothing.
+The second option is to realize capital gains up to 801€ per year, in order to use this
+tax benefit. I.e. she would immediately realize these 3.27€ and have 2003.27€ already taxed.
+At some point she will reach 801€ for this year and stop realizing capital gains
+to delay paying capital gain taxes into the future (there will be a post on how this delaying
+affects the investment growth).&lt;/p&gt;
+
+&lt;p&gt;When we compare the two approaches, we always compare post-tax sum. I.e as if Janet sold all her 
+investments at that months. Here we take into account 801€ in both approaches.&lt;/p&gt;
+
+&lt;h3 id=&quot;spreadsheet&quot;&gt;Spreadsheet&lt;/h3&gt;
+
+&lt;p&gt;I’ve prepared &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1WGdB1HYkCbbj0_C1Ap3ELpAWIsxr97B4lyN7mU6CEAE/edit&quot;&gt;a Google Spreadsheet with the simulation&lt;/a&gt;. You can play with it by making a copy.
+The simulation inputs are all the way on the right.&lt;/p&gt;
+
+&lt;p&gt;To be honest, making the spreadsheet was quite tricky.
+I had multiple mistakes at first and had to compare the numbers with my python simulation
+to fix them. As a result, the spreadsheet is quite complicated and may be hard to follow.
+However, the most interesting field is diff percentage (i.e. difference in percents between
+the two options). There are also actual overall savings after tax for each months (columns adjacent
+to the diff column).&lt;/p&gt;
+
+&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
+
+&lt;p&gt;According to 4% rule, Jannet’s FIRE target is 300k€. 
+In the first case, she reaches 300k€ after tax in 222 months (July 2037) and pre-tax she had
+327k. In the second case she reaches 300k€ after tax 2 months earlier (May 2037).
+By this time she had realized 14542€ of capital gains tax free by using this 801€ benefit.
+I.e. she has got 14542€ * 26.25% = 3817.27€ for free.&lt;/p&gt;
+
+&lt;p&gt;The difference between the two approaches (in percents) jumps to 1.37% and then slowly falls down to ~1.2%.&lt;/p&gt;
+
+&lt;p&gt;Let’s plot the difference for each month:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/801_tax_free/jannet_s_case.png&quot; alt=&quot;a plot showing how difference (in percents) between the two cases (delaying capital gains and
+realizing at most 801 EUR tax free yearly) depends on number of months invested
+for Jannet's case&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It does look peculiar and we can make a number of observations.&lt;/p&gt;
+
+&lt;p&gt;First, for some time the difference stays at 0. This happens before Jannet’s overall capital gains
+reach 801€. This is just a consequence of me applying this 801€ bonus when calculating the final amounts
+saved in both cases. For example, in May 2019 the investment growth is 32.84€. In the first case,
+these are fictitiously realized before the comparison. In the second case, they are realized each month.
+In both cases, Jannet pays no tax on these 32.84€, because of 801€ tax-free benefit.&lt;/p&gt;
+
+&lt;p&gt;Second, we observe a peculiar unexpected sawtooth pattern. This can be explained
+by the yearly nature of this 801€ tax benefit. In January each year, the 801€ counter
+is reset. As a result, before Jannet uses this limit completely the difference grows.
+However, once Jannet exhausts these 801€ for a given year, the difference stops growing and
+actually relative percentage starts slowly decreasing. This happens because the mixed tax sum
+(sum of already taxed and not yet taxed parts)
+is the same in both cases. Whether a gain is taxed or not does
+not impact capital gains obtained from it. As a result, the investment growth
+in both cases is exactly the same. Then in the next January, 801€ counter is reset again
+and the difference grows for some months.&lt;/p&gt;
+
+&lt;p&gt;We can compare the plot with the spreadsheet to see precisely how this happens.
+In month 32, Jannet exhausts 801€ for the first time. As a result, for the remaining
+months in this year (33-35) the difference falls. Then the 801 counter gets reset
+and the difference starts growing again (months 36-41) until it gets exhausted again.&lt;/p&gt;
+
+&lt;h3 id=&quot;general-case&quot;&gt;General case&lt;/h3&gt;
+
+&lt;p&gt;Above we considered only one case - investing 1000€ monthly @ 4% yearly return.
+Both variables affect the result, e.g. if we invest 10k€ monthly, the effect of
+exactly the same old 801€ becomes much smaller. Also, if the investment grows
+faster, this will decrease the difference as well.&lt;/p&gt;
+
+&lt;p&gt;Thus, let’s have a look how the difference between the two approaches
+depends on yearly returns, monthly investment amount and time saving.&lt;/p&gt;
+
+&lt;p&gt;We start by extending Jannet’s case (1000€ monthly @ 4% yearly growth) to various yearly
+investment returns (1-7%):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/801_tax_free/1000_different_roi.png&quot; alt=&quot;a plot showing how difference (in percents) between the two cases (delaying capital gains and
+realizing at most 801€ tax free yearly) depends on time saving and yearly return on
+investment when investing 1000€ per month&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As we can see, for approximately all yearly return value the difference reaches around 1.2% and the starts to fall
+down. The speed of the decrease is larger for higher yearly returns, as we already predicted above.&lt;/p&gt;
+
+&lt;p&gt;If we look at investing 100€ per months:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/801_tax_free/100_different_roi.png&quot; alt=&quot;a plot showing how difference (in percents) between the two cases (delaying capital gains and
+realizing at most 801€ tax free yearly) depends on time saving and yearly return on
+investment when investing 100€ per month&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The observed difference gets much more substantial and reaches 7% at a peak.
+This is natural, since 801€ is a substantial amount of money, when one invests 100€ per month.&lt;/p&gt;
+
+&lt;p&gt;The remaining plots for 500, 2000 and 5000€ invested per month you can see in the appendix below.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-research&quot;&gt;Further research&lt;/h3&gt;
+
+&lt;p&gt;Possible improvements of the simulation:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;look into FIRE spending phase, which is much more dependent on capital gains.&lt;/li&gt;
+  &lt;li&gt;take into account capital gain tax becoming progressive income tax.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will address some of these in my follow-up posts, stay tuned!&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The 801€ tax free capital gains per year do matter! You can get additional 1.2% post tax when investing
+1000€ monthly @ 4% yearly by realizing at most 801€ tax free each year.
+If you invest less, e.g. 100€, the effect becomes even more dramatic and the difference can reach staggering 7%.
+And if you invest something like 5k€ per month, the difference reaches 0.3%.&lt;/p&gt;
+
+&lt;p&gt;Overall, these are free money, which are very easy to get. Thus, I advise you to use this opportunity!&lt;/p&gt;
+
+&lt;p&gt;Happy realizing 801€ of capital gains each year!&lt;/p&gt;
+
+&lt;h2 id=&quot;appendix&quot;&gt;Appendix&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/801_tax_free/500_different_roi.png&quot; alt=&quot;a plot showing how difference (in percents) between the two cases (delaying capital gains and
+realizing at most 801€ tax free yearly) depends on time saving and yearly return on
+investment when investing 500€ per month&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/801_tax_free/2000_different_roi.png&quot; alt=&quot;a plot showing how difference (in percents) between the two cases (delaying capital gains and
+realizing at most 801€ tax free yearly) depends on time saving and yearly return on
+investment when investing 2000€ per month&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/801_tax_free/5000_different_roi.png&quot; alt=&quot;a plot showing how difference (in percents) between the two cases (delaying capital gains and
+realizing at most 801€ tax free yearly) depends on time saving and yearly return on
+investment when investing 5000€ per month&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="fire" /><category term="analysis" /><category term="mini-project" /><category term="taxes" /><summary type="html">In Germany, one does not pay any tax for their first 801€ of capital gains each year. I personally try to realize at least 801 EUR each year to use this benefit, but I am now curious how much of a difference in the long term this makes.</summary></entry><entry><title type="html">“Mindless eating” - impression and summary</title><link href="https://merelycurious.me/post/mindless-eating-book-summary" rel="alternate" type="text/html" title="&quot;Mindless eating&quot; - impression and summary" /><published>2019-07-09T08:00:00+02:00</published><updated>2019-07-09T08:00:00+02:00</updated><id>https://merelycurious.me/post/mindless_eating_book_summary</id><content type="html" xml:base="https://merelycurious.me/post/mindless-eating-book-summary">&lt;p&gt;Recently I read “Mindless Eating: Why We Eat More Than We Think” by Brian Wansink.
 Here is my impression (somewhat positive) and summary.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1195,186 +1373,4 @@ of such problems has to be solved. E.g. I don’t need groceries to be delivered
 and buying them. Delivery companies could try to create a perspective that buying your own groceries 
 is not cool (like not having diamonds during a wedding). I am definitely against such artificial perspective.
 Please note that for others this may make more sense, e.g. they are very busy and want to save time.
-However, I struggle imagining being so busy (like not having 1-2 hours per week).&lt;/p&gt;</content><author><name></name></author><category term="opinion" /><summary type="html">Mr. Money Mustache wrote multiple times about weaknesses and inconvenience. This made me think about the modern world mechanics around them. I then understood that capitalism benefits from people being weak and avoiding inconvenience. Let’s see how.</summary></entry><entry><title type="html">Impro games for non-impro group</title><link href="https://merelycurious.me/post/impro-games-for-non-impro-group" rel="alternate" type="text/html" title="Impro games for non-impro group" /><published>2019-06-02T22:00:00+02:00</published><updated>2019-06-02T22:00:00+02:00</updated><id>https://merelycurious.me/post/impro_games_for_non_impro_group</id><content type="html" xml:base="https://merelycurious.me/post/impro-games-for-non-impro-group">&lt;p&gt;I’ve noticed that some impro games can be played in a group unrelated to impro 
-(e.g. work colleagues at a party). Here is my compilation of such games.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;For many impro games one needs a special crowd, which won’t judge and so on
-(for more details see &lt;a href=&quot;/post/beauty-of-impro&quot;&gt;my post-reflection about impro in general&lt;/a&gt;).
-However, there are many other games, which are just fun and would work even
-for people outside of impro. The main requirement is that they don’t require
-too much free-form input. E.g. if it is a work party and you suggest to make a scene,
-either everyone will feel uncomfortable (the context is wrong) or someone will
-say something too dramatic and this will be misunderstood.&lt;/p&gt;
-
-&lt;p&gt;By the way, I have previously collected
-&lt;a href=&quot;/post/impro-games-for-two&quot;&gt;impro games for two people&lt;/a&gt;,
-which might be of interest.&lt;/p&gt;
-
-&lt;p&gt;UPD 2019-07-03: Added more games from improvencyclopedia.org.&lt;/p&gt;
-
-&lt;h2 id=&quot;disclaimer-about-the-source&quot;&gt;Disclaimer about the source&lt;/h2&gt;
-&lt;p&gt;I don’t make up any games here, I just reference them from &lt;a href=&quot;https://improwiki.com/&quot;&gt;improwiki.com&lt;/a&gt; and
-&lt;a href=&quot;improvencyclopedia.org&quot;&gt;improvencyclopedia.org&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;compilation&quot;&gt;Compilation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/alien_tiger_cow&quot;&gt;Alien Tiger Cow&lt;/a&gt; - 
-on count of 3, everyone represents one of 3 figures. The goal is to converge
-to one figure.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/be_my_fan&quot;&gt;Be My Fan&lt;/a&gt; -
-people play Rock-Paper-Scissors, the one losing becomes a fan of the winner and cheers them up.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/blind_stalker&quot;&gt;Blind Stalker&lt;/a&gt; -
-people wander around the room (with people-bouncers at the walls) with closed eyes,
-there may be a vampire (when they catch someone that person should shout and stop)
-and person reviving (they can revive someone who was caught).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/bunny_bunny&quot;&gt;Bunny Bunny&lt;/a&gt; - pass the bunny
-with a special hand-finger motion (people around the bunny can do something special as well).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/digits&quot;&gt;Digits&lt;/a&gt; - count to 21 without 
-any synchronization.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://improvencyclopedia.org/games//Human_Knot.html&quot;&gt;Human Knot aka Hand Loops&lt;/a&gt; - 
-everyone gets into a circle and looks down. Then people go towards 
-each other with their hands in front of them. They hold on one other hand with each hand.
-Then they try to undo “the knot” without releasing the hands.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/forming_molecules&quot;&gt;Forming molecules&lt;/a&gt; -
-everyone wanders around, a leader shouts a number, everyone tries to form groups
-of this size. When the group is formed they hold hands and sit down.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/group_stop&quot;&gt;Group Stop&lt;/a&gt; - everyone wanders
-around, when someone freezes, everyone should freeze. When all freeze, everyone starts
-wandering around again.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/triangle&quot;&gt;Triangle&lt;/a&gt; - each player takes two other players
-as references without telling anyone. Then they try to form an equal triangle with them.
-Another variation - try to keep one selected person in the middle between you and the other person
-(like a bodyguard and a killer).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/you&quot;&gt;You&lt;/a&gt; - define a chain randomly. Pass “You” across the chain.
-Define another chain e.g. with fruits. Pass “fruits”. Add more chains (e.g. sounds, movements).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/samurai&quot;&gt;Samurai&lt;/a&gt; - one establishes eye contact with someone,
-raises their sword with “Heeee!”, the other person catches the sword with “Hu!”, then they do their
-“Heeee!” and people around them “cut them in half” synchronously with “Haaaa!”.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/3_x_different&quot;&gt;3 X different&lt;/a&gt; - two players count 1, 2, 3
-one by one. Then they replace 2 with a movement. Then they replace 3 with e.g. saying a name of a famous
-person (each time different).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://improvencyclopedia.org/games/Cat_and_Mouse.html&quot;&gt;Cat &amp;amp; Mouse&lt;/a&gt; - people form pairs and disperse themselves across the room.
-One person is a cat and another is a mouse. The cat needs to catch the mouse. The mouse can join one of the pairs
-and then the third person in the pair (not the central one) becomes a &lt;em&gt;cat&lt;/em&gt; and the old cat becomes a mouse (i.e.
-the old cat needs to run away now).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;I screwed up (no source, played at a workshop) - people form a circle.
-Each person (one by one) goes into the center and says “I screwed up”,
-“I made a mistake” or something similar. Everyone else cheers and applauds them. They
-have to accept it sincerely.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sending signals with hands (no source, played at a workshop) - people form a circle and hold hands.
-The moderator presses their neighbor arm. The neighbor has to squeeze their neighbor arm
-(i.e. pass the signal). And so on. The moderator can start multiple signals even in multiple directions.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://improvencyclopedia.org/games//Blind_Line_Up.html&quot;&gt;[Blind] Line Up&lt;/a&gt; - people wonder around (optionally
-with closed eyes). The moderator gives a signal and names a criteria. The group has to order themselves
-by that criteria. They cannot talk. The criteria can be - age, weight, shoe size, blue.
-The goal of the game may be not to form a perfect order, but for the group to agree and to accept.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sound Circle Up (no source, played at a workshop) - people form a circle. Everyone produces a repetitive sound
-(worth pointing out that one should be able to repeat it for minutes). Everyone remembers sounds of their neighbors.
-Everyone closes their eyes. The moderator shuffles people randomly. They each produce their sounds.
-The goal is to form the circle again.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://improvencyclopedia.org/games/Tug-O-War.html&quot;&gt;Tug-O-War&lt;/a&gt; - Tug-O-War with imaginary rope
-that does not stretch or shrink. One group has to win. Variations: 2 by 2 or men vs women.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://improvencyclopedia.org/games//Catch%60em.html&quot;&gt;Catch`em&lt;/a&gt; - one player faces the wall.
-All other players stand behind them at a distance. The first player can turn at any moment.
-The goal of other players to reach the first player without ever being seen moving.
-I.e. when the first players turns, everyone should freeze.
-Who gets caught - leaves the game.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://improvencyclopedia.org/games//House,_Creature,_Flood.html&quot;&gt;House, Creature, Flood&lt;/a&gt; -
-some people form houses (pair up and hold hands like a roof), others become creatures and 
-live in these houses (just stand under “the roof”). When the moderator says “house”, houses (people making them) have to move 
-and form houses around a different creature. Creatures don’t move. Similarly when the moderator
-says “creature” - creatures have to find a new house. When the moderator says “flood” - 
-everyone moves.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Deadly Eye Contact (no source, played at a workshop) - people form a circle and look down.
-When the moderator gives a signal, they raise their eyes and look someone else into eyes.
-If they form an eye contact with that person, they both shout and leave.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;names&quot;&gt;Names&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/cross_circle&quot;&gt;Cross Circle&lt;/a&gt; - ones names someone,
-when the receiver acknowledges, one starts walking towards them. The receiver has to name
-someone else and start walking before the first person reaches them.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Name Pointing (no source, played at a workshop) -
-    &lt;ul&gt;
-      &lt;li&gt;(level 1) point at someone, say your name.&lt;/li&gt;
-      &lt;li&gt;(level 2) point at someone, say their name.&lt;/li&gt;
-      &lt;li&gt;(level 3) point at someone, say third person name, the second person has to point at the third person.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://improvencyclopedia.org/games//Bippety_Bop(1).html&quot;&gt;Bippety Bop (names)&lt;/a&gt; - people form a circle.
-One person is in the middle. They name another player and say ‘Bippety Bippety Bop’. The named person
-has to say the names of their neighbors before the player in the middle finishes saying the sentence.
-Who finishes first - wins. If the central player wins, they swap with the named player.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;no-interaction&quot;&gt;No interaction&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://improwiki.com/en/wiki/improv/circle_up&quot;&gt;Circle Up&lt;/a&gt; - 
-shake each hand and leg 7 times, then 6 and so on.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Hakuna Matata (no source, played at a workshop) - people form a circle.
-One person starts saying “Hakuna-a-a-a-a” with raising voice and raising their hands up.
-Soon (around “a-a-a-a”) another person does the same. All people do these one by one.
-The people who said “Hakuna” continue saying “a”. When everyone says “a” and has
-their hands raised, everyone in one voice says “matata” and drops their hands down.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://improvencyclopedia.org/games//Fuzzy_Ducky.html&quot;&gt;Fuzzy Ducky (or Fizz Buzz)&lt;/a&gt; - people form a circle
-and count numbers one by one. Any number divisible by 3 (like 12) or having 3 (e.g. 13) becomes “Fuzzy”.
-Similarly for 7 (e.g. 14 or 17) - “Ducky”. Both 3 and 7 together (e.g. 21 or 73 or 37) - “Fuzzy Ducky”.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="impro" /><category term="compilation" /><summary type="html">I’ve noticed that some impro games can be played in a group unrelated to impro (e.g. work colleagues at a party). Here is my compilation of such games.</summary></entry></feed>
+However, I struggle imagining being so busy (like not having 1-2 hours per week).&lt;/p&gt;</content><author><name></name></author><category term="opinion" /><summary type="html">Mr. Money Mustache wrote multiple times about weaknesses and inconvenience. This made me think about the modern world mechanics around them. I then understood that capitalism benefits from people being weak and avoiding inconvenience. Let’s see how.</summary></entry></feed>
