@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-14T15:08:53+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">801€ tax free capital gains each year in Germany</title><link href="https://merelycurious.me/post/801-tax-free-capital-gains" rel="alternate" type="text/html" title="801€ tax free capital gains each year in Germany" /><published>2019-07-13T16:00:00+02:00</published><updated>2019-07-13T16:00:00+02:00</updated><id>https://merelycurious.me/post/801_tax_free_capital_gains</id><content type="html" xml:base="https://merelycurious.me/post/801-tax-free-capital-gains">&lt;p&gt;In Germany, one does not pay any tax for their first 801€ of capital gains each year.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-16T20:42:03+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How to disable notifications prompt in Chrome?</title><link href="https://merelycurious.me/post/notifications-prompt-in-chrome" rel="alternate" type="text/html" title="How to disable notifications prompt in Chrome?" /><published>2019-07-16T20:00:00+02:00</published><updated>2019-07-16T20:00:00+02:00</updated><id>https://merelycurious.me/post/notifications_prompt_in_chrome</id><content type="html" xml:base="https://merelycurious.me/post/notifications-prompt-in-chrome">&lt;p&gt;Numerous sites ask for permission “to show notifications”.
+Some of them even obstruct the site itself unless ones makes a choice in this permission prompt.
+Pressing “no” multiple times a day (with a probability to eventually misclick “yes”)
+sounds like wasting of time. Fortunately, there is a way in Chrome
+to say “no” by default (i.e. disable this prompts completely and never see them again).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/notifications_in_chrome/reddit_problem.png&quot; alt=&quot;A screenshot of Reddit blacking out the website until one closes the 
+notification prompt.&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;Open chrome://settings/content/notifications and disable “Ask before sending (recommended)”.&lt;/p&gt;
+
+&lt;p&gt;The final result:
+&lt;img src=&quot;/assets/post_resources/notifications_in_chrome/solution.png&quot; alt=&quot;A screenshot of Chrome settings with this notification prompt (finally!) disabled.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Alternatively in order to reach this screen you can:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Go to Chrome Settings&lt;/li&gt;
+  &lt;li&gt;Search for “notifications” or go to Advanced &amp;gt; Privacy and Security&lt;/li&gt;
+  &lt;li&gt;Choose Site Settings&lt;/li&gt;
+  &lt;li&gt;Open “Notifications”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;funny-story-from-my-life&quot;&gt;Funny story from my life&lt;/h2&gt;
+
+&lt;p&gt;Once I misclicked “yes” on some random website, which I opened only once. You can imagine my face when I noticed
+a very weird pop-up notification some day after. I completely forgot about this website.
+Obviously, I thought that I had some malware, but somehow I ended up checking notification permissions.
+Yeap, that site was there. To be honest, I still don’t remember clicking “yes”, so I just assume that I misclicked.
+This was the last drop for me to disable these prompts for good.&lt;/p&gt;
+
+&lt;p&gt;Happy browsing without useless distractions!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;How-to&quot;]" /><category term="howto" /><category term="Chrome" /><summary type="html">Numerous sites ask for permission “to show notifications”. Some of them even obstruct the site itself unless ones makes a choice in this permission prompt. Pressing “no” multiple times a day (with a probability to eventually misclick “yes”) sounds like wasting of time. Fortunately, there is a way in Chrome to say “no” by default (i.e. disable this prompts completely and never see them again).</summary></entry><entry><title type="html">801€ tax free capital gains each year in Germany</title><link href="https://merelycurious.me/post/801-tax-free-capital-gains" rel="alternate" type="text/html" title="801€ tax free capital gains each year in Germany" /><published>2019-07-13T16:00:00+02:00</published><updated>2019-07-13T16:00:00+02:00</updated><id>https://merelycurious.me/post/801_tax_free_capital_gains</id><content type="html" xml:base="https://merelycurious.me/post/801-tax-free-capital-gains">&lt;p&gt;In Germany, one does not pay any tax for their first 801€ of capital gains each year.
 I personally try to realize at least 801 EUR each year to use this benefit, but I am
 now curious how much of a difference in the long term this makes.&lt;/p&gt;
 
@@ -1245,132 +1281,4 @@ I just try to assign them an artificially smaller weight in my decision process.
 
 &lt;p&gt;So this artificially lowered weight of mainstream opinions could be another example of an opinion
 which few of my peers share. I think I know only 1 other person like that, but they are just a random acquaintance
-and we don’t talk much these days. Obviously, I don’t discuss this much either.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;About me&quot;, &quot;Thought experiments&quot;]" /><category term="thought experiment" /><category term="about me" /><summary type="html">The new thought experiment is live and this time it is about unpopular opinions, which your peers don’t share with you.</summary></entry><entry><title type="html">Capitalism wants you to be weak</title><link href="https://merelycurious.me/post/capitalism-makes-you-weak" rel="alternate" type="text/html" title="Capitalism wants you to be weak" /><published>2019-06-04T18:00:00+02:00</published><updated>2019-06-04T18:00:00+02:00</updated><id>https://merelycurious.me/post/capitalism_makes_you_weak</id><content type="html" xml:base="https://merelycurious.me/post/capitalism-makes-you-weak">&lt;p&gt;Mr. Money Mustache wrote multiple times about weaknesses and inconvenience. 
-This made me think about the modern world mechanics around them.
-I then understood that capitalism benefits from people being weak
-and avoiding inconvenience. Let’s see how.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;By capitalism I mean privately owned companies, which operate exclusively for profit.
-I am not trying to say that the system is bad - the modern world operates like that anyway.&lt;/p&gt;
-
-&lt;p&gt;By weaknesses I mean people choosing options, which are too easy (perhaps even harmfully easy)
-for them. Similarly for inconvenience - choosing options, which are too convenient.&lt;/p&gt;
-
-&lt;h2 id=&quot;capitalism&quot;&gt;Capitalism&lt;/h2&gt;
-
-&lt;p&gt;A company’s goal is profit. There are artificial limitations created by governments,
-because, otherwise, company’s actions can be even harmful for the customers. E.g. they could
-use substances, which are harmful in the long term, to save costs. Alternatively they
-could become a monopolist and then start rising prices to have more profit.&lt;/p&gt;
-
-&lt;p&gt;Since the company’s goal is the profit, whenever there is an opportunity to increase the
-profit - the company is likely to take it. For simplicity, let’s consider only 
-net-positive opportunities (i.e. ones which are in the end overall positive for the company,
-even if at the beginning they can be negative).&lt;/p&gt;
-
-&lt;h2 id=&quot;humans&quot;&gt;Humans&lt;/h2&gt;
-
-&lt;p&gt;At the same time, humans have hedonic adaptation and get used to any current state
-and stop enjoying it. Majority of situations can be improved, so the current state can
-even be considered inconvenient or too hard. There are also many people, so from probabilistic
-view, some of them (outliers) will over-exaggerate and require unnecessary (from majority’s 
-perspective) simplification.&lt;/p&gt;
-
-&lt;h2 id=&quot;both-together&quot;&gt;Both together&lt;/h2&gt;
-
-&lt;p&gt;Then when someone signals their desire for simplification, this can be a good opportunity 
-to make money. As a result, if enough people happen to have this desire and are ready to
-pay for its solution, this may become profitable for some company. Since the company’s goal
-is profit, they don’t care about how weird or absurd the problem can be. The customers will
-pay, this is enough. At the same time the company can even claim that they are improving 
-customer lives:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;customers want this solution&lt;/li&gt;
-  &lt;li&gt;they are paying for it (i.e. consider it valuable enough)&lt;/li&gt;
-  &lt;li&gt;thus, they must have a problem and we are solving it for them.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here we get a positive feedback loop. Enough people want some simplification. Some company
-fulfills this need. People get used to it due to hedonic adaptation (just start considering it
-normal) and want more simplification.&lt;/p&gt;
-
-&lt;p&gt;My own example is washing clothes.
-One can have a washing machine or wash them manually. The former saves a lot of time
-and effort. However, one still needs to hang the clothes to dry up. I got so used
-to the washing machine that I now consider hanging up the clothes as quite inconvenient.
-Basically I completely forgot how manual washing would have felt. I can imagine other
-people having similar feelings and then some company coming and fixing this issue.
-However, I personally remind myself that washing machine already solves 99% of the problem
-for me and going for that remaining 1% is an overkill.&lt;/p&gt;
-
-&lt;h2 id=&quot;one-step-further&quot;&gt;One step further&lt;/h2&gt;
-
-&lt;p&gt;Previously we considered people having a problem and wanting a solution. However, the companies
-are also incentivized to create a problem when there is none. In other words, people may consider
-something to be ok and normal, but this does not bring any money to for-profit companies. Thus,
-they are incentivized to come and “teach” people that their current state is inconvenient, 
-sub-optimal, can and should be improved - just pay for the solution.&lt;/p&gt;
-
-&lt;p&gt;I consider this much more dangerous than fulfilling weird-but-real needs coming from people. In this case,
-the company itself affects people. What is even scarier, the company is interested in making
-money and they don’t need to consider entire scope of their effect on people. In other words, if
-they can make people to buy something, but at the same time there will be some unintended consequences,
-the company does not care as long as the customers pay and this is inside governmental boundaries.&lt;/p&gt;
-
-&lt;p&gt;Coming with particular examples is hard. I can imagine someone trying to define “beauty” in a way
-which helps them sell their product. E.g. some nose shape and plastic surgery or body weight and 
-products for losing weight. It is peculiar that companies still can claim that they are improving
-people lives (e.g. people still buy their product in some sense voluntarily), but this is
-objectively questionable. E.g. if someone would consider themselves ok, but then they get affected
-by company advertisement and start considering themselves ugly, then the company just made them less happy.
-In some sense, this is caused by people’s irrationality. Yes, they may want to buy something,
-but the source of this desire may be external.&lt;/p&gt;
-
-&lt;p&gt;Another example is fear. Whenever one fears something, they greatly value protection against it.
-Thus, the companies can be incentivized to over-exaggerate how bad something is or just create the fear
-artificially.&lt;/p&gt;
-
-&lt;p&gt;According to Freakonomics, one particular example are mouthwashes (they use Listerine as an example).
-They are incentivized to make you scared of bad breath. According to the book, before Listerine
-the bad breath was not considered that bad, but their ads changed this perspective.&lt;/p&gt;
-
-&lt;p&gt;According to
-&lt;a href=&quot;https://www.nytimes.com/2013/05/05/fashion/weddings/how-americans-learned-to-love-diamonds.html&quot;&gt;the New York Times&lt;/a&gt;,
-diamonds is another example. At some point in history diamonds were not that popular.
-However, companies selling diamonds wanted this to be different. As a result, they
-managed to convince many that having diamonds (and giving them as present) is good.
-This in some sense created a fear - “if I don’t present a diamond, my partner will be less
-happy”.&lt;/p&gt;
-
-&lt;p&gt;Due to the human nature, looking at products for kids often illustrates this even better.
-Each parent intrinsically wants the best for their children. As a result, 
-creating artificial fears and simplifications here is even easier.&lt;/p&gt;
-
-&lt;h2 id=&quot;remarks&quot;&gt;Remarks&lt;/h2&gt;
-
-&lt;p&gt;Here I considered only existence of people wanting “weird” simplifications, while their quantity
-is actually much more important for estimating the actual effect. However, I don’t think such an estimation
-is feasible, so I just hypothesize how the mechanic works without any quantitative data.&lt;/p&gt;
-
-&lt;p&gt;It is also worth noting, I am not saying that these people are bad. This is their own choice
-and they are free to want something. I am just interested how some weird and absurd things end
-up on the market.&lt;/p&gt;
-
-&lt;p&gt;Another important observation is that the actual definition of weakness depends on your own
-life situation. E.g. I could say that having a dish washer is unnecessary and such people are weak.
-I can imagine someone else saying that having tap water is unnecessary and I am weak.
-Nevertheless I suppose that there are some products, which are considered unnecessary by the
-majority (e.g. 99%) of the population (hi, &lt;a href=&quot;/post/crazy-pistachio&quot;&gt;crazy pistachio&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Also I am not against all the simplification. I definitely enjoy having a washing machine, physical safety,
-medicine, grocery shops and so on. I think these and many others did improve my life and made it quite better.
-In some sense, these do solve major part of some problem for me. I don’t think that the remaining small part
-of such problems has to be solved. E.g. I don’t need groceries to be delivered to my place, I am fine with just going
-and buying them. Delivery companies could try to create a perspective that buying your own groceries 
-is not cool (like not having diamonds during a wedding). I am definitely against such artificial perspective.
-Please note that for others this may make more sense, e.g. they are very busy and want to save time.
-However, I struggle imagining being so busy (like not having 1-2 hours per week).&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Frugality&quot;]" /><category term="opinion" /><summary type="html">Mr. Money Mustache wrote multiple times about weaknesses and inconvenience. This made me think about the modern world mechanics around them. I then understood that capitalism benefits from people being weak and avoiding inconvenience. Let’s see how.</summary></entry></feed>
+and we don’t talk much these days. Obviously, I don’t discuss this much either.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;About me&quot;, &quot;Thought experiments&quot;]" /><category term="thought experiment" /><category term="about me" /><summary type="html">The new thought experiment is live and this time it is about unpopular opinions, which your peers don’t share with you.</summary></entry></feed>
