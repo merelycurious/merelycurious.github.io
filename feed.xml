@@ -1,4 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-16T20:42:03+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How to disable notifications prompt in Chrome?</title><link href="https://merelycurious.me/post/notifications-prompt-in-chrome" rel="alternate" type="text/html" title="How to disable notifications prompt in Chrome?" /><published>2019-07-16T20:00:00+02:00</published><updated>2019-07-16T20:00:00+02:00</updated><id>https://merelycurious.me/post/notifications_prompt_in_chrome</id><content type="html" xml:base="https://merelycurious.me/post/notifications-prompt-in-chrome">&lt;p&gt;Numerous sites ask for permission “to show notifications”.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-21T19:49:17+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Delaying capital gains taxes during saving for FIRE phase</title><link href="https://merelycurious.me/post/delaying-capital-gains-in-fire" rel="alternate" type="text/html" title="Delaying capital gains taxes during saving for FIRE phase" /><published>2019-07-21T19:00:00+02:00</published><updated>2019-07-21T19:00:00+02:00</updated><id>https://merelycurious.me/post/delaying_capital_gains_in_FIRE</id><content type="html" xml:base="https://merelycurious.me/post/delaying-capital-gains-in-fire">&lt;p&gt;It is common knowledge that one should delay realizing their capital gains as much
+as possible (especially when aiming for Financial Independence / Early Retirement).
+Let’s focus on the phase, when one saves for FIRE, and see the magnitude of the effect
+of such a delay.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt;
+
+&lt;p&gt;Everyone has their own unique situation. This post is based on a number of assumptions,
+thus, don’t rely on it as is. Have a look at the assumption and see how well this applies 
+to your situation.&lt;/p&gt;
+
+&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
+
+&lt;p&gt;It is commonly known that usually one should delay realizing their investment capital gains
+as much as possible to increase their returns. Basically, instead of just paying the tax now, one can
+temporarily keep it and continue getting investment growth (compounding) out of it.&lt;/p&gt;
+
+&lt;h2 id=&quot;simulation&quot;&gt;Simulation&lt;/h2&gt;
+
+&lt;h3 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h3&gt;
+
+&lt;p&gt;Let’s take an example of Annet.
+We will use the following assumptions about Annet and her life:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lives in Germany&lt;/li&gt;
+  &lt;li&gt;pays German capital gain tax and always 26.375% (25% tax itself &amp;amp; additional 5.5% of it as solidarity tax)&lt;/li&gt;
+  &lt;li&gt;has other income, i.e. the capital gain tax is never reduced to progressive income tax.
+This is a strong assumption, but not for the collection phase&lt;/li&gt;
+  &lt;li&gt;never uses 801 tax-free capital gain&lt;/li&gt;
+  &lt;li&gt;no dividends and no tax prepayment (this is different from the current German system)&lt;/li&gt;
+  &lt;li&gt;starts from 0 in January 2019&lt;/li&gt;
+  &lt;li&gt;(the strongest assumption) the market always has constant yearly and monthly returns.
+I use 4% return per year or equivalently 0.32737% per month.&lt;/li&gt;
+  &lt;li&gt;earns 2k EUR and invests 1k EUR each month.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;methodology&quot;&gt;Methodology&lt;/h3&gt;
+
+&lt;p&gt;We assume that Annet contributes 1000 EUR every month.
+Her investment growths by 0.32737% at the end of every month.
+I.e. she has 0 at 1st of January 2019. She invests 1000 in the end of January.
+In the end of February her 1000 grow into 1003.27 and she invests another 1000,
+thus, having 2003.27 pre-tax overall.&lt;/p&gt;
+
+&lt;p&gt;Now we compare 2 options. The first option is delaying realizing capital gains as
+much as possible. Basically she never sells until becoming FIRE. At that point, she will pay 26.375% on her
+capital gains. The second option is realizing capital gains as fast as possible (every month, alternatively
+having only distributing ETFs).
+Basically, once her 1000 grow into 1003.27, she immediately sells them (or receives dividends)
+and buys the same asset again. While doing this, she pays 26.375% tax on the growth.&lt;/p&gt;
+
+&lt;p&gt;Note: This is just a simplified model. Re-buying the same asset might be considered a wash sale.&lt;/p&gt;
+
+&lt;p&gt;Also normally one does not sell everything after becoming FIRE, but here we
+assume this to be able to compare the two approaches.&lt;/p&gt;
+
+&lt;h3 id=&quot;spreadsheet&quot;&gt;Spreadsheet&lt;/h3&gt;
+
+&lt;p&gt;I’ve prepared &lt;a href=&quot;https://docs.google.com/spreadsheets/d/11iki1iPJawRdpLVxPoIGkBx0Oq5MowwRENDcuVZvbRQ/edit&quot;&gt;a Google Spreadsheet with the calculation&lt;/a&gt;. You can play with it by making a copy first.&lt;/p&gt;
+
+&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
+
+&lt;p&gt;According to 4% rule, her FIRE target is 300k. 
+In the first case, she reaches 300k (after tax) in 222 months (July 2037) and pre-tax she has
+327k. In the second case she has only 294k EUR at this point (i.e. 1.7% less).
+She needs 4 more months (1.8%) to reach 300k EUR post-tax in the second case.&lt;/p&gt;
+
+&lt;h3 id=&quot;general-case&quot;&gt;General case&lt;/h3&gt;
+
+&lt;p&gt;Above we considered only one particular setting. Now let’s have a look how the two cases differ
+under various yearly investment returns and time horizons.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/delaying_capital_gains/difference_based_on_return.png&quot; alt=&quot;a plot showing how difference (in percents) between the two cases (delaying capital gains and
+realizing them monthly) depends on number of months invested and yearly return on
+investment&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As we can see, for 7% yearly return and 30 years, the difference crosses 12%, which is a substantial amount.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-research&quot;&gt;Further research&lt;/h3&gt;
+
+&lt;p&gt;Possible improvements of the simulation:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;take into account 801 EUR capital gain tax free every year.
+This won’t affect the result too much though as we have already seen
+in 
+&lt;a href=&quot;/post/801-tax-free-capital-gains&quot;&gt;my previous post about tax-free 801 EUR per year&lt;/a&gt;.
+Basically, this can improve the second case (realizing gains immediately),
+but at most 801 * 0.26375 = 211.26 EUR per year.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;look into FIRE spending phase, which is much more dependent on capital gains.
+In this simulation we pretended that we send everything once one reaches FIRE
+to compare the two cases. In reality that’s not true. In this case not-realized
+capital gains will have even more time to grow, thus, this should make
+the difference even larger.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;take into account capital gain tax becoming progressive income tax.
+Finally, this should reduce the tax paid after FIRE substantially.
+Basically, if one has no or little income and their progressive income tax is less
+than 25%, they don’t pay 25% on their capital gains either (but their income
+tax instead).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;using real market data. Currently I just assume 4% per year growth, which
+ignores sequence of returns completely.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;taking into account yearly tax prepayment.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will address some of these in my follow-up posts, stay tuned!&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Delaying your capital gains matters less than I expected (1.7% difference under 50% saving rate and 4% yearly return case).
+However, since by default you don’t realize them, it is better not to do anything extra and just don’t lose these 1.7%.
+Overall, 1.7% (or even more if the yearly return is larger than 4%) can be a reasonable sum.&lt;/p&gt;
+
+&lt;p&gt;Occasionally one can be forced to realize their capital gains (e.g. an accumulating ETFs gets closed or 
+changes its internal structure). Based on the numbers above, it makes sense to try to avoid this to some extent
+(e.g. buying same ETFs from different providers).&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Simulations&quot;, &quot;Germany&quot;, &quot;Investing&quot;, &quot;Financial Independence / Early Retirement&quot;]" /><category term="fire" /><category term="analysis" /><category term="mini-project" /><category term="taxes" /><summary type="html">It is common knowledge that one should delay realizing their capital gains as much as possible (especially when aiming for Financial Independence / Early Retirement). Let’s focus on the phase, when one saves for FIRE, and see the magnitude of the effect of such a delay.</summary></entry><entry><title type="html">How to disable notifications prompt in Chrome?</title><link href="https://merelycurious.me/post/notifications-prompt-in-chrome" rel="alternate" type="text/html" title="How to disable notifications prompt in Chrome?" /><published>2019-07-16T20:00:00+02:00</published><updated>2019-07-16T20:00:00+02:00</updated><id>https://merelycurious.me/post/notifications_prompt_in_chrome</id><content type="html" xml:base="https://merelycurious.me/post/notifications-prompt-in-chrome">&lt;p&gt;Numerous sites ask for permission “to show notifications”.
 Some of them even obstruct the site itself unless ones makes a choice in this permission prompt.
 Pressing “no” multiple times a day (with a probability to eventually misclick “yes”)
 sounds like wasting of time. Fortunately, there is a way in Chrome
@@ -1172,113 +1298,4 @@ from one of my Linodes” and select the target Linode machine.&lt;/li&gt;
 &lt;h2 id=&quot;further-reading&quot;&gt;Further reading&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.linode.com/docs/platform/manager/dns-manager/&quot;&gt;Linode docs about DNS Manager&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;How-to&quot;]" /><category term="how-to" /><category term="technical" /><summary type="html">Occasionally I need to link a domain parked at Namecheap to a Linode and each time I forget how to do it. Thus, here is a guide (i.e. a cheat-sheet for me).</summary></entry><entry><title type="html">Thought experiment 6: unpopular opinions</title><link href="https://merelycurious.me/post/thought-experiment-6-unpopular-opinions" rel="alternate" type="text/html" title="Thought experiment 6: unpopular opinions" /><published>2019-06-09T08:00:00+02:00</published><updated>2019-06-09T08:00:00+02:00</updated><id>https://merelycurious.me/post/thought_experiment_6_unpopular_opinions</id><content type="html" xml:base="https://merelycurious.me/post/thought-experiment-6-unpopular-opinions">&lt;p&gt;The new thought experiment is live and this time it is about unpopular opinions,
-which your peers don’t share with you.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;concept&quot;&gt;Concept&lt;/h2&gt;
-
-&lt;p&gt;As usual, let me tell a couple words about the concept.
-Every 2 months SavingNinja &lt;a href=&quot;https://thesavingninja.com/category/experiments/&quot;&gt;posts&lt;/a&gt;
-a hypothetical question about FIRE or life in general. Then one is encouraged to write their
-answer in one go (just putting their raw thoughts as they come) without
-editing afterwards.&lt;/p&gt;
-
-&lt;p&gt;I already took part twice 
-(&lt;a href=&quot;/post/thought-experiment-losing-everything&quot;&gt;losing everything&lt;/a&gt;,
-&lt;a href=&quot;/post/thought-experiment-projects-when-fire&quot;&gt;projects when FIRE&lt;/a&gt;
-and 
-&lt;a href=&quot;/post/thought-experiment-overview-projects-when-fire&quot;&gt;overview of other people responses&lt;/a&gt;)
- and I definitely enjoy the process.&lt;/p&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;This time I am again writing this in the morning (in case it is something scary,
-the “losing everything” impact still didn’t wear out).
-SavingNinja thanked &lt;a href=&quot;https://indeedably.com/&quot;&gt;{ in·deed·a·bly }&lt;/a&gt; for a subject, so I am definitely curious.
-Also did SavingNinja start running out of ideas or was indeedably’s idea so irresistibly good?&lt;/p&gt;
-
-&lt;h2 id=&quot;unpopular-opinion&quot;&gt;“Unpopular opinion”&lt;/h2&gt;
-
-&lt;p&gt;The new experiment statement is:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A different opinion is somewhat frowned upon in our clique based society, but some of the greatest
-minds of all time were outliers. They weren’t scared to go against the grain and stand up for what
-they believed in. So, for this Thought Experiment, I’d like you to reveal yourself: What opinion do
-you have that most of your peers do not share?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Its page is &lt;a href=&quot;https://thesavingninja.com/unpopular-opinion&quot;&gt;here&lt;/a&gt; and there you can read other people
-answers, which I definitely recommend. In the last experiment I even did
-&lt;a href=&quot;/post/thought-experiment-overview-projects-when-fire&quot;&gt;an overview&lt;/a&gt;
-of people responses and I definitely enjoyed reading all the diverse opinions.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-answer&quot;&gt;My answer&lt;/h2&gt;
-
-&lt;p&gt;Oh, that’s a tricky one. 
-I.e. I have to enumerate my beliefs and then compare them with beliefs of other people and estimate
-the intersection. I definitely like that the question talks about “my peers” and not people in general,
-because then it would be completely impossible. Here I can at least estimate by remembering anecdotes.&lt;/p&gt;
-
-&lt;p&gt;I am not sure whether I will come up with one concrete answer. So far I have 2 options - the 
-positivity of the concept of FIRE and negativity of alcohol. I think my views on alcohol have a good
-chance to be the rarest across my peers.&lt;/p&gt;
-
-&lt;p&gt;Basically, I happen to be not a fan of alcohol. Somehow when everyone was starting to drink alcohol,
-I didn’t like the taste much and didn’t start myself (but I definitely tried, peer pressure is a strong
-motivator especially in the young age). As a result I don’t drink any alcohol. Obviously, this topic gets
-raised at almost any celebration. As a result, I suspect that such an opinion is extremely rare across my peers. 
-I don’t mean that my peers are constantly drunk, but somehow I can remember only 1 other person who
-does not drink any alcohol due to non-religious reasons and one - for religious. It is funny that in the former
-case their views were even more extreme than mine - they disallow people to drink any alcohol at celebrations
-in their home. I personally don’t mind that. In the end each has their own life and if someone enjoys
-drinking (even people who I care a lot about), but they don’t overdo it, then it is fine with me.&lt;/p&gt;
-
-&lt;p&gt;I suspect that this view may be quite rare across the general population as well.
-I think the keyword is a teetotaler (Teetotalism). I am not part of Teetotalism per se,
-but I suspect that for an external observer it will look like I am.&lt;/p&gt;
-
-&lt;p&gt;Ok, I suspect that alcohol abstinence (to clarify, I don’t restrain myself from alcohol and I often have
-to actively refuse) is my opinion, which the fewest of my peers share (so far I can remember only 2 people).&lt;/p&gt;
-
-&lt;p&gt;Could I probably beat this number? Is there something one person or no one else shares?
-Thus, let’s get to the second point. FIRE. Obviously, I don’t talk much to my peers 
-about the concept. I work at a normal job and even though my colleagues are very understanding,
-this might be too dramatic for them. Across my immediate peers (e.g. not FIRE related people in the Internet who
-I actively tried to meet) I know only 1 other person, who is into FIRE and considers this to be a positive thing.
-I assume that others either don’t know about it (majority) or find it unattractive or unattainable.
-Why didn’t I put this before the alcohol? Because I did actively go to FIRE related meetups and I met
-quite a few people interested in or even pursuing FIRE. I have no clue whether I should classify them as my peers or not.
-Probably not, but I am not sure. Thus, it is up to you now.&lt;/p&gt;
-
-&lt;p&gt;Overall this experiment does not invite to write a lot. I wrote a couple paragraphs and already
-have 2 opinions. Oh, let’s also phrase them as opinions. So, the first one is “I should not drink any alcohol
-aka there is no point in alcohol” (this is just my opinion, if you see a point in alcohol, that’s your opinion
-and I will actively force myself to accept it as yours and to respect it). The second one - “I should pursue FIRE, FIRE is good and
-will make me happier and improve my life”.&lt;/p&gt;
-
-&lt;p&gt;So now I would like to go a bit meta. In general I try to avoid using society opinions when making my decisions.
-I speculate that “average” opinions in society are often wrong and misleading and may even be artificially created
-e.g. by some companies or the system in general 
-(see &lt;a href=&quot;/post/capitalism-makes-you-weak&quot;&gt;my post on how capitalism benefits from this&lt;/a&gt;). 
-One concrete example is other people age.
-I think that society has unwritten rules “advising” one not to communicate across large age gaps.
-I consider this very weird, because when two people communicate, age plays very little or no role at all.
-Imagine that there is a set of people, with whom you would enjoy spending your time (this can be any activities,
-e.g. just talking, doing sport, walking, hiking). Then if you add an artificial limitation based on age, you just
-remove some people from this set, i.e. make finding interesting people even harder.&lt;/p&gt;
-
-&lt;p&gt;Obviously I can see where this is coming from. This indeed works as a stereotype and a heuristic.
-Most of the time people with a large age gap may have different interests, goals and problems in life
-and, thus, establishing the communication may be hard. However, if you somehow happened to see that another
-person is in your “interesting” people set, not building a relationship due to their age would be
-a waste of opportunity.&lt;/p&gt;
-
-&lt;p&gt;Also I don’t try to do opposite to mainstream opinions. That would be weird. 
-I just try to assign them an artificially smaller weight in my decision process.&lt;/p&gt;
-
-&lt;p&gt;So this artificially lowered weight of mainstream opinions could be another example of an opinion
-which few of my peers share. I think I know only 1 other person like that, but they are just a random acquaintance
-and we don’t talk much these days. Obviously, I don’t discuss this much either.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;About me&quot;, &quot;Thought experiments&quot;]" /><category term="thought experiment" /><category term="about me" /><summary type="html">The new thought experiment is live and this time it is about unpopular opinions, which your peers don’t share with you.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;How-to&quot;]" /><category term="how-to" /><category term="technical" /><summary type="html">Occasionally I need to link a domain parked at Namecheap to a Linode and each time I forget how to do it. Thus, here is a guide (i.e. a cheat-sheet for me).</summary></entry></feed>
