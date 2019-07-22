@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-21T19:49:17+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Delaying capital gains taxes during saving for FIRE phase</title><link href="https://merelycurious.me/post/delaying-capital-gains-in-fire" rel="alternate" type="text/html" title="Delaying capital gains taxes during saving for FIRE phase" /><published>2019-07-21T19:00:00+02:00</published><updated>2019-07-21T19:00:00+02:00</updated><id>https://merelycurious.me/post/delaying_capital_gains_in_FIRE</id><content type="html" xml:base="https://merelycurious.me/post/delaying-capital-gains-in-fire">&lt;p&gt;It is common knowledge that one should delay realizing their capital gains as much
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-22T20:57:32+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Delaying capital gains taxes during saving for FIRE phase</title><link href="https://merelycurious.me/post/delaying-capital-gains-in-fire" rel="alternate" type="text/html" title="Delaying capital gains taxes during saving for FIRE phase" /><published>2019-07-21T19:00:00+02:00</published><updated>2019-07-21T19:00:00+02:00</updated><id>https://merelycurious.me/post/delaying_capital_gains_in_FIRE</id><content type="html" xml:base="https://merelycurious.me/post/delaying-capital-gains-in-fire">&lt;p&gt;It is common knowledge that one should delay realizing their capital gains as much
 as possible (especially when aiming for Financial Independence / Early Retirement).
 Let’s focus on the phase, when one saves for FIRE, and see the magnitude of the effect
 of such a delay.&lt;/p&gt;
@@ -176,8 +176,10 @@ to your situation.&lt;/p&gt;
 
 &lt;p&gt;I met some people who did not bother with these 801€ per year at all. However, I do try to use them.
 Basically, when realizing 801€ of capital gains, one pays no taxes in Germany.
-Normally one would pay 26.25% tax (25% capital gain tax and 5% of that is solidarity tax).
-Thus, one can get free 801 * 26.25% = 210.26€ each year by doing this. This is definitely
+Please note that this does not mean that one gets 801€ for free. Nope.
+Normally one would pay 26.375% tax (25% capital gain tax and 5.5% of that is solidarity tax).
+With this benefit one does not pay this tax for 801€.
+Thus, one can get free 801 * 26.375% = 211.26€ each year by doing this. This is definitely
 not a life changing sum, but I am curious what the impact is when saving e.g. for FIRE.&lt;/p&gt;
 
 &lt;p&gt;Dividends do count against this sum as well. Moreover not realized capital gains now have to be partially
@@ -193,7 +195,7 @@ We will use the following assumptions about Jannet and her life:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;lives in Germany&lt;/li&gt;
   &lt;li&gt;does not have any other capital gains except from her stock portfolio&lt;/li&gt;
-  &lt;li&gt;has other income, i.e. the capital gain tax is always 26.25% and never gets replaced
+  &lt;li&gt;has other income, i.e. the capital gain tax is always 26.375% and never gets replaced
 with the progressive income tax (in a future post I will look more into how this works).
 This is very realistic for the collection phase&lt;/li&gt;
   &lt;li&gt;starts from 0€ in January 2019&lt;/li&gt;
@@ -239,9 +241,9 @@ to the diff column).&lt;/p&gt;
 In the first case, she reaches 300k€ after tax in 222 months (July 2037) and pre-tax she had
 327k. In the second case she reaches 300k€ after tax 2 months earlier (May 2037).
 By this time she had realized 14542€ of capital gains tax free by using this 801€ benefit.
-I.e. she has got 14542€ * 26.25% = 3817.27€ for free.&lt;/p&gt;
+I.e. she has got 14542€ * 26.375% = 3835.45€ for free.&lt;/p&gt;
 
-&lt;p&gt;The difference between the two approaches (in percents) jumps to 1.37% and then slowly falls down to ~1.2%.&lt;/p&gt;
+&lt;p&gt;The difference between the two approaches (in percents) jumps to 1.34% and then slowly falls down to ~1.2%.&lt;/p&gt;
 
 &lt;p&gt;Let’s plot the difference for each month:&lt;/p&gt;
 
@@ -324,7 +326,35 @@ And if you invest something like 5k€ per month, the difference reaches 0.3%.&l
 
 &lt;p&gt;Overall, these are free money, which are very easy to get. Thus, I advise you to use this opportunity!&lt;/p&gt;
 
+&lt;p&gt;Please note that there are multiple ways to use it. In the end, you just need to realize capital gains and I am aware
+of the following ways to do so:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Receive dividends.
+If we assume 1-2% of dividends per year, you will use these tax-free 801€ by having 40k-80k€ invested.&lt;/li&gt;
+  &lt;li&gt;Yearly tax prepayment (Vorabpauschale).&lt;br /&gt;
+If we take 0.87% Basiszinses for 2018 and assume 4% yearly growth,
+having 801€ / (0.87% * 70%) = ~130k€ already exhausts these 801€.&lt;/li&gt;
+  &lt;li&gt;Selling something with a win.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Thus, if you have 130k and the year is positive (i.e there was at least Basiszinses * 0.7% growth),
+you don’t have to do anything to realize these 801€. If you have only distributing assets, having 40-80k€
+is already enough. Otherwise, you can sell something with a win.&lt;/p&gt;
+
 &lt;p&gt;Happy realizing 801€ of capital gains each year!&lt;/p&gt;
+
+&lt;h2 id=&quot;corrections&quot;&gt;Corrections&lt;/h2&gt;
+
+&lt;p&gt;2019/07/22:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Previously it was assumed that solidarity tax was 5%. It is actually 5.5%.
+I.e. one pays 25% * 1.055 = 26.375% capital gain tax. All values and graph have been updates. Thanks to 
+&lt;a href=&quot;https://www.reddit.com/user/hn_ns/&quot;&gt;u/hn_ns&lt;/a&gt; on Reddit for this correction.&lt;/li&gt;
+  &lt;li&gt;On &lt;a href=&quot;https://www.reddit.com/r/EuropeFIRE/comments/cdebkc/germany_how_much_does_one_lose_by_not_realizing/&quot;&gt;Reddit&lt;/a&gt;
+it was pointed out that one can use these 801€ via dividends or Vorabpauschale. I updated the text to make 
+this explicit.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h2 id=&quot;appendix&quot;&gt;Appendix&lt;/h2&gt;
 
