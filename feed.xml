@@ -1,4 +1,171 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-23T08:56:28+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Health insurance during FIRE</title><link href="https://merelycurious.me/post/health-insurance-during-fire" rel="alternate" type="text/html" title="Health insurance during FIRE" /><published>2019-07-23T08:00:00+02:00</published><updated>2019-07-23T08:00:00+02:00</updated><id>https://merelycurious.me/post/health_insurance_during_fire</id><content type="html" xml:base="https://merelycurious.me/post/health-insurance-during-fire">&lt;p&gt;Health insurance is a very important part of retirement. Let’s see how it 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-28T01:12:54+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Physics, acceleration and FIRE\(^2\)</title><link href="https://merelycurious.me/post/fire-squared" rel="alternate" type="text/html" title="Physics, acceleration and FIRE\(^2\)" /><published>2019-07-28T01:00:00+02:00</published><updated>2019-07-28T01:00:00+02:00</updated><id>https://merelycurious.me/post/fire_squared</id><content type="html" xml:base="https://merelycurious.me/post/fire-squared">&lt;p&gt;Financial Independence / Early Retirement is about reaching a state, in which you get enough passive income to live.
+Let’s say you get \(Y\) EUR each month. The overall money you get over time is \( M = Y * t \), where \(t\) is time.
+This resembles a physics equation for movement with constant speed (i.e. no acceleration).
+Let’s explore this similarity and try to add acceleration to FIRE and get FIRE\(^2\) (FIRE squared, I just made this
+name up).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;physics-prelude&quot;&gt;Physics prelude&lt;/h2&gt;
+
+&lt;p&gt;If an object moves with a constant speed \(V\) in one dimensional space,
+then its position can be obtained by \(x = V t + x_0\), where \(t\) is time
+and \(x_0\) is the initial position.&lt;/p&gt;
+
+&lt;p&gt;The case above assumes no acceleration (the speed is constant).
+If we have constant acceleration the equation becomes \(x = \frac{a t^2}{2} + V t + x_0\).&lt;/p&gt;
+
+&lt;h2 id=&quot;back-to-fire&quot;&gt;Back to FIRE&lt;/h2&gt;
+
+&lt;p&gt;In physics the object moves by \(V\) for each unit of time.
+In FIRE one gets \(Y\) EUR each month (i.e. unit of time).
+Basically, if we denote cumulative number of money obtained through FIRE as \(C\),
+the equation is similar to the equation above:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;C = Y t&lt;/script&gt;
+
+&lt;p&gt;Now let’s try to add acceleration here.
+The equation becomes:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;C = \frac{a t^2}{2} + Y t&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+Y = a t + \text{&lt;initial value&gt;} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;What does this mean? 
+The first month we get \(Y\). The second month we get already \(Y + a\).
+The third - \(Y + 2a\) and so on. In other words, the amount we get from
+FIRE each month (our speed) should grow by \(a\) each month.&lt;/p&gt;
+
+&lt;p&gt;Let’s check whether equation above works as we expect. At \( t = 1 \) 
+the value is \( C = \frac{a}{2} + Y \), but we expect only \( Y \). This is likely, because the
+speed in physics grows continuously, while here in FIRE the process is discrete.
+E.g. for \( t = 0.5 \), the formula above gives&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+Y = 0.5 a  + \text{&lt;initial value&gt;} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Thus, let’s try to build our own equation then:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;At time \( t = 0 \), we have 0 EUR overall and our monthly income is \( Y \).&lt;/li&gt;
+  &lt;li&gt;\( t = 1 \), we get \( Y \), overall we have \( Y \) and our monthly income becomes \( Y + a \)&lt;/li&gt;
+  &lt;li&gt;\( t = 2 \), we get \( Y + a \), overall \( 2Y + a \), income \( Y + 2a \)&lt;/li&gt;
+  &lt;li&gt;\( t = 3 \), we get \( Y + 2a \), overall \( 3Y + 3a \), income \( Y + 3a \)&lt;/li&gt;
+  &lt;li&gt;\( t = 4 \), we get \( Y + 3a \), overall \( 4Y + 6a \), income \( Y + 4a \)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As we can see the equation is&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+C = t Y + \text{&lt;something&gt;} \cdot a %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;At first we add no \( a \), then \( a \), then \( 2a \) and so on.
+Thus, this is just a sum
+of arithmetic progression. The formula for the general case is&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S = (x_1 + x_n) \frac{n}{2}&lt;/script&gt;
+
+&lt;p&gt;(i.e. sum of the first \( x_1 \) and last \( x_n \) elements multiplied by quantity \( n \) and divided by two).
+In our case it is&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(0 + t-1) \frac{t}{2} = (t-1)\frac{t}{2}&lt;/script&gt;
+
+&lt;p&gt;Our final formula becomes&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;C = t Y + (t-1)\frac{t}{2} a&lt;/script&gt;
+
+&lt;p&gt;Under \( t = 4 \), we get \( 4 Y + 3 \cdot \frac{4}{2} a = 4 Y + 6 a \). Thus, it matches our manual calculations above.&lt;/p&gt;
+
+&lt;h2 id=&quot;even-further-back&quot;&gt;Even further back&lt;/h2&gt;
+
+&lt;p&gt;Now I am curious to see how much money one needs to build such FIRE with acceleration (FIRE\(^2\)).
+In other words, what kind of safe withdrawal rate one needs for this (could be denotes as SWR\(^2\)).&lt;/p&gt;
+
+&lt;p&gt;Let’s say that we want our acceleration to be \( A \) and we start with 0 speed at first.
+After the first month we get \( A \) units of money. Under 4% SWR, we would need \( 25 \cdot 12 \cdot A \) EUR overall.
+After the second month we get \( 2A \) EUR. In the normal FIRE we would need \( 25 \cdot 12 \cdot 2 \cdot A \) EUR overall
+to achieve such withdrawal.&lt;/p&gt;
+
+&lt;p&gt;Ok, this approach does not bring us far. Instead let’s say that in the first month we get \( A_1 \) EUR
+and in the second month we want to get \( A_2 = A_1 + 1 \) EUR. This means that after \( A_1 \) our stash
+should grow such that it starts producing 1 EUR more. Under 4% SWR one needs \( 25 \cdot 12 \cdot 1 = 300 \) EUR to
+get 1 EUR per month. Thus, \( A_1 \) should be 300 EUR. Now we can try to extend this further.
+We want \( A_2 = A_1 + A \) EUR. Thus, \( A_1 \) should be \( 300A \).&lt;/p&gt;
+
+&lt;p&gt;Let’s consider an example. Our monthly FIRE target is \( 300A \) EUR. We have \( 25 \cdot 12 \cdot 300 \cdot A = 300^2 A \) EUR overall.
+After the first month we get&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;300^2 A \cdot \frac{0.04}{12} = 300 A&lt;/script&gt;
+
+&lt;p&gt;We reinvest them. Now our stash becomes
+\( 300^2 A + 300 A \) EUR. In the second month, we get&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;(300^2 A + 300 A) \frac{0.04}{12} = 301 A&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Oops, we wanted \( 600 A \). So it feels like the compound interest works differently from the physics motion equation.
+Let’s say our principal is \( P \) EUR and it grows by 4% each year, then after \( n \) years we will have
+\( P \cdot 1.04 ^ n \).
+If we don’t spend anything, our monthly FIRE income after \( n \) years will be \( P \cdot 1.04 ^ n \frac{0.04}{12} \).
+In other words, in contrast to the motion equation, here the time \( n \) is in the power. Previously, it was just square multiplied. This is why our analogy breaks.&lt;/p&gt;
+
+&lt;p&gt;However, we know that \( Y = a t \). We can plug income from the above as \( Y \) here and see the acceleration (for simplicity we switch units to years here):&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Y = a n = P \cdot 1.04 ^ n \frac{0.04}{12}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a = \frac{ P \cdot 1.04 ^ n \frac{0.04}{12} }{n}&lt;/script&gt;
+
+&lt;p&gt;In other words the acceleration is not constant, it grows as well.
+In some sense, the real 4% is even better than the constant acceleration case above.
+If we want \( Y \) to be \( 2A \), we need \( 2 A \cdot 12 \cdot 25 \) EUR stash. 
+Let’s say our initial stash supports \( Y = A \), i.e. it is \( 12 \cdot 25 \cdot A \). 
+We know that in \( n \) years it will be \( 12 \cdot 25 \cdot A \cdot 1.04 ^ n \). 
+Thus, let’s find \( n \), such that \( Y = 2 A \), i.e. the stash of \( 2 * A * 12 * 25 \) EUR.
+This is just \( 1.04 ^ n = 2 \), i.e. \( n = 17.673 \) (&lt;a href=&quot;https://www.wolframalpha.com/input/?i=1.04%5En+%3D+2&quot;&gt;wolfram alpha&lt;/a&gt;). That’s a long time, but when we want \( Y = 3 A \), \( n \) becomes 28.011.
+I.e. the jump from \( Y = 2 A \) to \( Y = 3 A \) takes us ~10 years, while the jump from \( A \) to \( 2 A \) takes 17 years.
+For \( 1000 A \), \( n \) is 176.125, while for \( 1001 A \), it is 176.151, i.e. one needs only ~10 days to go from
+\( Y = 1000 A \) to \( 1001 A \), because the acceleration of compounding is not constant.&lt;/p&gt;
+
+&lt;p&gt;We can visualize this well with a plot. Let’s draw \( Y \) for both cases (linear and compounding):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fire_squared/comparison_10.png&quot; alt=&quot;A plot showing how monthly FIRE income depends on time assuming linear and compounding growth.
+Linear is much higher.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As we can see, linear is doing much better job at first. There is not much money to work in the compounding case yet.
+However, if we look further right:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fire_squared/comparison_100.png&quot; alt=&quot;A plot showing how monthly FIRE income depends on time assuming linear and compounding growth.
+This time we look from 1 to 100 on x axis and compounding almost reaches linear.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Compounding starts to reach linear. Even further right:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fire_squared/comparison_200.png&quot; alt=&quot;A plot showing how monthly FIRE income depends on time assuming linear and compounding growth.
+This time we look from 1 to 200 on x axis and compounding sky-rockets.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And kaboom! Compounding case just skyrockets.
+Further to the right, it looks like linear is just flat:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fire_squared/comparison_300.png&quot; alt=&quot;A plot showing how monthly FIRE income depends on time assuming linear and compounding growth.
+This time we look from 1 to 300 on x axis and linear looks completely flat.&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Looking back, the fact that acceleration is not constant feels now obvious. 
+Basically, when one has more money, compounding growth has more effect, because each euro works separately. 
+While in the physics motion equation, the speed is just time multiplied by acceleration.&lt;/p&gt;
+
+&lt;p&gt;Thus, building such FIRE scheme when one each months gets \( A \) more money
+is not possible with the compounding growth. The compounding growth grows
+faster than that scheme (it just starts slow).&lt;/p&gt;
+
+&lt;p&gt;It is a bit sad that my attempt to define FIRE\(^2\) and SWR\(^2\) didn’t work out,
+because the real thing is in some sense cooler.&lt;/p&gt;
+
+&lt;h2 id=&quot;possible-follow-up&quot;&gt;Possible follow-up&lt;/h2&gt;
+
+&lt;p&gt;This didn’t workout, because the time goes into power. However, there is a way (logarithm) to move
+from exponent to linear. Thus, I could theoretically consider logarithm of the monthly income and try
+to do exactly the same.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Financial Independence / Early Retirement&quot;]" /><category term="fire" /><category term="analysis" /><category term="mini-project" /><summary type="html">Financial Independence / Early Retirement is about reaching a state, in which you get enough passive income to live. Let’s say you get \(Y\) EUR each month. The overall money you get over time is \( M = Y * t \), where \(t\) is time. This resembles a physics equation for movement with constant speed (i.e. no acceleration). Let’s explore this similarity and try to add acceleration to FIRE and get FIRE\(^2\) (FIRE squared, I just made this name up).</summary></entry><entry><title type="html">Health insurance during FIRE</title><link href="https://merelycurious.me/post/health-insurance-during-fire" rel="alternate" type="text/html" title="Health insurance during FIRE" /><published>2019-07-23T08:00:00+02:00</published><updated>2019-07-23T08:00:00+02:00</updated><id>https://merelycurious.me/post/health_insurance_during_fire</id><content type="html" xml:base="https://merelycurious.me/post/health-insurance-during-fire">&lt;p&gt;Health insurance is a very important part of retirement. Let’s see how it 
 affects early retirement in Germany. In other words how one should account
 for health insurance contribution when planning and by how much this delays
 the FIRE date.&lt;/p&gt;
@@ -1419,41 +1586,4 @@ and it just felt boring, but here something new is happening and this feels like
 and adds variety into life. I agree that this may sound artificial, but I hope that you
 see the idea.&lt;/p&gt;
 
-&lt;p&gt;Happy conscious reactions!&lt;/p&gt;</content><author><name></name></author><category term="perspective" /><category term="opinion" /><summary type="html">I’ve discovered a peculiar trick for coping better with negative events in one’s life. The idea is to try to find a reasonable explanation. I suspect that this may be connected to meditation.</summary></entry><entry><title type="html">Interactive Brokers monthly fee</title><link href="https://merelycurious.me/post/interactive-brokers-monthly-fee" rel="alternate" type="text/html" title="Interactive Brokers monthly fee" /><published>2019-06-18T23:30:00+02:00</published><updated>2019-06-18T23:30:00+02:00</updated><id>https://merelycurious.me/post/interactive_brokers_monthly_fee</id><content type="html" xml:base="https://merelycurious.me/post/interactive-brokers-monthly-fee">&lt;p&gt;Interactive Brokers have monthly “inactivity” (aka Monthly Minimum) fee.
-It is not obvious how one can see this fee being applied.
-Here is one way (spoiler: through statements).&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;Interactive Brokers have somewhat unusual fee structure 
-(&lt;a href=&quot;https://www.interactivebrokers.com/en/index.php?f=4969&quot;&gt;official source&lt;/a&gt;),
-which is always a pain to explain. Basically, they require one to spend at least
-10 USD for trading transactions per month. If one spends less, they anyway charge the difference
-up to 10 USD and call this “inactivity” fee. However, they remove this fee
-if one has 100k USD (or equivalent, e.g. in stocks) with them.&lt;/p&gt;
-
-&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
-
-&lt;p&gt;I’ve had an account for quite some time with IB now, but I have never seen this “inactivity” fee
-in action. In other words - when is it charged? How much did I actually pay?
-What if I misunderstand the system?&lt;/p&gt;
-
-&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
-&lt;p&gt;So far I have found only one way to observe this fee - through statements:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Left Menu &amp;gt; Reports &amp;gt; Statements.&lt;/li&gt;
-  &lt;li&gt;Choose “Default Statements”.&lt;/li&gt;
-  &lt;li&gt;Choose “Activity” statement type.&lt;/li&gt;
-  &lt;li&gt;Choose  “Year to Date” period.&lt;/li&gt;
-  &lt;li&gt;Click “Run Statement”.&lt;/li&gt;
-  &lt;li&gt;Look for “Fees” section and open it.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/ib_monthly_fee/fee_statement_screenshot.png&quot; alt=&quot;Fee section from the statement showing the fee for April applied in May.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As you can see, in this case the fee for April was applied in May and it was 2.37 EUR.&lt;/p&gt;
-
-&lt;p&gt;Happy transparent and easy to understand fees!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Investing&quot;]" /><category term="Interactive Brokers" /><category term="fees" /><summary type="html">Interactive Brokers have monthly “inactivity” (aka Monthly Minimum) fee. It is not obvious how one can see this fee being applied. Here is one way (spoiler: through statements).</summary></entry></feed>
+&lt;p&gt;Happy conscious reactions!&lt;/p&gt;</content><author><name></name></author><category term="perspective" /><category term="opinion" /><summary type="html">I’ve discovered a peculiar trick for coping better with negative events in one’s life. The idea is to try to find a reasonable explanation. I suspect that this may be connected to meditation.</summary></entry></feed>

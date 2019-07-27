@@ -1,0 +1,379 @@
+<html>
+<head>
+    <script>
+        if (!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-131503689-1', 'auto');
+            ga('send', 'pageview');
+        }
+    </script>
+</head>
+
+<body>
+    <h4> General assumptions </h4>
+    <span title="How much money do you need to reach FIRE (pre-tax)?">pre-tax FIRE target ($): <input id="fire_target" value=300000> </span>
+    <br>
+
+    <span title="How many percents do you expect your portfolio to grow (e.g. being invested in stock market)?">Expected yearly return (%): <input id="expected_return" value=1.5> </span>
+    <br>
+
+    <span title="How much money do you need to widthdraw every year once FIRE (post tax)?">Yearly widthdrawal ammount (after tax, $): <input id="yearly_widthdrawal_amount" value=12000> </span>
+    <br>
+
+    <span title="How much already taxed money do you already have now?">Current networth (already taxed) ($): <input id="current_taxed_networth" value=0> </span>
+    <br>
+
+    <span title="How much not yet taxed money do you already have now?">Current networth (not yet taxed) ($): <input id="current_not_taxed_networth" value=0> </span>
+    <br>
+
+    <span title="How much money will you add to your networth every month?">Monthly contributions ($): <input id="regular_monthly_contributions" value=1000> </span>
+    <br>
+
+    <span title="How much money will you add to your networth every month?">Capital gain tax (%): <input id="capital_gain_tax_percentage" value=26.25> </span>
+    <br>
+
+    <button id="calculate_button"> Calculate </button>
+
+    <br><br>
+
+    <div id="output_div">
+        
+        <h1> Stats</h1>
+        <div id="stats"></div>
+        
+        <h1> Path to FIRE</h1>
+        <div id="path_to_fire"></div>
+
+        <h1> Post FIRE</h1>
+        <div id="path_post_fire"></div>
+    </div>
+</body>
+
+<script>
+    var get_input_value = function(object_id) {
+        return parseFloat(document.getElementById(object_id).value);
+    }
+
+    const MONTHS_NAMES = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
+
+    var add_months_to = function(year, month, months_to_add) {
+        var overall_current_month = year * 12 + month + months_to_add;
+        var current_year = Math.floor(overall_current_month / 12);
+        var current_month = overall_current_month % 12;
+        return [current_year, current_month];
+    }
+
+    var simulate_path_to_fire_monthly = function(fire_target, monthly_return_rate, monthly_contribution, current_taxed_networth, current_not_taxed_networth) {
+        var start_year = (new Date()).getFullYear();
+        var start_month = (new Date()).getMonth();
+
+        var monthly_progress_list = [
+            [0, start_year, start_month, current_taxed_networth, current_not_taxed_networth]
+        ];
+
+        for (var months_count = 1; months_count < 12 * 100; ++months_count) {
+            var current_year = add_months_to(start_year, start_month, months_count)[0];
+            var current_month = add_months_to(start_year, start_month, months_count)[1];
+
+            var last_row = monthly_progress_list[months_count - 1];
+            var last_taxed_networth = last_row[3];
+            var last_non_taxed_networth = last_row[4];
+
+            if (last_taxed_networth + last_non_taxed_networth > fire_target) {
+                break;
+            }
+
+            var not_taxed_networth = last_non_taxed_networth + (last_taxed_networth + last_non_taxed_networth) * (monthly_return_rate - 1);
+            var taxed_networth = last_taxed_networth + monthly_contribution;
+
+            monthly_progress_list.push([months_count, current_year, current_month, taxed_networth, not_taxed_networth]);
+        }
+
+        return monthly_progress_list;
+    }
+
+    var create_table = function(parent, content) {
+        var table = document.createElement("table");
+        table.border = "1";
+        parent.appendChild(table);
+
+        var row = table.insertRow(-1);
+        for (var i = 0; i < content[0].length; ++i) {
+            var header_cell = document.createElement("th");
+            header_cell.innerHTML = content[0][i];
+            row.appendChild(header_cell);
+        }
+
+        for (var i = 1; i < content.length; ++i) {
+            var row = table.insertRow(-1);
+            for (var j = 0; j < content[i].length; ++j) {
+                var cell = row.insertCell(-1);
+                cell.innerHTML = "" + content[i][j];
+            }
+        }
+
+        return table;
+    }
+
+    var output_monthly_path_to_fire = function(list) {
+        var raw_table = [
+            ["Month passed",
+                "Year",
+                "Calendar month",
+                "Taxed networth",
+                "Not taxed networth"
+            ]
+        ];
+
+        for (var i = 0; i < list.length; ++i) {
+            var item = list[i];
+
+            var row = [];
+            row.push("" + item[0]);
+            row.push("" + item[1]);
+            row.push("" + MONTHS_NAMES[item[2]]);
+            row.push("" + item[3]);
+            row.push("" + +item[4].toFixed(2));
+
+            raw_table.push(row);
+        }
+
+        var div = document.getElementById("path_to_fire");
+        return create_table(div, raw_table);
+    }
+
+    var simulate_post_fire_yearly = function(fire_target, monthly_return_rate, monthly_contribution, current_taxed_networth, current_not_taxed_networth, yearly_widthdrawal_amount,
+        capital_gain_tax_rate) {
+        var path_to_fire_list = simulate_path_to_fire_monthly(
+            fire_target, monthly_return_rate, monthly_contribution, current_taxed_networth, current_not_taxed_networth);
+
+        var months_to_fire = path_to_fire_list[path_to_fire_list.length - 1][0];
+        var start_year = path_to_fire_list[0][1];
+        var start_month = path_to_fire_list[0][2];
+
+        var all_initial_contributions = [
+            [current_taxed_networth, current_not_taxed_networth]
+        ];
+        for (var i = 1; i < path_to_fire_list.length; ++i) {
+            all_initial_contributions.push([monthly_contribution, 0]);
+        }
+
+        var all_contributions_at_current_month = all_initial_contributions;
+        for (var i = 0; i < all_contributions_at_current_month.length; ++i) {
+            var taxed_input = all_contributions_at_current_month[i][0];
+            var not_taxed_input = all_contributions_at_current_month[i][1];
+
+            var months_passed = months_to_fire - i;
+            var not_taxed = not_taxed_input + (taxed_input + not_taxed_input) * (Math.pow(monthly_return_rate, months_passed) - 1);
+            var taxed = taxed_input;
+
+            all_contributions_at_current_month[i] = [taxed, not_taxed];
+        }
+
+        var yearly_amount = yearly_widthdrawal_amount;
+
+        var post_fire_list = [];
+
+        for (var months_passed = months_to_fire + 1; months_passed < months_to_fire + 200 * 12; months_passed++) {
+            var current_year = add_months_to(start_year, start_month, months_passed)[0];
+            var current_month = add_months_to(start_year, start_month, months_passed)[1];
+
+            var taxed_networth = 0;
+            var not_taxed_networth = 0;
+
+            for (var i = 0; i < all_contributions_at_current_month.length; ++i) {
+                var taxed_input = all_contributions_at_current_month[i][0];
+                var not_taxed_input = all_contributions_at_current_month[i][1];
+
+                var not_taxed = not_taxed_input + (taxed_input + not_taxed_input) * (monthly_return_rate - 1);
+                var taxed = taxed_input;
+
+                all_contributions_at_current_month[i] = [taxed, not_taxed];
+                taxed_networth += taxed;
+                not_taxed_networth += not_taxed;
+            }
+
+            if ((12 + current_month - 1) % 12 == start_month) {
+                // This is the next month after we FIRE'd, time to do yearly sell.
+                var yearly_amount_left = yearly_amount;
+
+                var buckets_consumed = [];
+
+                for (var i = 0; i < all_contributions_at_current_month.length; ++i) {
+                    if (yearly_amount_left <= 0) {
+                        break;
+                    }
+
+                    var taxed_input = all_contributions_at_current_month[i][0];
+                    var not_taxed_input = all_contributions_at_current_month[i][1];
+
+                    var this_bucket_post_tax_value = taxed_input + not_taxed_input * (1 - capital_gain_tax_rate);
+                    if (this_bucket_post_tax_value <= 0) {
+                        continue;
+                    }
+
+
+                    // We will proportinally consume both taxed and not taxed from this bucket or entire bucket.
+                    var ratio = Math.min(yearly_amount_left / this_bucket_post_tax_value, 1);
+                    yearly_amount_left -= this_bucket_post_tax_value * ratio;
+
+                    var consumed_taxed = taxed_input * ratio;
+                    var consumed_not_taxed = not_taxed_input * ratio;
+
+                    var taxed_left = taxed_input - consumed_taxed;
+                    var not_taxed_left = not_taxed_input - consumed_not_taxed;
+
+                    all_contributions_at_current_month[i] = [taxed_left, not_taxed_left];
+
+                    var year = add_months_to(start_year, start_month, i)[0];
+                    var month = add_months_to(start_year, start_month, i)[1];
+
+                    buckets_consumed.push([i, this_bucket_post_tax_value * ratio, consumed_taxed, consumed_not_taxed, taxed_left, not_taxed_left, year, month]);
+                }
+
+                if (yearly_amount_left > 0) {
+                    break;
+                }
+
+                post_fire_list.push([months_passed, current_year, current_month, taxed_networth, not_taxed_networth, buckets_consumed]);
+            }
+        }
+
+        return post_fire_list;
+    }
+
+    var output_post_fire_yearly = function(list) {
+        var raw_table = [
+            ["Month passed",
+                "Year",
+                "Calendar month",
+                "Taxed networth",
+                "Not taxed networth",
+                "Contribution sold from year",
+                "Contribution sold from month",
+                "Money received",
+                "Taxed sold",
+                "Not taxed sold",
+                "Taxed left",
+                "Not taxed left",
+            ]
+        ];
+
+        for (var i = 0; i < list.length; ++i) {
+            var item = list[i];
+
+            var row = [];
+            row.push("" + item[0]);
+            row.push("" + item[1]);
+            row.push("" + MONTHS_NAMES[item[2]]);
+            row.push("" + +item[3].toFixed(2));
+            row.push("" + +item[4].toFixed(2));
+
+            for (var j = 0; j < 7; ++j) {
+                row.push("");
+            }
+            raw_table.push(row);
+
+            for (var contribution_id = 0; contribution_id < item[5].length; ++contribution_id) {
+                var contribution = item[5][contribution_id];
+                var row = [];
+                for (var j = 0; j < 5; ++j) {
+                    row.push("");
+                }
+
+                row.push("" + contribution[6]);
+                row.push("" + MONTHS_NAMES[contribution[7]]);
+                row.push("" + +contribution[1].toFixed(2));
+                row.push("" + +contribution[2].toFixed(2));
+                row.push("" + +contribution[3].toFixed(2));
+                row.push("" + +contribution[4].toFixed(2));
+                row.push("" + +contribution[5].toFixed(2));
+                raw_table.push(row);
+            }
+        }
+
+        var div = document.getElementById("path_post_fire");
+        return create_table(div, raw_table);
+    }
+
+    var calculate = function() {
+        var div = document.getElementById("path_to_fire");
+        div.innerHTML="";
+        
+        div = document.getElementById("path_post_fire");
+        div.innerHTML="";
+        
+        div = document.getElementById("stats");
+        div.innerHTML="";
+        
+        var fire_target = get_input_value("fire_target");
+        var expected_return = get_input_value("expected_return");
+        var monthly_return_rate = Math.pow(1 + expected_return / 100, 1. / 12);
+
+        var yearly_widthdrawal_amount = get_input_value("yearly_widthdrawal_amount");
+
+        var current_taxed_networth = get_input_value("current_taxed_networth");
+        var current_not_taxed_networth = get_input_value("current_not_taxed_networth");
+        var monthly_contributions = get_input_value("regular_monthly_contributions");
+
+        var capital_gain_tax_percentage = get_input_value("capital_gain_tax_percentage");
+        var capital_gain_tax_rate = capital_gain_tax_percentage / 100;
+
+        var monthly_path = simulate_path_to_fire_monthly(
+            fire_target, monthly_return_rate, monthly_contributions, current_taxed_networth, current_not_taxed_networth);
+
+        output_monthly_path_to_fire(monthly_path);
+
+        var post_fire_path = simulate_post_fire_yearly(
+            fire_target, monthly_return_rate, monthly_contributions, current_taxed_networth, current_not_taxed_networth,
+            yearly_widthdrawal_amount,
+            capital_gain_tax_rate);
+
+        output_post_fire_yearly(post_fire_path);
+        
+        
+        div = document.getElementById("stats");
+        
+        var span = document.createElement("span")               
+        var text = document.createTextNode("Months before FIRE: " + monthly_path[monthly_path.length - 1][0]); 
+        span.appendChild(text);
+        div.appendChild(span);
+        div.appendChild(document.createElement("br"));
+        
+        
+        var fire_taxed = monthly_path[monthly_path.length - 1][3];
+        var fire_not_taxed = monthly_path[monthly_path.length - 1][4];
+        var not_taxed_percentage = fire_not_taxed / fire_taxed * 100;
+        
+        span = document.createElement("span")               
+        text = document.createTextNode("Percentage of not taxed money when FIRE'd: " + +not_taxed_percentage.toFixed(2));
+        span.appendChild(text);
+        div.appendChild(span);
+        div.appendChild(document.createElement("br"));
+        
+        span = document.createElement("span")               
+        text = document.createTextNode("Years after FIRE: " + post_fire_path.length);
+        span.appendChild(text);
+        div.appendChild(span);
+    }
+
+    var calculate_button = document.getElementById("calculate_button");
+    calculate_button.addEventListener("click", calculate);
+
+    calculate();
+</script>
+
+</html>
