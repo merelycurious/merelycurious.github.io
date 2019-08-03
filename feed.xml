@@ -1,4 +1,141 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-07-30T09:13:55+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Dangers of “Work hard, play hard”</title><link href="https://merelycurious.me/post/dangers-of-work-hard-play-hard" rel="alternate" type="text/html" title="Dangers of &quot;Work hard, play hard&quot;" /><published>2019-07-30T09:00:00+02:00</published><updated>2019-07-30T09:00:00+02:00</updated><id>https://merelycurious.me/post/dangers_of_work_hard_play_hard</id><content type="html" xml:base="https://merelycurious.me/post/dangers-of-work-hard-play-hard">&lt;p&gt;I’ve discovered that people use expression &quot;Work hard, play hard&quot; as a way to
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-08-03T20:41:33+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Chrome Incognito, FlixBus and 5 EUR</title><link href="https://merelycurious.me/post/incognito-flixbus-and-5-eur" rel="alternate" type="text/html" title="Chrome Incognito, FlixBus and 5 EUR" /><published>2019-08-03T20:00:00+02:00</published><updated>2019-08-03T20:00:00+02:00</updated><id>https://merelycurious.me/post/incognito_flixbus_and_5_eur</id><content type="html" xml:base="https://merelycurious.me/post/incognito-flixbus-and-5-eur">&lt;p&gt;Quite a peculiar story happened to me recently.
+I was buying a FlixBus ticket for 24.99 EUR. I already had it in my “cart” and I had 
+30 minutes to buy it before the cart expires. Then I started double checking other
+details and in the end it expired (actually couple seconds before I pressed “pay”).
+I tried to buy it again, but now the price was 29.99 EUR, i.e. 5 EUR more.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;workaround&quot;&gt;Workaround&lt;/h2&gt;
+
+&lt;p&gt;Uh, I was confused and surprised. They definitely knew that I am interested in this ticket.
+I already almost bought it once and, yes, I still wanted to buy it.
+But increasing the price by 5 EUR because of that would be mean.
+Fortunately, I knew that they can recognize me (by my browser session) and perhaps if I start fresh
+the price would be different. E.g. they could set a “cookie” in my browser saying
+something like “hey, this chap tried to buy this ticked already, let’s do +5 EUR, cheers!”.
+This cookie would be absent in my new session. Thus, I tried to open the same page
+in a Chrome Incognito tab. Guess what - the price was the old one - 24.99 EUR.
+They could potentially correlate my new session with my old one (e.g. by IP, time and my computer hardware),
+but that would be cumbersome.&lt;/p&gt;
+
+&lt;p&gt;Now I don’t remember precisely, but I feel like I refreshed the old session page as well after seeing 24.99 EUR
+in the incognito tab and it was still showing 29.99 EUR. This is actually a very important detail to understand
+how this happened.&lt;/p&gt;
+
+&lt;h2 id=&quot;hypotheses&quot;&gt;Hypotheses&lt;/h2&gt;
+
+&lt;h3 id=&quot;someone-is-being-mean&quot;&gt;Someone is being mean&lt;/h3&gt;
+&lt;p&gt;Theoretically, this could be intended. Theoretically, FlixBus almost made +5 EUR out of nowhere
+(ok, out of my pocket to be precise). It is easy to see how this could benefit them.
+However, this would be pretty mean and I would be very surprised if this is the case.
+The approach does not look very sustainable, someone would definitely notice and complain.
+Also it is better to assume positive intention and give benefit of doubt.&lt;/p&gt;
+
+&lt;h3 id=&quot;bugs-bugs-bugs&quot;&gt;Bugs, bugs, bugs&lt;/h3&gt;
+&lt;p&gt;A bit more plausible explanation is that this is just a bug. So far this is my best guess.
+As far as I know, FlixBus uses “adaptive” pricing. I.e. if someone buys a ticket, the next 
+ticket can cost more. This tries to adapt to the actual demand (people buy more tickets to
+some destination, demand must be high, so the price can higher too). Airlines go crazy
+with this stuff. I haven’t observed FlixBus increasing and decreasing their prices
+frequently, but airlines (based on my experience) do this a lot.&lt;/p&gt;
+
+&lt;p&gt;Thus, when “almost” my ticket (24.99 EUR one) was in my “cart”, FlixBus could already raise the price for
+the next one to 29.99 EUR. They could just assume that the first ticket is almost sold.
+And then when the first ticket “expires”, they need to decrease the price back.
+Perhaps there is some race condition here and I happened to open the state when my old not-bought expired ticket
+was still in the cart (but in the reality it wasn’t).&lt;/p&gt;
+
+&lt;p&gt;Then the question is why incognito helped. I could imagine them having multiple servers
+and perhaps some caching. Theoretically, my new tab could have hit some other server,
+which was already aware that 24.99 EUR ticket came back. Or the server serving the old
+session could have cached 29.99 EUR (but caching price pages sounds weird).&lt;/p&gt;
+
+&lt;p&gt;I know that my hypothesis is somewhat weak, but, hey, the info I have is limited as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;experiment&quot;&gt;Experiment&lt;/h2&gt;
+
+&lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
+
+&lt;p&gt;Ok, originally I didn’t plan to experiment with this, but now I am curious.
+The plan is the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add a couple tickets to “cart”.&lt;/li&gt;
+  &lt;li&gt;Let them expire.&lt;/li&gt;
+  &lt;li&gt;Check their price again.&lt;/li&gt;
+  &lt;li&gt;Open incognito and check price there.&lt;/li&gt;
+  &lt;li&gt;If I observe the increase, I could create a new Chrome profile, check the price and then and inject the cookie from the old profile
+into the new one and check the price again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;process&quot;&gt;Process&lt;/h3&gt;
+
+&lt;p&gt;I decided to add Berlin - Munich tickets to my “cart”. Unfortunately, one cannot add two tickets on the same day in the same
+direction (which makes sense, but it is inconvenient for my experiment), so I added 3 tickets for each day from 21st of August to 
+23rd of August. FlixBus shows when there are 0, 1 or 2 tickets left at this price, so I varied this parameter:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;21st of August - price 27.98 and 2 seats left at this price
+&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/init_21st.png&quot; alt=&quot;Initial ticket price for 21st of August&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;22nd of August - price 27.98 and 1 seat left at this price
+&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/init_22nd.png&quot; alt=&quot;Initial ticket price for 22nd of August&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;23rd of August - price 27.99 and no additional messages.
+&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/init_23rd.png&quot; alt=&quot;Initial ticket price for 23rd of August&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Overall my cart was 83.95 EUR.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/init_summary.png&quot; alt=&quot;Cart overview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I waited for ~20 minutes and checked from an incognito window.
+Only in the second case (22nd of August) price grew to 30.98 EUR.
+&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/mid_22nd.png&quot; alt=&quot;22nd of August ticket price before expiry&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This makes sense (they said I took the last seat at the previous price).
+On the 21st of August they say that 1 seat is left at this price, but the price is the same.
+&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/mid_21st.png&quot; alt=&quot;21st of August ticket price before expiry&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For 23rd nothing has changed.
+&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/mid_23rd.png&quot; alt=&quot;23rd of August ticket price before expiry&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I let the cart expire.
+Funny fact: they say “1 minute&lt;strong&gt;s&lt;/strong&gt;” when only 1 minute is left:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/1_minutes.png&quot; alt=&quot;&amp;quot;1 minute**s**&amp;quot; expiry warning&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Probably so few people reach this point (and observe the page while doing that), that no one complained or it is
+not worth fixing. Yeap, a minor nit.&lt;/p&gt;
+
+&lt;p&gt;Another fun fact: the number turns red when it is 0:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/0_minutes.png&quot; alt=&quot;&amp;quot;0 minutes&amp;quot; expiry warning&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And finally - expired:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/session_expired.png&quot; alt=&quot;Session expired message&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I checked all the prices from the same browser window, i.e. same session.
+All prices were the same as they were when I started my experiment:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/final_same_session_21st.png&quot; alt=&quot;Final (after expiry) ticket price for 21st of August&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/final_same_session_22nd.png&quot; alt=&quot;Final (after expiry) ticket price for 22nd of August&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/final_same_session_23rd.png&quot; alt=&quot;Final (after expiry) ticket price for 23rd of August&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I.e. I did not observe any price increase in any of the cases.
+I was just able to rebuild my “cart” with exactly the same prices.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/final_summary.png&quot; alt=&quot;Rebuilt cart with exactly the same prices&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;I was not able to reproduce the issue.
+Obviously they could do this trick only once in a while to prevent someone like me detecting this.
+My gut feeling is that this is a weird bug due to multiple system part interaction (e.g. caching or distributed servers).&lt;/p&gt;
+
+&lt;h2 id=&quot;flixbus-opinion&quot;&gt;FlixBus opinion&lt;/h2&gt;
+&lt;p&gt;I will ask them on Twitter. Not sure whether they will reply (that would be very unpleasant to debug for someone there
+especially based on the scarce data I have here and me being unable to reproduce it), but at least let’s inform them.&lt;/p&gt;</content><author><name></name></author><category term="funny" /><category term="bugs" /><category term="technology" /><summary type="html">Quite a peculiar story happened to me recently. I was buying a FlixBus ticket for 24.99 EUR. I already had it in my “cart” and I had 30 minutes to buy it before the cart expires. Then I started double checking other details and in the end it expired (actually couple seconds before I pressed “pay”). I tried to buy it again, but now the price was 29.99 EUR, i.e. 5 EUR more.</summary></entry><entry><title type="html">Dangers of “Work hard, play hard”</title><link href="https://merelycurious.me/post/dangers-of-work-hard-play-hard" rel="alternate" type="text/html" title="Dangers of &quot;Work hard, play hard&quot;" /><published>2019-07-30T09:00:00+02:00</published><updated>2019-07-30T09:00:00+02:00</updated><id>https://merelycurious.me/post/dangers_of_work_hard_play_hard</id><content type="html" xml:base="https://merelycurious.me/post/dangers-of-work-hard-play-hard">&lt;p&gt;I’ve discovered that people use expression &quot;Work hard, play hard&quot; as a way to
 explain treating themselves something nice. The expressions itself often comes from
 their workplace. At first, this felt ok to me, but when taking into account
 Financial Independence / Early Retirement, I can see that one’s employer
@@ -1292,310 +1429,4 @@ society, traditions and norms our entire life. As long as you can
 hold them inside, everything is fine! Just remind yourself that you
 were doing crazy stuff as well and let it got!&lt;/p&gt;
 
-&lt;p&gt;Happy impro with crazy situations but few negative reactions!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Improvisational theatre&quot;]" /><category term="impro" /><category term="reflection" /><summary type="html">I’ve been doing impro for quite some time now, however, I still often get disapproving reactions in my mind when others do something. Here are my reflections - mostly about reactions, handling and this being ok.</summary></entry><entry><title type="html">Thought experiment #6 overview: unpopular opinions</title><link href="https://merelycurious.me/post/thought-experiment-6-unpopular-opinions-overview" rel="alternate" type="text/html" title="Thought experiment #6 overview: unpopular opinions" /><published>2019-06-30T14:00:00+02:00</published><updated>2019-06-30T14:00:00+02:00</updated><id>https://merelycurious.me/post/thought_experiment_6_unpopular_opinions_overview</id><content type="html" xml:base="https://merelycurious.me/post/thought-experiment-6-unpopular-opinions-overview">&lt;p&gt;Saving Ninja had a new thought experiment recently (#6, about unpopular opinions).
-I again felt like making an overview of responses. Thus, here it is!&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;For the general description of these experiments, see 
-&lt;a href=&quot;/post/thought-experiment-6-unpopular-opinions&quot;&gt;my last post-response&lt;/a&gt;.
-I previously did &lt;a href=&quot;/post/thought-experiment-overview-projects-when-fire&quot;&gt;an overview&lt;/a&gt;
-for the experiment #5.&lt;/p&gt;
-
-&lt;p&gt;My main goal here is to try see whether there are any peculiar similarities and differences.
-This is also a good excuse to read all the responses (otherwise I would not find time for it).&lt;/p&gt;
-
-&lt;p&gt;In general, it is just interesting. I still remember &lt;a href=&quot;https://awaytoless.com/thought-experiment-5/&quot;&gt;“A Way to Less”&lt;/a&gt;
-goal to learn to handstand from the previous overview.&lt;/p&gt;
-
-&lt;p&gt;This experiment official page is &lt;a href=&quot;https://thesavingninja.com/unpopular-opinion&quot;&gt;here&lt;/a&gt;.
-You can find links to posts in the Notes section below. I will refer to people by their twitter username for simplicity.&lt;/p&gt;
-
-&lt;h2 id=&quot;observations&quot;&gt;Observations&lt;/h2&gt;
-
-&lt;p&gt;Overall the group happened to be very diverse and majority of opinions were mentioned only once.
-Therefore, this time I will just describe my observations and highlights without making a table.&lt;/p&gt;
-
-&lt;p&gt;The most common unpopular opinion was FIRE or something related (@SavingNinja, @financeyourfire, @FretfulFinance, @merely_curious_).&lt;/p&gt;
-
-&lt;p&gt;Both @TheIndeedably and @DrFIREUK didn’t like peer-to-peer landing.&lt;/p&gt;
-
-&lt;p&gt;For @asimple_life and @merely_curious_ (i.e. me) there happened to be almost a bingo situation.
-Both of us happen to consider alcohol unnecessary (thus, don’t drink as much as others normally do)
-and think that the society affects other people lives too much.&lt;/p&gt;
-
-&lt;p&gt;@SavingNinja believes that doing more yourself makes one happier. @TFSRetireEarly suggests, on the other hand, that
-people should DIY less and it is overrated.&lt;/p&gt;
-
-&lt;p&gt;It was peculiar to read responses of Andy and James from Rebo. They took different sides of the same
-argument - whether one should be altruistic and how moral this is. The posts resembled a light duel or a debate.&lt;/p&gt;
-
-&lt;p&gt;@SavingNinja has touched relationships a bit. The opinion is to split expenses 50/50 in a relationship.
-@FretfulFinance went all in on a relationship path. She never had a relationship, does not want to live 
-with someone else, does not like weddings (but not anti-marriage), does not want children and does not
-like public displays of affection. The post felt very personal.&lt;/p&gt;
-
-&lt;p&gt;These were all the matches and below are remaining unique opinions.&lt;/p&gt;
-
-&lt;p&gt;@MoneyModernGirl finds Italy too traditional and welcomes more innovation and change.&lt;/p&gt;
-
-&lt;p&gt;@financeyourfire believes in crypto currency.&lt;/p&gt;
-
-&lt;p&gt;@TheIndeedably has multiple unpopular opinions and presented a compilation of them: simpler tax code, more efficient social security,
-one should own wealth generational assets, leverage is good, P2P landing is bad, innovation is slowing,
-luck plays a large part in life (especially health), nothing really matters (we will be dead anyway), life is good.&lt;/p&gt;
-
-&lt;p&gt;@ditchthecave believes that our appearance affects our lives more than we think. Also everything can be learned.&lt;/p&gt;
-
-&lt;p&gt;Mr. @awaytoless finds electric cars not so environmentally friendly.&lt;/p&gt;
-
-&lt;p&gt;Mrs. @awaytoless reminds us that we are not entitled to anything and feeling so can even have negative impact.&lt;/p&gt;
-
-&lt;p&gt;@DrFIREUK suggests to invest in equities, pay more attention to personal finance, avoid credit card debt and P2P investing. 
-For them early retirement is not a goal (they plan to work). Also the last season of Game of Thrones was good.&lt;/p&gt;
-
-&lt;p&gt;@fi_left finds public ownership better than private. In other words, we need more parks, libraries,
-free health care and good public transport instead of buying something for yourself for your short term happiness.&lt;/p&gt;
-
-&lt;p&gt;@TFSRetireEarly believes in no free market. Also not everyone can become FIRE. One can beat the market and win money
-by gambling.&lt;/p&gt;
-
-&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
-
-&lt;p&gt;Here I my notes from what I read.
-I have no clue why you would like to read this,
-but I don’t see any harm in putting them here either.&lt;/p&gt;
-
-&lt;h3 id=&quot;saving-ninja&quot;&gt;Saving Ninja&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://thesavingninja.com/unpopular-opinion&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/SavingNinja&quot;&gt;twitter @SavingNinja&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;First thought experiment to take part in, since the topic was from Indeedably.&lt;/p&gt;
-
-&lt;p&gt;Weird one in private (reading, FIRE), with some quirks leaking externally (money saving tips guy at work).&lt;/p&gt;
-
-&lt;p&gt;Matched betting.&lt;/p&gt;
-
-&lt;p&gt;Being into FIRE is already weird, but let’s not focus on this, since majority of readers are into it as well.&lt;/p&gt;
-
-&lt;p&gt;Belief that “spending less makes you happier”, e.g. outsourcing to a bread maker instead of doing it with your hands.&lt;/p&gt;
-
-&lt;p&gt;Splitting expenses 50/50 with one’s partner independently of income difference.&lt;/p&gt;
-
-&lt;h3 id=&quot;-indeedably-&quot;&gt;{ in·deed·a·bly }&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://indeedably.com/against-the-tide/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/TheIndeedably&quot;&gt;twitter @TheIndeedably&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Expressing disapproval at board members meeting showing that an approach won’t work.&lt;/p&gt;
-
-&lt;p&gt;The key to the experiment is “peer”.
-If you don’t care about someone’s opinion, they are not your peer.
-As a result, you can have very small peer group.&lt;/p&gt;
-
-&lt;p&gt;We are happy to live in a society where one can have and even express unpopular opinions.&lt;/p&gt;
-
-&lt;p&gt;Our opinions can be used to other parties for their own benefit (e.g. through media).&lt;/p&gt;
-
-&lt;p&gt;Tax code should be simple (a single-sided sheet of A4). All income should be taxed the same.&lt;/p&gt;
-
-&lt;p&gt;Better social security. Evaluate the actual need for social security (e.g. whether one has
-assets to sell). If the money are needed urgently (before being able to sell an asset), the
-help should be a loan. Free education and healthcare.&lt;/p&gt;
-
-&lt;p&gt;Own wealth generating assets (i.e. work for your own wealth instead of someone else).&lt;/p&gt;
-
-&lt;p&gt;Leverage is good (if used correctly).&lt;/p&gt;
-
-&lt;p&gt;Peer-to-peer lending is bad.&lt;/p&gt;
-
-&lt;p&gt;Innovation is slowing (and goes backwards in some areas due to short term views).&lt;/p&gt;
-
-&lt;p&gt;Luck plays a large part (especially in one’s health).&lt;/p&gt;
-
-&lt;p&gt;Nothing really matters (you will be dead anyway). Deadlines are arbitrary.
-Stress is mostly self inflicted.&lt;/p&gt;
-
-&lt;p&gt;Life is pretty good. It could be so much worse.&lt;/p&gt;
-
-&lt;h3 id=&quot;caveman--ditchthecave&quot;&gt;Caveman @ DitchTheCave&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://ditchthecave.com/unpopular-opinions/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ditchthecave&quot;&gt;twitter @ditchthecave&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;People don’t share their REALLY unpopular opinions.&lt;/p&gt;
-
-&lt;p&gt;How you look matters and impacts how successful you are in life. But the “good look” is defined by the culture and society itself and
-changes with time. There is “beauty premium” (physical beauty affects wages).&lt;/p&gt;
-
-&lt;p&gt;Everything can be learned (i.e. natural ability is a myth).&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You can do anything, but you can’t do everything&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;mr-a-way-to-less&quot;&gt;Mr A Way To Less&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://awaytoless.com/thought-experiment-6&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/awaytoless&quot;&gt;twitter @awaytoless&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Electric cars aren’t environmentally friendly. The batteries can have negative effects.
-Power generation still can be environmentally unfriendly.&lt;/p&gt;
-
-&lt;h3 id=&quot;miss-a-way-to-less&quot;&gt;Miss A Way To Less&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://awaytoless.com/thought-experiment-6-miss-way/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/awaytoless&quot;&gt;twitter @awaytoless&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You are not entitled to anything. Feeling entitled affects your work - why working for something if you “have” a right for it? 
-People feel entitled to start a family even when their financial position is nut suited for this.&lt;/p&gt;
-
-&lt;p&gt;We [Mr and Mrs Way] are entitled to be treated fairly. However, we have to remind ourselves that this is not a given.&lt;/p&gt;
-
-&lt;h3 id=&quot;merely-curious&quot;&gt;Merely curious&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://merelycurious.me/post/thought-experiment-6-unpopular-opinions&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/merely_curious_&quot;&gt;twitter @merely_curious_&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Talking about “peers” is good, because with “people in general” answering the question would be impossible.
-Estimate rarity by remembering anecdotes.&lt;/p&gt;
-
-&lt;p&gt;“I should not drink alcohol aka there is no point in alcohol” (only 2 peers share).&lt;/p&gt;
-
-&lt;p&gt;FIRE is good (only 1 peer shares).&lt;/p&gt;
-
-&lt;p&gt;“Average” opinions in society are often wrong and one should treat them less seriously.&lt;/p&gt;
-
-&lt;p&gt;Age agnosticity when it comes to communication.&lt;/p&gt;
-
-&lt;h3 id=&quot;marc--financeyourfire&quot;&gt;Marc @ FinanceYourFire&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://financeyourfire.com/2019/06/15/thought-experiment-oh-hi-marc/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/financeyourfire&quot;&gt;twitter @financeyourfire&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A part of me wants to be an outlier.&lt;/p&gt;
-
-&lt;p&gt;“The room” - because the movie is so bad, it is actually good.&lt;/p&gt;
-
-&lt;p&gt;Going against the grain just for the sake of it makes no sense, instead you should believe into something and have strong character.&lt;/p&gt;
-
-&lt;p&gt;Being an outlier is relative to the group you compare with.&lt;/p&gt;
-
-&lt;p&gt;My FIRE plans make me an outlier when compared to my work colleagues.&lt;/p&gt;
-
-&lt;p&gt;I believe in crypto currency. This does not fit the general FIRE narrative well (too risky).&lt;/p&gt;
-
-&lt;h3 id=&quot;dr-fire&quot;&gt;Dr FIRE&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://drfire.co.uk/unpopular-opinion/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/DrFIREUK&quot;&gt;twitter @DrFIREUK&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Money
-    &lt;ul&gt;
-      &lt;li&gt;Invest in equities&lt;/li&gt;
-      &lt;li&gt;Pay attention to personal finance (e.g. seek the best deals, get sign up bonuses)&lt;/li&gt;
-      &lt;li&gt;Avoid credit card debt&lt;/li&gt;
-      &lt;li&gt;Avoid P2P&lt;/li&gt;
-      &lt;li&gt;Early retirement is not a goal (i.e. continue working after FI)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Last season of Game of Thrones was good.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;a-simple-life&quot;&gt;A Simple Life&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://asimplelifewithsam.com/2019/06/14/saving-ninja-thought-experiment-6/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/asimple_life&quot;&gt;twitter @asimple_life&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I used to drink alcohol when I was a teenager.
-You don’t have to drink alcohol to have good time.&lt;/p&gt;
-
-&lt;p&gt;People struggle to challenge peer pressure to conform to the unwritten rules of society.
-If you want to reach FIRE, you need to learn not to follow the crowd.&lt;/p&gt;
-
-&lt;h3 id=&quot;money-for-the-modern-girl&quot;&gt;Money For The Modern Girl&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.moneyforthemoderngirl.org/my-unpopular-opinion-italy-traditions-and-innovation/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MoneyModernGirl&quot;&gt;twitter @MoneyModernGirl&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Italy is too traditional.&lt;/p&gt;
-
-&lt;p&gt;Italians live off their country and have no innovation and change.&lt;/p&gt;
-
-&lt;p&gt;There is a black market in Italy&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;people reporting incomes of less than 20,000 euros (about $26,000) per year cumulatively own 188,000 supercars, 
-(such as Ferraris, Lamborghinis, Porsches, or BMW coupes), 518 private airplanes or helicopters, and some 42,000 yachts.”
-&lt;a href=&quot;https://www.pri.org/stories/2012-01-12/italy-poor-drive-ferraris&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;fretful-finance&quot;&gt;Fretful Finance&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;http://fretfulfinance.co.uk/im-a-relationship-and-romance-outlier/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/FretfulFinance&quot;&gt;twitter @FretfulFinance&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A dilemma which topics to choose and how open to be when writing this post.&lt;/p&gt;
-
-&lt;p&gt;Retirement planning could be an option, but readers enjoy it as well.&lt;/p&gt;
-
-&lt;p&gt;Political views (slightly left)?&lt;/p&gt;
-
-&lt;p&gt;Sharing details about relationship history feels much harder than personal finance numbers (even though the blog is anonymous).&lt;/p&gt;
-
-&lt;p&gt;Never had a relationship (early 30s) and wouldn’t be surprised to never have one.
-Hard to imagine living together with the other person.&lt;/p&gt;
-
-&lt;p&gt;Don’t like wedding, but not anti-marriage.&lt;/p&gt;
-
-&lt;p&gt;Don’t like public displays of affection.&lt;/p&gt;
-
-&lt;p&gt;Don’t want children.&lt;/p&gt;
-
-&lt;p&gt;Don’t understand obsession with sex and can live without ever having it again.&lt;/p&gt;
-
-&lt;p&gt;Having a relationship is dictated by the popular culture (music, films, TV).
-I actually preferred to be alone (but it took time to understand this).&lt;/p&gt;
-
-&lt;p&gt;50% preferring being single, 40% happy to wait and see if something comes along and 
-10% actively wanting a relationship.&lt;/p&gt;
-
-&lt;p&gt;10% above are coming from the fear of loneliness.&lt;/p&gt;
-
-&lt;p&gt;Even if I manage to form a long-term relationship, I would ideally live close but separately.
-In practice, I could imagine moving in for financial reasons.&lt;/p&gt;
-
-&lt;p&gt;Marriage can be good for tax purposes and to show one’s commitment.&lt;/p&gt;
-
-&lt;p&gt;The idea of a wedding itself is absurd.&lt;/p&gt;
-
-&lt;p&gt;Not an asexual, rather the attraction is rarely strong enough to act on it.&lt;/p&gt;
-
-&lt;h3 id=&quot;left-fi&quot;&gt;Left FI&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://leftfi.home.blog/2019/06/15/my-unpopular-opinion-public-is-better/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/fi_left&quot;&gt;twitter @fi_left&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Public ownership is better than private. One can buy something to maximize their short term happiness. 
-At the same time, the public sphere (library, park, free health care, public transport) improves life a lot too.&lt;/p&gt;
-
-&lt;h3 id=&quot;andy--liberatelife-on-rebo&quot;&gt;Andy @ liberate.life (on Rebo)&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://reboapp.co.uk/blog/2019/06/17/andys-unpopular-opinion/?__s=rcyijymopus5qozgh6si&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/reboapp&quot;&gt;twitter @reboapp&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Co-founder of Rebo.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Altruism is not self-evidently morally good/necessary. Rather, people act in ways that
-appear to be self-sacrificial only when it benefits them (even if that benefit is just making them feel ‘good’).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Altruism - acting in such a way that seems to harm your own self interest in order to benefit somebody else’s.&lt;/p&gt;
-
-&lt;h3 id=&quot;james--rebo&quot;&gt;James @ Rebo&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://reboapp.co.uk/blog/2019/06/17/jamess-unpopular-opinion/?__s=rcyijymopus5qozgh6si&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/reboapp&quot;&gt;twitter @reboapp&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Co-founder of Rebo.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;As someone on the path to financial independence, or who has achieved financial independence,
-you are in an enormously privileged position, and positions of privilege like that come with
-increased responsibility for helping others who are less fortunate.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A person with more independence in how they spend their time, or with more money, has a larger
-duty to help others than someone with fewer resources&lt;/p&gt;
-
-&lt;h3 id=&quot;thefirestarter&quot;&gt;theFIREstarter&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;http://thefirestarter.co.uk/the-contrarian-thought-experiment-6/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/TFSRetireEarly&quot;&gt;twitter @TFSRetireEarly&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;There is no free market and the ones we have are highly inefficient.&lt;/p&gt;
-
-&lt;p&gt;The favorite argument is that advertisement industry is meant to prevent rational buyers (&lt;a href=&quot;http://www.randomthoughts.fyi/2014/04/free-market-vs-capitalism-what-is-free.html&quot;&gt;source&lt;/a&gt;). Another one is absence of the perfect information.&lt;/p&gt;
-
-&lt;p&gt;Not everyone can become FIRE (e.g. some people already live frugal enough to have no room for downscaling and no money to save).&lt;/p&gt;
-
-&lt;p&gt;It is possible for one to beat the market.&lt;/p&gt;
-
-&lt;p&gt;Don’t DIY everything (trying to do it once yourself is sufficient).&lt;/p&gt;
-
-&lt;p&gt;You can win money gambling.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Thought experiments&quot;]" /><category term="thought experiment" /><category term="overview" /><summary type="html">Saving Ninja had a new thought experiment recently (#6, about unpopular opinions). I again felt like making an overview of responses. Thus, here it is!</summary></entry></feed>
+&lt;p&gt;Happy impro with crazy situations but few negative reactions!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Improvisational theatre&quot;]" /><category term="impro" /><category term="reflection" /><summary type="html">I’ve been doing impro for quite some time now, however, I still often get disapproving reactions in my mind when others do something. Here are my reflections - mostly about reactions, handling and this being ok.</summary></entry></feed>
