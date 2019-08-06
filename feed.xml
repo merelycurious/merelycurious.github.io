@@ -1,4 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-08-03T20:58:44+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Chrome Incognito, FlixBus and 5 EUR</title><link href="https://merelycurious.me/post/incognito-flixbus-and-5-eur" rel="alternate" type="text/html" title="Chrome Incognito, FlixBus and 5 EUR" /><published>2019-08-03T20:00:00+02:00</published><updated>2019-08-03T20:00:00+02:00</updated><id>https://merelycurious.me/post/incognito_flixbus_and_5_eur</id><content type="html" xml:base="https://merelycurious.me/post/incognito-flixbus-and-5-eur">&lt;p&gt;Quite a peculiar story happened to me recently.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-08-06T09:30:39+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How I write this blog</title><link href="https://merelycurious.me/post/how-i-write-this-blog" rel="alternate" type="text/html" title="How I write this blog" /><published>2019-08-06T09:00:00+02:00</published><updated>2019-08-06T09:00:00+02:00</updated><id>https://merelycurious.me/post/how_i_write_this_blog</id><content type="html" xml:base="https://merelycurious.me/post/how-i-write-this-blog">&lt;p&gt;I would like to go a bit meta and tell you how I write this blog. 
+This includes somewhat technical details and just general process.
+You can treat this is an overview of a life of a post in this blog - from an idea to being published.
+Thus, please let me welcome you to the backstage, but take your shoes off first.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;ideas&quot;&gt;Ideas&lt;/h2&gt;
+
+&lt;p&gt;Every post in this blog starts with an idea. As you might have noticed, I don’t limit myself to any
+particular topic and this is also true for my ideas.&lt;/p&gt;
+
+&lt;p&gt;I collect ideas for posts non-stop. Whenever I get something vaguely resembling an idea for a post,
+I just take a note of it and add it to my list. The bar at this stage is extremely low.
+Basically, I just write it down (with enough info to be able to understand what I meant and occasionally
+possible ways to develop it) and forget. I use my “the worst that can happen” principle here (which I already
+&lt;a href=&quot;/post/the-worst-that-can-happen&quot;&gt;described&lt;/a&gt; before). In the worst case, I just change my
+mind later and delete the idea. Thus, my goal here is to just collect something, evaluation will happen later.&lt;/p&gt;
+
+&lt;p&gt;This is my idea-collection phase (I call it “catching”). Overall, I like this process a lot,
+because it is hard to get an idea on purpose, but they do come often by themselves especially when walking
+or doing something unrelated. As a result, when I feel like writing a post, but don’t have any idea in mind,
+I can just look at my list and something immediately resonates with me.&lt;/p&gt;
+
+&lt;p&gt;This idea list has a lot of items at this stage. As I said, the bar is extremely low. 
+I would say I have ~100 items there. Some are probably not actionable (the bar is unbelievably low here, did I say this already?).
+But there are 10-20 ones which I could just start writing about right now.&lt;/p&gt;
+
+&lt;p&gt;Obviously, this has some disadvantages. The list works like a stack. Thus, the oldest items
+just stay there and normally I don’t reach them at all. Normally I find something interesting already in the beginning of the list.
+With time I add more items and it gets even less likely to reach the oldest items.
+I could probably randomize the order, but this is not a problem for now. Just an observation.&lt;/p&gt;
+
+&lt;p&gt;I also publish some ideas as ideas in my &lt;a href=&quot;https://merelycurious.me/queue&quot;&gt;“Future post ideas” list&lt;/a&gt;. As you might have
+noticed I don’t do this that often. Theoretically you could check out my ideas there and I would notice
+in my statistics that some of them are more popular than others and then write about the more popular ones sooner.
+In practice I haven’t got that much signal this way so far. Also publishing ideas feels cumbersome, because there are 
+too many of them.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-minutes-of-post&quot;&gt;First minutes of post&lt;/h2&gt;
+
+&lt;p&gt;Then at some point I feel like writing a post. If I don’t have anything in mind, I will go through
+my list and find something. Here I again use “The worst that can happen principle”. Basically, I just
+sit down and start writing whatever I like without rereading or correcting much. The idea is to get
+something out. Polishing is not a goal. In the worst case, I will reread it at some point and
+just delete the post.&lt;/p&gt;
+
+&lt;p&gt;Once I have the first reasonable draft, I put it into “baking” stage. This should have been named
+more like “aging” (like wine), but I like “baking”. I just leave the draft for at least 
+a week without looking at it at all. The point is to completely forget about it. This is 
+surprisingly easy.&lt;/p&gt;
+
+&lt;h2 id=&quot;publishing&quot;&gt;Publishing&lt;/h2&gt;
+
+&lt;h3 id=&quot;choosing&quot;&gt;Choosing&lt;/h3&gt;
+&lt;p&gt;I usually publish 2 posts per week these days - one on Tuesdays and one during the weekend.
+This is completely arbitrary. I definitely started with publishing randomly, but having some
+system helps to develop a habit.&lt;/p&gt;
+
+&lt;p&gt;Let’s say it is Tuesday and I need to publish a post. I just go into my folder with drafts
+and check whatever I have there. During good times I have 5-6 drafts at the same time
+(i.e. posts for the next 3 weeks already baking). During average times only 1-2 drafts
+(i.e. enough only for this week). Nowadays I am in the later stage. I should try to 
+get to the former.&lt;/p&gt;
+
+&lt;p&gt;There are multiple benefits with having 5-6 drafts at any point in time:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;posts are being baked for much longer (~3 weeks)&lt;/li&gt;
+  &lt;li&gt;if something unexpected happens and I won’t have time to write new stuff, I will 
+have enough posts in my reserve to get by for some time. On average publishing a draft is much faster
+than writing a draft. You can treat this as my emergency post fund.&lt;/li&gt;
+  &lt;li&gt;when choosing what to post, it is easier to find something resonating with me 
+when I choose out of 6 posts (instead of 1 or 2).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;post-baking-processing&quot;&gt;Post-baking processing&lt;/h3&gt;
+&lt;p&gt;Once I selected something, I just go through it and fix whatever I don’t like.
+Very often the structure is weird or there are a bunch of typos or weird language constructs.
+Funny enough - this is impossible to see just after writing a draft and this almost screams
+at me when I reread the post after “baking” it. If the post is too bad or I find a major flow
+(e.g. false assumption), it can get deleted at this stage or postponed for additional improvements.&lt;/p&gt;
+
+&lt;p&gt;At the end of this stage, the post gets published! Hooray!&lt;/p&gt;
+
+&lt;h3 id=&quot;post-publish&quot;&gt;Post-publish&lt;/h3&gt;
+
+&lt;p&gt;These days I also tweet about almost each published post in &lt;a href=&quot;https://twitter.com/merely_curious_&quot;&gt;my twitter account&lt;/a&gt;.
+This is a good exercise for my mind to clearly identify the gist of my post. If you are into Twitter, this might
+be a good way to learn about the new posts. There is also &lt;a href=&quot;https://merelycurious.me/feed.xml&quot;&gt;an RSS feed&lt;/a&gt;, but I’ve
+heard that Google Reader is dead, so I don’t know how useful it is.&lt;/p&gt;
+
+&lt;p&gt;Occasionally I also publish on Reddit (&lt;a href=&quot;https://www.reddit.com/user/merely_curious_&quot;&gt;my account&lt;/a&gt;).
+I do this only for posts which are relevant to the reddits I am aware of.
+There people can comment and I definitely enjoy this. Very often they propose corrections (e.g. I was thinking
+that capital gain tax with solidarity tax in Germany was 26.25% (i.e. 25% * 105%) and it was pointed out that
+it is 26.375% (i.e. 25% * 105.5%)). In such cases I do add corrections to my posts. Sometimes this involves redoing
+all the calculations and graphs (a lot of fun - irony^100).&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-details&quot;&gt;Technical details&lt;/h2&gt;
+
+&lt;p&gt;I use &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; framework to run my blog. I already &lt;a href=&quot;/post/jekyll-post-url-not-working&quot;&gt;touched
+the benefits of using Jekyll in an older post&lt;/a&gt;. Since I am into
+programming, Jekyll’s approach fits me well. My blog has “source code”, the same way as programs in programming.
+I also need to “compile” it to produce the actual final website. As a result, I can automate or simplify
+a bunch of changes. Theoretically, I could completely change the design and then recompile and all
+the pages would use the new design. Similarly with my &lt;a href=&quot;https://merelycurious.me/about/&quot;&gt;“About” page&lt;/a&gt; - yes, it took me
+40 minutes to set it up, but now when I add a new post, I just mention its category and everything 
+else happens completely automatically.&lt;/p&gt;
+
+&lt;p&gt;As you might have already guessed, I also use git for version control of the blog.
+Theoretically this is not necessary for blog posts (especially since there is only me
+writing them), but as I said with Jekyll there is some programming involved, so I definitely
+prefer having git versions. This way if something goes wrong, I could easily go to a previous version.&lt;/p&gt;
+
+&lt;p&gt;I also love this feeling of seeing how something great and sizable is made step by step, a little bit
+at a time. Occasionally I look at my git log or blame and enjoy this feeling. This is also a good source
+of raw data for statistics about me writing this blog (e.g. how much and when).&lt;/p&gt;
+
+&lt;h2 id=&quot;the-last-section-normally-this-would-be-conclusions-but-there-is-nothing-to-conclude-in-this-post&quot;&gt;The last section (normally this would be conclusions, but there is nothing to conclude in this post)&lt;/h2&gt;
+&lt;p&gt;I hoped you enjoyed me giving you a peek into how this blog is getting created. That is a brief look
+behind the curtains. Please don’t forget your shoes.
+I definitely plan to continue with similar posts in the future (e.g. “Why I write this blog” and “Why I 
+believe that everyone should write a blog”).&lt;/p&gt;
+
+&lt;p&gt;If you have any feedback, questions or suggestions, you are welcome to contact me with whatever channel you 
+prefer (&lt;a href=&quot;https://twitter.com/merely_curious_&quot;&gt;twitter&lt;/a&gt;, &lt;a href=&quot;https://www.reddit.com/user/merely_curious_&quot;&gt;reddit&lt;/a&gt;,
+email - merelycurious protonmail.com). If you are unsure whether you should write to me, please use “The worst that can happen”
+principle. These days I don’t get that much feedback (I am going forward pretty blindly with the blog, mostly following
+my curiosity), so I will
+(with high probability) enjoy your feedback.&lt;/p&gt;
+
+&lt;p&gt;Happy going meta in your lives, folks!&lt;/p&gt;</content><author><name></name></author><category term="meta" /><category term="about_me" /><summary type="html">I would like to go a bit meta and tell you how I write this blog. This includes somewhat technical details and just general process. You can treat this is an overview of a life of a post in this blog - from an idea to being published. Thus, please let me welcome you to the backstage, but take your shoes off first.</summary></entry><entry><title type="html">Chrome Incognito, FlixBus and 5 EUR</title><link href="https://merelycurious.me/post/incognito-flixbus-and-5-eur" rel="alternate" type="text/html" title="Chrome Incognito, FlixBus and 5 EUR" /><published>2019-08-03T20:00:00+02:00</published><updated>2019-08-03T20:00:00+02:00</updated><id>https://merelycurious.me/post/incognito_flixbus_and_5_eur</id><content type="html" xml:base="https://merelycurious.me/post/incognito-flixbus-and-5-eur">&lt;p&gt;Quite a peculiar story happened to me recently.
 I was buying a FlixBus ticket for 24.99 EUR. I already had it in my “cart” and I had 
 30 minutes to buy it before the cart expires. Then I started double checking other
 details and in the end it expired (actually couple seconds before I pressed “pay”).
@@ -1347,87 +1478,4 @@ may struggle more with such games (or even reject playing completely).&lt;/p&gt;
 &lt;p&gt;Overall, I definitely enjoyed observing kids’ behavior during an impro workshop
 and their interactions with other.&lt;/p&gt;
 
-&lt;p&gt;Happy observations!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Improvisational theatre&quot;]" /><category term="impro" /><category term="reflection" /><summary type="html">Some participants brought their children to our impro workshops a couple times (mostly due to not having anyone else to leave them with). Observing children in impro context made me think and I made a number of observations about the connection between impro and childhood.</summary></entry><entry><title type="html">Negative reactions during impro</title><link href="https://merelycurious.me/post/negative-reaction-in-impro" rel="alternate" type="text/html" title="Negative reactions during impro" /><published>2019-07-02T22:00:00+02:00</published><updated>2019-07-02T22:00:00+02:00</updated><id>https://merelycurious.me/post/negative_reaction_in_impro</id><content type="html" xml:base="https://merelycurious.me/post/negative-reaction-in-impro">&lt;p&gt;I’ve been doing impro for quite some time now, however, I still often get
-disapproving reactions in my mind when others do something.
-Here are my reflections - mostly about reactions, handling and this being ok.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;I think today is a good day to stop describing the concept of impro in the prelude.
-Instead here is a link to
-&lt;a href=&quot;/post/beauty-of-impro&quot;&gt;“Beauty of impro” post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is peculiar that beginners in impro worry more about negative reactions
-coming from other people. However, with time one learns that everyone
-in the group is very nice and kind. Trust appears. I think that I am
-close to this state now. I am definitely much less scared of other people 
-reacting badly than I was before.&lt;/p&gt;
-
-&lt;p&gt;However, recently I noticed quite a few times that I still get negative
-reactions in my head when others do something. This piqued my interest.
-On the one hand I learned not to be scared of other people reacting negatively,
-but, on the other hand, I still get such reactions myself in my mind.&lt;/p&gt;
-
-&lt;h2 id=&quot;negative-reactions&quot;&gt;Negative reactions&lt;/h2&gt;
-
-&lt;p&gt;They can vary a lot. The simplest example is someone making a sub-optimal
-(in my view) choice when building their scene. I very quickly get a thought like
-“oh, they could have done X and it would have been so much better”. Another example
-is when someone does something very unusual or almost controversial
-(a controversial joke, weird noises, an insult, does not follow
-the rules of the game). Here I mostly become very conscious of their action
-and view it negatively for some time.&lt;/p&gt;
-
-&lt;h2 id=&quot;handling&quot;&gt;Handling&lt;/h2&gt;
-
-&lt;p&gt;Obviously, I don’t express my negative reactions during impro.
-I am grateful that others didn’t do this when I just started
-doing impro (otherwise this would have quickly killed any desire to
-learn). Thus, I don’t do this either. However, this is not
-the main reason why I don’t express. Somehow when I remind myself that this is impro
-and that I did something similarly crazy, weird or cringey before,
-the negative feeling goes away on its own pretty quickly. Somehow this works
-even outside of impro. This reminds me about my recent
-&lt;a href=&quot;/post/not-getting-angry&quot;&gt;post “How not to get angry?”&lt;/a&gt;.
-There I observed that reflecting helps to avoid getting angry about something.
-Perhaps the same mechanism is at play here as well.&lt;/p&gt;
-
-&lt;p&gt;At the same time, such reactions seem to be completely out of my control.
-They just appear in my mind as a response to what I observe. 
-Like “Oh, this is awkward / weird / cringey “. I am wondering why this happens.
-I speculate that this might be a consequence of one trying not to be
-weird themselves. You definitely get similar thoughts when you do something
-weird yourself (like singing when you have no clue how to do it well).
-Perhaps some part of the brain detects such situations (e.g. to be able to avoid
-them and in this way to improve one’s position in a prehistoric community).
-And it looks like by doing impro I learned to turn off (or ignore)
-such thoughts related towards me. However, I still get them towards others.&lt;/p&gt;
-
-&lt;h2 id=&quot;is-this-bad&quot;&gt;Is this bad?&lt;/h2&gt;
-
-&lt;p&gt;No.&lt;/p&gt;
-
-&lt;p&gt;Ok, there are multiple ways to interpret that question, I see a couple options
-(but the answer to all of the variations is still - no).&lt;/p&gt;
-
-&lt;p&gt;First, when you get such thoughts, then you are on the boundary of your
-comfort zone and something unusual and interesting must be happening.
-I consider this positive. Imagine all people around you behaving “normally”,
-such that you never get such thoughts. That would be extremely boring.
-For everyone. Basically, when you get negative thoughts, you must be in 
-a situation with increased “variance” and “amplitude”. Such situations
-can lead you to unexpected ideas, which you would not discover yourself.
-I think this is one of the main parts of impro - experiencing something,
-which you would not be able to experience on your own. Basically, having 
-a thought “Wow, I couldn’t imagine this developing this way, but now I do
-enjoy it enormously”.&lt;/p&gt;
-
-&lt;p&gt;Second, is the fact that you get these reactions bad by itself?
-Nope. This is somewhat outside of our control. We’ve been impacted by
-society, traditions and norms our entire life. As long as you can
-hold them inside, everything is fine! Just remind yourself that you
-were doing crazy stuff as well and let it got!&lt;/p&gt;
-
-&lt;p&gt;Happy impro with crazy situations but few negative reactions!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Improvisational theatre&quot;]" /><category term="impro" /><category term="reflection" /><summary type="html">I’ve been doing impro for quite some time now, however, I still often get disapproving reactions in my mind when others do something. Here are my reflections - mostly about reactions, handling and this being ok.</summary></entry></feed>
+&lt;p&gt;Happy observations!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Improvisational theatre&quot;]" /><category term="impro" /><category term="reflection" /><summary type="html">Some participants brought their children to our impro workshops a couple times (mostly due to not having anyone else to leave them with). Observing children in impro context made me think and I made a number of observations about the connection between impro and childhood.</summary></entry></feed>
