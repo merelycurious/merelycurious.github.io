@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-08-08T08:06:46+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Thought experiment #7: true happiness</title><link href="https://merelycurious.me/post/thought-experiment-7-true-happiness" rel="alternate" type="text/html" title="Thought experiment #7: true happiness" /><published>2019-08-08T08:00:00+02:00</published><updated>2019-08-08T08:00:00+02:00</updated><id>https://merelycurious.me/post/thought_experiment_7_true_happiness</id><content type="html" xml:base="https://merelycurious.me/post/thought-experiment-7-true-happiness">&lt;p&gt;The new thought experiment! About happiness this time! Woohoo!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-08-20T22:30:04+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Consumerism would be rational if FIRE did not exist</title><link href="https://merelycurious.me/post/fire-non-existence-and-consumerism" rel="alternate" type="text/html" title="Consumerism would be rational if FIRE did not exist" /><published>2019-08-20T22:00:00+02:00</published><updated>2019-08-20T22:00:00+02:00</updated><id>https://merelycurious.me/post/fire_non_existence_and_consumerism</id><content type="html" xml:base="https://merelycurious.me/post/fire-non-existence-and-consumerism">&lt;p&gt;I’ve noticed that consumerism makes sense if one assumes that Financial Independence is not achievable. 
+Let’s look more into this.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;no-fire-perspective&quot;&gt;“No FIRE” perspective&lt;/h2&gt;
+
+&lt;p&gt;Let’s take an example of Alice. She works at some job and makes some money.
+Let’s consider a case when she does not know about FIRE or for some reason assumes that it is not achievable
+(e.g. expects the stock market to stop growing). She spends some part of her salary
+each month and with the remaining part she is free to do whatever she wishes. 
+It was surprising to me that in such a situation spending a large portion of the remaining money just for fun
+makes sense and it is even rational.&lt;/p&gt;
+
+&lt;p&gt;From Alice’s perspective, there are not that many options to go with her work. At some age, she will
+start getting a pension and stop working. Before that she needs money, so she cannot leave the job.
+Basically, her no-FIRE assumption leads to “I will likely work until governmental pension age”.
+That’s optimistic case. In the worst case she could lose her job. That’s why I said spending “large” portion
+of her money and not &lt;em&gt;all&lt;/em&gt; of them. From a rational perspective, she needs some emergency savings, but
+they don’t have to be as aggressive as for FIRE.&lt;/p&gt;
+
+&lt;p&gt;Under such conditions, it makes sense to try to get the most out of free time she has left (evenings,
+weekends and vacation). That’s all what she has left (based on her assumptions) and she needs to maximize
+utility of this time, i.e. to maximize happiness. Here we unfortunately leave our so far very formal framework,
+because defining happiness is tricky.&lt;/p&gt;
+
+&lt;p&gt;Let’s consider a more concrete example.
+Let’s say she has X EUR left after covering all necessary expenses for this month.
+One option would be to invest this money and just leave them there. 
+Another option would be to boost her happiness by somehow spending them. 
+Here we assume that she already has a reasonable emergency fund and various insurances
+(disability, medical). If FIRE is not possible, investing does not make sense.
+The money will be just laying somewhere without positively affecting her life at all.
+I agree that this can be perceived as an additional buffer, but we assume that she already
+has a sufficient emergency fund.&lt;/p&gt;
+
+&lt;p&gt;Technically by investing she could spend the money later. E.g. if she exhausted all ways to
+boost her happiness, shew could wait to discover new ones. However, the timeline in this case is still
+very different from FIRE. Here it is much shorter - like the next vacation or saving for something expensive.
+For FIRE - it is years.&lt;/p&gt;
+
+&lt;p&gt;Please note that I am not saying how she should spend them. Obviously she could go 100% consumerism
+route and start buying a lot of expensive unneeded stuff. As “The science of wellbeing” course has
+pointed out (&lt;a href=&quot;/post/the-science-of-wellbeing-course-review&quot;&gt;summary&lt;/a&gt;), this won’t
+help her to become happier and even can make her unhappier. She could probably pay for experiences
+(e.g. travel) or try to help others. However, here I just assume that there are some meaningful ways
+to boost her happiness with spending money and Alice has a magical box telling her these ways.&lt;/p&gt;
+
+&lt;p&gt;In this framework, as long as spending money boosts her happiness even a little, it is rational for her to use this opportunity
+and spend the money. If there are no meaningful options left, she may save the money for some short time until
+an opportunity arises. Anyway, she we will work until pension age and nothing can be done about this (from her perspective).&lt;/p&gt;
+
+&lt;p&gt;Overall visually we can represent this as:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fire_non_existence_and_consumerism/without_fire.png&quot; alt=&quot;a sample scale with happiness boost of various opportunities, showing number of opportunities ranked by their boost value.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The precise values are arbitrary.
+How to evaluate each option is an art in itself, which we don’t even touch here.
+Alice just goes through the opportunity list from top to the bottom and executes them.&lt;/p&gt;
+
+&lt;h2 id=&quot;fire-exists-perspective&quot;&gt;“FIRE exists” perspective&lt;/h2&gt;
+
+&lt;p&gt;Now let’s imagine that Alice discovers Mr. Money Mustache blog or somehow changes her mind about FIRE.
+Now FIRE becomes viable for her and she may pursue it. 
+How does this affect the framework outlined above?&lt;/p&gt;
+
+&lt;p&gt;Not much, FIRE is just another opportunity on her list with its own “happiness boost score”.
+Again it is close to impossible to estimate it well (you probably have to trust your feelings and priorities),
+but for simplicity we assume that Alice somehow magically can make this estimate.
+Thus, the framework still works the same as before, there is just one more option.&lt;/p&gt;
+
+&lt;p&gt;Now the picture becomes:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/fire_non_existence_and_consumerism/with_fire.png&quot; alt=&quot;a sample scale with happiness boost of various opportunities, showing number of opportunities ranked by their boost value, including saving for FIRE.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically there are still opportunities, in which it makes sense to spend money to boost happiness.
+However, at the same time there is now a new mega opportunity - saving for FIRE.
+It functions as a lower bound for all other opportunities - with FIRE I expect to be
+happy to a certain degree, thus, if I have some spare money and no better way to spend them (i.e. bringing more happiness),
+I should invest them for FIRE.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what&quot;&gt;So what?&lt;/h2&gt;
+
+&lt;p&gt;I feel like you are going to ask “hey, that’s all very cool, but what is the point?”.
+So I am going to reply in advance.&lt;/p&gt;
+
+&lt;p&gt;First, this is a useful exercise to understand others better. I am reading “Search Inside Yourself” these days
+and they talk a lot about taking other people perspective to understand them. Previously I personally was 
+confused by people, who explicitly refused FIRE and continued their regular “shopping therapy” routines.
+It may the case that they just don’t find FIRE realistic - likely they have never seen anyone who reached this state,
+this also means going against the crowd and one becomes an outlier and in some sense a pioneer.
+It is also funny that I can remember the times before I discovered FIRE. I definitely felt unhappy about
+working for decades, but this unhappiness didn’t go anywhere. I just couldn’t find a solution, so I was 
+slowly going into “ok, let’s at least have as much fun as I can” mode. Fortunately, I discovered FIRE
+and this gave me proper perspective and I abandoned that route immediately.&lt;/p&gt;
+
+&lt;p&gt;Second, the happiness maximization framework with a list of opportunities also works for FIRE.
+Are you not sure whether you should invest the money or spend them in some fancy way?
+Then try to answer whether it will make you that much happier. I understand
+that this is still a hard question, but it is a good first step.&lt;/p&gt;
+
+&lt;p&gt;Happy rational happiness maximization!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Financial Independence / Early Retirement&quot;]" /><category term="fire" /><summary type="html">I’ve noticed that consumerism makes sense if one assumes that Financial Independence is not achievable. Let’s look more into this.</summary></entry><entry><title type="html">Thought experiment #7: true happiness</title><link href="https://merelycurious.me/post/thought-experiment-7-true-happiness" rel="alternate" type="text/html" title="Thought experiment #7: true happiness" /><published>2019-08-08T08:00:00+02:00</published><updated>2019-08-08T08:00:00+02:00</updated><id>https://merelycurious.me/post/thought_experiment_7_true_happiness</id><content type="html" xml:base="https://merelycurious.me/post/thought-experiment-7-true-happiness">&lt;p&gt;The new thought experiment! About happiness this time! Woohoo!&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1268,308 +1369,4 @@ investment when investing 2000€ per month&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/post_resources/801_tax_free/5000_different_roi.png&quot; alt=&quot;a plot showing how difference (in percents) between the two cases (delaying capital gains and
 realizing at most 801€ tax free yearly) depends on time saving and yearly return on
-investment when investing 5000€ per month&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Simulations&quot;, &quot;Germany&quot;, &quot;Investing&quot;]" /><category term="fire" /><category term="analysis" /><category term="mini-project" /><category term="taxes" /><summary type="html">In Germany, one does not pay any tax for their first 801€ of capital gains each year. I personally try to realize at least 801 EUR each year to use this benefit, but I am now curious how much of a difference in the long term this makes.</summary></entry><entry><title type="html">“Mindless eating” - impression and summary</title><link href="https://merelycurious.me/post/mindless-eating-book-summary" rel="alternate" type="text/html" title="&quot;Mindless eating&quot; - impression and summary" /><published>2019-07-09T08:00:00+02:00</published><updated>2019-07-09T08:00:00+02:00</updated><id>https://merelycurious.me/post/mindless_eating_book_summary</id><content type="html" xml:base="https://merelycurious.me/post/mindless-eating-book-summary">&lt;p&gt;Recently I read “Mindless Eating: Why We Eat More Than We Think” by Brian Wansink.
-Here is my impression (somewhat positive) and summary.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt;
-
-&lt;p&gt;Before reading this book I discovered that there was a controversy associated with Brian Wansink.
-Wikipedia &lt;a href=&quot;https://en.wikipedia.org/wiki/Brian_Wansink&quot;&gt;gives&lt;/a&gt; a good summary:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;These problems included conclusions not supported by the data presented, data and figures duplicated across papers, questionable data including impossible values, incorrect and inappropriate statistical analyses, and “p-hacking”. The lab had 17 papers retracted (one twice) and had 15 corrections issued. On September 20, 2018, Cornell determined that Wansink had committed scientific misconduct and removed him from research and teaching, limiting his activity to cooperating with further investigation of his papers; he resigned effective June 30, 2019.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I definitely don’t have enough insight to judge this, but Cornell announced that Wansink would retire
-[&lt;a href=&quot;https://www.vox.com/science-and-health/2018/9/19/17879102/brian-wansink-cornell-food-brand-lab-retractions-jama&quot;&gt;source: vox&lt;/a&gt;] (by the way
-on 30th of June, i.e. pretty recently) and this is a substantial argument that something was wrong.&lt;/p&gt;
-
-&lt;p&gt;Despite this I decided to read the book anyway, but didn’t pay attention to the precise numbers much.&lt;/p&gt;
-
-&lt;h2 id=&quot;impression&quot;&gt;Impression&lt;/h2&gt;
-
-&lt;p&gt;Overall the book felt quite insightful. For some weird unexplainable reason, it also felt somewhat hard and not that interesting to read.
-Once I wrote this summary, I also understood that the structure was quite chaotic (i.e. the same or very similar 
-piece of advice was mentioned multiple times) and often the topic of a given chapter was not immediately obvious.&lt;/p&gt;
-
-&lt;p&gt;The book contained many of my observations from my life. I did make some changes in my life and I was definitely able
-to observe a lot described in this book around me (e.g. in restaurants and cafes).&lt;/p&gt;
-
-&lt;p&gt;Score: 3/5 (not a waste of time, but I wouldn’t recommend unless you have bad eating problems, also the fact
-that I had to ignore precise numbers due to the controversy affected the score as well, otherwise it could have been 4)&lt;/p&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;[note: I have heavily reordered my notes to make them more structured.]&lt;/p&gt;
-
-&lt;p&gt;There are multiple labs studying food choices (like the author’s). Food producers do their research too (e.g. how customers
-will like a new product).&lt;/p&gt;
-
-&lt;p&gt;We have millions of years of evolution telling us to eat as often and as much as we can.&lt;/p&gt;
-
-&lt;h3 id=&quot;we-suck-at-estimating-how-much-to-eat&quot;&gt;We suck at estimating how much to eat&lt;/h3&gt;
-
-&lt;p&gt;How much we eat is heavily affected by external factors and we underestimate the effect of this.&lt;/p&gt;
-
-&lt;p&gt;After each bite we don’t stop to reconsider whether we are now full. Instead we look for external cues (e.g. empty plate
-or other people leaving). As a result, the more food you are given, the more food you will eat
-(even if you don’t like the food - e.g. stale popcorn).
-People mistakenly claim that this does not apply to them.
-It also does not matter whether they are hungry. One eats more when given a larger container.&lt;/p&gt;
-
-&lt;p&gt;People also get anchored. E.g. when they get a signal that the meal is good, they will convince themselves so and vice versa.
-Another example: when asked whether apple has 50 or more calories - their average response is 66, when asked&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;150 or more - the average response becomes 114. That’s how promotions in shops work - any sign with a number promotion
-increases purchases by 30-100%.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Try dishing out 20% less than you think you might want before you start eating. People can detect 30%
-difference, but not 20%. For fruits &amp;amp; veggies - have 20% more (e.g. cut 20% of pasta, but have
-20% more veggies).&lt;/p&gt;
-
-&lt;p&gt;We are bad at remembering what we ate and how much. Normally food does not leave a trace, but when it does
-we will eat less (e.g. chicken bones).&lt;/p&gt;
-
-&lt;p&gt;We also don’t notice gaining weight (unless we measure). Our clothes don’t lie - they fit or they don’t.
-For dieters, these are called “signal clothes” (e.g. being able to fit in a favorite pair of jeans).&lt;/p&gt;
-
-&lt;p&gt;We usually try to eat the same portion as yesterday. We think that we will be full if we eat a full plate,
-half plate - half full. As a result, if the food looks bigger, we will feel more full (e.g. by adding veggies).
-You can do this with air (e.g. keeping a smoothie in blender for longer).&lt;/p&gt;
-
-&lt;p&gt;If we think that we ate less that typical volume, we will think that we are hungry. More - full.&lt;/p&gt;
-
-&lt;p&gt;We eat the volume we want, not the calories. E.g. 2x calories food is perceived exactly the same as 0.5x.
-People would consider themselves to be exactly the same full.&lt;/p&gt;
-
-&lt;p&gt;We don’t stop eating when our stomach is full. It seems to be a combination of how much we eat,
-taste, swallow, think about food and how long we’ve been eating.&lt;/p&gt;
-
-&lt;p&gt;We need 20 minutes to signal satiation.&lt;/p&gt;
-
-&lt;p&gt;We often decide how much to eat before putting food in our mouth. We also don’t ask ourselves constantly whether
-we are full yet.&lt;/p&gt;
-
-&lt;p&gt;Stomach has 3 settings:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Starving (bottom level, not eating for 8 or 18 hours leads to the same feeling)&lt;/li&gt;
-  &lt;li&gt;I’m full but can eat more&lt;/li&gt;
-  &lt;li&gt;I’m stuffed (top level, you can’t continue eating)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You should rely on your internal cues and stop when you are not hungry (instead of when full or
-by external cues). This is actually very different from stopping when you are full.&lt;/p&gt;
-
-&lt;p&gt;Advice:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;See it before you eat it. When preplating, people eat 14% less than when they refill.
-Put everything you want to eat on a plate before you start.&lt;/li&gt;
-  &lt;li&gt;See it while you eat (e.g. soda bottles or chicken bones).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;People tend to eat 20-25% more from larger packages (even worse for snacks).
-This applies not only to food (e.g. shampoo, laundry detergent).
-Big packages suggest a consumption norm.&lt;/p&gt;
-
-&lt;p&gt;People assume that 1 package is 1 serving.
-If you empty six 100 cal servings into a bowl, the serving becomes “how much we want to eat”.&lt;/p&gt;
-
-&lt;p&gt;Our brains have a tendency to overfocus on heights at the expense of width. E.g. people
-pour more liquid in short wide glasses and underestimate (even bartenders, i.e. with
-experience).&lt;/p&gt;
-
-&lt;p&gt;Size contrast illusion - we use background objects as a benchmark for estimating sizes.
-A larger plate influences you to serve more (same for large spoons).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/mindless_eating/illusion.svg&quot; alt=&quot;Ebbinghaus illusion illustration. Two groups of circles. The left one is an orange circle with
-large circles around it. The right one - an orange one with small circles around it. 
-The orange circles seem to be of different sizes (the left one is smaller), but they are actually the same.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Fig: &lt;a href=&quot;https://en.wikipedia.org/wiki/Ebbinghaus_illusion&quot;&gt;Ebbinghaus illusion&lt;/a&gt; - the central circles are the same
-[&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Mond-vergleich.svg&quot;&gt;source: Wikipedia&lt;/a&gt;]&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Informing people about this does not help.&lt;/p&gt;
-
-&lt;p&gt;In general, it is easier to estimate small values (see psychophysics for more details), e.g. building height
-or calories you ate. As a result, the bigger the meal, the more people underestimate how much they ate.&lt;/p&gt;
-
-&lt;p&gt;Thus, mini-size your boxes, bowls and packages.&lt;/p&gt;
-
-&lt;p&gt;3 year old children are not affected by the serving size, 5 year old are.&lt;/p&gt;
-
-&lt;p&gt;Paul Rozin has shown that amnesiac patients ate a second complete meal within 30 minutes after having eat a prior
-meal, once they were told it was dinner time
-[note: the article has only 2 patients and 3 occasions: &lt;a href=&quot;https://journals.sagepub.com/doi/10.1111/1467-9280.00073&quot;&gt;What Causes Humans to Begin and End a Meal? A Role for Memory for What Has Been Eaten, as Evidenced by a Study of Multiple Meal Eating in Amnesic Patients by P. Rozin et al&lt;/a&gt; ].&lt;/p&gt;
-
-&lt;h3 id=&quot;variety&quot;&gt;Variety&lt;/h3&gt;
-
-&lt;p&gt;Diets based on food restriction work, because people get bored of the same allowed foods and eat less of it.&lt;/p&gt;
-
-&lt;p&gt;Increasing the variety of food increases how much we eat. 
-“Sensory specific satiety” - senses get numb or sated if they continually experience the same stimuli.
-The first of anything is almost always the best. We also eat more, when we simply think there is more variety.
-E.g. people eat more M&amp;amp;M’s from a bowl with 10 colors vs. 7 colors.&lt;/p&gt;
-
-&lt;h3 id=&quot;friction-ie-visibility--effort&quot;&gt;Friction (i.e. visibility &amp;amp; effort)&lt;/h3&gt;
-
-&lt;p&gt;When we see food, we start wanting it and will eat more of it. Every time we see it, we have to say “no”.
-Eventually it will turn into “yes”.&lt;/p&gt;
-
-&lt;p&gt;Out of sight = out of mind.&lt;/p&gt;
-
-&lt;p&gt;Simply thinking of food can make us hungry.
-The more you think of something, the more of it you will eat. The more hassle it is to eat, less we eat.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;TODO: buy chopsticks.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Even opening an ice cream fridge can repel people from eating ice cream.&lt;/p&gt;
-
-&lt;h3 id=&quot;distractions&quot;&gt;Distractions&lt;/h3&gt;
-
-&lt;p&gt;When we eat, we often follow eating scripts. Eating with people we like causes overeating - takes longer and we are more
-distracted. However, you can finish eating the last. Use the slowest eater at the table as your
-pace setter.&lt;/p&gt;
-
-&lt;p&gt;Eating is like shopping - the longer you stay at the mall, the more you buy.
-If we stare at a cookie, it is only so long before “no, no” becomes “maybe” and then “yes”.&lt;/p&gt;
-
-&lt;p&gt;The less people watch TV, the skinnier they are (because they have more time to exercises and fewer reasons to snack).&lt;/p&gt;
-
-&lt;p&gt;Distractions of all kinds make us eat more, forget how much we ate and extend how long we eat - even when
-we are not hungry.&lt;/p&gt;
-
-&lt;h3 id=&quot;physical-vs-emotional-hunger&quot;&gt;Physical vs emotional hunger&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col width=&quot;33%&quot; /&gt;
-&lt;col width=&quot;33%&quot; /&gt;
-&lt;col width=&quot;33%&quot; /&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr class=&quot;header&quot;&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;Physical hunger&lt;/th&gt;
-&lt;th&gt;Emotional&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;builds&lt;/td&gt;
-&lt;td&gt;gradually&lt;/td&gt;
-&lt;td&gt;suddenly&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;strikes&lt;/td&gt;
-&lt;td&gt;below the neck (e.g. growling stomach)&lt;/td&gt;
-&lt;td&gt;above the neck (e.g. a “taste” for an ice cream)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;occurs several hours after a meal&lt;/td&gt;
-&lt;td&gt;unrelated to time&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;goes away when full&lt;/td&gt;
-&lt;td&gt;persists despite fullness&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;eating leads to&lt;/td&gt;
-&lt;td&gt;satisfaction&lt;/td&gt;
-&lt;td&gt;guilt and shame&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;healthy-food-something-free-or-low-like-low-on-fat&quot;&gt;“Healthy” food (“something”-free or low, like low on fat)&lt;/h3&gt;
-
-&lt;p&gt;We view food as black and white and often consider food free of “something” (e.g. low fat or sugar) as healthy,
-even though it may contain similar number of calories (e.g. due to a compensation for the taste).
-E.g. people eat more of low fat products.&lt;/p&gt;
-
-&lt;h3 id=&quot;company-incentives&quot;&gt;Company incentives&lt;/h3&gt;
-
-&lt;p&gt;No food company is in business to make us fat. They just sell food.
-If we want to mindlessly eat fattening food - they will do it. If we want healthy food -
-they will find a way to do it (assuming it is profitable). They don’t care if we 
-throw away the food as long as we pay for it.&lt;/p&gt;
-
-&lt;h3 id=&quot;food-perception&quot;&gt;Food perception&lt;/h3&gt;
-
-&lt;p&gt;Our taste buds are biased by our imagination (see “expectation assimilation” and “confirmation bias”).
-That’s why presentation of a dish plays a role. Fancy dish names work the same (preprogram us). Brands work
-similarly (set some expectation, e.g. real Coca-Cola vs. a similar drink with a different brand).&lt;/p&gt;
-
-&lt;p&gt;The feelings we have when we first eat some food can follow us for a lifetime (e.g. 
-World War II US soldiers who served in the Pacific and had more intense combats tend to dislike Chinese food more).&lt;/p&gt;
-
-&lt;p&gt;The order in which you eat your food (i.e. whether the best first) depends on whether you are the only child
-(or from a small family).&lt;/p&gt;
-
-&lt;p&gt;You can rewire your comfort foods - e.g. start pairing healthier foods with positive events, e.g.
-celebrate with “desired” comfort foods.&lt;/p&gt;
-
-&lt;h3 id=&quot;family&quot;&gt;Family&lt;/h3&gt;
-
-&lt;p&gt;Nutritional gate keeper - the person who decides / buys food for the house. Also the one cooking.&lt;/p&gt;
-
-&lt;p&gt;Unhealthy food tools extremes:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Food as reward (ice cream for exam)&lt;/li&gt;
-  &lt;li&gt;Food as guilt (finish because people starve)&lt;/li&gt;
-  &lt;li&gt;Food as punishment (finish or no TV)&lt;/li&gt;
-  &lt;li&gt;Food as comfort (eat and then you will feel better)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;diets&quot;&gt;Diets&lt;/h3&gt;
-
-&lt;p&gt;Normal diets are deprivation diets. Our body fights against them by using stored calories more efficiently (like during a famine).
-This type of diets is like pushing a boulder uphill every second every day.
-If we deny ourselves something, we end up craving it even more.
-Normally such diets are like sacrifices and after finishing them we are prone to catch up.
-The bigger the deprivation the bigger the fall.&lt;/p&gt;
-
-&lt;p&gt;Cutting out favorite food is bad, instead we should just eat less.&lt;/p&gt;
-
-&lt;p&gt;The dieting strategy “I will never eat X again in my life” (e.g. fried chicken or ice cream) is destined for a failure.&lt;/p&gt;
-
-&lt;p&gt;Don’t deprive yourself - keep comfort foods, but eat them in smaller amounts.&lt;/p&gt;
-
-&lt;h4 id=&quot;this-book-methods&quot;&gt;This book methods&lt;/h4&gt;
-
-&lt;p&gt;Food tradeoffs - “I can eat X if I do Y” (e.g. I can eat this candy if I take the stairs for the rest of the day).
-Food policy - just some rule (e.g. never eat at my desk), this helps not to spend any effort on making this decision each time.&lt;/p&gt;
-
-&lt;p&gt;One can use external cues to unknowingly lose weight (i.e. without deprivation).
-Mindless margin - we can’t identify whether we ate 300 calories too much or less yesterday,
-i.e. the zone where we can slightly overeat or under-eat without noticing.&lt;/p&gt;
-
-&lt;p&gt;Cutting only 100 calories a day would prevent weight gain in most of the US population (or walking 1 extra mile a day).&lt;/p&gt;
-
-&lt;p&gt;Just making 3 changes (100 cal each) in your daily food routine is enough to make a difference.&lt;/p&gt;
-
-&lt;p&gt;Half plate rule - half the plate for vegetables and fruits, the other half for protein and starch.&lt;/p&gt;
-
-&lt;p&gt;Rule of thumb for estimating calories in drinks - 10 calories per ounce (~30 ml) in thin drinks (soft drinks, juice, milk),
-20 calories in thick (smoothies).&lt;/p&gt;
-
-&lt;p&gt;Drinking with ice burns calories (body needs to warm the liquid up) - 1 cal / ounce.&lt;/p&gt;
-
-&lt;p&gt;If you drink 8 glasses, 8 ounces (240 ml) of water each with ice, you burn ~70 calories.&lt;/p&gt;
-
-&lt;p&gt;It takes 28 days to break an old habit and replace it with a new one.
-Set up a check list (i.e. for each day and each 100 cal change) to make it more accountable.&lt;/p&gt;
-
-&lt;p&gt;Imagine you are two miles away from your home. You can run and get there 3x faster, but
-walking gets you there as well - at a reasonable and painless rate though. Each step brings you
-a little closer. It is the same with losing weight.&lt;/p&gt;
-
-&lt;p&gt;The best diet is the one you don’t know you are on.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Book reviews&quot;]" /><category term="book" /><category term="summary" /><category term="review" /><summary type="html">Recently I read “Mindless Eating: Why We Eat More Than We Think” by Brian Wansink. Here is my impression (somewhat positive) and summary.</summary></entry></feed>
+investment when investing 5000€ per month&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Simulations&quot;, &quot;Germany&quot;, &quot;Investing&quot;]" /><category term="fire" /><category term="analysis" /><category term="mini-project" /><category term="taxes" /><summary type="html">In Germany, one does not pay any tax for their first 801€ of capital gains each year. I personally try to realize at least 801 EUR each year to use this benefit, but I am now curious how much of a difference in the long term this makes.</summary></entry></feed>
