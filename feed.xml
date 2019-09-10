@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-09-08T23:38:13+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Book “Too Soon Old, Too Late Smart” - review and summary</title><link href="https://merelycurious.me/post/book-summary-too-soon-old" rel="alternate" type="text/html" title="Book &quot;Too Soon Old, Too Late Smart&quot; - review and summary" /><published>2019-09-08T23:00:00+02:00</published><updated>2019-09-08T23:00:00+02:00</updated><id>https://merelycurious.me/post/book_summary_too_soon_old</id><content type="html" xml:base="https://merelycurious.me/post/book-summary-too-soon-old">&lt;p&gt;I happened to read &quot;Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now&quot; by Gordon Livingston.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-09-10T09:10:57+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">MVV 2020 reform overview</title><link href="https://merelycurious.me/post/mvv-2020-reform" rel="alternate" type="text/html" title="MVV 2020 reform overview" /><published>2019-09-09T22:00:00+02:00</published><updated>2019-09-09T22:00:00+02:00</updated><id>https://merelycurious.me/post/mvv_2020_reform</id><content type="html" xml:base="https://merelycurious.me/post/mvv-2020-reform">&lt;p&gt;MVV (Munich public transport company) changes their pricing structure on 15.12.2019.
+The old (current) system can be at times extremely confusing (e.g. mixing up
+rings and zones when buying weekly tickets). Let’s see what has changed in the 
+new system (mostly focusing on the inner city).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
+
+&lt;h3 id=&quot;general-info&quot;&gt;General info&lt;/h3&gt;
+&lt;p&gt;The official MVV page for the reform is &lt;a href=&quot;https://www.mvv-muenchen.de/ueber-den-mvv/der-verbund/mvv-tarifreform/&quot;&gt;here (German)&lt;/a&gt;.
+It takes effect on 15.12.2019.&lt;/p&gt;
+
+&lt;h3 id=&quot;existing-tickets&quot;&gt;Existing tickets&lt;/h3&gt;
+&lt;p&gt;One should be careful with their existing tickets during the transition:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Existing bicycle, weekly- and monthy- tickets will be valid as normal.&lt;/li&gt;
+  &lt;li&gt;One way trip child / short and Streifenkarte are valid until 31.03.2020.&lt;/li&gt;
+  &lt;li&gt;The remaining ones (one way trip adult, one day (single, group, child) ticket) are not valid anymore.
+One can exchange them for the new tickets for free until 31.03.2020 (and for 2 Euro processing fee afterwards).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;changes&quot;&gt;Changes&lt;/h2&gt;
+
+&lt;h3 id=&quot;zones&quot;&gt;Zones&lt;/h3&gt;
+&lt;p&gt;The zone layout has been changed dramatically.&lt;/p&gt;
+
+&lt;p&gt;The new layout is available &lt;a href=&quot;https://www.mvv-muenchen.de/fileadmin/mediapool/07-Ueber_den_MVV/Tarifstrukturreform/2020_layout_S_U_R_T_X.pdf&quot;&gt;here&lt;/a&gt;. It is convenient to compare it with
+&lt;a href=&quot;https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Netzplaene/MVV_Netzplan_S_U_R.pdf&quot;&gt;the old S-Bahn layout&lt;/a&gt;.
+If you feel really extreme, you could try comparing it with &lt;a href=&quot;https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Tarifplaene/MVV_Tarifplan_Gesamtnetz.pdf&quot;&gt;the old entire network scheme&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/mvv_reform/old_entire_network.png&quot; alt=&quot;Old entire network scheme which has too many details to be readable&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig: old entire network scheme screaming “You shall not pass!”.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now there is one mega zone called M (for Munich), which covers the inner parts of the city.
+In addition to M, there are 6 other zones named simply with numbers from 1 to 6.&lt;/p&gt;
+
+&lt;p&gt;Previously there was definitely a mess with different kinds of areas. There were
+rings (1-16), zones (white, green, yellow and red) and areas (inner district, Munich XXL, outer area).
+Thus, having {M, 1, …, 6} is definitely much simpler than what we had before.&lt;/p&gt;
+
+&lt;p&gt;In terms of the mapping, the old inner district (Innenraum, i.e. old rings 1-4) is a subset of the new M zone.
+In other words M zone does not only fully cover Innerraum, but also includes some additional stops. 
+For example, some of the stops now are both in M and 1, while before they were either not in Innenraum at all (e.g. Deisenhofen)
+or fully inside Innenraum (e.g. Neuperlach Süd, Neubiberg). This is definitely good, since people traveling
+to such stops won’t have to cross a zone border, which makes their tickets cheaper.&lt;/p&gt;
+
+&lt;p&gt;It is also peculiar that now often 3-5 stops on the zone border belong to both zones (previously mostly 1-2).
+This is also very good for customers based on the same reason as above - it is cheaper to travel to such stops from both zones.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/mvv_reform/5_stops_in_both_zones.png&quot; alt=&quot;5 stops in both M and 1 zones&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig: 5 stops belonging both to M and 1. Woohoo!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;prices&quot;&gt;Prices&lt;/h3&gt;
+&lt;p&gt;Pricing has changed as well. Surprise-surprise!&lt;/p&gt;
+
+&lt;p&gt;The new official pdf is &lt;a href=&quot;https://www.mvv-muenchen.de/fileadmin/mediapool/07-Ueber_den_MVV/Tarifstrukturreform/2020_MVV_Preisblatt_Haltestelle.pdf&quot;&gt;here&lt;/a&gt;. The old pricing can be deduced from
+&lt;a href=&quot;https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Tarifplaene/MVV_Tarifplan_Innenraum.pdf&quot;&gt;the entire network poster&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The “Single trip ticket” is now more expensive (3.30€ vs. 2.90€ before).
+E.g. a trip from Hbf to Fröttmaning is 3.30€, but was 2.90€ (when bought as a “Single trip ticket”).&lt;/p&gt;
+
+&lt;p&gt;The price for Streifenkarte didn’t change though - it is still 14.00€ for 10 stripes.
+Thus, now they are even more lucrative. Before one was saving only 2.90 - 2.80 = 0.1€ per trip,
+now it becomes 3.30 - 2.80 = 0.5€.&lt;/p&gt;
+
+&lt;p&gt;The daily ticket prices grow as well.
+Before one would pay 6.7€ for single daily ticket for Innenraum and 12.8€ for group..&lt;br /&gt;
+The new prices are 7.8€ and 14.8€ respectively.&lt;/p&gt;
+
+&lt;p&gt;For the weekly tickets, the new system is now cheaper.
+For example Hbf to Fröttmaning single weekly ticket (Rings 1-4) used to cost 22.1€, but will become 17.1€.
+The same is true for monthly tickets. Rings 1-4 monthly ticket used to cost 79.1€ and now it is 55.20€.
+This is exactly what Rings 1-2 monthly ticket costs in the old system (i.e. these people get to travel much
+more for the same money).&lt;/p&gt;
+
+&lt;p&gt;For longer trips, the prices (assuming using Streifenkarte) also mostly go down or stay the same.
+E.g. &lt;a href=&quot;https://www.mvv-muenchen.de/fileadmin/mediapool/07-Ueber_den_MVV/Tarifstrukturreform/190111_MVV-Tarifreform_2020_-Hintergrunddosier.pdf&quot;&gt;a pdf with background details of the reform&lt;/a&gt; (page 11) has a peculiar sample S-Bahn trip prices scheme:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/mvv_reform/smoother_sbahn_pricing.png&quot; alt=&quot;MVV sample scheme showing smoother pricing curve for longer S-Bahn trips&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig: the prices are now smoother!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We can see that the pricing curve gets smoother across zones. In some cases, now one has to pay less
+than they would before due to more granular zone structure (7 new ones vs ~3 old ones). In other words, they get
+to pay more proportional to what they use. E.g. before Hbf - Dachau used to cost 5.6€ and not it is 4.2€ (assuming Streifenkarte).&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The occasional “1-2 trips per day, but very rarely” travelers will observe no changes in their spendings
+(assuming they use Streifenkarte). People who travel a lot, but only occasionally, i.e. 
+“3+ trips per day, but rarely” will start paying more due to increased daily ticket prices.
+People who travel frequently and a lot (i.e. weekly and monthly ticket users) will benefit
+from lower prices and pay less (or travel further for the same money).&lt;/p&gt;
+
+&lt;p&gt;Overall, I definitely like the simplicity of the new approach. 
+Previously it was very easy to mix up rings with areas (i.e. buy 1-2 Ring weekly ticket and
+assume that it works for Innenraum).&lt;/p&gt;
+
+&lt;h3 id=&quot;incentives&quot;&gt;Incentives&lt;/h3&gt;
+
+&lt;p&gt;The new system incentivizes people much more to use Streifenkarte.
+It also makes weekly and monthly tickets more lucrative.
+It is a bit unfortunate that visitors will often have to pay more.
+It often makes no sense for them to buy an entire Streifenkarte or they may not even know
+that it costs less.&lt;/p&gt;
+
+&lt;p&gt;Happy simplified travels with the new reform!&lt;/p&gt;</content><author><name></name></author><summary type="html">MVV (Munich public transport company) changes their pricing structure on 15.12.2019. The old (current) system can be at times extremely confusing (e.g. mixing up rings and zones when buying weekly tickets). Let’s see what has changed in the new system (mostly focusing on the inner city).</summary></entry><entry><title type="html">Book “Too Soon Old, Too Late Smart” - review and summary</title><link href="https://merelycurious.me/post/book-summary-too-soon-old" rel="alternate" type="text/html" title="Book &quot;Too Soon Old, Too Late Smart&quot; - review and summary" /><published>2019-09-08T23:00:00+02:00</published><updated>2019-09-08T23:00:00+02:00</updated><id>https://merelycurious.me/post/book_summary_too_soon_old</id><content type="html" xml:base="https://merelycurious.me/post/book-summary-too-soon-old">&lt;p&gt;I happened to read &quot;Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now&quot; by Gordon Livingston.
 While the title sounds extremely fishy (I suppose that this “X things blablabla” is used a lot by cheap article
 websites with low quality content), the book itself was overall surprisingly good.&lt;/p&gt;
 
@@ -2224,105 +2333,4 @@ My gut feeling is that this is a weird bug due to multiple system part interacti
 &lt;h2 id=&quot;flixbus-opinion&quot;&gt;FlixBus opinion&lt;/h2&gt;
 &lt;p&gt;I have asked them on Twitter (&lt;a href=&quot;https://twitter.com/merely_curious_/status/1157727264647372801&quot;&gt;tweet&lt;/a&gt;). Not sure whether they
 will reply (that would be very unpleasant to debug for someone there
-especially based on the scarce data I have here and me being unable to reproduce it), but let’s see.&lt;/p&gt;</content><author><name></name></author><category term="funny" /><category term="bugs" /><category term="technology" /><summary type="html">Quite a peculiar story happened to me recently. I was buying a FlixBus ticket for 24.99 EUR. I already had it in my “cart” and I had 30 minutes to buy it before the cart expires. Then I started double checking other details and in the end it expired (actually couple seconds before I pressed “pay”). I tried to buy it again, but now the price was 29.99 EUR, i.e. 5 EUR more.</summary></entry><entry><title type="html">Dangers of “Work hard, play hard”</title><link href="https://merelycurious.me/post/dangers-of-work-hard-play-hard" rel="alternate" type="text/html" title="Dangers of &quot;Work hard, play hard&quot;" /><published>2019-07-30T09:00:00+02:00</published><updated>2019-07-30T09:00:00+02:00</updated><id>https://merelycurious.me/post/dangers_of_work_hard_play_hard</id><content type="html" xml:base="https://merelycurious.me/post/dangers-of-work-hard-play-hard">&lt;p&gt;I’ve discovered that people use expression &quot;Work hard, play hard&quot; as a way to
-explain treating themselves something nice. The expressions itself often comes from
-their workplace. At first, this felt ok to me, but when taking into account
-Financial Independence / Early Retirement, I can see that one’s employer
-can be incentivized in one following this expression. Let’s see how.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;Work hard, play hard. Sounds pretty innocent and reasonable. You do a great job, 
-you get to enjoy its results and “rest”. It also seems to make sense to use your time 
-as efficiently as possible in both cases:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;when working - to improve your results,&lt;/li&gt;
-  &lt;li&gt;when resting - to rest better and to have more fun.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Often “Play hard” part involves
-spending a lot of money. E.g. one could consider vacation nearby (e.g.
-if they live in Germany, some city in Germany or neighboring country) or some exotic
-far away destination (like Costa Rica). In the process one can say “I worked very hard, now I 
-deserve playing hard, so Costa Rica it is”. You see the principle.&lt;/p&gt;
-
-&lt;h2 id=&quot;here-comes-fire&quot;&gt;Here comes FIRE&lt;/h2&gt;
-
-&lt;p&gt;“Work hard, play hard” makes sense before one knows about FIRE. I have to admit 
-that at some point in my life even I used “Play hard” part to decide whether to spend money.
-However in the context of FIRE, it is very easy to see dangers of this
-expression and why it can be good for one’s employer.&lt;/p&gt;
-
-&lt;h3 id=&quot;incentive-1-obvious-one-work-hard-for-productivity&quot;&gt;Incentive #1 (obvious one): Work Hard for productivity&lt;/h3&gt;
-&lt;p&gt;Employers love when one works hard. They are extremely incentivized
-to make this the case. The harder their employee works, the better the results are,
-the more money employer makes. Normally one doesn’t get all the benefit which they
-produce at work propagated back to them. Thus, even after a raise or a bonus for good
-work, the employer still benefits from one’s hard work.&lt;/p&gt;
-
-&lt;h3 id=&quot;incentive-2-another-obvious-one-play-hard-for-rest&quot;&gt;Incentive #2 (another obvious one): Play Hard for rest&lt;/h3&gt;
-&lt;p&gt;In order to be able to work hard, you need to recharge your energy well.
-Otherwise, you will burn out. Thus, based on the previous incentive, employers
-also love when you rest very well and recharge before coming to work. Thus, if one
-spends their personal time for their own very effective rest, this is very positive
-for their employer (better performance, more money) and somewhat positive to the person
-(somewhat more money theoretically, burnout sucks).&lt;/p&gt;
-
-&lt;h3 id=&quot;incentive-3-surprising-play-hard-to-spend&quot;&gt;Incentive #3 (surprising): Play Hard to spend&lt;/h3&gt;
-&lt;p&gt;This one is hard to notice without FIRE. Basically, imagine that your salary is magically 
-2 million EUR per month. After couple months, you could likely quit, since you
-will have enough money in your stash (not for getting 2kk EUR monthly during your FIRE, but still enough).
-And now imagine that your employer manages to convince you to “Play Hard”. Heck, you
-are making 2 million EUR per month. You can spend 1.8 million EUR every month and
-still save 200k. You will still save more than majority of people. Very few people earn that much,
-so you deserve this! Then you find many fancy ways to spend a lot of money. Inflate your
-lifestyle. After vacation on a yacht in the Caribbean and an amazing 10 room apartment
-with a jacuzzi (or 5), having a vacation in Stuttgart or living in a studio apartment
-feels hard. And now you can’t quit anymore. You need a lot of money to support such
-a lifestyle. By saving 10% of your income, you need ~51.4 years to save for your retirement.&lt;/p&gt;
-
-&lt;p&gt;You probably don’t get payed 2kk EUR monthly (otherwise, wow, I am proud that you
-read this). However, the same approach applies to any salary. I just exaggerated the example
-to make it easier to digest.&lt;/p&gt;
-
-&lt;h3 id=&quot;incentive-4-questionable-play-hard-to-not-grow&quot;&gt;Incentive #4 (questionable): Play Hard to not grow&lt;/h3&gt;
-&lt;p&gt;Imagine that you don’t know about “Play Hard” and just work.
-In the evening, you tinker with various projects, learn new skills.
-In some sense, this is good for your employer, because theoretically
-you may become more productive. But at the same time,
-this makes your more valuable on the job market. The raises are usually 
-lower than starting bonuses (i.e. one will likely end up with more
-money by changing a job instead of getting a raise). Thus, in this case
-there is a risk that you will leave your employer. E.g. some other
-company notices your projects and makes a more generous offer. 
-Or you can even start a startup. I feel like the risk of losing you is higher
-for the employer than the benefits from your learning. And with
-“Play Hard” you are directed to just have fun without long lasting
-effects (except rest and spending money). I understand that for some
-of us, “playing” may involve learning or tinkering, but in the general
-case this is considered work and normally people wouldn’t use this activities
-for their leisure time. Even though it would make them much happier
-(e.g. due to being in the flow, according to “The science of wellbeing” course, 
-&lt;a href=&quot;/post/the-science-of-wellbeing-course-review&quot;&gt;summary of which I already posted&lt;/a&gt;
-).&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
-
-&lt;p&gt;Thus, if you notice yourself using “I worked hard, I may play hard” argument, especially to spend
-more money, try to stop for a moment and reconsider. Is this really what you want? Is this really
-beneficial for you and your life? I am pretty sure there are enough cases when it is, but your
-employer may be heavy incentivized in you following this expression.&lt;/p&gt;
-
-&lt;p&gt;Another funny way to understand this expression could have been “Work Hard” = “Save for FIRE”,
-“Play Hard” = “Enjoy FIRE”, but even this does not work well. This seams to involve life style
-inflation and implicitly says that your FIRE saving phase sucks and you won’t 
-“work” during FIRE. It doesn’t have to be this way. Ideally your lifestyle shouldn’t change much.
-You just replace ordinary job time (i.e. 40h a week) with some other activities, which you enjoy more.
-This can be whatever you like (even just continue working).&lt;/p&gt;
-
-&lt;p&gt;Thus, I would rephrase the expression as “Work reasonably ok, analyze incentives, consider saving for
-FIRE, enjoy your life in the ways you like (this does not have to be rest or expensive “play”, but it may”.&lt;/p&gt;
-
-&lt;p&gt;Happy effective work and conscious rest!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Financial Independence / Early Retirement&quot;, &quot;Frugality&quot;]" /><category term="reflection" /><summary type="html">I’ve discovered that people use expression &quot;Work hard, play hard&quot; as a way to explain treating themselves something nice. The expressions itself often comes from their workplace. At first, this felt ok to me, but when taking into account Financial Independence / Early Retirement, I can see that one’s employer can be incentivized in one following this expression. Let’s see how.</summary></entry></feed>
+especially based on the scarce data I have here and me being unable to reproduce it), but let’s see.&lt;/p&gt;</content><author><name></name></author><category term="funny" /><category term="bugs" /><category term="technology" /><summary type="html">Quite a peculiar story happened to me recently. I was buying a FlixBus ticket for 24.99 EUR. I already had it in my “cart” and I had 30 minutes to buy it before the cart expires. Then I started double checking other details and in the end it expired (actually couple seconds before I pressed “pay”). I tried to buy it again, but now the price was 29.99 EUR, i.e. 5 EUR more.</summary></entry></feed>
