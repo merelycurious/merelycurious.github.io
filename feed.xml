@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-09-10T09:10:57+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">MVV 2020 reform overview</title><link href="https://merelycurious.me/post/mvv-2020-reform" rel="alternate" type="text/html" title="MVV 2020 reform overview" /><published>2019-09-09T22:00:00+02:00</published><updated>2019-09-09T22:00:00+02:00</updated><id>https://merelycurious.me/post/mvv_2020_reform</id><content type="html" xml:base="https://merelycurious.me/post/mvv-2020-reform">&lt;p&gt;MVV (Munich public transport company) changes their pricing structure on 15.12.2019.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-09-14T14:28:06+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Future proofness</title><link href="https://merelycurious.me/post/future-proofness" rel="alternate" type="text/html" title="Future proofness" /><published>2019-09-14T14:00:00+02:00</published><updated>2019-09-14T14:00:00+02:00</updated><id>https://merelycurious.me/post/future_proofness</id><content type="html" xml:base="https://merelycurious.me/post/future-proofness">&lt;p&gt;Long time ago I learned about a concept, which I now call “future proofness”.
+I coined this term myself, but it is also &lt;a href=&quot;https://en.wikipedia.org/wiki/Future_proof&quot;&gt;present&lt;/a&gt; in Wikipedia.
+However, with a bit different meaning. In my case, the main idea was that the future
+technology could improve and extract additional information from your current artifacts.
+Let’s see couple examples.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;dna&quot;&gt;DNA&lt;/h2&gt;
+
+&lt;p&gt;I learned this concept originally in the context of DNA.
+Currently analyzing one’s DNA provides some insights, but they are not too impressive.
+Humanity still seems to lack deep understanding of how everything works.
+At the same time, there are already many things one can do with their DNA.
+The most obvious example - &lt;a href=&quot;https://www.23andme.com/en-int/&quot;&gt;23andMe&lt;/a&gt;.
+Spit in the box, send it their way and for $99 they will prepare a report with various
+peculiar details discovered from your DNA. Alternatively one can search for their relatives
+by their DNA.&lt;/p&gt;
+
+&lt;p&gt;Here future proofness comes in play. These companies get access to one’s DNA to provide 
+their services and currently cannot do much else. However, it may not be the case in the future.
+One example - what if people learn to very reliably predict illnesses by DNA and then
+insurance companies set their contributions based on such predictions. At the same time there can
+be cases, which we currently even cannot imagine. Thus, from future proofness perspective
+one should not give away their DNA, because in the future there may be a way to
+extract sensitive data out of it. That’s why I personally feel uneasy about
+using 23andMe. Some countries consider taking DNA on their border in some cases 
+(&lt;a href=&quot;https://edition.cnn.com/2019/05/15/politics/ice-considers-next-steps-in-dna-testing/index.html&quot;&gt;CNN about a similar idea in the US&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;I am aware of at least one example of poor future proofness having bad consequences for a person.
+In 1970s there was a series of crimes with DNA left behind.
+Recently this material was compared to data from online services for finding relatives based on DNA.
+As a result a relative of a person, who committed the crimes, was matched.
+In the end, the criminal was arrested. Thus, leaving DNA in 1970s happened to be 
+not future proof.
+Source: &lt;a href=&quot;https://www.vox.com/2018/4/27/17290288/golden-state-killer-joseph-james-deangelo-dna-profile-match&quot;&gt;vox&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;cryptography&quot;&gt;Cryptography&lt;/h2&gt;
+
+&lt;p&gt;Another area where future proofness may play role is cryptography.
+Imagine that you encrypt your data and store it in a cloud.
+As a result the could provider theoretically has access to the encrypted 
+version. Let’s say after 30 years the encryption method you used
+is not secure anymore (e.g. computation power has grown so much or 
+a vulnerability was discovered). As a result, the cloud provider
+can now have access to your 30 year old data.
+The value of this data can be questionable, but I can still imagine
+this backfiring badly. Also the time span can be even shorter.&lt;/p&gt;
+
+&lt;p&gt;It is definitely not clear how to protect against this.
+If with DNA we can avoid giving away the data, here this is trickier.
+Theoretically we could store the data ourselves, but this is inconvenient.
+Another option would be to use stronger encryption parameters.
+However, I suspect that this will affect the performance really badly
+and the future security improvement won’t be that large.&lt;/p&gt;
+
+&lt;h2 id=&quot;photos-of-faces&quot;&gt;Photos of faces&lt;/h2&gt;
+
+&lt;p&gt;Another peculiar example is photos of faces.
+Imagine that one publishes their photo or video where they
+do questionable things (e.g. nudity or so). Their line of thought
+might be that it is very unlikely that someone from their
+immediate surrounding will discover this.
+Somewhat recently reverse face search started to appear.
+Basically one can upload a photo of a face and these sites show profiles in
+social networks with faces matching the given photo. E.g. &lt;a href=&quot;https://www.theverge.com/2018/8/8/17663640/socialmapper-facial-recognition-open-source-intelligence&quot;&gt;verge&lt;/a&gt; reports on one of these.&lt;/p&gt;
+
+&lt;p&gt;Another example is using masks which hide only part of one’s face.
+It is very common in law enforcement to use masks which 
+don’t cover eyes. Practicality of this design decision is hard to question.
+I also agree that humans struggle with recognizing someone just by
+their eyes. However, I could imagine some technology doing that pretty well
+in the future. I am not aware of any examples yet.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-future-proofness-for-good&quot;&gt;Using future proofness for good&lt;/h2&gt;
+
+&lt;p&gt;There are also examples where future proofness can be used for good.
+Unfortunately in this case the term naming does not work well, but I will still keep it.&lt;/p&gt;
+
+&lt;p&gt;Robert Sapolsky in “Stress, Portrait of a Killer” (one of his documentaries) mentioned storing 
+baboon samples frozen for years in case human develop better ways
+to analyze them.&lt;/p&gt;
+
+&lt;p&gt;Cryonics is fully based on this principle.
+The idea is to somehow preserve a person in a reasonable state,
+which could be reversed once the technology advances enough.
+E.g. they can be terminally ill. Once they die according to the current
+law, their body can be stored in a special way to minimize the damage
+and to keep its structure. Once the technology advances far enough
+to undo the effect of storage and also treat the original illness,
+they can theoretically be revived.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Obviously one cannot protect against everything and there are always tradeoffs between
+effort and security. At the same time, just knowing about the concept of 
+future proofness can help one to avoid making questionable decisions.
+It is also peculiar to notice this concept being at play in many unrelated
+areas of life.&lt;/p&gt;
+
+&lt;p&gt;Happy future proof decisions!&lt;/p&gt;</content><author><name></name></author><summary type="html">Long time ago I learned about a concept, which I now call “future proofness”. I coined this term myself, but it is also present in Wikipedia. However, with a bit different meaning. In my case, the main idea was that the future technology could improve and extract additional information from your current artifacts. Let’s see couple examples.</summary></entry><entry><title type="html">MVV 2020 reform overview</title><link href="https://merelycurious.me/post/mvv-2020-reform" rel="alternate" type="text/html" title="MVV 2020 reform overview" /><published>2019-09-09T22:00:00+02:00</published><updated>2019-09-09T22:00:00+02:00</updated><id>https://merelycurious.me/post/mvv_2020_reform</id><content type="html" xml:base="https://merelycurious.me/post/mvv-2020-reform">&lt;p&gt;MVV (Munich public transport company) changes their pricing structure on 15.12.2019.
 The old (current) system can be at times extremely confusing (e.g. mixing up
 rings and zones when buying weekly tickets). Let’s see what has changed in the 
 new system (mostly focusing on the inner city).&lt;/p&gt;
@@ -2195,142 +2295,4 @@ principle. These days I don’t get that much feedback (I am going forward prett
 my curiosity), so I will
 (with high probability) enjoy your feedback.&lt;/p&gt;
 
-&lt;p&gt;Happy going meta in your lives, folks!&lt;/p&gt;</content><author><name></name></author><category term="meta" /><category term="about_me" /><summary type="html">I would like to go a bit meta and tell you how I write this blog. This includes somewhat technical details and just general process. You can treat this is an overview of a life of a post in this blog - from an idea to being published. Thus, please let me welcome you to the backstage, but take your shoes off first.</summary></entry><entry><title type="html">Chrome Incognito, FlixBus and 5 EUR</title><link href="https://merelycurious.me/post/incognito-flixbus-and-5-eur" rel="alternate" type="text/html" title="Chrome Incognito, FlixBus and 5 EUR" /><published>2019-08-03T20:00:00+02:00</published><updated>2019-08-03T20:00:00+02:00</updated><id>https://merelycurious.me/post/incognito_flixbus_and_5_eur</id><content type="html" xml:base="https://merelycurious.me/post/incognito-flixbus-and-5-eur">&lt;p&gt;Quite a peculiar story happened to me recently.
-I was buying a FlixBus ticket for 24.99 EUR. I already had it in my “cart” and I had 
-30 minutes to buy it before the cart expires. Then I started double checking other
-details and in the end it expired (actually couple seconds before I pressed “pay”).
-I tried to buy it again, but now the price was 29.99 EUR, i.e. 5 EUR more.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;workaround&quot;&gt;Workaround&lt;/h2&gt;
-
-&lt;p&gt;Uh, I was confused and surprised. They definitely knew that I am interested in this ticket.
-I already almost bought it once and, yes, I still wanted to buy it.
-But increasing the price by 5 EUR because of that would be mean.
-Fortunately, I knew that they can recognize me (by my browser session) and perhaps if I start fresh
-the price would be different. E.g. they could set a “cookie” in my browser saying
-something like “hey, this chap tried to buy this ticked already, let’s do +5 EUR, cheers!”.
-This cookie would be absent in my new session. Thus, I tried to open the same page
-in a Chrome Incognito tab. Guess what - the price was the old one - 24.99 EUR.
-They could potentially correlate my new session with my old one (e.g. by IP, time and my computer hardware),
-but that would be cumbersome.&lt;/p&gt;
-
-&lt;p&gt;Now I don’t remember precisely, but I feel like I refreshed the old session page as well after seeing 24.99 EUR
-in the incognito tab and it was still showing 29.99 EUR. This is actually a very important detail to understand
-how this happened.&lt;/p&gt;
-
-&lt;h2 id=&quot;hypotheses&quot;&gt;Hypotheses&lt;/h2&gt;
-
-&lt;h3 id=&quot;someone-is-being-mean&quot;&gt;Someone is being mean&lt;/h3&gt;
-&lt;p&gt;Theoretically, this could be intended. Theoretically, FlixBus almost made +5 EUR out of nowhere
-(ok, out of my pocket to be precise). It is easy to see how this could benefit them.
-However, this would be pretty mean and I would be very surprised if this is the case.
-The approach does not look very sustainable, someone would definitely notice and complain.
-Also it is better to assume positive intention and give benefit of doubt.&lt;/p&gt;
-
-&lt;h3 id=&quot;bugs-bugs-bugs&quot;&gt;Bugs, bugs, bugs&lt;/h3&gt;
-&lt;p&gt;A bit more plausible explanation is that this is just a bug. So far this is my best guess.
-As far as I know, FlixBus uses “adaptive” pricing. I.e. if someone buys a ticket, the next 
-ticket can cost more. This tries to adapt to the actual demand (people buy more tickets to
-some destination, demand must be high, so the price can higher too). Airlines go crazy
-with this stuff. I haven’t observed FlixBus increasing and decreasing their prices
-frequently, but airlines (based on my experience) do this a lot.&lt;/p&gt;
-
-&lt;p&gt;Thus, when “almost” my ticket (24.99 EUR one) was in my “cart”, FlixBus could already raise the price for
-the next one to 29.99 EUR. They could just assume that the first ticket is almost sold.
-And then when the first ticket “expires”, they need to decrease the price back.
-Perhaps there is some race condition here and I happened to open the state when my old not-bought expired ticket
-was still in the cart (but in the reality it wasn’t).&lt;/p&gt;
-
-&lt;p&gt;Then the question is why incognito helped. I could imagine them having multiple servers
-and perhaps some caching. Theoretically, my new tab could have hit some other server,
-which was already aware that 24.99 EUR ticket came back. Or the server serving the old
-session could have cached 29.99 EUR (but caching price pages sounds weird).&lt;/p&gt;
-
-&lt;p&gt;I know that my hypothesis is somewhat weak, but, hey, the info I have is limited as well.&lt;/p&gt;
-
-&lt;h2 id=&quot;experiment&quot;&gt;Experiment&lt;/h2&gt;
-
-&lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
-
-&lt;p&gt;Ok, originally I didn’t plan to experiment with this, but now I am curious.
-The plan is the following:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Add a couple tickets to “cart”.&lt;/li&gt;
-  &lt;li&gt;Let them expire.&lt;/li&gt;
-  &lt;li&gt;Check their price again.&lt;/li&gt;
-  &lt;li&gt;Open incognito and check price there.&lt;/li&gt;
-  &lt;li&gt;If I observe the increase, I could create a new Chrome profile, check the price and then and inject the cookie from the old profile
-into the new one and check the price again.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;process&quot;&gt;Process&lt;/h3&gt;
-
-&lt;p&gt;I decided to add Berlin - Munich tickets to my “cart”. Unfortunately, one cannot add two tickets on the same day in the same
-direction (which makes sense, but it is inconvenient for my experiment), so I added 3 tickets for each day from 21st of August to 
-23rd of August. FlixBus shows when there are 0, 1 or 2 tickets left at this price, so I varied this parameter:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;21st of August - price 27.98 and 2 seats left at this price
-&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/init_21st.png&quot; alt=&quot;Initial ticket price for 21st of August&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;22nd of August - price 27.98 and 1 seat left at this price
-&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/init_22nd.png&quot; alt=&quot;Initial ticket price for 22nd of August&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;23rd of August - price 27.99 and no additional messages.
-&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/init_23rd.png&quot; alt=&quot;Initial ticket price for 23rd of August&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Overall my cart was 83.95 EUR.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/init_summary.png&quot; alt=&quot;Cart overview&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then I waited for ~20 minutes and checked from an incognito window.
-Only in the second case (22nd of August) price grew to 30.98 EUR.
-&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/mid_22nd.png&quot; alt=&quot;22nd of August ticket price before expiry&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This makes sense (they said I took the last seat at the previous price).
-On the 21st of August they say that 1 seat is left at this price, but the price is the same.
-&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/mid_21st.png&quot; alt=&quot;21st of August ticket price before expiry&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For 23rd nothing has changed.
-&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/mid_23rd.png&quot; alt=&quot;23rd of August ticket price before expiry&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then I let the cart expire.
-Funny fact: they say “1 minute&lt;strong&gt;s&lt;/strong&gt;” when only 1 minute is left:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/1_minutes.png&quot; alt=&quot;&amp;quot;1 minute**s**&amp;quot; expiry warning&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Probably so few people reach this point (and observe the page while doing that), that no one complained or it is
-not worth fixing. Yeap, a minor nit.&lt;/p&gt;
-
-&lt;p&gt;Another fun fact: the number turns red when it is 0:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/0_minutes.png&quot; alt=&quot;&amp;quot;0 minutes&amp;quot; expiry warning&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And finally - expired:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/session_expired.png&quot; alt=&quot;Session expired message&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then I checked all the prices from the same browser window, i.e. same session.
-All prices were the same as they were when I started my experiment:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/final_same_session_21st.png&quot; alt=&quot;Final (after expiry) ticket price for 21st of August&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/final_same_session_22nd.png&quot; alt=&quot;Final (after expiry) ticket price for 22nd of August&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/final_same_session_23rd.png&quot; alt=&quot;Final (after expiry) ticket price for 23rd of August&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I.e. I did not observe any price increase in any of the cases.
-I was just able to rebuild my “cart” with exactly the same prices.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/incognito_flixbus_5_eur/final_summary.png&quot; alt=&quot;Rebuilt cart with exactly the same prices&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
-
-&lt;p&gt;I was not able to reproduce the issue.
-Obviously they could do this trick only once in a while to prevent someone like me detecting this.
-My gut feeling is that this is a weird bug due to multiple system part interaction (e.g. caching or distributed servers).&lt;/p&gt;
-
-&lt;h2 id=&quot;flixbus-opinion&quot;&gt;FlixBus opinion&lt;/h2&gt;
-&lt;p&gt;I have asked them on Twitter (&lt;a href=&quot;https://twitter.com/merely_curious_/status/1157727264647372801&quot;&gt;tweet&lt;/a&gt;). Not sure whether they
-will reply (that would be very unpleasant to debug for someone there
-especially based on the scarce data I have here and me being unable to reproduce it), but let’s see.&lt;/p&gt;</content><author><name></name></author><category term="funny" /><category term="bugs" /><category term="technology" /><summary type="html">Quite a peculiar story happened to me recently. I was buying a FlixBus ticket for 24.99 EUR. I already had it in my “cart” and I had 30 minutes to buy it before the cart expires. Then I started double checking other details and in the end it expired (actually couple seconds before I pressed “pay”). I tried to buy it again, but now the price was 29.99 EUR, i.e. 5 EUR more.</summary></entry></feed>
+&lt;p&gt;Happy going meta in your lives, folks!&lt;/p&gt;</content><author><name></name></author><category term="meta" /><category term="about_me" /><summary type="html">I would like to go a bit meta and tell you how I write this blog. This includes somewhat technical details and just general process. You can treat this is an overview of a life of a post in this blog - from an idea to being published. Thus, please let me welcome you to the backstage, but take your shoes off first.</summary></entry></feed>
