@@ -1,4 +1,166 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-02T12:18:02+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Revisit what you are bad at</title><link href="https://merelycurious.me/post/revisit-what-you-are-bad-at" rel="alternate" type="text/html" title="Revisit what you are bad at" /><published>2019-11-02T11:00:00+01:00</published><updated>2019-11-02T11:00:00+01:00</updated><id>https://merelycurious.me/post/revisit_what_you_are_bad_at</id><content type="html" xml:base="https://merelycurious.me/post/revisit-what-you-are-bad-at">&lt;p&gt;Often we can get conditioned from outside that we have no talent in some area
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-03T11:12:26+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How to buy ETFs at Flatex</title><link href="https://merelycurious.me/post/how-to-buy-etfs-at-flatex" rel="alternate" type="text/html" title="How to buy ETFs at Flatex" /><published>2019-11-03T09:00:00+01:00</published><updated>2019-11-03T09:00:00+01:00</updated><id>https://merelycurious.me/post/how_to_buy_etfs_at_flatex</id><content type="html" xml:base="https://merelycurious.me/post/how-to-buy-etfs-at-flatex">&lt;p&gt;It can be overwhelming to start buying ETFs, especially for non-German speakers.
+Here is a step by step guide to buy ETFs at Flatex in Germany (directly, not savings plan aka Sparplan).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
+
+&lt;p&gt;I personally started investing with &lt;a href=&quot;https://www.flatex.de/&quot;&gt;Flatex&lt;/a&gt; too (funny fact, this is 
+not a referral link, their referral system conditions are weird). They have constant fees (5-8 Euro) to
+buy and sell ETFs. To the best of my knowledge all other brokers (except onvista and its derivatives) have
+percentage-based fees, which I avoid (here is 
+&lt;a href=&quot;/post/underestimating-ter&quot;&gt;a post&lt;/a&gt;
+ why - basically paying 0.5% of &lt;em&gt;all&lt;/em&gt; my networth is not fun). I already did
+&lt;a href=&quot;/post/german-brokers-overview&quot;&gt;an overview of German brokers&lt;/a&gt;
+before. I also started using Interactive Brokers in parallel with Flatex to diversify across brokers
+and to save more on the transaction fees. However, Interactive Brokers won’t do your investing related taxes,
+while Flatex will, so for beginners Flatex is definitely a much better choice.
+If you are curious
+about Interactive Brokers anyway, I wrote about
+&lt;a href=&quot;/post/interactive-brokers-fixed-vs-tiered-commissions&quot;&gt;their commissions&lt;/a&gt;,
+&lt;a href=&quot;/post/interactive-brokers-monthly-fee&quot;&gt;monthly fee&lt;/a&gt; and
+&lt;a href=&quot;/post/interactive-brokers-buying-etfs&quot;&gt;how to buy ETFs there&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am aware of two disadvantages of Flatex. First, they charge 0.4% (Negativzinsen) each year of all the &lt;em&gt;cash&lt;/em&gt; you have with them.
+This is actually applied each day (as ~0.4%/365 = 0.00109%) and rounded down. E.g. having 1k EUR with them
+for one day will result in 1 cent charge. Solution: just don’t store cash for long. One should be careful, though, and don’t let
+the account be negative for long, because the credit rate is 7.9%. One pays Negativzinsen at the end of 
+a quarter, so you should transfer the missing money soonish there.&lt;/p&gt;
+
+&lt;p&gt;The second potential issue is that
+they charge 5.9 EUR for receiving dividends from individual non-German stocks (this is not ETF, dividends from ETFs are free).
+Solution: just buy ETFs.&lt;/p&gt;
+
+&lt;p&gt;Apart from that, they have nice customer service, who unofficially speaks English (i.e. this is not advertised,
+but they all switched to English easily). They also have non-customer service (i.e. for potential
+clients), which is amazing for asking random questions not related to me personally (I don’t have to fill
+in all the account details and to verify my identity to ask 5 second question).&lt;/p&gt;
+
+&lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
+
+&lt;p&gt;I assume that you have already registered at German Flatex (&lt;a href=&quot;https://www.flatex.de/en/&quot;&gt;flatex.de/en&lt;/a&gt;).
+Unfortunately I can’t help you with this, because I already have an account with them.&lt;/p&gt;
+
+&lt;h3 id=&quot;money&quot;&gt;Money&lt;/h3&gt;
+
+&lt;p&gt;Before buying an ETF you need to have money in your Flatex account. Surprise, surprise.
+Fortunately, you get a usual IBAN number where you can transfer money as if it is just a different bank account.&lt;/p&gt;
+
+&lt;p&gt;To find the IBAN:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Sign in at &lt;a href=&quot;https://www.flatex.de/kunden-login/&quot;&gt;www.flatex.de/kunden-login/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Go to “SERVICE” tab&lt;/li&gt;
+  &lt;li&gt;Select “Bankverbindungen” (which means bank connections or links)&lt;/li&gt;
+  &lt;li&gt;Look for “Cashkonto” (cash account) and its IBAN. That’s where you need to send your money.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It is the best to save this IBAN as a template in your bank.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/how_to_buy_etfs_at_flatex/iban.png&quot; alt=&quot;Sample screenshot of Bankverbindungen with fake data&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Please be careful and don’t confuse this with “Externes Konto” (external account),
+i.e. the account linked with your Flatex account. For security reasons, you can transfer
+money out only to 1 predefined IBAN (in order to change it you actually need to send a paper letter).
+This is your “Externes Konto”.&lt;/p&gt;
+
+&lt;p&gt;You don’t have to transfer money from your “Externes Konto” though. It can be any account.&lt;/p&gt;
+
+&lt;h3 id=&quot;finding-etf&quot;&gt;Finding ETF&lt;/h3&gt;
+
+&lt;p&gt;Selecting an ETF to buy is an art of itself and this is outside of the scope of this guide.
+&lt;a href=&quot;https://www.justetf.com/&quot;&gt;JustETF&lt;/a&gt; is a good start. Once you know the ETF, you need to find
+its ISIN number, e.g. for accumulating S&amp;amp;P 500 ETF from iShares it is IE00B5BMR087
+(&lt;a href=&quot;https://www.justetf.com/de/etf-profile.html?query=IE00B5BMR087&amp;amp;groupField=index&amp;amp;from=search&amp;amp;isin=IE00B5BMR087&quot;&gt;iShares Core S&amp;amp;P 500 UCITS ETF (Acc)&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/how_to_buy_etfs_at_flatex/isin.png&quot; alt=&quot;JustETF page for iShares Core S&amp;amp;P 500 UCITS ETF (Acc) with ISIN highlighted&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;buy&quot;&gt;Buy&lt;/h3&gt;
+
+&lt;h4 id=&quot;buying-screen&quot;&gt;Buying screen&lt;/h4&gt;
+
+&lt;p&gt;Once you received your money (you see it in your Cashkonto), you can get to ETF buying screen:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sign in at &lt;a href=&quot;www.flatex.de/kunden-login/&quot;&gt;www.flatex.de/kunden-login/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Click “HANDEL” (trading)&lt;/li&gt;
+  &lt;li&gt;Select “Order aufgeben” (give an order)&lt;/li&gt;
+  &lt;li&gt;Paste the ISIN number of the ETF you want to buy. I use IE00B5BMR087 as an example&lt;/li&gt;
+  &lt;li&gt;The suggestion with the ETF should appear, select it&lt;/li&gt;
+  &lt;li&gt;You get to the ETF page, scroll down to see exchanges overview
+&lt;img src=&quot;/assets/post_resources/how_to_buy_etfs_at_flatex/exchanges.png&quot; alt=&quot;Flatex short exchanges view&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Choose one of the exchanges. I recommend XETRA, flatex Preis (TRG) or gettex. 
+I personally used gettex in the beginning a lot and, if you are not sure, I suggest to try gettex at first.
+Possible criteria for choosing an exchange:
+    &lt;ul&gt;
+      &lt;li&gt;opening times - exchanges work only at particular times, so some may be closed&lt;/li&gt;
+      &lt;li&gt;fees - each exchange takes its own fee as well, I tried all 3 mentioned above and
+the resulting fees were 5-9 EUR&lt;/li&gt;
+      &lt;li&gt;ETF price - there may be different price at different exchanges&lt;/li&gt;
+      &lt;li&gt;availability - there may be more stocks available to buy at one exchange&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If your exchange is not in the list, click “Weitere Handelsplätze anzeigen” (show other trading places)
+to show the full list.&lt;/li&gt;
+  &lt;li&gt;Click green “K” button (stands for “kaufen”, i.e. to buy) in the row of the selected exchange.
+I use flatex Preis (TRG) here as an example.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;buying&quot;&gt;Buying&lt;/h4&gt;
+
+&lt;p&gt;Now you get to the actual buying screen. To buy:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Double check “Verfügbar” (available), i.e. how much money you have.
+&lt;img src=&quot;/assets/post_resources/how_to_buy_etfs_at_flatex/available.png&quot; alt=&quot;Flatex buying view&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Change “Handelsart” (kind of order) to “Limitorder” (order with a limit).&lt;/li&gt;
+  &lt;li&gt;Change “Ordertyp” (type of order) to “Limit”. This means that order will be fulfilled 
+only when its price is smaller than the limit. This saves you from buying at an extreme price due
+to an unexpected market spike.&lt;/li&gt;
+  &lt;li&gt;Type the desired price limit into “Limit”. This can be just the current price or 
+something 0.1% or 0.5% lower if you don’t mind waiting or risking that your order does not get fulfilled.
+Basically, Flatex won’t execute your order unless the price is lower than the limit.
+If you set unrealistic limit, your order won’t get executed. At the beginning I suggest to set 
+the current price. &lt;em&gt;Important:&lt;/em&gt; use comma (i.e. “,”) as a decimal separator, i.e. 7 EUR 50 cents should become 7&lt;em&gt;,&lt;/em&gt;5.&lt;/li&gt;
+  &lt;li&gt;Type into “Stück/Nominal” (quantity) number of ETFs to buy.
+It can’t be fractional. Please leave 10-15 EUR gap for the fees. Usually they are applied later and not shown at this stage.
+If you are curious to know more about the fees, there is “Kostendetails &amp;amp; Auswirkung” link, which shows the breakdown.
+This is quite a recent feature, I don’t remember seeing this before.&lt;/li&gt;
+  &lt;li&gt;“Nettoschätzung” - should look green, this means that you have enough money. Double check that the number agrees with your
+understanding. E.g. if you forgot to use “,” as a decimal separator, the number here will be super large.&lt;/li&gt;
+  &lt;li&gt;“Orderzusatz” - “&amp;lt;ohne&amp;gt;”&lt;/li&gt;
+  &lt;li&gt;“Gültigkeit (Datum)” - how long the order should be valid. In other words, if the price does not reach your
+limit in this timeframe, the order will be canceled. This happened to me couple times and I didn’t pay any fees (anecdotal evidence, I haven’t seen this officially confirmed anywhere).
+You can choose “tagesgültig” (i.e. today) or “gültig bis:” (“until”) and some
+date of your choice. At the beginning I suggest to set lax limit (i.e. just the current price) and “tagesgültig”.&lt;/li&gt;
+  &lt;li&gt;Press “Eingaben übernehmen”.&lt;/li&gt;
+  &lt;li&gt;The site will ask you for your TAN code, just fill it in from the card.&lt;/li&gt;
+  &lt;li&gt;Done, your order has been created.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Usually “Verfügbar” (available) cash decreases at this stage, but in some places the money for the order may be shown as if
+they are still in your account. Actually, they are, they are just “frozen” for the order.&lt;/p&gt;
+
+&lt;h4 id=&quot;tracking&quot;&gt;Tracking&lt;/h4&gt;
+
+&lt;p&gt;You can check the status of the order in “HANDEL” -&amp;gt; “Orderbuch”. There you can also cancel your order, e.g. if you limit
+happened to be too aggressive.
+I did this couple times and didn’t pay any fees.&lt;/p&gt;
+
+&lt;p&gt;After some time (depends on your limit and market state), the order should get fulfilled and usually after
+a delay of at most 1 day, the result gets reflected 
+in the interface (i.e. you can actually see the new ETF in your account). 
+If this is not the case after a day (assuming this is not a weekend), I suggest to call their customer service.
+I personally never had to do this, but better safe than sorry!&lt;/p&gt;
+
+&lt;h4 id=&quot;this-is-still-scary&quot;&gt;This is still scary&lt;/h4&gt;
+
+&lt;p&gt;I agree that this may look hard and complicated. It definitely took me couple months of research before I started
+investing myself. As a workaround, I suggest you to make your first order with 10-50 EUR instead of your original amount.
+This way it is much easier to convince yourself to try. In the worst case, the loss is very limited. I did this myself
+too. I bought 1 share of some ETF and then sold it the next day to double check that I can get my money back. I know, this sounds
+very naive now, but it was scary to move a bunch of my money there otherwise. But soon after, I started to feel pretty confident
+with the process, so the learning curve is steep, but manageable!&lt;/p&gt;
+
+&lt;p&gt;Happy investing!&lt;/p&gt;</content><author><name></name></author><summary type="html">It can be overwhelming to start buying ETFs, especially for non-German speakers. Here is a step by step guide to buy ETFs at Flatex in Germany (directly, not savings plan aka Sparplan).</summary></entry><entry><title type="html">Revisit what you are bad at</title><link href="https://merelycurious.me/post/revisit-what-you-are-bad-at" rel="alternate" type="text/html" title="Revisit what you are bad at" /><published>2019-11-02T11:00:00+01:00</published><updated>2019-11-02T11:00:00+01:00</updated><id>https://merelycurious.me/post/revisit_what_you_are_bad_at</id><content type="html" xml:base="https://merelycurious.me/post/revisit-what-you-are-bad-at">&lt;p&gt;Often we can get conditioned from outside that we have no talent in some area
 and it is just not our thing. Thus, we shouldn’t even try. It is easy to get into 
 this trap as a kid due to yet low self-confidence. Consider stopping for a moment and explicitly
 catching all ideas like that. Let’s see why you might discover a lot of new about
@@ -1559,169 +1721,4 @@ assault the Dip that matters.&lt;/p&gt;
 
 &lt;p&gt;We succeed when we do something remarkable. We fail when we give up too soon. 
 We succeed when we are the best in the world at what we do.
-We fail when we get distracted by tasks we don’t have the guts to quit.&lt;/p&gt;</content><author><name></name></author><category term="book summary" /><category term="review" /><summary type="html">I read “The Dip” by Seth Godin. It definitely raised couple interesting issues (one should drop unimportant areas to be able to reach something reasonable in more important areas). However, how to understand what to drop was not that clear.</summary></entry><entry><title type="html">Book “Purple cow” - review and summary</title><link href="https://merelycurious.me/post/book-summary-purple-cow" rel="alternate" type="text/html" title="Book &quot;Purple cow&quot; - review and summary" /><published>2019-08-31T19:00:00+02:00</published><updated>2019-08-31T19:00:00+02:00</updated><id>https://merelycurious.me/post/book_summary_purple_cow</id><content type="html" xml:base="https://merelycurious.me/post/book-summary-purple-cow">&lt;p&gt;I read “Purple Cow” by Seth Godin. Overall, it was quite an interesting way to approach
-marketing nowadays + very motivating to be riskier and experiment more.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;impression&quot;&gt;Impression&lt;/h2&gt;
-
-&lt;p&gt;The book gives an interesting approach to doing modern marketing by being remarkable (unusual). 
-The arguments are definitively anecdotal, but overall felt reasonable.
-I tool a couple of ideas from it and plan to apply them in my projects.
-The book also discusses early stages of a product development and 
-being more risky and experimenting more. I found this quite motivating.&lt;/p&gt;
-
-&lt;p&gt;Score: 4/5 (not bad, +1 point for being motivating.
-Definitely not a waste of time, but hard to actively recommend.)&lt;/p&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-
-&lt;h3 id=&quot;old-marketing-is-no-more&quot;&gt;Old marketing is no more&lt;/h3&gt;
-
-&lt;p&gt;We can no longer market directly to masses. Products are invisible.&lt;/p&gt;
-
-&lt;p&gt;Most people can’t buy your product. Either they don’t have money, time or don’t want it. There are far more
-choices nowadays and less time to sort them out.&lt;/p&gt;
-
-&lt;p&gt;Markets are over-satisfied, so word of mouth is not that popular anymore.&lt;/p&gt;
-
-&lt;p&gt;The old rule was: create safe ordinary products and combine them with great marketing.
-The new rule is: create remarkable products which the right people seek out.&lt;/p&gt;
-
-&lt;p&gt;All successful marketing companies are very different. The only thing they have in common is remarkability 
-(and being an outlier). People are blind to old school ads. You have to create something remarkable and be
-more bold.&lt;/p&gt;
-
-&lt;p&gt;The author calls a remarkable product a Purple Cow (hereinafter, Cow).
-Cow is the only way to grow your business these days.&lt;/p&gt;
-
-&lt;p&gt;The author multiple times calls products which provide more value remarkable.
-I personally found this weird, because the product is just better that’s what attracts people. 
-It is obvious that when you have a much better product, it is easier for people to choose it
-(they are incentivized to do so in some sense). Yes, you can call this remarkable, but
-“make better products” mantra is obvious without calling it “remarkable”.
-In particular, an elevator example. Some company was installing elevators with their own
-scheduling system, which worked much better than others. This worked well for the company and the author
-calls them remarkable. Technically true…&lt;/p&gt;
-
-&lt;h3 id=&quot;adoption&quot;&gt;Adoption&lt;/h3&gt;
-
-&lt;p&gt;First, your product gets picked up by innovators. Then early adopters.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/book_summary_purple_cow/adoption_curve.png&quot; alt=&quot;Adoption curve illustration. First a small number of innovators adopt your product. Then early adopters (more).
-Then early and late majority (the major part of all the adopters). Finally, small portion of laggards.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No one is going to eagerly adapt to your product.
-You need people who like new and change. Early adopters are the ones who will “sell” it further.
-Being remarkable helps to attract early adopters and helps them to spread it further
-(makes it easier).&lt;/p&gt;
-
-&lt;h4 id=&quot;idea-virus&quot;&gt;Idea-virus&lt;/h4&gt;
-
-&lt;p&gt;Idea is like a virus. You need “sneezers” (experts sharing to others) to spread it.
-Create an idea virus for a small niche.
-Product made for everybody is made for nobody.
-When choosing the niche, consider:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;How easy it is to spread your idea&lt;/li&gt;
-  &lt;li&gt;How tight is the group you are targeting&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The product needs to be designed virus-worthy in the first place.&lt;/p&gt;
-
-&lt;p&gt;Advertise where your customers (sneezers) are actively looking for help.&lt;/p&gt;
-
-&lt;p&gt;If no one in the market listens, you can leave or launch a series of Cows.&lt;/p&gt;
-
-&lt;p&gt;Differentiate your customers - e.g. most profitable group, most likely to sneeze and so on.
-Reward sneezing group.&lt;/p&gt;
-
-&lt;h3 id=&quot;playing-safe-is-risky-dont-be-boring&quot;&gt;Playing safe is risky. Don’t be boring.&lt;/h3&gt;
-
-&lt;p&gt;Schools teach us to play safe - not falling behind, not standing out.
-If you don’t stand out, you don’t attract criticism. We mistakenly believe that
-criticism leads to failure. Criticism of project != of you.&lt;/p&gt;
-
-&lt;p&gt;You can’t know whether Cow is going to work.&lt;/p&gt;
-
-&lt;p&gt;Being boring is risky.
-Following someone doing a breakthrough won’t work either.&lt;/p&gt;
-
-&lt;p&gt;Many products are built to appeal to as many people as possible.
-This is not interesting for innovators and for majority either (not enough adoptance
-yet for them to adopt).
-Mass products are expensive to create, thus, taking risk (experimenting) with them is expensive.&lt;/p&gt;
-
-&lt;p&gt;World is very turbulent, people tend to safety and this is actually more risky.&lt;/p&gt;
-
-&lt;p&gt;Consider experimenting with the users changing their standard behavior to make the product work
-dramatically better.&lt;/p&gt;
-
-&lt;p&gt;If future of a product is unlikely to be remarkable, kill it.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-to-do-with-cow&quot;&gt;What to do with Cow&lt;/h3&gt;
-
-&lt;p&gt;Once you have Cow:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;“Milk” it as much as you can&lt;/li&gt;
-  &lt;li&gt;Try to build a replacement.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You can get benefits of Cow even when it becomes boring (your product is already popular).&lt;/p&gt;
-
-&lt;p&gt;Selling new stuff to people who love you is easier and cheap.&lt;/p&gt;
-
-&lt;p&gt;Once you get popular, you stop being remarkable - everyone just chooses you.
-This is also a way to kill Cow for profit.&lt;/p&gt;
-
-&lt;p&gt;Cow is a stage in product life cycle, you can’t be there all the time
-(too risky and expensive), but when you get something new or need to grow that’s what you need.&lt;/p&gt;
-
-&lt;h3 id=&quot;building-cow&quot;&gt;Building Cow&lt;/h3&gt;
-
-&lt;p&gt;“Very good” is rarely remarkable.
-Remarkable = bad or unexpectedly good.&lt;/p&gt;
-
-&lt;p&gt;If your product appears in parody, then likely there is Cow.&lt;/p&gt;
-
-&lt;p&gt;Either work on Cow or do nothing - mediocre half measures (e.g. rebrandings) just make harder for existing sneezers
-to spread your product. You should look for people with otaku [(wiki)[https://en.wikipedia.org/wiki/Otaku]] - actively
-eager to try your product (take the risk).&lt;/p&gt;
-
-&lt;p&gt;There is no 100% recipe for Cow. Go for cutting edge (in product, pricing, packaging).&lt;/p&gt;
-
-&lt;p&gt;Slogan helps sneezers to spread.
-E.g. Pisa tower is very easy to describe, so it is popular.&lt;/p&gt;
-
-&lt;p&gt;A compromise can’t be risky. Thus, Cow can’t be built by a committee.&lt;/p&gt;
-
-&lt;p&gt;Collect emails of people you impress with your Cow, to present them the next Cow.&lt;/p&gt;
-
-&lt;p&gt;The product needs to be built remarkable (i.e. built to support easy marketing).&lt;/p&gt;
-
-&lt;p&gt;It is easier to develop a product if you yourself have an otaku (~obsession) for it.
-Sometimes this is not enough and you need to either imagine what your fans want or iterate a lot and fast.&lt;/p&gt;
-
-&lt;p&gt;You don’t have to be outrageous. This can sometimes work, but mostly just annoys.&lt;/p&gt;
-
-&lt;p&gt;Remarkable != big. Rather unusual (“unsafe”).&lt;/p&gt;
-
-&lt;p&gt;Cheap is the last resort Cow (but tricky due to price war).&lt;/p&gt;
-
-&lt;p&gt;“If you measure something, it will improve”.&lt;/p&gt;
-
-&lt;h4 id=&quot;cow-in-job-search&quot;&gt;Cow in job search&lt;/h4&gt;
-
-&lt;p&gt;You can apply Cow when looking for a job.
-Just sending your resume is “boring”.
-Instead you should be so remarkable that you don’t even need a resume.
-Do a great job while you are not looking for a job.&lt;/p&gt;
-
-&lt;h3 id=&quot;address-the-niche&quot;&gt;Address the niche&lt;/h3&gt;
-
-&lt;p&gt;“South park” scored 1.5/10 with women, but the group that mattered for the series found it to be a great success.&lt;/p&gt;
-
-&lt;p&gt;Your product needs to be irresistible to a small group.&lt;/p&gt;
-
-&lt;p&gt;Explore the limits - be the most &amp;lt;some adjective&amp;gt;.&lt;/p&gt;</content><author><name></name></author><category term="book summary" /><category term="review" /><summary type="html">I read “Purple Cow” by Seth Godin. Overall, it was quite an interesting way to approach marketing nowadays + very motivating to be riskier and experiment more.</summary></entry></feed>
+We fail when we get distracted by tasks we don’t have the guts to quit.&lt;/p&gt;</content><author><name></name></author><category term="book summary" /><category term="review" /><summary type="html">I read “The Dip” by Seth Godin. It definitely raised couple interesting issues (one should drop unimportant areas to be able to reach something reasonable in more important areas). However, how to understand what to drop was not that clear.</summary></entry></feed>
