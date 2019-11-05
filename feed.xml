@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-03T11:12:26+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How to buy ETFs at Flatex</title><link href="https://merelycurious.me/post/how-to-buy-etfs-at-flatex" rel="alternate" type="text/html" title="How to buy ETFs at Flatex" /><published>2019-11-03T09:00:00+01:00</published><updated>2019-11-03T09:00:00+01:00</updated><id>https://merelycurious.me/post/how_to_buy_etfs_at_flatex</id><content type="html" xml:base="https://merelycurious.me/post/how-to-buy-etfs-at-flatex">&lt;p&gt;It can be overwhelming to start buying ETFs, especially for non-German speakers.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-05T20:33:52+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Github Pages refused to refresh my Jekyll blog</title><link href="https://merelycurious.me/post/github-pages-not-refreshing-my-jekyll-blog" rel="alternate" type="text/html" title="Github Pages refused to refresh my Jekyll blog" /><published>2019-11-05T19:00:00+01:00</published><updated>2019-11-05T19:00:00+01:00</updated><id>https://merelycurious.me/post/github_pages_not_refreshing_my_jekyll_blog</id><content type="html" xml:base="https://merelycurious.me/post/github-pages-not-refreshing-my-jekyll-blog">&lt;p&gt;Recently I was trying to publish a post (namely
+&lt;a href=&quot;/post/thought-experiment-8-jobs-in-2030&quot;&gt;thought experiment #8&lt;/a&gt;
+) and I was in a hurry. Peculiarly, Github Pages (the hosting I use) didn’t completely refresh the site
+after my commit with the post. Let’s see how I fixed this.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;fix&quot;&gt;Fix&lt;/h2&gt;
+
+&lt;p&gt;Not to waste your time - here is what fixed the issue for me. I just recompiled the blog locally
+(this just changes the timestamp in a couple of places) and committed again. This time everything worked.
+I don’t know why. I cross my fingers for it to work for you as well :)&lt;/p&gt;
+
+&lt;h2 id=&quot;context&quot;&gt;Context&lt;/h2&gt;
+
+&lt;p&gt;I use Jekyll on Github pages. Since I want to have more control over the visual theme
+and plugins, I do the Jekyll compilation locally and publish the final html to Github pages.
+Usually it takes up to couple minutes for Github pages to start showing the new content
+after my commit.&lt;/p&gt;
+
+&lt;h2 id=&quot;symptom&quot;&gt;Symptom&lt;/h2&gt;
+
+&lt;p&gt;However, that time the link just didn’t work. I kept getting 404. Obviously, I assumed that
+I made a typo in the link. I double checked - it was fine. I started the Jekyll server locally
+and it also worked. I manually crafted Github Pages URL from a local URL and still got 404.&lt;/p&gt;
+
+&lt;p&gt;I then tried the same link with “.html” in the end and it worked. I might have given up,
+but this was a thought experiment and Savings Ninja &lt;a href=&quot;https://thesavingninja.com/the-future-of-work/&quot;&gt;had already published&lt;/a&gt;
+my link without “.html”, so this was not an option.&lt;/p&gt;
+
+&lt;h2 id=&quot;discovering-the-fix&quot;&gt;Discovering the fix&lt;/h2&gt;
+
+&lt;p&gt;I just decided to follow the usual “turn it off and on again” advice and did another commit with
+no user visible changes (just some timestamps after Jekyll recompilation).&lt;/p&gt;
+
+&lt;p&gt;Happy blogging with timely refreshes of your Github Pages websites!&lt;/p&gt;</content><author><name></name></author><summary type="html">Recently I was trying to publish a post (namely thought experiment #8 ) and I was in a hurry. Peculiarly, Github Pages (the hosting I use) didn’t completely refresh the site after my commit with the post. Let’s see how I fixed this.</summary></entry><entry><title type="html">How to buy ETFs at Flatex</title><link href="https://merelycurious.me/post/how-to-buy-etfs-at-flatex" rel="alternate" type="text/html" title="How to buy ETFs at Flatex" /><published>2019-11-03T09:00:00+01:00</published><updated>2019-11-03T09:00:00+01:00</updated><id>https://merelycurious.me/post/how_to_buy_etfs_at_flatex</id><content type="html" xml:base="https://merelycurious.me/post/how-to-buy-etfs-at-flatex">&lt;p&gt;It can be overwhelming to start buying ETFs, especially for non-German speakers.
 Here is a step by step guide to buy ETFs at Flatex in Germany (directly, not savings plan aka Sparplan).&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1549,176 +1584,4 @@ Some form of forgiveness is the end point of grieving.&lt;/p&gt;
 they replay for themselves over and over. It may be our imagination.
 We cannot change it.&lt;/p&gt;
 
-&lt;p&gt;As a way of inducing reflection, I frequently ask people to write their own epitaphs.&lt;/p&gt;</content><author><name></name></author><category term="book summary" /><category term="review" /><summary type="html">I happened to read &quot;Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now&quot; by Gordon Livingston. While the title sounds extremely fishy (I suppose that this “X things blablabla” is used a lot by cheap article websites with low quality content), the book itself was overall surprisingly good.</summary></entry><entry><title type="html">Book “The Dip” - review and summary</title><link href="https://merelycurious.me/post/book-summary-the-dip" rel="alternate" type="text/html" title="Book &quot;The Dip&quot; - review and summary" /><published>2019-09-03T19:00:00+02:00</published><updated>2019-09-03T19:00:00+02:00</updated><id>https://merelycurious.me/post/book_summary_the_dip</id><content type="html" xml:base="https://merelycurious.me/post/book-summary-the-dip">&lt;p&gt;I read “The Dip” by Seth Godin. It definitely raised couple interesting issues (one should drop
-unimportant areas to be able to reach something reasonable in more important areas).
-However, how to understand what to drop was not that clear.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;impression&quot;&gt;Impression&lt;/h2&gt;
-
-&lt;p&gt;The book suggests to try to understand whether what you are doing has some future and the
-tough period you are getting through is just temporary. The idea is to drop everything
-with no future and focus only on one the most important thing. This allows you to get through the 
-dip (the time when there is little progress and everything is hard). Also quiting is fine,
-one just need to quit at the right time (before sinking a bunch of time).
-However, the book does not tell that well how to identify which projects have future and which do not.
-I agree that it is a useful perspective (one should focus, quitting may not mean failing),
-but the trickiest part for me is to assess the future of a project.&lt;/p&gt;
-
-&lt;p&gt;Score: 3/5 (high level ideas are good + book is very short,
-but not extremely actionable. Overall, I can slightly recommend)&lt;/p&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-
-&lt;h3 id=&quot;quiting-is-ok&quot;&gt;Quiting is ok&lt;/h3&gt;
-
-&lt;p&gt;Winners quit all the time. They just quit the right stuff at the right time.&lt;/p&gt;
-
-&lt;p&gt;Quit the wrong stuff. Stick with the right stuff.&lt;/p&gt;
-
-&lt;h3 id=&quot;winner-takes-all&quot;&gt;Winner takes all&lt;/h3&gt;
-&lt;p&gt;Our culture celebrates superstars.
-#1 can get 10x of #10 or 100x of #100. This reminds of Zipf’s law. 
-Marketplace loves the winner. Thus, choosing the top is less risky.
-At the same time, it is hard to get to the top.&lt;/p&gt;
-
-&lt;p&gt;Best can be the local best (i.e. recommended by friends, cheap, best in town).
-Best is subjective.
-However, if there are too many (infinity) options, then it is hard to choose
-and easy to go for “the best”.&lt;/p&gt;
-
-&lt;p&gt;Average is invisible.&lt;/p&gt;
-
-&lt;p&gt;In school one learns to be well-rounded. This is wrong. E.g. when you choose a doctor,
-what are you looking for? Only how they do the relevant for you tasks (i.e. medicine).
-Also we are taught to pick lowest hanging fruits and give up if it is too hard.&lt;/p&gt;
-
-&lt;p&gt;If you are not going to get to #1, you might as well quit now.&lt;/p&gt;
-
-&lt;h3 id=&quot;types-of-situations&quot;&gt;Types of situations&lt;/h3&gt;
-
-&lt;h4 id=&quot;the-dip&quot;&gt;The Dip&lt;/h4&gt;
-
-&lt;p&gt;When you start something, it is fun.
-The Dip is an effort screen to keep unmotivated people out.
-It is easy to be a CEO, but hard to get there. Otherwise there would be too many
-of them. Scarcity is the secret to value. The Dip creates value.&lt;/p&gt;
-
-&lt;p&gt;Dips give you opportunity to get ahead of your competition.&lt;/p&gt;
-
-&lt;p&gt;The Dip is the reason you are here. People and organizations fight the Dip by diversification.
-It is easier to be mediocre than to confront reality and quit.
-Knowing that you’re facing a dip is the first step in getting through. 
-Rule: if you can’t get through the dip, don’t start.
-Being 98% good is not enough, your competitors are 1 click away (in the Internet).&lt;/p&gt;
-
-&lt;h4 id=&quot;the-cul-de-sac-dead-end&quot;&gt;The Cul De Sac (dead end)&lt;/h4&gt;
-
-&lt;p&gt;You work and nothing happens (neither worse nor better).
-Quit. This leads to failure.&lt;/p&gt;
-
-&lt;h4 id=&quot;the-cliff&quot;&gt;The Cliff&lt;/h4&gt;
-
-&lt;p&gt;The more you smoke, the harder it is to quit.
-Quit. This leads to failure.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/book_summary_the_dip/types.png&quot; alt=&quot;Three kinds of situations illustration.&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;choose-correct-dips&quot;&gt;Choose correct dips&lt;/h3&gt;
-&lt;p&gt;Either don’t start or get through the dip.
-The stupid thing is to waste time and money by quiting at the dip.&lt;/p&gt;
-
-&lt;h3 id=&quot;incentivized-quitting&quot;&gt;Incentivized quitting&lt;/h3&gt;
-&lt;p&gt;Many systems benefit from people quiting (“Neflix”, gym).
-Companies can intentionally lengthen the Dip to fight new competitors.&lt;/p&gt;
-
-&lt;h3 id=&quot;getting-through-the-dip-by-quitting&quot;&gt;Getting through the dip by quitting&lt;/h3&gt;
-
-&lt;p&gt;Quiting frees your resources to go through the dip in the other areas.&lt;/p&gt;
-
-&lt;p&gt;You need strategic quitting instead of reactive and serial.&lt;/p&gt;
-
-&lt;p&gt;Starting up is thrilling, but your effort pays off only when you get through
-the dip.&lt;/p&gt;
-
-&lt;p&gt;The Dip is flexible. It reacts to your action. Once you are ready
-to quit, you have nothing to lose. This can be powerful.
-Quiting usually = short term focus.
-We learn “If it hurts - stop” -&amp;gt; short term pain has more impact, so it is important to
-amplify long term benefits of not quiting.&lt;/p&gt;
-
-&lt;p&gt;Remind yourself of life at the other end of the dip.&lt;/p&gt;
-
-&lt;p&gt;// The author often mentions these two (from my perspective) contradicting ideas - “quitting is hard to face” and
-at the same time - “not quiting at the dip is hard”. I think this can be resolved by assuming that in the first
-case one continue being mediocre and does not want to accept that this does not lead anywhere.&lt;/p&gt;
-
-&lt;p&gt;Quit dead-ends, cliffs and dips not worth the rewards. Quitting is essential for sticking to the right projects.
-Alternatively you settle for being average.&lt;/p&gt;
-
-&lt;p&gt;Quitting != failing.
-Failing = give up or no other options left or quiting too often (which takes all your resources).&lt;/p&gt;
-
-&lt;p&gt;Coping never leads to exceptional performance. Coping wastes time and misdirects your energy.&lt;/p&gt;
-
-&lt;p&gt;Quitting as a short-term strategy is bad. Quitting for the long-term is an excellent idea.
-“Never quit something with great long-term potential just because you can’t deal with the
-stress of the moment”.&lt;/p&gt;
-
-&lt;p&gt;Pride is the enemy of quitting.
-But hurting one’s pride by quitting is not fatal.&lt;/p&gt;
-
-&lt;p&gt;Thinking about quitting is already a great start.
-Then think:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Am I panicking?
- Panic is never premeditated. The best quitters decide in advance
- when they are going to quit. You can always quit later, so wait until
- you’re done panicking to decide.&lt;/li&gt;
-  &lt;li&gt;Who am I trying to influence?
- If you consider quitting, then you likely fail to influence some party.
- One person has different “threshold” from a market (too much persistence to
- influence one person = bothering). 
- Most people in the market have never heard about you.
- Influencing one person is like scaling a wall.
- A market is more like a hill. You can make a little progress bit by bit.
- It gets easier the higher you are (e.g. people talk to each other).&lt;/li&gt;
-  &lt;li&gt;What sort of measurable progress am I making?
-You either move forward, fall behind or stand still.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;It is much cheaper and easier to build your foundation in one market than to flit from
-one to another until you find a quick success. Quitting a job is not quitting your
-quest to make a living. It is not giving up. It is just a tactic.&lt;/p&gt;
-
-&lt;p&gt;Persistence is good when you move through/across the market.
-This doesn’t work with a bad job though.
-Quiting before your start - write down under what circumstances you are willing to quit and when.
-Then stick with it.&lt;/p&gt;
-
-&lt;p&gt;If you are making a decision based on how you feel at the moment, you will probably make the
-wrong decision.
-E.g. you can talk yourself into quitting.&lt;/p&gt;
-
-&lt;p&gt;How dare you to settle for mediocre just because you are busy with too many things on your agenda?
-If it’s not going to put a dent in the world, quit. Use that void to find the energy to
-assault the Dip that matters.&lt;/p&gt;
-
-&lt;h3 id=&quot;approach-summary&quot;&gt;Approach summary&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Is this a dip, cliff or cul de sac? How can I change cul de sav into dip?&lt;/li&gt;
-  &lt;li&gt;Is my persistence going to pay off in the long run?&lt;/li&gt;
-  &lt;li&gt;When should I quit?&lt;/li&gt;
-  &lt;li&gt;If I am going to quit anyway, is there something dramatic I could do that might change the game?&lt;/li&gt;
-  &lt;li&gt;What chances does this project have to be the best in the world?&lt;/li&gt;
-  &lt;li&gt;Who decides what best is?&lt;/li&gt;
-  &lt;li&gt;Can we make the “world” smaller?&lt;/li&gt;
-  &lt;li&gt;If it scares you, it might be a good thing to try.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Short books are hard to write, write less.&lt;/p&gt;
-
-&lt;p&gt;We succeed when we do something remarkable. We fail when we give up too soon. 
-We succeed when we are the best in the world at what we do.
-We fail when we get distracted by tasks we don’t have the guts to quit.&lt;/p&gt;</content><author><name></name></author><category term="book summary" /><category term="review" /><summary type="html">I read “The Dip” by Seth Godin. It definitely raised couple interesting issues (one should drop unimportant areas to be able to reach something reasonable in more important areas). However, how to understand what to drop was not that clear.</summary></entry></feed>
+&lt;p&gt;As a way of inducing reflection, I frequently ask people to write their own epitaphs.&lt;/p&gt;</content><author><name></name></author><category term="book summary" /><category term="review" /><summary type="html">I happened to read &quot;Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now&quot; by Gordon Livingston. While the title sounds extremely fishy (I suppose that this “X things blablabla” is used a lot by cheap article websites with low quality content), the book itself was overall surprisingly good.</summary></entry></feed>
