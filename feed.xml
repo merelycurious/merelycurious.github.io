@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-05T20:33:52+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Github Pages refused to refresh my Jekyll blog</title><link href="https://merelycurious.me/post/github-pages-not-refreshing-my-jekyll-blog" rel="alternate" type="text/html" title="Github Pages refused to refresh my Jekyll blog" /><published>2019-11-05T19:00:00+01:00</published><updated>2019-11-05T19:00:00+01:00</updated><id>https://merelycurious.me/post/github_pages_not_refreshing_my_jekyll_blog</id><content type="html" xml:base="https://merelycurious.me/post/github-pages-not-refreshing-my-jekyll-blog">&lt;p&gt;Recently I was trying to publish a post (namely
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-09T20:50:10+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How technology affects our lives - a story about a delayed sms</title><link href="https://merelycurious.me/post/how-technology-affects-our-lives-or-story-about-delayed-sms" rel="alternate" type="text/html" title="How technology affects our lives - a story about a delayed sms" /><published>2019-11-09T19:00:00+01:00</published><updated>2019-11-09T19:00:00+01:00</updated><id>https://merelycurious.me/post/how_technology_affects_our_lives_or_story_about_delayed_sms</id><content type="html" xml:base="https://merelycurious.me/post/how-technology-affects-our-lives-or-story-about-delayed-sms">&lt;p&gt;Today I stumbled upon a tweet about an SMS which was sent before Valentine’s day, but was delivered only recently
+(i.e. 9 months later). This made me think about the impact of technology on our lives. Let’s look more into what 
+has happened and my thoughts as well as speculations about the reasons for such a delay.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;tweet&quot;&gt;Tweet&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/danandelin/status/1192510312634695680&quot;&gt;The tweet&lt;/a&gt; I stumbled upon:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/how_technology_affects_our_lives_or_story_about_delayed_sms/tweet.png&quot; alt=&quot;Tweet&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;more-context&quot;&gt;More context&lt;/h2&gt;
+
+&lt;p&gt;To my surprise, I noticed in the thread that there are journalists eager to reach the author
+and wondering whether the two are going to reconnect. There were also plenty of news articles
+(e.g. &lt;a href=&quot;https://www.theverge.com/2019/11/7/20953422/text-messages-delayed-received-overnight-valentines-day-delay&quot;&gt;The Verge&lt;/a&gt;,
+&lt;a href=&quot;https://www.popularmechanics.com/technology/a29726341/texts-delayed-random/&quot;&gt;popularmechanics.com&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;There were multiple tweets from other people about similarly delayed SMS. Someone complained about their boss receiving an SMS
+from them at 4am. Some claimed that they didn’t send these messages at all (it is easy to forget an SMS after 9 months).
+For some this was a sad experience, since they received a message from people, who died in the meantime.&lt;/p&gt;
+
+&lt;p&gt;So far &lt;a href=&quot;https://www.theverge.com/2019/11/7/20953422/text-messages-delayed-received-overnight-valentines-day-delay&quot;&gt;The Verge&lt;/a&gt; seems
+to provide the most technical details:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A company named Syniverse, which provides networking services, later took blame for the messages being delayed.
+Syniverse said a single server was at fault: that server failed on February 14th, trapping messages waiting to be
+sent out; the server was only brought back online on November 7th. When that happened, all of the messages were finally delivered.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Syniverse initially published a note saying that 168,149 delayed messages were sent. A spokesperson later told The
+Verge that the company is “still assessing the scope and volume of messages impacted by this server disruption.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I suspect that 168k messages is an underestimation. It is hard for me to believe that 168k would create such a public outcry.
+On the other hand, it is super easy to write something on twitter or reddit these days, so perhaps this number was enough…&lt;/p&gt;
+
+&lt;h2 id=&quot;what-has-happened-on-their-side&quot;&gt;What has happened on their side&lt;/h2&gt;
+
+&lt;p&gt;These are just my speculations. I don’t work in communications, so I have no clue how their system is setup.&lt;/p&gt;
+
+&lt;p&gt;I suspect that there was some server responsible for delivering such messages and around 14th of February it
+stopped working for some reason. It likely had some cache (presumably even on-disk), because dropping SMS messages
+seems bad. Perhaps it was one machine out of many (e.g. geographically distributed). Then I can see two possibilities:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;No one noticed and the server just was off all this time;&lt;/li&gt;
+  &lt;li&gt;Someone noticed and restarted the server, but there was a bug in how the cache was processed
+(i.e. the cache was just ignored for long time and recently someone fixed this bug).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I like option 1 more. It also seems to agree with the quote in The Verge. 
+I speculate that other servers in the system just overtook the work this server had to do, that’s why no one noticed.&lt;/p&gt;
+
+&lt;p&gt;Then around 7th of November someone noticed this server being offline. 
+Here I can again see 2 options:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;They think “oh, wth, this is bad” and investigate;&lt;/li&gt;
+  &lt;li&gt;They think “oh, this one is offline, let’s restart it, not a big deal”.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the case of (1), they might have discovered 168k message undelivered and then had a discussion with their manager
+or even the manager of their manager about what to do. However, I prefer option 2 here. I.e. this cache was delivered unintentionally.
+Otherwise I don’t think they would go for delivering these messages during the night and without any explanation.&lt;/p&gt;
+
+&lt;p&gt;Again, these are just pure speculations. Bug happens, this one was not the worst.
+Dropping the messages completely would probably be less fun (but on the other hand after 9 months their value is of doubt).&lt;/p&gt;
+
+&lt;h2 id=&quot;this-can-be-malicious&quot;&gt;This can be malicious&lt;/h2&gt;
+
+&lt;p&gt;Then I had a thought that perhaps there is some entity, which intercepts all my communication in all channels
+(SMS, email, messengers) and filters it. Perhaps that’s why people, who I write to, sometimes don’t reply.&lt;/p&gt;
+
+&lt;p&gt;Obviously, it is very easy to shoo such a thought away by just reminding myself that there is no point in doing
+that to me and it is quite hard in terms of resources and tricky to automate.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, it is entertaining to imagine such a super entity controlling everyone’s communication. 
+Basically it would decide who can say what and to whom. Like a god-like AI orchestrating our lives to maximize our happiness
+(or just because it can).&lt;/p&gt;
+
+&lt;p&gt;Again this is more like a conspiracy theory. I am pretty sure that if that was the case, someone would have noticed. 
+E.g. they send a message to someone close by and just verify physically that it is not delivered.&lt;/p&gt;
+
+&lt;p&gt;A more realistic case would be parents doing this to their child. Parents definitely have preferences who their child
+should hand out with. Usually with people who parents like more. So it would be convenient for parents to create an
+illusion that other less desirable people are not even interested to communicate with their child.&lt;/p&gt;
+
+&lt;p&gt;Again practically pretty hard - one still communicates directly quite a lot, but in a fully digital world (i.e. no physical
+communication at all) - easy peasy.&lt;/p&gt;
+
+&lt;h2 id=&quot;effect-of-technology-on-our-lives&quot;&gt;Effect of technology on our lives&lt;/h2&gt;
+
+&lt;p&gt;It was peculiar to think more about the original tweet I stumbled upon. There was a romantic relationship involved (probably 
+at a very early stage) and due to this missing SMS, it didn’t go further. In some sense, this delayed SMS had a substantial impact
+on the author’s life. While I doubt that the two are ideal match for each other (just using a probabilistic argument - probability of that is low), the author would still spend time with the other person and might have attempted to build a relationship.&lt;/p&gt;
+
+&lt;p&gt;I used to think that technology always affects our lives in multiplicative ways. I.e. if I do something, technology may help
+me to do this easier, cheaper, more conveniently. Somehow I didn’t think that technology could do something on my behalf (or 
+it could another human using technology) or negate effect of my action completely.&lt;/p&gt;
+
+&lt;h2 id=&quot;fallacy&quot;&gt;Fallacy&lt;/h2&gt;
+
+&lt;p&gt;Here it is very easy to start falling into a fallacy, which reminds me of
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Butterfly_effect&quot;&gt;Butterfly effect&lt;/a&gt;. 
+In some sense one could start saying that technology actually changes our life extremely.
+Because of computer, I sit more often than I would otherwise, my profession is based on IT.
+I spent numerous hours in Internet.&lt;/p&gt;
+
+&lt;p&gt;I claim that this is a fallacy because you can say this about anything in your life.
+Basically, you can consider almost any effect or detail in your life as your own
+“flapping of butterfy wings”. Your life might have been very different otherwise.&lt;/p&gt;
+
+&lt;p&gt;I suspect that one can’t just separate an impact of an individual event. The life is too interconnected these days
+and it has too many dimensions. This impact of something depends a lot on initial conditions.
+E.g. the same startup idea may work for someone who has enough resources or experience 
+(or just lives in the more appropriate country).&lt;/p&gt;
+
+&lt;p&gt;I also consider such deep thinking about alternatives counterproductive. Basically one can
+spend plenty of time thinking what could have been different, but this does not bring any value.
+It is just a form of entertainment and dreaming.&lt;/p&gt;
+
+&lt;h2 id=&quot;technology-is-still-good&quot;&gt;Technology is still good&lt;/h2&gt;
+
+&lt;p&gt;Even though the author of the tweet ended up in this peculiar situation, I still think 
+that technology is good and the author would agree with this as well. Funnily enough, for them
+this story might have even a net-positive effect due to journalists’ interest. This also has
+potential to boost the relationship with that other person (at least it is a funny story
+to tell other people about how you met). But even if this was negative, e.g. this message
+was completely lost, I would prefer losing this SMS to not having SMS at all (e.g.
+using paper mail or not being able to communicate via long distance at all).&lt;/p&gt;
+
+&lt;p&gt;It is very easy to stop appreciating the positive impact of technology on one’s life,
+especially since one is so deeply ingrained in it that they never see any alternative. But it 
+is enormous. I think I could be naming examples for a very long time. I am definitely
+grateful for medicine (this extends life and its quality a lot), Internet and knowledge 
+available there (a way to multiply your impact, partial equalization of opportunities independent
+of your initial conditions like wealth).&lt;/p&gt;
+
+&lt;p&gt;Happy living in this bizarre world!&lt;/p&gt;</content><author><name></name></author><summary type="html">Today I stumbled upon a tweet about an SMS which was sent before Valentine’s day, but was delivered only recently (i.e. 9 months later). This made me think about the impact of technology on our lives. Let’s look more into what has happened and my thoughts as well as speculations about the reasons for such a delay.</summary></entry><entry><title type="html">Github Pages refused to refresh my Jekyll blog</title><link href="https://merelycurious.me/post/github-pages-not-refreshing-my-jekyll-blog" rel="alternate" type="text/html" title="Github Pages refused to refresh my Jekyll blog" /><published>2019-11-05T19:00:00+01:00</published><updated>2019-11-05T19:00:00+01:00</updated><id>https://merelycurious.me/post/github_pages_not_refreshing_my_jekyll_blog</id><content type="html" xml:base="https://merelycurious.me/post/github-pages-not-refreshing-my-jekyll-blog">&lt;p&gt;Recently I was trying to publish a post (namely
 &lt;a href=&quot;/post/thought-experiment-8-jobs-in-2030&quot;&gt;thought experiment #8&lt;/a&gt;
 ) and I was in a hurry. Peculiarly, Github Pages (the hosting I use) didn’t completely refresh the site
 after my commit with the post. Let’s see how I fixed this.&lt;/p&gt;
@@ -1104,484 +1244,4 @@ It is a bit unfortunate that visitors will often have to pay more.
 It often makes no sense for them to buy an entire Streifenkarte or they may not even know
 that it costs less.&lt;/p&gt;
 
-&lt;p&gt;Happy simplified travels with the new reform!&lt;/p&gt;</content><author><name></name></author><summary type="html">MVV (Munich public transport company) changes their pricing structure on 15.12.2019. The old (current) system can be at times extremely confusing (e.g. mixing up rings and zones when buying weekly tickets). Let’s see what has changed in the new system (mostly focusing on the inner city).</summary></entry><entry><title type="html">Book “Too Soon Old, Too Late Smart” - review and summary</title><link href="https://merelycurious.me/post/book-summary-too-soon-old" rel="alternate" type="text/html" title="Book &quot;Too Soon Old, Too Late Smart&quot; - review and summary" /><published>2019-09-08T23:00:00+02:00</published><updated>2019-09-08T23:00:00+02:00</updated><id>https://merelycurious.me/post/book_summary_too_soon_old</id><content type="html" xml:base="https://merelycurious.me/post/book-summary-too-soon-old">&lt;p&gt;I happened to read &quot;Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now&quot; by Gordon Livingston.
-While the title sounds extremely fishy (I suppose that this “X things blablabla” is used a lot by cheap article
-websites with low quality content), the book itself was overall surprisingly good.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;impression&quot;&gt;Impression&lt;/h2&gt;
-
-&lt;p&gt;There were a couple of chapters with weird content (or without much meaning behind it).
-E.g. military story about fixing the map. Some were more like autobiography, which is by
-itself fine and even was interesting to read, but it didn’t add much to the book.
-At the same time, some chapters were extremely good, especially about psychological
-problems and requiring too much control in life.&lt;/p&gt;
-
-&lt;p&gt;Score: 4/5 (couple chapters are not that good, the remainder is very deep and insightful,
-overall, I recommend, especially for programmers and engineers who feel like they require too much
-control in life)&lt;/p&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-if-the-map-does-not-agree-with-the-ground-the-map-is-wrong&quot;&gt;1. If the map does not agree with the ground, the map is wrong.&lt;/h3&gt;
-
-&lt;p&gt;We build “maps” in our minds.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-we-are-what-we-do&quot;&gt;2. We are what we do.&lt;/h3&gt;
-
-&lt;p&gt;We are not what we think, say or how we feel.
-Similarly other people - don’t look at what they promise,
-but how they behave.
-Past behavior is the most reliable predictor of future behavior.
-People get not what they deserve, but what they expect.&lt;/p&gt;
-
-&lt;p&gt;Happiness:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;something to do&lt;/li&gt;
-  &lt;li&gt;someone to love&lt;/li&gt;
-  &lt;li&gt;something to look forward&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;“work” - any activity, paid or unpaid that gives us a feeling of personal significance.&lt;/p&gt;
-
-&lt;p&gt;People are scared to take risks -&amp;gt; boredom -&amp;gt; abundance of meaningless entertainment.&lt;/p&gt;
-
-&lt;p&gt;We love someone when the importance of his or her needs and desires rises to the level
-of our own (or even exceeds). Would you take a bullet for that person?
-“Love” can be seen in amount and quality of the time we give others.
-Love is demonstrated behaviorally.&lt;/p&gt;
-
-&lt;p&gt;“He does inconceivable things, but I know he loves me” makes no sense, can you intentionally
-hurt someone you love?&lt;/p&gt;
-
-&lt;p&gt;Love requires courage to become totally vulnerable to another person.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-it-is-difficult-to-remove-by-logic-an-idea-placed-there-not-by-logic-in-the-first-place&quot;&gt;3. It is difficult to remove by logic an idea placed there not by logic in the first place.&lt;/h3&gt;
-
-&lt;p&gt;We operate in the world mostly on autopilot.
-People can satisfy their emotional needs through others (abusing them).&lt;/p&gt;
-
-&lt;p&gt;Children often feel like they own something to their parents. They owe them nothing.
-It was our own decision to bring them into this world, providing for them is
-a task of a parent, not a selfless act.&lt;/p&gt;
-
-&lt;p&gt;Well-functioning families are good at letting their children go.
-Poorly - tend to hold on them.&lt;/p&gt;
-
-&lt;p&gt;Some ignorance is invincible. People can get so deep into their view,
-that they ignore any evidence against it.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-the-statute-of-limitations-had-expired-on-most-of-our-childhood-traumas&quot;&gt;4. The statute of limitations had expired on most of our childhood traumas.&lt;/h3&gt;
-
-&lt;p&gt;Causality is reinterpreted constantly as we try to explain how we became ourselves.
-We want to learn from personal stories to avoid repeating mistakes.&lt;/p&gt;
-
-&lt;p&gt;Acceptance of responsibility for what we do now requires an act of will, it is easier to blame
-past (ourselves, parents).&lt;/p&gt;
-
-&lt;p&gt;I don’t give much direct advice, my job is to sit with the clients, while they
-figure out what they need to do to make themselves better.&lt;/p&gt;
-
-&lt;p&gt;Therapists help better people who are like them. E.g. therapy in other country 
-is much harder even when the therapists knows the language perfectly.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-any-relationship-is-under-control-of-the-person-who-cares-the-least&quot;&gt;5. Any relationship is under control of the person who cares the least.&lt;/h3&gt;
-
-&lt;p&gt;People choose each other by sexual attraction and “enlightened” self interest
-evaluating other person by: education, earning potential, shared interests,
-trustworthiness, philosophy of life. This creates expectations,
-failure of which dissolves the relationship with time.
-“Chemistry” of “falling in love” = (in retrospect) readiness, lust,
-hope. Argument supporting this: absence of evidence of persistence
-of this chemistry over time.&lt;/p&gt;
-
-&lt;p&gt;It is discouraging to see a couple about to join their lives acting like
-purchasers of used cars (prenups). Contract = people don’t trust each other,
-they protect against taking advantage.
-Marriage problems are rarely symmetrical. It takes two people 
-to create a relationship and only one to end.&lt;/p&gt;
-
-&lt;p&gt;Imagine saying to newly weds “the chances of this marriage enduring are no 
-better than 50/50. What makes you think you will win this coin flip?”&lt;/p&gt;
-
-&lt;h3 id=&quot;6-feelings-follow-behavior&quot;&gt;6. Feelings follow behavior.&lt;/h3&gt;
-
-&lt;p&gt;We don’t control how we feel or what we think.
-The successful treatment of alcoholism and other addictions has shown that affected
-people are obligated to do something (i.e. refuse to drink or use other substances to control
-their addiction).&lt;/p&gt;
-
-&lt;p&gt;In an effort to destigmatize genuine mental illness, we created many diagnoses that are descriptions
-of certain patterns of behavior (e.g. ADD). The term “disabled” when applied to substance abusers removes
-responsibility for one’s problems and irrevocably damages self respect.&lt;/p&gt;
-
-&lt;p&gt;Compensating helplessness validates it and creates incentive to surrender one’s autonomy.&lt;/p&gt;
-
-&lt;p&gt;While medication can provide relief (sometimes crucial), people also have obligation
-to alter their lives.&lt;/p&gt;
-
-&lt;h3 id=&quot;7-be-bold-and-might-forces-will-come-to-your-mind&quot;&gt;7. Be bold and might forces will come to your mind.&lt;/h3&gt;
-
-&lt;h3 id=&quot;8-the-perfect-is-the-enemy-of-the-good&quot;&gt;8. The perfect is the enemy of the good.&lt;/h3&gt;
-
-&lt;p&gt;We are taught to pursue an elusive form of security, through 
-acquisition of material goods and the means to obtain them.
-Also to form intimate relationships for access to sex, forming stable economic
-unit, ability to parent. Problem: to control our own lives we must exert control over the 
-lives of others -&amp;gt; this leads to a zero sum game. We live in competitive society (e.g. capitalism).
-As a result we see the world through “win or lose”. 
-Control is a popular illusion, closely related to the pursuit of perfection.
-Perfectionists don’t trust feeling and prefer things they can count.
-This obsession to details is good at work, but can be insufferable in personal lives.
-I treat a lot of engineers, accountants, programmers.
-Less control in their jobs would make the ineffective.&lt;/p&gt;
-
-&lt;p&gt;Paradox of perfection: in some settings (notably, in our intimate relationships),
-we gain control only by relinquishing it.&lt;/p&gt;
-
-&lt;h3 id=&quot;9-lifes-two-most-important-questions-are-why-and-why-not&quot;&gt;9. Life’s two most important questions are “Why” and “Why not”.&lt;/h3&gt;
-
-&lt;p&gt;The trick is knowing which one to ask.&lt;/p&gt;
-
-&lt;p&gt;Socrates: the unexamined life is not worth living.&lt;/p&gt;
-
-&lt;p&gt;Self examination requires hard work and can lead to 
-embarrassment. We think that our behavior is a matter of
-conscious choice. 
-Acknowledge existing of repressed desires, resentments and motivations
-below our consciousness. Ignoring existence of subconscious leads to
-destructive pattern of behavior repeating the same mistakes.&lt;/p&gt;
-
-&lt;p&gt;Finding partner in middle years of life is harder
-(e.g. even boy/girlfriend sounds inappropriate for 40 years old -&amp;gt; social stigma).
-Many choose loneliness instead of meeting new people (but risking rejection).&lt;/p&gt;
-
-&lt;p&gt;“what is the biggest chance you have ever taken?” makes you think how risk averse you are.
-People don’t expect to get good a skiing without falling down, but are surprised by a struggle to find someone
-to love.&lt;/p&gt;
-
-&lt;h3 id=&quot;10-our-greatest-strengths-are-our-greatest-weaknesses&quot;&gt;10. Our greatest strengths are our greatest weaknesses.&lt;/h3&gt;
-
-&lt;p&gt;Dedication to work, attention to detail, ability to manage time, conscientiousness 
--&amp;gt; correlated with success, but difficult for other person to live with you.&lt;/p&gt;
-
-&lt;p&gt;One, who demands much of themselves, has high standards for others.
-Different roles (friend, worker, partner) demand different attitudes.
-Often obsessive person (man) meets impulsive (woman) to compensate each other.
-As a result, he asks “why can’t you be more responsible” and she “you just don’t
-know how to have fun”.&lt;/p&gt;
-
-&lt;p&gt;Compulsive character people are prone to depression (seeking perfection in imperfect
-world). They put a lot on control. Everything threatening this induces anxiety.
-They try to regain control and make the problem worse.&lt;/p&gt;
-
-&lt;p&gt;“Everything in life is a good &amp;amp; bad news story (at the same time)”.&lt;/p&gt;
-
-&lt;h3 id=&quot;11-the-most-secure-prisons-are-those-we-construct-for-ourselves&quot;&gt;11. The most secure prisons are those we construct for ourselves.&lt;/h3&gt;
-
-&lt;p&gt;We voluntarily trap ourselves
-and don’t do what we want.&lt;/p&gt;
-
-&lt;p&gt;Success stories make our inadequacy stronger.
-There is plenty of advice.
-“One would think that we are engaged in an orgy of self-improvement”.
-But people just keep doing what they used to.&lt;/p&gt;
-
-&lt;p&gt;Before we can do anything, we must be able to imagine it.
-We got used to expect a quick fix for our problems (&amp;amp; changing ourselves).
-“Lottery mentality”. People dream instead of taking action.&lt;/p&gt;
-
-&lt;p&gt;Is your plan to do something is a real expression of intent or simply a wish?
-Alteration of attitudes and behavior is slow, change is incremental.
-Look at any prison break (imagination, planning, slow progress).&lt;/p&gt;
-
-&lt;p&gt;People mistake thoughts, wishes and intentions for actual change.
-“I love you” without consistently loving behavior is a lie.&lt;/p&gt;
-
-&lt;p&gt;We pay too much attention to words, and not enough to actions.&lt;/p&gt;
-
-&lt;h3 id=&quot;12-the-problems-of-elderly-are-frequently-serious-but-seldom-interesting&quot;&gt;12. The problems of elderly are frequently serious but seldom interesting.&lt;/h3&gt;
-
-&lt;p&gt;Society believes that old people can’t bring anything useful -&amp;gt; segregation.
-This is a result of human fear of mortality.
-Old people play along - most are preoccupied with self centered complaints.
-They are seen as a burden by younger relatives.&lt;/p&gt;
-
-&lt;p&gt;“The stratification of society along age lines is one of its
-most rigid divisions”.
-Old people self segregate (migrate to warm places for older people).
-They avoid contact with young and mental stimulation.&lt;/p&gt;
-
-&lt;h3 id=&quot;13-happiness-is-the-ultimate-risk&quot;&gt;13. Happiness is the ultimate risk.&lt;/h3&gt;
-
-&lt;p&gt;Being depressed is safe - you have low expectations, thus, hard to disappoint.
-To be happy: taking risk to lose this happiness.&lt;/p&gt;
-
-&lt;p&gt;All significant accomplishments require risk. Society is risk averse
-and promotes achieving safety.
-Our feelings depend on (mainly) our interpretation of what happens.
-It is not “what”, but how we respond determines how we feel.&lt;/p&gt;
-
-&lt;p&gt;“We were now heading into the wind, so I got behind my father
-and he broke the wind for me” - a cute story about a child running with his father.&lt;/p&gt;
-
-&lt;h3 id=&quot;14-true-love-is-the-apple-of-eden&quot;&gt;14. True love is the apple of Eden.&lt;/h3&gt;
-
-&lt;p&gt;People require no justification when falling in love.
-They do require one when breaking apart. 
-This is an educational problem.&lt;/p&gt;
-
-&lt;p&gt;“When I think of all the crap I learned in high school it is a wonder
-that I can think at all”.&lt;/p&gt;
-
-&lt;p&gt;The important task of choosing who to fall in love with becomes another
-example of trial and error (with costly trials).&lt;/p&gt;
-
-&lt;p&gt;Love is a compensation for harshness of life.&lt;/p&gt;
-
-&lt;h3 id=&quot;15-only-bad-things-happen-quickly&quot;&gt;15. Only bad things happen quickly.&lt;/h3&gt;
-
-&lt;p&gt;The most familiar behaviors resistant to change are addictions.
-Virtually all happiness producing processes in our lives take long time:
-learning, changing old behavior, building relationship, raising children.
-This is why patience and determination are among life’s primary virtues.
-Consumption society (ads) -&amp;gt; instant gratification (e.g. through material stuff).&lt;/p&gt;
-
-&lt;h3 id=&quot;16-not-all-who-wander-are-lost&quot;&gt;16. Not all who wander are lost.&lt;/h3&gt;
-&lt;p&gt;Education: follow instructions, please others, obey the rules -&amp;gt; happiness will be yours.&lt;/p&gt;
-
-&lt;h3 id=&quot;17-unrequited-not-returned-love-is-painful-but-not-romantic&quot;&gt;17. Unrequited (not returned) love is painful but not romantic.&lt;/h3&gt;
-
-&lt;p&gt;“Love at first sight” is another popular fantasy, which sets up for disappointment.&lt;/p&gt;
-
-&lt;h3 id=&quot;18-there-is-nothing-more-pointless-or-common-than-doing-the-same-things-and-expecting-different-results&quot;&gt;18. There is nothing more pointless or common than doing the same things and expecting different results.&lt;/h3&gt;
-
-&lt;p&gt;Mistakes are a consequence of being a human and constitute an essential element of trial 
-and error. Making same mistakes again is frustrating. E.g. failure rate of second
-marriage is &amp;gt; 50% (i.e. more than the failure rate of the first marriage).&lt;/p&gt;
-
-&lt;p&gt;The process of learning consists not so much in accumulating answers as in figuring out how 
-to formulate the right questions. That’s why psychotherapy is “Questions &amp;amp; Answers”. Much human
-behavior is driven by intentions below the level of our awareness (needs, desires,
-past experiences).&lt;/p&gt;
-
-&lt;p&gt;Nearly every human action is in some way an expression of how we think about ourselves. This criterion
-can be applied to any important life decision.&lt;/p&gt;
-
-&lt;p&gt;“How will this make me feel about myself?”. How does it make you feel being with
-a particular person? 
-Is it “you make me want to be a better man?”.&lt;/p&gt;
-
-&lt;p&gt;Most people have a low expectation of happiness. “They regard any lasting sense of joy as a romantic
-ideal pronounced by the entertainment industry. This disillusionment is a major barrier to change&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;people can’t be expected to take emotional risks in pursuit of goals, which they think are impossible”.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;19-we-flee-from-the-truth-in-vain&quot;&gt;19. We flee from the truth in vain.&lt;/h3&gt;
-
-&lt;p&gt;// Here was an interesting story about the author finding their biological parents.&lt;/p&gt;
-
-&lt;h3 id=&quot;20-its-a-poor-idea-to-lie-to-oneself&quot;&gt;20. It’s a poor idea to lie to oneself.&lt;/h3&gt;
-
-&lt;p&gt;Denial is a way for people to lie to themselves.
-This disables us entirely from making necessary changes.
-“Nothing is so beautiful as a promise right after it is given.”
-Another kind of self lies, e.g. New Year resolutions.&lt;/p&gt;
-
-&lt;p&gt;It is an act of laziness to ascribe to luck most of what happens to us.
-Life decisions not based on reality are bound to be faulty.&lt;/p&gt;
-
-&lt;h3 id=&quot;21-we-are-all-prone-to-the-myth-of-the-perfect-stranger&quot;&gt;21. We are all prone to the myth of the perfect stranger.&lt;/h3&gt;
-&lt;p&gt;People cheat a lot in marriage (@40 years - men 50-65%, women 35-45%). People seek reassurance
-(apart from variety) that they retain their attractiveness
-(due to fear of death).&lt;/p&gt;
-
-&lt;h3 id=&quot;22-love-is-never-lost-not-even-in-death&quot;&gt;22. Love is never lost, not even in death.&lt;/h3&gt;
-
-&lt;p&gt;There is no way around grief, you have to go through it.&lt;/p&gt;
-
-&lt;h3 id=&quot;23-nobody-likes-to-be-told-what-to-do&quot;&gt;23. Nobody likes to be told what to do.&lt;/h3&gt;
-
-&lt;p&gt;We are genetically programmed to question authority.&lt;/p&gt;
-
-&lt;p&gt;Often I ask people in conflict to withhold criticism of those
-around them to see if this changes the atmosphere.&lt;/p&gt;
-
-&lt;p&gt;People assume (falsely) that the goal of parents of to shape
-behavior through instructions (rules and punishments).
-Passive resistance is the last refuge of the powerless.
-Assembly line workers who cannot strike can slow down.
-Children can demonstrate their unhappiness by not doing what they
-are told. They can’t challenge openly.&lt;/p&gt;
-
-&lt;p&gt;Usually parents persist and double down on their approach.&lt;/p&gt;
-
-&lt;p&gt;Usually such people struggle to communicate with their spouse too.
-Judgmental people are often raised in judgmental families. Thus, this is in their
-habits. The idea, that it is possible to live without criticizing and directing
-everyone around us, is a novel one for many people. Even short period without
-criticizing leads to relief.&lt;/p&gt;
-
-&lt;p&gt;Too often parents transmit only their anxiety, uncertainty and fear of failure.&lt;/p&gt;
-
-&lt;p&gt;The primary goal of parenting (beyond keeping safe and loved) is to
-convey to children a sense that it is possible to be happy in an uncertain world
-(to give them hope).&lt;/p&gt;
-
-&lt;p&gt;We do this by example.&lt;/p&gt;
-
-&lt;h3 id=&quot;24-the-major-advantage-of-illness-is-that-it-provides-relief-from-responsibility&quot;&gt;24. The major advantage of illness is that it provides relief from responsibility.&lt;/h3&gt;
-
-&lt;p&gt;Basic animal psychology - any reinforced behavior will continue.&lt;/p&gt;
-
-&lt;p&gt;People are surprised when I ask about advantages of their problem.
-People often do a lot to fulfill their expectations of themselves
-(e.g jobs they hate). Illness is one of few socially acceptable ways to lower
-expectations (avoid responsibility). Most people don’t notice this and
-are preoccupied by disadvantages. This benefit might reinforce sick role.&lt;/p&gt;
-
-&lt;p&gt;The longer one is disabled, the greater the chance that the illness will become
-part of their identity.
-These are subconscious -&amp;gt; dangerous.
-The rise of effective somatic treatments contributed to the sense that healing
-happens to us rather than we take part actively.&lt;/p&gt;
-
-&lt;p&gt;Each person is responsible for the choices he or she makes in our never ending
-quest for happiness and retains its power as a instrument of transformation.&lt;/p&gt;
-
-&lt;h3 id=&quot;25-we-are-afraid-of-the-wrong-things&quot;&gt;25. We are afraid of the wrong things.&lt;/h3&gt;
-
-&lt;p&gt;We live in a fear promoting society. It is the business of advertisers to stroke 
-our anxieties. A dissatisfied consumer is more apt to buy. Same for news.
-One of the things that define us is what we worry about.&lt;/p&gt;
-
-&lt;p&gt;In 2001 people sold a lot of stocks and stopped flying. Even in good times the public
-perception of the risk of becoming a crime victim is exaggerated.
-We arm ourselves and ignore that family members are the most likely victims of the guns we buy.&lt;/p&gt;
-
-&lt;p&gt;Meanwhile - smoking, overeating, not fastening seat belts, social injustice, 
-people we elect - provoke little anxiety.&lt;/p&gt;
-
-&lt;p&gt;Our relations with each other are characterized by mistrust.
-We often behave as life is a competition that we can only win at 
-the expense of others.&lt;/p&gt;
-
-&lt;p&gt;Fear can be an adaption emotion, if it results in actions, that protect
-us from harm. But threats must be realistically identified.&lt;/p&gt;
-
-&lt;p&gt;Fear and desire are opposite sides of the same coin.
-Much of what we do is driven by feat of failure.
-E.g. pursuing material wealth.&lt;/p&gt;
-
-&lt;h3 id=&quot;26-parents-have-a-limited-ability-to-shape-childrens-behavior-except-for-the-worse&quot;&gt;26. Parents have a limited ability to shape children’s behavior, except for the worse.&lt;/h3&gt;
-
-&lt;p&gt;People take responsibility for their children successes and failures.&lt;/p&gt;
-
-&lt;p&gt;However (except abuse), parents are not responsible for the outcomes.&lt;/p&gt;
-
-&lt;p&gt;Children can be raised successfully under a variety of parental regimes
-(from authoritarian to permissive).
-Children need to feel loved and respected. It is important to set 
-limits around safety and aggression.
-What we say pales in comparison with what our children see us do.&lt;/p&gt;
-
-&lt;p&gt;It is easy to find evidence that world is bad and going to hell.
-Bad news are more interesting, so there is incentive to deliver them to us.&lt;/p&gt;
-
-&lt;p&gt;It seems surprising that we are not all clinically depressed.&lt;/p&gt;
-
-&lt;p&gt;How to be happy? Selective attention.
-Focus energy and awareness on things and people that bring us pleasure
-and satisfaction.&lt;/p&gt;
-
-&lt;h3 id=&quot;27-the-only-real-paradises-are-those-we-have-lost&quot;&gt;27. The only real paradises are those we have lost.&lt;/h3&gt;
-
-&lt;p&gt;Nostalgia for an idealized past is common and usually harmless.
-However, it can distort our attempts to come to terms with the present.
-It is often in contrast to what we have now.
-Things were not really better long ago.&lt;/p&gt;
-
-&lt;p&gt;The cumulative burdens of our imperfect lives are harder to bear
-as we weaken in body and spirit. Our yearning for the past is fueled
-by a selective memory of our younger-selves.&lt;/p&gt;
-
-&lt;p&gt;To know someone fully and love them in spite of, even because of,
-their imperfections is an act that requires us to recognize and forgive&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;two very important indicators of emotional maturity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If we can do this for others, we may be able to do it for ourselves.&lt;/p&gt;
-
-&lt;p&gt;Our constant challenge is not to seek perfection in ourselves and others,
-but to find ways to be happy in an imperfect world.&lt;/p&gt;
-
-&lt;p&gt;We are impeded in this effort if we cling to an idealized vision of the past.
-This ensures dissatisfaction with the present.&lt;/p&gt;
-
-&lt;p&gt;Memory is not accurate transcription of past events.
-It is rather a story we tell ourselves about the past, full of distortions,
-wishful thinking and unfulfilled dreams.
-What and how we remember are affected by the meaning of events to us.&lt;/p&gt;
-
-&lt;p&gt;It is common for people to have someone in their past whom they 
-recall with longing and regret, someone whom they adversely compare all subsequent
-relationships. This person can be a parent, a first love or a friend no longer here.&lt;/p&gt;
-
-&lt;p&gt;Their perfection, like that of funeral eulogy, is a function of selective memory that
-can no longer be tested by daily contact.
-They exist in a sort of distracting dream with which people now in our lives
-cannot compete.&lt;/p&gt;
-
-&lt;p&gt;The problem is that this distracts us from our efforts to extract
-pleasure and meaning from the present.
-We are haunted by paths not taken especially our missed opportunities for perfect love.&lt;/p&gt;
-
-&lt;h3 id=&quot;28-of-all-the-forms-of-courage-the-ability-to-laugh-is-the-most-profoundly-therapeutic&quot;&gt;28. Of all the forms of courage, the ability to laugh is the most profoundly therapeutic.&lt;/h3&gt;
-
-&lt;p&gt;People find it hard to entertain two emotions simultaneously.
-Antidote to anxiety - to relax skeletal muscles.&lt;/p&gt;
-
-&lt;p&gt;Capacity for laugher is one of two characteristics that separate us from other animals (other one is
-contemplating our own death).&lt;/p&gt;
-
-&lt;p&gt;It is possible to be happy in the face of our own mortality.&lt;/p&gt;
-
-&lt;p&gt;There is ample evidence that humor heals (e.g. Nomman Cousins book).
-Humor is also a form of sharing, an interpersonal exercise.
-To share laughter is a way of affirming that we are all in this lifeboat together.
-The sea surrounds us; rescue is uncertain; control is illusory. Still we sail on - together.&lt;/p&gt;
-
-&lt;p&gt;Pessimists are right in the long run. Nobody gets out of here alive.
-But it contains self fulfilling prophecies. Others respond accordingly
-when we are hostile and confirm our expectations.&lt;/p&gt;
-
-&lt;h3 id=&quot;29-mental-health-requires-freedom-of-choice&quot;&gt;29. Mental health requires freedom of choice.&lt;/h3&gt;
-
-&lt;p&gt;Any emotional disorder - constraint in some way.
-Cardinal rule of anxiety: avoidance makes it worse;
-confrontation gradually improves it.&lt;/p&gt;
-
-&lt;p&gt;Mental health is a function of choice. The more choices we are able to exercise, the happier we are likely to be.
-We are never out of choices, no matter how desperate the circumstances are.
-We are not dead yet.&lt;/p&gt;
-
-&lt;h3 id=&quot;30-forgiveness-is-a-form-of-letting-go-but-they-are-not-the-same-thing&quot;&gt;30. Forgiveness is a form of letting go, but they are not the same thing.&lt;/h3&gt;
-
-&lt;p&gt;The collection of habits and conditioned responses that renders us unique serves as a kind of gyroscope
-lending our responses to life a predictability that is of value both to us and to those
-who seek to know us.&lt;/p&gt;
-
-&lt;p&gt;Many people choose religion as a basis for their hope.&lt;/p&gt;
-
-&lt;p&gt;Those like me (unable or unwilling to relinquish our skepticism about easy answers to large
-questions) are left with task of living with uncertainty.
-Some form of forgiveness is the end point of grieving.&lt;/p&gt;
-
-&lt;p&gt;For many people the past is like an endlessly entertaining, if frequently painful movie,
-they replay for themselves over and over. It may be our imagination.
-We cannot change it.&lt;/p&gt;
-
-&lt;p&gt;As a way of inducing reflection, I frequently ask people to write their own epitaphs.&lt;/p&gt;</content><author><name></name></author><category term="book summary" /><category term="review" /><summary type="html">I happened to read &quot;Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now&quot; by Gordon Livingston. While the title sounds extremely fishy (I suppose that this “X things blablabla” is used a lot by cheap article websites with low quality content), the book itself was overall surprisingly good.</summary></entry></feed>
+&lt;p&gt;Happy simplified travels with the new reform!&lt;/p&gt;</content><author><name></name></author><summary type="html">MVV (Munich public transport company) changes their pricing structure on 15.12.2019. The old (current) system can be at times extremely confusing (e.g. mixing up rings and zones when buying weekly tickets). Let’s see what has changed in the new system (mostly focusing on the inner city).</summary></entry></feed>
