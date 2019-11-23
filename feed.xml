@@ -1,4 +1,214 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-19T09:36:48+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">All (my) advice is awful!</title><link href="https://merelycurious.me/post/all-advice-is-awful" rel="alternate" type="text/html" title="All (my) advice is awful!" /><published>2019-11-19T08:00:00+01:00</published><updated>2019-11-19T08:00:00+01:00</updated><id>https://merelycurious.me/post/all_advice_is_awful</id><content type="html" xml:base="https://merelycurious.me/post/all-advice-is-awful">&lt;p&gt;It is very easy to advice others to do something, but it is very hard to be sure that this will actually help them.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-23T12:09:28+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 9) - Ethology</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-9-ethology" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 9) - Ethology" /><published>2019-11-23T10:00:00+01:00</published><updated>2019-11-23T10:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_9_ethology</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-9-ethology">&lt;p&gt;Lecture 9, ethology.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h3&gt;
+
+&lt;p&gt;Ethology is a field, which studies behavior under the following assumptions:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;you will need to study the behavior in as many environments as possible&lt;/li&gt;
+  &lt;li&gt;these environments must be as natural as possible&lt;/li&gt;
+  &lt;li&gt;you will have to translate a language.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In other words, ethology is a process of interviewing animal in its own language,
+i.e. an expansion of “if you want to understand behavior, get your animal out of the lab”.&lt;/p&gt;
+
+&lt;h3 id=&quot;history&quot;&gt;History&lt;/h3&gt;
+
+&lt;p&gt;To understand the historical context, let’s have a look at the history of psychology.
+At first it was a branch of philosophy and wasn’t about numbers (i.e. not a science in the modern terms).&lt;/p&gt;
+
+&lt;p&gt;Then behavioralism appeared, which treated an organism as a black box and the goal was to measure as much as possible.
+The field had number of strong beliefs:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Extreme environmentalism - impact of environment is very high.&lt;/li&gt;
+  &lt;li&gt;Reinforcement theory - when I can control positive/negative reinforcement, I can form any behavior.&lt;/li&gt;
+  &lt;li&gt;Universality across species. Everything is black box, thus, it does not matter whether it is a human child,
+a puppy or an elephant. As a result, the studies used mostly rats and pigeons for practical reasons.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Then meanwhile in Britain people started to collect butterflies as a hobby. The goal was to just observe
+variability. Then ethology emerged, which was like butterfly collection, but for behaviors. 
+There were 3 main figures in the field:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Nikolaas Tinbergen&lt;/li&gt;
+  &lt;li&gt;Konrad Lorenz&lt;/li&gt;
+  &lt;li&gt;Karl von Frisch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The field was about&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;gene-environment interaction&lt;/li&gt;
+  &lt;li&gt;examples of animals acquiring new (often unexpected) behaviors&lt;/li&gt;
+  &lt;li&gt;every species solving its own evolutionary challenges in its own way.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Example: in 1960s it was discovered that, if a lab rat was placed in a richer environment (cage with toys), 
+its cortex got thicker. As a result, people started to assume reversibility of early brain damage using
+richer environments. However, then it was observed that a simple wild rat had very thick cortex, which was
+unreachable using any artificially rich environment.&lt;/p&gt;
+
+&lt;h3 id=&quot;approach&quot;&gt;Approach&lt;/h3&gt;
+
+&lt;p&gt;Ethologists look for&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;what the behavior was - fixed action pattern&lt;/li&gt;
+  &lt;li&gt;what triggered it&lt;/li&gt;
+  &lt;li&gt;what happens in the head of the animal, when it is triggered by the stimulus&lt;/li&gt;
+  &lt;li&gt;what the adaptive value of this behavior is&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;fixed-action-pattern&quot;&gt;Fixed action pattern&lt;/h4&gt;
+
+&lt;p&gt;Fixed action pattern - a sequence of actions, which animals don’t have to learn, but they have to improve it.
+Experience can also change context of fixed action patterns.
+Examples:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a squirrel raised in a cage on a liquid diet still can crack a nut without any preparation. It will get even better at it practice.&lt;/li&gt;
+  &lt;li&gt;“visual cliff” = baby animals scared to sit on glass over a height (floating = falling). Baby sloths are not scared of this.&lt;/li&gt;
+  &lt;li&gt;Take a male monkey, which was raised in isolation and have never seen another monkey. Show him a video of a face of huge scary
+monkey of the same species with threating display. He will freak out and do subordinate gesture. Experience: who to do the subordinate
+gesture to, i.e. not kids.&lt;/li&gt;
+  &lt;li&gt;Vervet monkeys have different alarm calls for eagle, snake and leopard. As kids they know how to do the call, but may not know when to do it
+(i.e. mix up them). Adults don’t trust young monkey calls, but double check.&lt;/li&gt;
+  &lt;li&gt;In humans:
+    &lt;ul&gt;
+      &lt;li&gt;Infants smiling as well as fetuses and blind babies. Learning: who to smile to.&lt;/li&gt;
+      &lt;li&gt;Nursing. Learning: increase efficiency.&lt;/li&gt;
+      &lt;li&gt;Detecting anger, fear, disgust in others; Learning: social context (i.e. when the meaning is not obvious).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;adaptive-value&quot;&gt;Adaptive value&lt;/h4&gt;
+
+&lt;p&gt;To understand adaptive value, they did experiments. E.g. Tinbergen experimented with a bird turning egg shells non-white side up
+after its chick hatching. Tinbergen turned them back. As a result, predators could detect the nest better. Frisch looked into bee
+dancing. Bees communicate info about food sources (direction, how far, how much). They do this by dancing on the floor in patterns
+shaped as “8”. Axes of “8” define the direction. The duration of the dance - distance. The more frantic the dance is (more back
+wiggling), the more exciting the food source is. E.g. Frisch rotated a bee hive after the dance and all bees went in wrong direction.&lt;/p&gt;
+
+&lt;h4 id=&quot;stimulus&quot;&gt;Stimulus&lt;/h4&gt;
+
+&lt;p&gt;There are number of techniques to study stimulus (so-called releasing stimulus in the field). One can assume what the stimulus is and then
+subtract it, then put it back (replacement), then substitute (replace with something else), then superstimulate (exaggerate).&lt;/p&gt;
+
+&lt;p&gt;Recently people started to use robotic animals (e.g. bees or cockroaches) for this.&lt;/p&gt;
+
+&lt;p&gt;Sample findings:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Female deer ovulate when they hear male mating calls&lt;/li&gt;
+  &lt;li&gt;Rats can be tickled on their ribcage and they giggle in ultrasonic
+(&lt;a href=&quot;https://www.youtube.com/watch?v=78PfGQbL-g0&quot;&gt;youtube&lt;/a&gt;). Other rats come over to check “the party”.&lt;/li&gt;
+  &lt;li&gt;Female ovulation in human leads to higher voices. Males can subliminally detect this.&lt;/li&gt;
+  &lt;li&gt;There was research (&lt;em&gt;Stimuli eliciting sexual behavior&lt;/em&gt; by Schein, M.W., &amp;amp; E.B. Hale, 
+&lt;a href=&quot;https://www.atlasobscura.com/articles/how-to-seduce-a-turkey-the-bizarre-poultry-sex-experiments-of-the-1960s&quot;&gt;atlasobscura&lt;/a&gt;) on what makes a female turkey attractive to a male turkey.&lt;/li&gt;
+  &lt;li&gt;Olfactory information in people. People can subliminally
+(amygdala activation) distinguish scared people sweat from normal exercise sweat.
+After “scary” sweat, they tended to interpret ambiguous faces as more frightened.&lt;/li&gt;
+  &lt;li&gt;Electric fish - males jam each other frequency when courting.&lt;/li&gt;
+  &lt;li&gt;Vibration in insects - animals have vibration detectors in their feet. They can communicate this way.&lt;/li&gt;
+  &lt;li&gt;Surrogate mom monkeys - a monkey is given a choice of two fake moms - one made with cloth (warm) and one
+made out of wire, but with milk. Behaviorists claimed that mom attraction is due to milk. However, animals choose cloth.&lt;/li&gt;
+  &lt;li&gt;Baby animals look cute (large eyes, ears) even across species. Early illustrators of Disney studied this
+(e.g. evolution of Micky Mouse, youtube: &lt;a href=&quot;https://www.youtube.com/watch?v=4vDiykIUwSo&quot;&gt;with commentary&lt;/a&gt;,
+&lt;a href=&quot;https://www.youtube.com/watch?v=3hWXfrANSd8&quot;&gt;without&lt;/a&gt;,
+&lt;a href=&quot;http://faculty.wwu.edu/rcm/mickey.pdf&quot;&gt;“A biological homage to Mickey Mouse” by S. Gould&lt;/a&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;neuroethology&quot;&gt;Neuroethology&lt;/h4&gt;
+
+&lt;p&gt;Before it was hard to study how stimulus is processed in the brain. Currently there is neuroethology. Examples:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;neurobiology of bird songs&lt;/li&gt;
+  &lt;li&gt;“Lordosis” reflex in female hamsters. When having a pressure on their back, they arch their back to make mating easier.
+Only works when the hamster is ovulating. Specific neurons responsible for this are known, even which ones of them 
+are affected by estrogen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This can be done in the field:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Adding electrodes to the brain&lt;/li&gt;
+  &lt;li&gt;Sapolsky studied baboons.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;learning&quot;&gt;Learning&lt;/h4&gt;
+
+&lt;p&gt;Examples of learning:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Female childcare competence in female monkeys is not a strong instinct. Evidence: later offsprings have higher likelihood to 
+survive. If she has a sister with a baby, her first child is more likely to survive (observed sister doing the care). The same
+when having a niece or a nephew.&lt;/li&gt;
+  &lt;li&gt;Meerkats eat scorpions. Mom has to teach her kids. First, she brings a dead one, baby learns how to eat it.
+Then mom brings alive scorpion, but she bites off the stinger. Kid has to tackle this one. Finally, she brings 
+a normal scorpion. Thus, incremental learning steps (with progressing difficulty).&lt;/li&gt;
+  &lt;li&gt;Animals make tools (e.g. apes). Chimps use sticks to get termites. One learns by observing others.
+Daughters learn better (much more attentive). The larger the social group is, the earlier in life kids learn to use tools.&lt;/li&gt;
+  &lt;li&gt;One trial learning (imprint after one exposure) - after hatching bird chicks imprint on something big around to bond for mom.
+In this case, there is no place for trial and error.&lt;/li&gt;
+  &lt;li&gt;Prepared learning, e.g. Sauce-Bearnaise Syndrome. One ate the sauce and then went to opera. They had stomach pain.
+The next time they were to taste the sauce, they had repulsion (unpleasant smell). The pain was not attributed to opera
+(even though it occurred during opera), but to the sauce, since there is a prepared learning of food -&amp;gt; stomach.&lt;/li&gt;
+  &lt;li&gt;bees learn smell better than color or shape&lt;/li&gt;
+  &lt;li&gt;humans are not inherently scared of spiders and snakes, but have prepared learning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cognitive-ethology&quot;&gt;Cognitive ethology&lt;/h3&gt;
+
+&lt;p&gt;Donald Griffin (random fact: discovered echolocation in bats) wrote “On awareness in animals”.&lt;/p&gt;
+
+&lt;h4 id=&quot;self-awareness&quot;&gt;Self awareness&lt;/h4&gt;
+
+&lt;p&gt;One can test for self awareness. E.g. dogs are not self aware.
+Take a chimp, anesthetize, put a black dot on its forehead with a marker. When looking into the mirror,
+chimps are much more likely to start scratching their head where the dot is. Elephants pass this test too.
+Marmoset monkeys don’t. They don’t look into eyes normally. Thus, when the dot is on their neck, they
+start noticing it too. An example of “interviewing” an animal in its own language.&lt;/p&gt;
+
+&lt;h4 id=&quot;theory-of-mind&quot;&gt;Theory of mind&lt;/h4&gt;
+
+&lt;p&gt;Realizing that other individuals can have different information than you. Humans start understanding this at the age of
+4-5 years.&lt;/p&gt;
+
+&lt;p&gt;To test, one can tell a child a story about another child X, who has a doll called Sally. X goes to school.
+Mom washes Sally and puts it into a different place. When X comes back, where would it look for Sally?
+With the theory of mind the child will say “the old place” (since X does not know that they doll has been moved).
+Without the theory of mind - “the new place” (since the child knows where the doll is and can’t imagine X having
+different info).&lt;/p&gt;
+
+&lt;p&gt;Chimps have this too. E.g. you can have two chimps (one high ranking, one low ranking) and a banana (all divided by dividers). 
+If there is a glass divider between high ranking and banana, low ranking won’t try to get the banana (he knows that high
+ranking knows). When you swap high ranking chimp with a different high ranking one, low ranking will go for the banana, 
+because he understand that the new high ranking chimp does not know about banana. However, they can do this only in
+competitive setting (no cooperation).&lt;/p&gt;
+
+&lt;p&gt;Corvus have this too. If they see someone observing them when they hide food, they won’t proceed with hiding the food.
+I.e. they understand that other birds will know about the food hidden here.&lt;/p&gt;
+
+&lt;p&gt;Animals can distinguish intentional action from unintentional. In chimps - they react more dramatically to a person throwing
+away their food vs. tripping over it. Dogs know the difference between an intentional kick and someone tripped over them.&lt;/p&gt;
+
+&lt;p&gt;Animals can plan for the future. E.g. take corvus living in a cage with 2 areas. In each of the areas, there is a place
+where researchers put food every other day. In one of them, they put more. Corvus starts bringing food from this place to another one for tomorrow.&lt;/p&gt;
+
+&lt;h4 id=&quot;flexible-cognitive-strategies&quot;&gt;Flexible cognitive strategies&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bees will distrust implausible dances. E.g. researchers put food in the middle of the lake. A bee tells others about this. Others
+don’t do anything, because there can’t be food in the middle of the lake.&lt;/li&gt;
+  &lt;li&gt;Numerosity.
+    &lt;ul&gt;
+      &lt;li&gt;Teach chimp to detect series of 3 objects, e.g. “ABC” and “HIJ”. When they see them, they should pull the lever and
+  they will get food. When shown “HI&lt;strong&gt;A&lt;/strong&gt;”, they make less mistakes than when shown “H&lt;strong&gt;B&lt;/strong&gt;J”. In the former case, the third object
+  was replaced with the first. In the latter - second with second. I.e. chimp detects that this object is “second”, but forgets
+  which triplet it belongs too.&lt;/li&gt;
+      &lt;li&gt;Take a chimp troop. Record foreign male chimp vocalizations. Play one foreign male chimp vocalization in the bush. The troop will
+  investigate. Play vocalizations of the same number or more other chimps than in the troop, the troop will know that they are outnumbered and
+  silently run away. They understand that 4 is more than 3.&lt;/li&gt;
+      &lt;li&gt;In fish. Fish C sees A defeating B and then B defeats C. C gives subordinate gesture to A (transitivity).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><category term="courses" /><category term="review" /><summary type="html">Lecture 9, ethology.</summary></entry><entry><title type="html">All (my) advice is awful!</title><link href="https://merelycurious.me/post/all-advice-is-awful" rel="alternate" type="text/html" title="All (my) advice is awful!" /><published>2019-11-19T08:00:00+01:00</published><updated>2019-11-19T08:00:00+01:00</updated><id>https://merelycurious.me/post/all_advice_is_awful</id><content type="html" xml:base="https://merelycurious.me/post/all-advice-is-awful">&lt;p&gt;It is very easy to advice others to do something, but it is very hard to be sure that this will actually help them.
 However, not all understand this or choose to phrase their advice accordingly. I.e. instead of “here is a way to X”,
 it actually should be “this is how I did X”. Thus, very often non-objective advice is just a description of what helped
 the author, which is also true for some of my posts.
@@ -1140,104 +1350,4 @@ because I stay in the flow much more.&lt;/p&gt;
 
 &lt;p&gt;Happy staying in the zone &amp;amp; being hyperproductive! 
 Thank you, &lt;a href=&quot;https://twitter.com/akirathedon/status/1152459994849091584&quot;&gt;@akirathedon&lt;/a&gt;,
-for your tweet with such amazing advice!&lt;/p&gt;</content><author><name></name></author><summary type="html">Quite some time ago I stumbled upon a tweet just saying “get in the zone, then refuse to leave”. Despite the simplicity of the advice and complete absence of any proof, this has a profound positive effect on my productivity. Let’s see what this means for me and why I think this works so well.</summary></entry><entry><title type="html">Future proofness</title><link href="https://merelycurious.me/post/future-proofness" rel="alternate" type="text/html" title="Future proofness" /><published>2019-09-14T14:00:00+02:00</published><updated>2019-09-14T14:00:00+02:00</updated><id>https://merelycurious.me/post/future_proofness</id><content type="html" xml:base="https://merelycurious.me/post/future-proofness">&lt;p&gt;Long time ago I learned about a concept, which I now call “future proofness”.
-I coined this term myself, but it is also &lt;a href=&quot;https://en.wikipedia.org/wiki/Future_proof&quot;&gt;present&lt;/a&gt; in Wikipedia.
-However, with a bit different meaning. In my case, the main idea was that the future
-technology could improve and extract additional information from your current artifacts.
-Let’s see couple examples.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;dna&quot;&gt;DNA&lt;/h2&gt;
-
-&lt;p&gt;I learned this concept originally in the context of DNA.
-Currently analyzing one’s DNA provides some insights, but they are not too impressive.
-Humanity still seems to lack deep understanding of how everything works.
-At the same time, there are already many things one can do with their DNA.
-The most obvious example - &lt;a href=&quot;https://www.23andme.com/en-int/&quot;&gt;23andMe&lt;/a&gt;.
-Spit in the box, send it their way and for $99 they will prepare a report with various
-peculiar details discovered from your DNA. Alternatively one can search for their relatives
-by their DNA.&lt;/p&gt;
-
-&lt;p&gt;Here future proofness comes in play. These companies get access to one’s DNA to provide 
-their services and currently cannot do much else. However, it may not be the case in the future.
-One example - what if people learn to very reliably predict illnesses by DNA and then
-insurance companies set their contributions based on such predictions. At the same time there can
-be cases, which we currently even cannot imagine. Thus, from future proofness perspective
-one should not give away their DNA, because in the future there may be a way to
-extract sensitive data out of it. That’s why I personally feel uneasy about
-using 23andMe. Some countries consider taking DNA on their border in some cases 
-(&lt;a href=&quot;https://edition.cnn.com/2019/05/15/politics/ice-considers-next-steps-in-dna-testing/index.html&quot;&gt;CNN about a similar idea in the US&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;I am aware of at least one example of poor future proofness having bad consequences for a person.
-In 1970s there was a series of crimes with DNA left behind.
-Recently this material was compared to data from online services for finding relatives based on DNA.
-As a result a relative of a person, who committed the crimes, was matched.
-In the end, the criminal was arrested. Thus, leaving DNA in 1970s happened to be 
-not future proof.
-Source: &lt;a href=&quot;https://www.vox.com/2018/4/27/17290288/golden-state-killer-joseph-james-deangelo-dna-profile-match&quot;&gt;vox&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;cryptography&quot;&gt;Cryptography&lt;/h2&gt;
-
-&lt;p&gt;Another area where future proofness may play role is cryptography.
-Imagine that you encrypt your data and store it in a cloud.
-As a result the could provider theoretically has access to the encrypted 
-version. Let’s say after 30 years the encryption method you used
-is not secure anymore (e.g. computation power has grown so much or 
-a vulnerability was discovered). As a result, the cloud provider
-can now have access to your 30 year old data.
-The value of this data can be questionable, but I can still imagine
-this backfiring badly. Also the time span can be even shorter.&lt;/p&gt;
-
-&lt;p&gt;It is definitely not clear how to protect against this.
-If with DNA we can avoid giving away the data, here this is trickier.
-Theoretically we could store the data ourselves, but this is inconvenient.
-Another option would be to use stronger encryption parameters.
-However, I suspect that this will affect the performance really badly
-and the future security improvement won’t be that large.&lt;/p&gt;
-
-&lt;h2 id=&quot;photos-of-faces&quot;&gt;Photos of faces&lt;/h2&gt;
-
-&lt;p&gt;Another peculiar example is photos of faces.
-Imagine that one publishes their photo or video where they
-do questionable things (e.g. nudity or so). Their line of thought
-might be that it is very unlikely that someone from their
-immediate surrounding will discover this.
-Somewhat recently reverse face search started to appear.
-Basically one can upload a photo of a face and these sites show profiles in
-social networks with faces matching the given photo. E.g. &lt;a href=&quot;https://www.theverge.com/2018/8/8/17663640/socialmapper-facial-recognition-open-source-intelligence&quot;&gt;verge&lt;/a&gt; reports on one of these.&lt;/p&gt;
-
-&lt;p&gt;Another example is using masks which hide only part of one’s face.
-It is very common in law enforcement to use masks which 
-don’t cover eyes. Practicality of this design decision is hard to question.
-I also agree that humans struggle with recognizing someone just by
-their eyes. However, I could imagine some technology doing that pretty well
-in the future. I am not aware of any examples yet.&lt;/p&gt;
-
-&lt;h2 id=&quot;using-future-proofness-for-good&quot;&gt;Using future proofness for good&lt;/h2&gt;
-
-&lt;p&gt;There are also examples where future proofness can be used for good.
-Unfortunately in this case the term naming does not work well, but I will still keep it.&lt;/p&gt;
-
-&lt;p&gt;Robert Sapolsky in “Stress, Portrait of a Killer” (one of his documentaries) mentioned storing 
-baboon samples frozen for years in case human develop better ways
-to analyze them.&lt;/p&gt;
-
-&lt;p&gt;Cryonics is fully based on this principle.
-The idea is to somehow preserve a person in a reasonable state,
-which could be reversed once the technology advances enough.
-E.g. they can be terminally ill. Once they die according to the current
-law, their body can be stored in a special way to minimize the damage
-and to keep its structure. Once the technology advances far enough
-to undo the effect of storage and also treat the original illness,
-they can theoretically be revived.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
-
-&lt;p&gt;Obviously one cannot protect against everything and there are always tradeoffs between
-effort and security. At the same time, just knowing about the concept of 
-future proofness can help one to avoid making questionable decisions.
-It is also peculiar to notice this concept being at play in many unrelated
-areas of life.&lt;/p&gt;
-
-&lt;p&gt;Happy future proof decisions!&lt;/p&gt;</content><author><name></name></author><summary type="html">Long time ago I learned about a concept, which I now call “future proofness”. I coined this term myself, but it is also present in Wikipedia. However, with a bit different meaning. In my case, the main idea was that the future technology could improve and extract additional information from your current artifacts. Let’s see couple examples.</summary></entry></feed>
+for your tweet with such amazing advice!&lt;/p&gt;</content><author><name></name></author><summary type="html">Quite some time ago I stumbled upon a tweet just saying “get in the zone, then refuse to leave”. Despite the simplicity of the advice and complete absence of any proof, this has a profound positive effect on my productivity. Let’s see what this means for me and why I think this works so well.</summary></entry></feed>
