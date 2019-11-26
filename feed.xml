@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-23T12:09:28+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 9) - Ethology</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-9-ethology" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 9) - Ethology" /><published>2019-11-23T10:00:00+01:00</published><updated>2019-11-23T10:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_9_ethology</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-9-ethology">&lt;p&gt;Lecture 9, ethology.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-26T18:28:48+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Value does not have to be perfect</title><link href="https://merelycurious.me/post/value-does-not-have-to-be-perfect" rel="alternate" type="text/html" title="Value does not have to be perfect" /><published>2019-11-26T17:00:00+01:00</published><updated>2019-11-26T17:00:00+01:00</updated><id>https://merelycurious.me/post/value_does_not_have_to_be_perfect</id><content type="html" xml:base="https://merelycurious.me/post/value-does-not-have-to-be-perfect">&lt;p&gt;I am interested in startups and try to pay attention to how exactly value is created around me.
+I am also somewhat a perfectionist and when I try to create value myself, I tend to over-polish 
+the details, often not being even sure whether the value is actually created. I noticed a couple examples
+of projects with imperfections (sometimes major), which people use anyway. Let’s look at these examples more.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;anki---memorizing&quot;&gt;Anki - memorizing&lt;/h2&gt;
+
+&lt;p&gt;Anki is a program to memorize whatever you want using spaced repetitions. The idea is that you forget
+exponentially and each repetition resets the curve and makes it not so steep. However, it does not make sense to
+repeat too often. Anki tries to estimate what you are about to forget and shows you these &lt;em&gt;cards&lt;/em&gt; for repetition.
+It works especially well for learning languages.&lt;/p&gt;
+
+&lt;p&gt;As far as I know, there is only one major Anki program on Desktop. There is also one on Android and iOS. At least Desktop and Android
+ones allow one to synchronize and backup their data through cloud for free. Pretty convenient, especially when one uses
+Anki one their phone (e.g. when travels). As a result, the data needs to be merged occasionally. This merge logic can
+become a nightmare pretty quickly. To my surprise, the authors of Anki just decided to refuse to merge in some cases.
+E.g. when a card type is changed (e.g. instead of “show me both sides as 2 items”, you replace it with “show me only 1 side”),
+the program just says - “hey, next time you will have to reupload all your data to the cloud, just FYI”. Then the other device
+just asks you whether you want to download or upload your data and whether you really want to overwrite your local data.
+My software engineering part feels pretty uncomfortable seeing that, but this is a great example of prioritization.
+The desktop and Android versions are completely free (even cloud storage). Thus, the authors probably didn’t have too much spare time.
+This reupload is definitely not perfect, but it is also not that bad at all.&lt;/p&gt;
+
+&lt;p&gt;I definitely get plenty of value from Anki and this reupload is just a minor nitpick. I personally would feel uncomfortable
+about making such decision not to merge some cases and just reupload everything. However, I haven’t seen anyone refusing to
+use Anki because of that. Also I am not aware of any competitors either (probably, because it is free).&lt;/p&gt;
+
+&lt;h2 id=&quot;shotcut---video-editing&quot;&gt;Shotcut - video editing&lt;/h2&gt;
+
+&lt;p&gt;I remember I needed to compose a small video. I definitely didn’t need any serious software, because this was a one-off thing.
+Thus, the goal was to have it done as easy as possible (i.e. no learning curve at all). Somehow I discovered Shotcut.&lt;/p&gt;
+
+&lt;p&gt;The program itself is pretty simple and easy to learn. At the same time there are some rough edges. It is obviously free.
+However, occasionally it could crash (pretty rarely though). Also my computer is not the newest, so keeping all the high
+resolution videos in memory got impossible pretty fast (especially when using preview function). Surprisingly, there is
+no built-in fix for that. However, the Shotcut community found a workaround. Basically, the program does not store videos
+themselves, but only their paths in the file system. Thus, we make a project with all the high resolution videos (add them from
+some folder). Then we backup this folder into some other temporary folder. In the old folder, we downscale the resolution of all
+videos. Now reopen the old project. Shotcut will just use downscaled versions as if it always was like that. Now you
+can do everything as usual (just the quality will be poor). Even the preview works. Once you are done, you restore the old
+high resolution backup and reopen the project again. Now you don’t need to look at the high resolution preview, you just
+produce the final video. This is not that RAM intense.&lt;/p&gt;
+
+&lt;p&gt;I was surprised by this solution. However, I discovered got stuck with this issue pretty far in the process,
+so I already had some part of my video
+done in Shotcut and what was even more important - I already knew how it worked. So I did the workaround precisely as described above.
+In the end it went very well.&lt;/p&gt;
+
+&lt;p&gt;Surprisingly, if I need to do another video, I will consider using Shotcut again (mostly because I already know how to use it).
+I even don’t mind this workaround at all.&lt;/p&gt;
+
+&lt;p&gt;This seems like quite an imperfection to me, however, the program still provides plenty of value.
+There are many competitors in this area, but they are not free and not so easy to use without much preparation.
+This “easy-to-start”-ness is the main value of Shotcut for me.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what&quot;&gt;So what?&lt;/h2&gt;
+
+&lt;p&gt;This is a reminder to myself to focus on the value when creating something. It is very easy to get stuck with small details
+and polish them forever. However, this polishing does not make sense, if there is no value provided. Unfortunately, it is much easier
+to do such value analysis once there is a finished product with some history and customer base. When I do
+something myself, it is also unclear whether I will be able to provide any value at all. Anyway, this is a great reminder to focus
+on what should be the most important to the customer, prototype it as fast as possible and polish later once you see that it
+works and provides value (if any polish is needed).&lt;/p&gt;
+
+&lt;p&gt;Happy value creation!&lt;/p&gt;</content><author><name></name></author><summary type="html">I am interested in startups and try to pay attention to how exactly value is created around me. I am also somewhat a perfectionist and when I try to create value myself, I tend to over-polish the details, often not being even sure whether the value is actually created. I noticed a couple examples of projects with imperfections (sometimes major), which people use anyway. Let’s look at these examples more.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 9) - Ethology</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-9-ethology" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 9) - Ethology" /><published>2019-11-23T10:00:00+01:00</published><updated>2019-11-23T10:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_9_ethology</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-9-ethology">&lt;p&gt;Lecture 9, ethology.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1250,104 +1316,4 @@ oh, I will go to a dancing school right now and start my classes”. Instead of
 I should have taken enough classes already” - you should have, but you didn’t, so just accept that.&lt;/p&gt;
 
 &lt;p&gt;Happy remembering that no one has promised you anything!
-And setting healthy reference points (remember the poor bunny)!&lt;/p&gt;</content><author><name></name></author><summary type="html">Quite often I observe people being unhappy about their life as if someone has promised them something. Somehow they focus on what could/should have been better in their life and this makes them extremely unhappy. At the same time, from my perspective they are not doing that bad. They are just too much into their fantasies instead of appreciating what they have. Let’s look into into “no one has promised anything” and see some examples.</summary></entry><entry><title type="html">Refuse to leave the zone</title><link href="https://merelycurious.me/post/refuse-to-leave-the-zone" rel="alternate" type="text/html" title="Refuse to leave the zone" /><published>2019-09-17T09:00:00+02:00</published><updated>2019-09-17T09:00:00+02:00</updated><id>https://merelycurious.me/post/refuse_to_leave_the_zone</id><content type="html" xml:base="https://merelycurious.me/post/refuse-to-leave-the-zone">&lt;p&gt;Quite some time ago I stumbled upon &lt;a href=&quot;https://twitter.com/akirathedon/status/1152459994849091584&quot;&gt;a tweet&lt;/a&gt;
-just saying “get in the zone, then refuse to leave”.
-Despite the simplicity of the advice and complete absence of any proof, this has
-a profound positive effect on my productivity. Let’s see what this means for me
-and why I think this works so well.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;At some point I completely by accident stumbled upon the following tweet:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/refuse_to_leave_the_zone/tweet.png&quot; alt=&quot;The initial tweet I saw&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Fig: &lt;a href=&quot;https://twitter.com/akirathedon/status/1152459994849091584&quot;&gt;the tweet&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Obviously I don’t do everything people say to do in their tweets, but in this case
-the advice just struck me and I did try it almost immediately. And it worked like a charm.
-The tweet itself has a longer thread with more explanations. Basically the author
-has been doing this for 200 days already. They get into the flow and then just try to stay there
-as long as they need.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-this-works-for-me&quot;&gt;How this works for me&lt;/h2&gt;
-
-&lt;p&gt;Sometimes I preplan a list of tasks, like creating a playlist, but with work.
-Then I start doing the first task in the list. Sometimes this can be hard (I can feel tired, not interested).
-Often this can be a very small task (10-20 minutes). I also turn on my time tracking.
-Very soon I finish the task and completely forget that I was tired or not interested.
-The time has just likely passed like a lightning. And when finishing a task I use the advice from that tweet.
-Instead of just turning off the time tracking and marking the task as done, I start to track time for
-the next task. Then I quickly mark the previous task as done (the new task is being tracked already,
-so I need to hurry up). Then I literally jump into the new task with no hesitation.&lt;/p&gt;
-
-&lt;p&gt;It is peculiar that sometimes I have literally no clue how to solve the new task before I actually get to it.
-E.g. writing a blog post without having a particular inspiration. If I didn’t try to stay in the zone,
-it would be very easy to get scared. I would stop, think that I have no clue what to write and just
-get distracted with something unproductive. Instead I just jump into it ASAP. My brain seems to be doing
-something like “oh, we are in trouble, I need to quickly come up with some idea, ok, to mitigate
-this unpleasant situation of being time tracked and having no clue what to do, I could &amp;lt;some surprising idea&amp;gt;”.
-E.g. for blog posts I just quickly go through my list of topics I could write about and take the first
-one which resonates with me. It is also peculiar that without staying in the zone I would hesitate which one
-to take and would go through the list for much longer with plenty of doubt and multiple equally good options
-to choose from.&lt;/p&gt;
-
-&lt;p&gt;Occasionally I am able to do this for multiple hours, which was very surprising. Before 
-I would struggle very badly and make a lot of breaks. I would also feel quite tired, but
-once in the zone, I definitely don’t feel this anymore.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-this-works&quot;&gt;Why this works&lt;/h2&gt;
-
-&lt;p&gt;I have to warn you - there will be a bunch of speculation ahead.&lt;/p&gt;
-
-&lt;p&gt;My main hypothesis is that starting doing something is hard.
-E.g. it is evening and I know that I would love to do a couple of tasks,
-but I still have some free time. So I could probably read something pointless somewhere
-in the Internet for couple minutes before I start working and be just fine.
-Or I am tired. I could go directly to bed. You see, a stuff like this could prevent me
-from happily jumping into executing the tasks I need.&lt;/p&gt;
-
-&lt;p&gt;My old approach didn’t take this into account at all, thus, didn’t work that well either.
-Basically after completing a task I would make a couple minute break. Yeah, that’s what
-people usually do - they do something and then they rest / have fun. The problem is that
-I would get distracted and these 2 minutes easily become 10 or even hours. In the end I get to the square 1 - I
-need to start again from this unproductive state with all the questions arising again 
-(I am tired, should I go to sleep, I already did this one task, I should be fine).&lt;/p&gt;
-
-&lt;p&gt;When I stay in the flow, I just avoid all of this. The flow functions as a momentum to
-get me through task switch. Instead of thinking much how I feel and whether I am tired,
-I just start another task. By the way, flow feels amazing and once I am in the flow
-it is much easier to achieve it in the next task (even if it would be impossible to do
-with that task on its own).&lt;/p&gt;
-
-&lt;p&gt;This approach also encourages one to batch their work better,
-i.e. to gather similar tasks into series and do them in one go.
-E.g. if I write a blog post, I can then write a second one just
-because I felt in the mood and was already warmed up for writing.
-This saves me from ramping up for writing some other day and,
-thus, improves my productivity. The author of the tweet also mentions
-batching.&lt;/p&gt;
-
-&lt;p&gt;Just jumping to a task helps to fight perfectionism and analysis-paralysis.
-It is easy to start reflecting before doing a task that e.g. I don’t know
-what to do or there are multiple options, which are extremely hard to evaluate.
-When staying in the flow and starting a task I have no time whatsoever for this.
-The time tracking is already on, I already need to start doing something.
-Obviously this may lower my quality bar (“let’s just do something”), but
-I haven’t seen this being a problem. Instead I get reasonable results
-while avoiding perfectionism and over-analysing.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;I suggest you to try this approach. I understand that we are all different
-and the advice above may be life-changing for me, but completely useless for someone
-else. Only you know how it is for you. Naturally I still occasionally feel not that well
-and don’t even start with any tasks at all. Or I do get distracted before starting. The advice is not
-a silver bullet, but still it has improved my productivity a lot and I do feel happier,
-because I stay in the flow much more.&lt;/p&gt;
-
-&lt;p&gt;Happy staying in the zone &amp;amp; being hyperproductive! 
-Thank you, &lt;a href=&quot;https://twitter.com/akirathedon/status/1152459994849091584&quot;&gt;@akirathedon&lt;/a&gt;,
-for your tweet with such amazing advice!&lt;/p&gt;</content><author><name></name></author><summary type="html">Quite some time ago I stumbled upon a tweet just saying “get in the zone, then refuse to leave”. Despite the simplicity of the advice and complete absence of any proof, this has a profound positive effect on my productivity. Let’s see what this means for me and why I think this works so well.</summary></entry></feed>
+And setting healthy reference points (remember the poor bunny)!&lt;/p&gt;</content><author><name></name></author><summary type="html">Quite often I observe people being unhappy about their life as if someone has promised them something. Somehow they focus on what could/should have been better in their life and this makes them extremely unhappy. At the same time, from my perspective they are not doing that bad. They are just too much into their fantasies instead of appreciating what they have. Let’s look into into “no one has promised anything” and see some examples.</summary></entry></feed>
