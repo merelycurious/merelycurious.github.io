@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-26T18:28:48+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Value does not have to be perfect</title><link href="https://merelycurious.me/post/value-does-not-have-to-be-perfect" rel="alternate" type="text/html" title="Value does not have to be perfect" /><published>2019-11-26T17:00:00+01:00</published><updated>2019-11-26T17:00:00+01:00</updated><id>https://merelycurious.me/post/value_does_not_have_to_be_perfect</id><content type="html" xml:base="https://merelycurious.me/post/value-does-not-have-to-be-perfect">&lt;p&gt;I am interested in startups and try to pay attention to how exactly value is created around me.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-30T12:37:03+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Diversifying over ETF providers</title><link href="https://merelycurious.me/post/diversifying-over-etf-providers" rel="alternate" type="text/html" title="Diversifying over ETF providers" /><published>2019-11-30T11:00:00+01:00</published><updated>2019-11-30T11:00:00+01:00</updated><id>https://merelycurious.me/post/diversifying_over_etf_providers</id><content type="html" xml:base="https://merelycurious.me/post/diversifying-over-etf-providers">&lt;p&gt;Many people talk about diversification in terms of geographic areas or economy sectors.
+However, the diversification does not stop there. One can also diversify over brokers
+where the shares are held. This way if something happens to one broker or the account gets hacked,
+not everything is lost. Another dimension is over ETF providers.
+This decreases impact of forced capital gain tax realizations. Let’s see how and why.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
+
+&lt;p&gt;There is a company behind each ETF. E.g. for Vanguard S&amp;amp;P 500 ETF it is Vanguard and for iShares STOXX Europe 600 - BlackRock.
+Each of these companies have their own history and can potentially go bankrupt. That’s the worst case. Alternatively
+they can decide to change ETF structure or its ISIN. In both cases we are not worried about loosing our money.
+However, a forced capital gain realization due to such an event can be unpleasant.&lt;/p&gt;
+
+&lt;p&gt;Obviously, it is hard to imagine Vanguard going busted, but in FIRE community we are talking about investment horizons
+of 30-60 years. This is a long period of time and our imagination is pretty useless for such timescales.&lt;/p&gt;
+
+&lt;h2 id=&quot;possible-impact&quot;&gt;Possible impact&lt;/h2&gt;
+
+&lt;p&gt;Let’s start by evaluating how bad the impact can be. For simplicity, let’s say we’ve been investing into one
+ETF and now we have \(X\)€ invested and portion \(Y\) of these are unrealized capital gains (e.g. for 35% \(Y = 0.35 \)). For even more simplicity, we will 
+assume that the investment is in Germany and, thus, the capital gain tax is 26.375% (25% tax + 5.5% of that for Solidaritätszuschlag).&lt;/p&gt;
+
+&lt;p&gt;Now if we are forced to realize capital gains, our \(X\)€ will become \(X * (1 - Y) + X * Y * (1 - 0.26375) = X - X * Y * 0.26375\) €.
+In this abstract form, we can’t conclude much, because we don’t know \(X\) and \(Y\).&lt;/p&gt;
+
+&lt;p&gt;First, we can notice that \(X\) actually does not matter. Once we know \(Y\), we know which percentage of our money
+we will have to pay as a capital gain tax and that’s what we are the most interested about.&lt;/p&gt;
+
+&lt;h3 id=&quot;estimating-y&quot;&gt;Estimating Y&lt;/h3&gt;
+
+&lt;p&gt;I’ve made a quick &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Gh-Sh6GNh3g0Cm5Csr-RXaHfU54EWlWPmUQIhITYIc4/edit&quot;&gt;spreadsheet&lt;/a&gt;
+for this. Please use “File &amp;gt; Make a copy” to put your numbers.&lt;/p&gt;
+
+&lt;p&gt;The spreadsheet shows that \(Y\) at a time when we reach FI is affected by how long it took us to save
+(i.e. our savings ratio, expected safe withdrawal rate and yearly market growth). The slower we save,
+the larger is \(Y\). In other words, the slower we save, the larger role market has in our FI path.&lt;/p&gt;
+
+&lt;p&gt;With 7% yearly market growth and 4% safe withdrawal rate, we get the following values of \(Y\) based on savings ratio:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;0.11 for 90% savings rate&lt;/li&gt;
+  &lt;li&gt;0.4 for 60% savings rate&lt;/li&gt;
+  &lt;li&gt;0.66 for 30% savings rate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In other words, if you have 30% SWR, at the time your reach FI, 66% of all your money are unrealized capital gains.&lt;/p&gt;
+
+&lt;h3 id=&quot;worst-case-impact&quot;&gt;Worst case impact&lt;/h3&gt;
+
+&lt;p&gt;Let’s say you reached FI today. Let’s ignore capital gain tax for now (i.e. if you are forced to realized all capital
+gains, you won’t be FI anymore).
+I will look in the following posts whether this assumption is reasonable (i.e. how much more one should save to account for capital
+gain tax and other mandatory expenses like health insurance), but for this post this is not that important.&lt;/p&gt;
+
+&lt;p&gt;Then something happens to your only ETF and you are forced to realize capital gain tax.
+Depending on your savings rate (90%, 60% or 30%), you will have to say goodbye to 2.9%, 10.5% or 17.4% of your stash
+right away. For 30% savings rate, this means working 20 more months to reach FI again.&lt;/p&gt;
+
+&lt;h2 id=&quot;events-which-can-be-taxable&quot;&gt;Events which can be taxable&lt;/h2&gt;
+
+&lt;p&gt;I am not a tax advisor and this varies across countries.&lt;/p&gt;
+
+&lt;p&gt;ETF liquidation is the most obvious example. &lt;a href=&quot;https://www.investopedia.com/articles/exchangetradedfunds/09/etf-out-of-business.asp&quot;&gt;Investopedia says&lt;/a&gt;
+that investors get their money as a check and this may force an investor to pay capital gain tax.&lt;/p&gt;
+
+&lt;p&gt;Another option is ISIN change, e.g. to due to a merger.
+E.g. &lt;a href=&quot;https://www.lyxoretf.de/pdfDocuments/Merger%20Q&amp;amp;A%20-%20Lyxor%20MSCI%20Turkey%20UCITS%20ETF_0b7b4493f192ea25211a8d348553fd26.pdf&quot;&gt;here&lt;/a&gt;
+is a document from Lyxor about the merger of Lyxor MSCI Turkey UCITS ETF in March 2019.
+They very vaguely say that you may need to pay some taxes, but this depends on your country.
+Fortunately in Germany, figuring this out will likely be broker’s problem, not yours, but you are
+the one paying the taxes in the end.&lt;/p&gt;
+
+&lt;h2 id=&quot;possible-solutions&quot;&gt;Possible solutions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Choose ETFs which are less likely to get liquidated or merged (usually this means large liquid funds from well-known companies and for popular indices)&lt;/li&gt;
+  &lt;li&gt;Diversify across providers. This increases probability of you being affected by such an event (now there are more 
+ETF companies your work with, each of them can have troubles and this will affect you). At the same time this decreases
+an overall impact of such an event (each provider has only a small portion of your money).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Happy diversification!&lt;/p&gt;</content><author><name></name></author><summary type="html">Many people talk about diversification in terms of geographic areas or economy sectors. However, the diversification does not stop there. One can also diversify over brokers where the shares are held. This way if something happens to one broker or the account gets hacked, not everything is lost. Another dimension is over ETF providers. This decreases impact of forced capital gain tax realizations. Let’s see how and why.</summary></entry><entry><title type="html">Value does not have to be perfect</title><link href="https://merelycurious.me/post/value-does-not-have-to-be-perfect" rel="alternate" type="text/html" title="Value does not have to be perfect" /><published>2019-11-26T17:00:00+01:00</published><updated>2019-11-26T17:00:00+01:00</updated><id>https://merelycurious.me/post/value_does_not_have_to_be_perfect</id><content type="html" xml:base="https://merelycurious.me/post/value-does-not-have-to-be-perfect">&lt;p&gt;I am interested in startups and try to pay attention to how exactly value is created around me.
 I am also somewhat a perfectionist and when I try to create value myself, I tend to over-polish 
 the details, often not being even sure whether the value is actually created. I noticed a couple examples
 of projects with imperfections (sometimes major), which people use anyway. Let’s look at these examples more.&lt;/p&gt;
@@ -1180,140 +1262,4 @@ and is in approximately similar situation. Thus, if you want to discuss FIRE
 I did this couple times and it was very refreshing experience after years of
 silence regarding FIRE.&lt;/p&gt;
 
-&lt;p&gt;Happy FIRE discussions (or silence)!&lt;/p&gt;</content><author><name></name></author><summary type="html">Participating in Financial Independence / Early Retirement (aka FIRE) movement can become a substantial part of one’s life or even identity. At the same time the number of people in the movement is still small and, thus, most of the time we talk to people who have no clue whatsoever about FIRE. As a result, one wonders quite often whether they should share their FIRE story and explain the concept. Let’s see arguments for and against.</summary></entry><entry><title type="html">No one promised you anything in life</title><link href="https://merelycurious.me/post/no-one-promised-you-anything" rel="alternate" type="text/html" title="No one promised you anything in life" /><published>2019-09-22T13:00:00+02:00</published><updated>2019-09-22T13:00:00+02:00</updated><id>https://merelycurious.me/post/no_one_promised_you_anything</id><content type="html" xml:base="https://merelycurious.me/post/no-one-promised-you-anything">&lt;p&gt;Quite often I observe people being unhappy about their life as if someone has promised them
-something. Somehow they focus on what could/should have been better in their life and this
-makes them extremely unhappy. At the same time, from my perspective they are not doing that bad.
-They are just too much into their fantasies instead of appreciating what they have.
-Let’s look into into “no one has promised anything” and see some examples.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;I observe surprisingly many people with a very specific attitude to life.
-Usually they are quite unhappy with what they have and there is always plenty
-of stuff they should have had instead. This can be being more beautiful,
-smarter, healthier, wealthier (e.g. coming from a wealthier country),
-having cooler car. Usually they use other people as a basis of their comparison.
-E.g. “Alice is so beautiful and I am not so beautiful, why? This is unfair, 
-what did she do for this? Am I worse than her?” or “Harold earns so much at his
-startup and it is going so well for him, am I not as smart as him? Why don’t I
-have a startup?”.&lt;/p&gt;
-
-&lt;h2 id=&quot;outside-our-control&quot;&gt;Outside our control&lt;/h2&gt;
-
-&lt;p&gt;Some of this wishes are directed to stuff fully outside of our control.
-E.g. being more beautiful, coming from a wealthier family, being born
-in a different country. Obviously being unhappy about this stuff is 
-not rational at all. However, as I read in “Too soon old, too late smart”
-(&lt;a href=&quot;/post/book-summary-too-soon-old&quot;&gt;my review&lt;/a&gt;) - 
-it is very hard to change an opinion formed non-rationally (without logic)
-with a rational (formal logical) arguments. This is definitely the case here.
-I can occasionally feel something similar too, but I catch this pretty soon.
-It is very healthy to try to change your reference points (as it was
-suggested in the “Science of well being course”
-(&lt;a href=&quot;/post/the-science-of-wellbeing-course-review&quot;&gt;my summary&lt;/a&gt;)).
-E.g. there are many other things outside of your control which probably have
-worked well, but could have been much worse. E.g. you are alive, this is
-already pretty good. There are people, who have died already. Some even had completely
-no control. Usually there are countries/people which are doing
-much worse than you. So in some sense you were lucky to be born where you are
-instead of there. There may be many features of your life, which
-you don’t appreciate at all, but could. E.g. your have good relationship with
-your parents. There are many people who don’t. Or your parents are not divorced.
-Or they are even still alive. Or you like your job. Or you have a very nice hobby
-and feel happy doing it. Basically by searching a bit and reflecting over your life
-you can find plenty of examples where something could have been much worse, 
-but it is pretty good. This definitely helps you to appreciate these things more.
-This approach is also much healthier than trying to look at what could have
-been better. There is no perfection. One can always be a bit
-wealthier, healthier, smarter, more beautiful. Even after improving the desired
-parameter a lot, one will just start desiring something else. Thus, in some sense
-you could fight your desires now instead of being driven by them all your life.&lt;/p&gt;
-
-&lt;h2 id=&quot;inside-control&quot;&gt;Inside control&lt;/h2&gt;
-
-&lt;p&gt;Then there are some statements, which are somewhat inside our control.
-E.g. why Harold has a great startup and I don’t. Perhaps he started the
-startup and spent plenty of hours working on it. Perhaps he even failed
-multiple times with his earlier ideas. Perhaps he was risking
-bankruptcy or losing all his savings, but somehow he sticked to it.
-Obviously, it does not mean that one is worse than Harold or that there 
-is something intrinsic in one, which prevents them from having a startup.
-However, if you don’t have a startup, then you probably didn’t do enough
-to have a startup. Obviously, the state you desire is much better than what
-you have now. E.g. current state + 1kk$ is better than current state.
-However, 1kk$ can’t magically appear from nowhere. One has to do
-something to earn them. Or e.g. you would be so happy to be able to speak
-Italian. But you can’t magically start speaking Italian, you need to
-exert effort for quite some time. Are you ready to invest this time?&lt;/p&gt;
-
-&lt;h2 id=&quot;no-one-promised-you-anything-in-life&quot;&gt;No one promised you anything in life&lt;/h2&gt;
-
-&lt;p&gt;Very often when I hear people complaining in this fashion, I remind myself that
-no one has promised them or me anything. They make this weird assumption that they
-deserve something by just being alive and themselves. No, they don’t.
-They are actually unbelievably happy to live in these times in their conditions.
-There is no war around them. They are still alive. Reasonably healthy, both
-physically and financially. The nature is actually extremely harsh and scary.
-For some people the feeling of physical safety is so innate and obvious, that
-they don’t even notice it anymore. While from the nature perspective, it is
-a huge privilege. Imagine being a rabbit. You can be dead literally at any moment.
-Did you injure a part of you body? Adieu, you are dead - there are no hospitals. Did you got unlucky
-and happened to be at a wrong time at a wrong place - you are dead, there is no one
-to protect you. You don’t have enough to eat? There is no social security and you
-will likely starve to death. Did you happen to be around hunters&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;yeap, you are dead and this is completely outside of your control. Humans have already
-improved all of this greatly for themselves. The user experience of the modern human life
-is just mind-blowing if you compare it to a rabbit.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So you can see how much better your state is when compared to the raw nature.
-But even in the human society there are situations where everything is much worse.
-E.g. people starved a lot, fought wars, lost their everything due to natural disasters.
-You are very likely not affected by any of this. And while it may look like you
-are playing your life at hard difficulty (oh, going to work, having to do so
-much, so many problems), when considered from this other perspective - it is actually easy.&lt;/p&gt;
-
-&lt;p&gt;But even when you find yourself in one of this unlucky situations, this is perfectly normal too.
-No one has promised you anything. I do like asking people, who complain in this fashion:
-“Did anyone promise you anything in life? I don’t remember something like that in my life”.
-Theoretically I can be dead tomorrow and from general life perspective that is perfectly fine.
-It is already a miracle that my body functions. Just imagine - it is a weird complex mechanism,
-which we don’t even fully understand. And somehow it just works. I get a cut in my skin and it heals.
-Completely on its own. Somehow magically. I get tired, then I sleep and feel refreshed again.
-I eat and it is digested completely on its own. My brain does something and I get ideas
-and can actually be productive. Also somehow magically. Like any of these details could
-theoretically go wrong. There could be some weird disease or the brain would just decide to
-not function well anymore. Or food could stop being digested. Or I could be dead tomorrow.
-Or right now. And again this is perfectly fine from general life or nature perspective.
-No one has promised me a specific lifespan or specific conditions in life. 
-I am already extremely happy to have what I have now.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-does-this-matter&quot;&gt;Why does this matter?&lt;/h2&gt;
-
-&lt;p&gt;I agree that it is their right of these people to be unhappy about their situation.
-Some sense of unhappiness may be even good, because this is the first step to
-improving. However, very often their complaints don’t result in anything productive.
-Again - they are free to choose how to spend their time and energy. I just personally
-try to avoid such complaints and find it useful to be able to detect such situations
-and to get my brain out of them. When they are unhappy about things outside of their control,
-they just can’t fix them anyway and, thus, this doesn’t make any sense.
-E.g. being more beautiful. You have to work with what you have and I personally
-like to accept that. I do have something, I could have had something better, but also
-something worse. Thus, I will just do my best at getting the most from what I have.
-When complaining about something inside their control, they usually reach a wrong conclusion.
-Usually it is just “oh, life is so unfair, poor me”. In reality it should be “oh,
-it seems like I like this thing a lot and want to reach this state, thus, I need to do something
-and I will start right now”. Do you want to be able to speak Italian? The best way to achieve
-this is to actually learn the language. Yes, one can dream about magically being able to speak
-it, but this won’t help them at all to reach the goal. Thus, ignore stuff outside of your control.
-For stuff inside your control - try to convert it into impulse to do something:
-“hey, these people are dancing so nice, I would love to dance that well as well,
-oh, I will go to a dancing school right now and start my classes”. Instead of
-“oh, life is so unfair, I should have been able to dance easily, I should have had a talent,
-I should have taken enough classes already” - you should have, but you didn’t, so just accept that.&lt;/p&gt;
-
-&lt;p&gt;Happy remembering that no one has promised you anything!
-And setting healthy reference points (remember the poor bunny)!&lt;/p&gt;</content><author><name></name></author><summary type="html">Quite often I observe people being unhappy about their life as if someone has promised them something. Somehow they focus on what could/should have been better in their life and this makes them extremely unhappy. At the same time, from my perspective they are not doing that bad. They are just too much into their fantasies instead of appreciating what they have. Let’s look into into “no one has promised anything” and see some examples.</summary></entry></feed>
+&lt;p&gt;Happy FIRE discussions (or silence)!&lt;/p&gt;</content><author><name></name></author><summary type="html">Participating in Financial Independence / Early Retirement (aka FIRE) movement can become a substantial part of one’s life or even identity. At the same time the number of people in the movement is still small and, thus, most of the time we talk to people who have no clue whatsoever about FIRE. As a result, one wonders quite often whether they should share their FIRE story and explain the concept. Let’s see arguments for and against.</summary></entry></feed>
