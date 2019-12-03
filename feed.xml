@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-11-30T12:37:03+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Diversifying over ETF providers</title><link href="https://merelycurious.me/post/diversifying-over-etf-providers" rel="alternate" type="text/html" title="Diversifying over ETF providers" /><published>2019-11-30T11:00:00+01:00</published><updated>2019-11-30T11:00:00+01:00</updated><id>https://merelycurious.me/post/diversifying_over_etf_providers</id><content type="html" xml:base="https://merelycurious.me/post/diversifying-over-etf-providers">&lt;p&gt;Many people talk about diversification in terms of geographic areas or economy sectors.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-12-03T09:19:56+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 10) - Neuroscience</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-10-neuroscience" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 10) - Neuroscience" /><published>2019-12-03T08:00:00+01:00</published><updated>2019-12-03T08:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_10_neuroscience</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-10-neuroscience">&lt;p&gt;Lecture 10, Neuroscience - part 1.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;broader-context&quot;&gt;Broader context&lt;/h2&gt;
+
+&lt;p&gt;The course tries to show how various sciences answer “why chicken crossed the road”:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;evolution - how behavior evolved, why it is adaptive&lt;/li&gt;
+  &lt;li&gt;molecular genetics - genes controlling the evolution, how they change over time&lt;/li&gt;
+  &lt;li&gt;behavioral genetics - what individual genes are responsible for variation in behavior&lt;/li&gt;
+  &lt;li&gt;ethology - studying behavior in nature, stimulus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Today we consider neuroscience - what happens in brain before the behavior and why.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Chief function of the body is to carry the brain around. (attributed in Internet to Thomas A. Edison)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;nervous-system--brain&quot;&gt;Nervous system &amp;amp; brain&lt;/h2&gt;
+
+&lt;p&gt;Nervous system is divided into central and peripheral. Central consists of brain and spinal cord.&lt;/p&gt;
+
+&lt;p&gt;Brain consists of:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;stem - responsible for communication with spinal cord&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;cerebellum - motor movements (especially when learning new stuff and correcting mistakes).
+There is a peculiar experiment with prism glasses (everything appears normal, but in reality shifted
+to the side). When wearing such glasses, one struggles with touching a target, because their brain
+calculates object position as if there were no glasses. After some time (~minutes) one gets used to the glasses
+and learns to touch the object as precisely as without glasses before. I.e. their brain learned 
+how to correct for the shift. Once one takes off the glasses, they have the same “problem” again, but in the
+other direction, and it takes time to autocorrect back.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;cortex
+    &lt;ul&gt;
+      &lt;li&gt;frontal lobe - plans actions, controls movements, each body part has its own part here and they
+are located the same way as in the body.&lt;/li&gt;
+      &lt;li&gt;parietal lobe - sensory touch info. Area per body part can differ, e.g. fingertips are overrepresented.&lt;/li&gt;
+      &lt;li&gt;temporal lobe - auditory info + memory formation&lt;/li&gt;
+      &lt;li&gt;occipital lobe - visual info (back of the brain)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;limbic system
+    &lt;ul&gt;
+      &lt;li&gt;hippocampus - forming new memories.&lt;/li&gt;
+      &lt;li&gt;amygdala - fear and anxiety - sweat of scared people (experiment described in a previous lecture)
+lights up amygdala.&lt;/li&gt;
+      &lt;li&gt;hypothalamus &amp;amp; pituitary gland - hormone secretion&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A joke about 4 F’s of brain - flight, fight, feeding and reproduction.&lt;/p&gt;
+
+&lt;p&gt;Spinal cord has specialized areas too.&lt;/p&gt;
+
+&lt;p&gt;Peripheral system - all motor and sensory nerves + nerves for heartbeat, digestion, breathing&lt;/p&gt;
+
+&lt;h3 id=&quot;brain-cells&quot;&gt;Brain cells&lt;/h3&gt;
+
+&lt;p&gt;Santiago Ramón y Cajal is considered by some a grandfather of the modern neurobiology.&lt;/p&gt;
+
+&lt;p&gt;Before people thought of a brain as a web. He stained individual cells in the brain with black
+and drew pictures of them. This way he investigated brain structure on cellular level.&lt;/p&gt;
+
+&lt;p&gt;Cell examples:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;90% of cells in brain are glia (means glue).&lt;/li&gt;
+  &lt;li&gt;astrocytes supply nutrients to neurons.&lt;/li&gt;
+  &lt;li&gt;myelin wraps around neuron wires and makes the signal go faster.&lt;/li&gt;
+  &lt;li&gt;microglia - immune system.&lt;/li&gt;
+  &lt;li&gt;neurons - computational units (100B in average, each has 10k synapses-connections).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;neuron&quot;&gt;Neuron&lt;/h4&gt;
+
+&lt;p&gt;Consists of dendrites (inputs), nucleus (cell core), soma (cell body), axon hillock (start of output),
+axon (output) and terminal (end of output branch).&lt;/p&gt;
+
+&lt;p&gt;Neuron is binary (on or off) instead of gradual (i.e. there is no middle level of activation). This helps to keep
+resting potential. Sending of information happens through movement of ions (charged chemicals).
+Neuron keeps itself quiet by keeping positive ions outside of the cell by using pumps.
+Net charge inside is as a result negative.&lt;/p&gt;
+
+&lt;p&gt;When dendrites receive neurotransmitter, channels for positive ions are opened. This changes the charge.
+If there is a lot of positive charge, neuron may fire further. If there is enough, channels on axon
+hillock open to let more positive ions in, this creates a positive feedback loop.
+Positive ions in the terminal trigger sending the signal further to the next neuron.
+As it was said above, this is also binary.&lt;/p&gt;
+
+&lt;p&gt;To stop, cell opens other channels to let some positive ions out.
+Axon terminal stores large amounts of neurotransmitter packaged in vesicles (discrete structures).
+After that a channel can be opened in the next neuron to let ions in.&lt;/p&gt;
+
+&lt;p&gt;Neurotransmitter might induce transcription factor.
+Neurotransmitters are located in terminals.
+Examples:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;dopamine - commonly associated with reward, pleasure, but it has many other functions too&lt;/li&gt;
+  &lt;li&gt;epinephrine (adrenalin) - involved in flight or fight response&lt;/li&gt;
+  &lt;li&gt;norepinephrine - pretty much interchangeable with epinephrine&lt;/li&gt;
+  &lt;li&gt;serotonin - e.g. regulation of sleep, appetite and mood.&lt;/li&gt;
+  &lt;li&gt;gaba - inhibitory&lt;/li&gt;
+  &lt;li&gt;glutamate - excitatory&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You have to remove used neurotransmitter from receptor (re-uptake), otherwise it will keep signaling.&lt;/p&gt;
+
+&lt;h2 id=&quot;neuropharmacology&quot;&gt;Neuropharmacology&lt;/h2&gt;
+
+&lt;p&gt;External manipulation of synaptic events, e.g. for research or to correct a disease state.
+Often this involves something resembling a neurotransmitter, but not fully. Hallucinogens often
+work like that (e.g. LSD resembles serotonin).&lt;/p&gt;
+
+&lt;p&gt;One can weaken synaptic response.&lt;/p&gt;
+
+&lt;p&gt;People with Parkinson’s have low level of dopamine in brain areas responsible for movement. One can increase level of dopamine globally, but this will cause other issues (e.g. schizophrenia-like symptoms).&lt;/p&gt;
+
+&lt;h2 id=&quot;hm&quot;&gt;HM&lt;/h2&gt;
+
+&lt;p&gt;Patient HM - a man who had terrible seizures. As a fix, his hippocampus was removed. As a result, he 
+couldn’t form any new memories. He could remember some stuff from childhood.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><category term="courses" /><category term="review" /><summary type="html">Lecture 10, Neuroscience - part 1.</summary></entry><entry><title type="html">Diversifying over ETF providers</title><link href="https://merelycurious.me/post/diversifying-over-etf-providers" rel="alternate" type="text/html" title="Diversifying over ETF providers" /><published>2019-11-30T11:00:00+01:00</published><updated>2019-11-30T11:00:00+01:00</updated><id>https://merelycurious.me/post/diversifying_over_etf_providers</id><content type="html" xml:base="https://merelycurious.me/post/diversifying-over-etf-providers">&lt;p&gt;Many people talk about diversification in terms of geographic areas or economy sectors.
 However, the diversification does not stop there. One can also diversify over brokers
 where the shares are held. This way if something happens to one broker or the account gets hacked,
 not everything is lost. Another dimension is over ETF providers.
@@ -1136,130 +1260,4 @@ Overall, despite my descriptions above I do like optimism and I do believe
 that everything will be fine. People have got through a lot of bad stuff
 and such jobs turmoil does not seem that major from this perspective.&lt;/p&gt;
 
-&lt;p&gt;Happy future!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;About me&quot;, &quot;Thought experiments&quot;]" /><summary type="html">Thought experiment #8 about jobs in 2030. Jump in!</summary></entry><entry><title type="html">Should you tell others about FIRE?</title><link href="https://merelycurious.me/post/should-you-tell-about-fire" rel="alternate" type="text/html" title="Should you tell others about FIRE?" /><published>2019-09-24T23:00:00+02:00</published><updated>2019-09-24T23:00:00+02:00</updated><id>https://merelycurious.me/post/should_you_tell_about_fire</id><content type="html" xml:base="https://merelycurious.me/post/should-you-tell-about-fire">&lt;p&gt;Participating in Financial Independence / Early Retirement (aka FIRE) movement can become
-a substantial part of one’s life or even identity. At the same time the number of 
-people in the movement is still small and, thus, most of the time we talk to
-people who have no clue whatsoever about FIRE. As a result, one wonders quite often
-whether they should share their FIRE story and explain the concept.
-Let’s see arguments for and against.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;Before we start - a little disclaimer. The life is very complex and multidimensional
-and obviously the precise answer whether to share FIRE concept depends on a lot of factors
-especially on the person who you consider sharing to. Thus, treat this as food for
-thought and consider each situation on case-by-case basis.&lt;/p&gt;
-
-&lt;h2 id=&quot;i-have-a-lot-of-money&quot;&gt;“I have a lot of money”&lt;/h2&gt;
-
-&lt;p&gt;Reaching FIRE requires a substantial amount of money, which people outside of FIRE usually don’t
-have. Even if you don’t tell this explicitly, a person can easily
-deduce this fact from the concept itself. Basically, FIRE = “save a lot” and when
-you say “I am into FIRE”, the other person can easily conclude that you want
-to have a lot of money and you are on your way there.&lt;/p&gt;
-
-&lt;p&gt;Publicly announcing having a lot of money can backfire. In the worst case the question
-can be even about physical safety (highly depends on a country and the setup). In mild cases
-this may give a wrong incentive to the other person. E.g. “oh, this person has a lot of
-money, I should hang out with them, perhaps they are generous”. I.e. they could start liking
-your money more than you and it may be tricky to distinguish the two.&lt;/p&gt;
-
-&lt;p&gt;This is especially tricky in relationships. In many countries there are implicit 
-assumptions that one party has to contribute more financially. If this person happens
-to be into FIRE and their partner - not, this may sound like a jackpot for the non-FIRE partner.
-Basically, from their perspective it is like “hey, I don’t plan to work and since I am considering spending my life with
-you, you probably won’t need to work either”. Even when one does not have such dramatic
-malicious incentives, they can still be appealed by your financial security and stability.
-Again this does not sound right - one should like the person, not their financial state.
-At the same time it is perfectly rational for them. If they want a good life for themselves
-and their kids, having a very financially stable partner is the best. Thus, I do 
-definitely understand their perspective.&lt;/p&gt;
-
-&lt;p&gt;Here we can conclude that you should not tell that you are into FIRE to
-people who you know poorly to avoid becoming a fruitful target for scams.
-If you are in a relationship, consider delaying telling this too.
-The idea is to be sure that your partner would be with you even
-if you were not into FIRE.&lt;/p&gt;
-
-&lt;h2 id=&quot;trust&quot;&gt;Trust&lt;/h2&gt;
-
-&lt;p&gt;At the same time, I think that you have to eventually tell your partner
-everything. First, otherwise it will be extremely hard to explain your 
-lifestyle (I can’t even imagine any plausible attempt at this). Second,
-if you can’t tell this, then you just don’t have enough trust and 
-this suggests that the relationship has intrinsic problems. Obviously,
-your case can differ.&lt;/p&gt;
-
-&lt;p&gt;It is also important to remember that trust begets trust (which I read
-from “Search Inside Yourself” book, &lt;a href=&quot;/post/book-summary-search-inside-yourself&quot;&gt;here&lt;/a&gt;
-is my summary). Thus, by sharing
-such an intricate and important detail of your life, you can improve
-the state of the relationship and create a positive feedback loop of trust.&lt;/p&gt;
-
-&lt;p&gt;From this perspective you should eventually tell about FIRE
-people close to you and who you reasonably now and trust. Especially
-in a relationship.&lt;/p&gt;
-
-&lt;h2 id=&quot;unhealthy-reference-point&quot;&gt;Unhealthy reference point&lt;/h2&gt;
-
-&lt;p&gt;Oh, I started to use this concept of reference points for happiness quite
-a lot recently. I discovered it in “The Science of Wellbeing” course
-(&lt;a href=&quot;/post/the-science-of-wellbeing-course-review&quot;&gt;my summary&lt;/a&gt;),
-I also recommend to take the course, it is life changing). The idea is that
-people are bad at absolute evaluations, so they compare relatively,
-e.g. when they decide how good their life is. As a result, when they happen
-to have unfortunately high basis for comparison (e.g. rich friend or
-neighbor or even some movie actor), they become unnecessarily unhappy.&lt;/p&gt;
-
-&lt;p&gt;I get the same impression about FIRE. On the one hand, it can be
-like a blessing in life. The move from blind
-consumerism and working until state pension to having a concrete goal
-and plan can improve one’s life greatly. On the other hand, it can
-be a curse. For some people it can be very hard to rich FIRE
-for various reasons. They could be okeyish with their current state.
-E.g. they just have accepted it and got used to it. And then you
-tell them that there is this way to not work and live happily and so on.
-This can revive their inner struggle about their state. This can also
-set unhealthy reference point for them: “Hey, my friend can reach that,
-so I should be able too”. As a result, just knowing about FIRE existence
-can make them unhappy.&lt;/p&gt;
-
-&lt;p&gt;It is also peculiar that reaching FIRE can actually be demanding in many ways.
-One has actually to learn a lot, to control themselves, to manage their
-finances, to plan everything for many years in the future. All of these
-can be tricky. One can also easily become an outlier and lose their friends
-and even their partner if they happen to disagree with the FIRE lifestyle.
-Thus, by sharing the idea of FIRE, you may in some way force the other person
-into all these difficulties.&lt;/p&gt;
-
-&lt;p&gt;At the same time we are all grownups and theoretically should be able to make
-our own decisions. Having one more option in life, one more theoretical way to move forward,
-shouldn’t hurt that much. In the worst case, we can just drop the idea.
-I think our brains are good at coming up with not always rational reasons to explain
-whatever we want (this was mentioned during the “Science of Wellbeing” course too).&lt;/p&gt;
-
-&lt;p&gt;I personally learned about FIRE by chance and extremely happy about it.
-Not sure how I would feel about someone else convincing me. I would probably
-assume that it is some Ponzi scheme or other scam.&lt;/p&gt;
-
-&lt;p&gt;Thus, from this perspective, you may try to see how useful the idea of FIRE
-will be for someone. If they will likely pursue it and be able to achieve
-it, it should be ok to share. If they will just drop it as nonsense, this is 
-fine too. If they are likely to get stuck in the middle - the idea is reasonable,
-but not achievable - consider not sharing.&lt;/p&gt;
-
-&lt;p&gt;I personally would rather not share and not “convert” people.
-It is also partly due to reasons above - by sharing the concept
-I will also tell others that I am into FIRE, which I prefer not to do.&lt;/p&gt;
-
-&lt;h2 id=&quot;meetups&quot;&gt;Meetups&lt;/h2&gt;
-
-&lt;p&gt;Fortunately there are FIRE oriented meetups, where everyone already knows the concept
-and is in approximately similar situation. Thus, if you want to discuss FIRE
-(e.g. roast your plan), you should consider attending something like this.
-I did this couple times and it was very refreshing experience after years of
-silence regarding FIRE.&lt;/p&gt;
-
-&lt;p&gt;Happy FIRE discussions (or silence)!&lt;/p&gt;</content><author><name></name></author><summary type="html">Participating in Financial Independence / Early Retirement (aka FIRE) movement can become a substantial part of one’s life or even identity. At the same time the number of people in the movement is still small and, thus, most of the time we talk to people who have no clue whatsoever about FIRE. As a result, one wonders quite often whether they should share their FIRE story and explain the concept. Let’s see arguments for and against.</summary></entry></feed>
+&lt;p&gt;Happy future!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;About me&quot;, &quot;Thought experiments&quot;]" /><summary type="html">Thought experiment #8 about jobs in 2030. Jump in!</summary></entry></feed>
