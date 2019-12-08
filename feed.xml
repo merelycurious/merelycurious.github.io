@@ -1,4 +1,181 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-12-03T09:19:56+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 10) - Neuroscience</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-10-neuroscience" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 10) - Neuroscience" /><published>2019-12-03T08:00:00+01:00</published><updated>2019-12-03T08:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_10_neuroscience</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-10-neuroscience">&lt;p&gt;Lecture 10, Neuroscience - part 1.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-12-08T13:07:45+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 11) - Neuroscience</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-11-neuroscience" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 11) - Neuroscience" /><published>2019-12-08T11:00:00+01:00</published><updated>2019-12-08T11:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_11_neuroscience</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-11-neuroscience">&lt;p&gt;Slowly but steadily…
+Lecture 11, Neuroscience - part 2.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Last time you heard about neuroscience, now something in your head has changed and you remember that you
+heard about neuroscience before.&lt;/p&gt;
+
+&lt;h2 id=&quot;memory&quot;&gt;Memory&lt;/h2&gt;
+
+&lt;h3 id=&quot;super-memory&quot;&gt;Super memory&lt;/h3&gt;
+
+&lt;p&gt;Stephen Wiltshire - an autistic savant. He can draw a very precise city view only after looking from an airplane
+for some time. Savants take spacial tours through their memories.&lt;/p&gt;
+
+&lt;h3 id=&quot;mechanism&quot;&gt;Mechanism&lt;/h3&gt;
+
+&lt;p&gt;Memory (learning) happens (to the best of our knowledge) in synapses. People used to assume that each new
+memory leads to a new neuron. That is learning was perceived as equal to growing new neurons. Then people 
+discovered synapses.&lt;/p&gt;
+
+&lt;p&gt;Memory is synaptic plasticity. When your presynaptic neuron fires a lot in a given time, eventually this will
+cause a stronger response in the post synaptic neuron. I.e. a simplified version of Hebbian Plasticity -
+neurons that fire together - wire together.&lt;/p&gt;
+
+&lt;p&gt;Excitating neurotransmitter is glutamate. It is excitatory and information is transmitted in the brain through 
+activation.&lt;/p&gt;
+
+&lt;h4 id=&quot;long-term-potentiation&quot;&gt;Long term potentiation&lt;/h4&gt;
+
+&lt;p&gt;Long term potentiation (LTP) - getting more output for the same input. This can be achieved through e.g.
+releasing more glutamate, reacting stronger in each of receptors, having more receptors.&lt;/p&gt;
+
+&lt;p&gt;There is a way for post-synaptic neuron to communicate back - retrograde neurotransmitter, e.g. nitric oxide gas.&lt;/p&gt;
+
+&lt;p&gt;Hippocampus is the site of memory and LTP.&lt;/p&gt;
+
+&lt;p&gt;There is adult neurogenesis and adult plasticity. In the last 20 years it was discovered that adult brain
+forms new neurons.&lt;/p&gt;
+
+&lt;p&gt;HM - person with their hippocampi surgically removed. As a result he could no longer form any new memories.&lt;/p&gt;
+
+&lt;p&gt;But LTP happens all over the brain e.g. for motor and emotion memory.&lt;/p&gt;
+
+&lt;p&gt;LTP can also go wrong, e.g. post traumatic stress disorder, when context brings undesired memories.&lt;/p&gt;
+
+&lt;h4 id=&quot;ltp-disruption&quot;&gt;LTP disruption&lt;/h4&gt;
+
+&lt;p&gt;There are also mechanics for intentional disrupting LTP:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;hypoglemic states (i.e. when one is really hungry) lead to insulin cascades, which in turn reduces LTP.
+In other words, if you starve, it is not a good time to remember something, but to find food instead.&lt;/li&gt;
+  &lt;li&gt;stress hormones - improve short term memory (e.g. one may be able to remember tinniest details after
+a car crash as if in slow motion). However, if the impact is chronic, this damages LTP and memory.&lt;/li&gt;
+  &lt;li&gt;alcohol directly disrupts LTP.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;networks--inhibition&quot;&gt;Networks &amp;amp; inhibition&lt;/h4&gt;
+
+&lt;p&gt;When you connect each neuron to e.g. 10k others and overall you have 100B of them, small changes in each
+synapse start having large effects.&lt;/p&gt;
+
+&lt;p&gt;There can be random and spontaneous generation of signal.
+It is important for the brain to filter out the noise.&lt;/p&gt;
+
+&lt;p&gt;So we need to consider neurons as groups instead. They also have capability to inhibit. A neuron can
+inhibit itself. This allows temporal sharpening. A neuron can inhibit its neighbors:
+“this is my signal, ignore my neighbors”. This creates spatial sharpening.&lt;/p&gt;
+
+&lt;p&gt;There can be fast sharp pain and dull aching throbbing pain. There are two types of neurons and each type
+is responsible for each kind of pain. Fast pain generates slow pain. Slow pain can inhibit first spike
+of fast pain. If you get stung by a scorpion, the fast pain forces you to pay immediate attention, perhaps
+the scorpion is still there. But there is no sense to keep this forever. Instead slow pain comes to remind you
+that you still have the issue and have to do something about it.&lt;/p&gt;
+
+&lt;p&gt;This also allows retinal cells to be responsible for specific types of receptive fields.
+Each neuron in your eye just gets a certain angle of light. This allows e.g. edge and contrast detection.&lt;/p&gt;
+
+&lt;p&gt;If you activate a neuron in your retina, you get spatiotopic (oriented and aligned in a similar way)
+field in the back of your visual cortex.
+This was detected by tracing back which neurons a given retina neuron was connected to. Then this has been 
+repeated for the next level. However, no single neuron activation was propagated. Instead a group of neurons
+forming a line lighted up a neuron in the next layer. This was e.g. a neuron responsive to a vertical line.&lt;/p&gt;
+
+&lt;p&gt;You can construct visual world in layers by extracting features. The further you get, the higher order
+abstractions you create (e.g. orange, banana). However, no one has found orange neuron.&lt;/p&gt;
+
+&lt;p&gt;You can simplify your brain to a neural network. Once a neuron is activated, it doesn’t know where the input came
+from. I.e. it is a one-of function. So you can have concepts and categories. E.g. you have separate neurons
+for impressionist painters. Then all of them are connected to one neuron. This one neuron can represent
+impressionism. This is also how you remember stuff. You first remember a category and then try to narrow it down.&lt;/p&gt;
+
+&lt;p&gt;Emotionally salient memories last longer.
+Context (like emotion) can get represented neurally too.&lt;/p&gt;
+
+&lt;p&gt;Memory is encoded in such a neural network, not a single neuron.&lt;/p&gt;
+
+&lt;h4 id=&quot;variation&quot;&gt;Variation&lt;/h4&gt;
+
+&lt;p&gt;Memory variation can come from variation in:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;how much glutamate gets released&lt;/li&gt;
+  &lt;li&gt;how strongly post-synaptic receptors respond&lt;/li&gt;
+  &lt;li&gt;ways in which neural networks are constructed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a result there is spectrum from HW to Stephen Wiltshire.
+We are in the middle.&lt;/p&gt;
+
+&lt;h2 id=&quot;autonomic-nervous-system&quot;&gt;Autonomic Nervous System&lt;/h2&gt;
+
+&lt;p&gt;It controls anything that happens automatically.
+E.g. heart beating, digesting, goosebumps, orgasm.&lt;/p&gt;
+
+&lt;h3 id=&quot;context&quot;&gt;Context&lt;/h3&gt;
+
+&lt;p&gt;The nervous system can be divided into Central and Peripheral.
+Peripheral divides into Somatic and Autonomic.
+Somatic system is responsible for transferring sensory information from periphery to Central Nervous System
+(CNS) and voluntary control (e.g. moving muscles). It is fast and myelinated (covered with 
+myelin which allows faster signal propagation).&lt;/p&gt;
+
+&lt;p&gt;Autonomic - moves organs, unmyelinated and, thus, slow.&lt;/p&gt;
+
+&lt;h3 id=&quot;parts&quot;&gt;Parts&lt;/h3&gt;
+
+&lt;p&gt;Autonomic system is further divided into Sympathetic and Parasympathetic.&lt;/p&gt;
+
+&lt;h4 id=&quot;sympathetic&quot;&gt;Sympathetic&lt;/h4&gt;
+
+&lt;p&gt;Responsible for arousal, alertness, emergency, flight or fight.
+Releases norepinephrine (NE) into target organs.&lt;/p&gt;
+
+&lt;h4 id=&quot;parasympathetic&quot;&gt;Parasympathetic&lt;/h4&gt;
+
+&lt;p&gt;Responsible for growth, repair, calm vegetative function.
+Releases acetylcholine (ACh) into target organs.&lt;/p&gt;
+
+&lt;h3 id=&quot;interaction&quot;&gt;Interaction&lt;/h3&gt;
+
+&lt;p&gt;Sympathetic and Parasympathetic have opposing functions.
+Homeostasis - dynamic balance between the two.&lt;/p&gt;
+
+&lt;p&gt;There is one exception - in male reproductive system they work together. Erection is controlled by 
+Parasympathetic (and that’s why one needs to be stress free). Then Sympathetic overtakes and culminates
+in ejaculation.&lt;/p&gt;
+
+&lt;p&gt;In case of erectile dysfunction - 60% of cases are due to stress and not organic basis in the body.&lt;/p&gt;
+
+&lt;p&gt;Premature ejaculation - transition from Parasympathetic to Sympathetic happens too quickly.&lt;/p&gt;
+
+&lt;h3 id=&quot;effects&quot;&gt;Effects&lt;/h3&gt;
+
+&lt;p&gt;When Parasympathetic system is active, immune system works. In Sympathetic - contrary.
+As a result, it is easier to get sick when you are stressed out (Sympathetic gets activated).&lt;/p&gt;
+
+&lt;p&gt;NE &amp;amp; ACh can inhibit and excite depending on the organ. E.g. in case of heart, there is excitatory NE reception
+and, thus, it is excited by NE. Gastrointestinal tract has inhibitory NE receptors.&lt;/p&gt;
+
+&lt;h3 id=&quot;regulation&quot;&gt;Regulation&lt;/h3&gt;
+
+&lt;p&gt;The center of regulation of Autonomic Nervous System is hypothalamus.
+Even reptiles have it.
+Then there is limbic system, which is responsible for emotions in mammals.
+As a result, seeing someone you hate can cause sympathetic response through limbic system (emotion) and then
+hypothalamus.
+In primates, cortex is responsible for thoughts and memories. As a result, just a thought can cause
+a sympathetic response (from cortex to limbic system and so on).&lt;/p&gt;
+
+&lt;p&gt;So when you think about a test, this activates your cortex, then limbic system, then hypothalamus
+(so-called triune system of the brain). This cases sympathetic response. It can be similar to a reptile’s body
+response to losing blood, but caused only by your thought.&lt;/p&gt;
+
+&lt;p&gt;Autonomic Nervous System is highly plastic.&lt;/p&gt;
+
+&lt;p&gt;Biofeedback can be used to cure high blood pressure. You think of something pleasant. This decreases blood 
+pressure. You repeat. Get further decrease. This makes the connection between this cortical thought and 
+parasympathetic activation even stronger.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Slowly but steadily… Lecture 11, Neuroscience - part 2.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 10) - Neuroscience</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-10-neuroscience" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 10) - Neuroscience" /><published>2019-12-03T08:00:00+01:00</published><updated>2019-12-03T08:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_10_neuroscience</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-10-neuroscience">&lt;p&gt;Lecture 10, Neuroscience - part 1.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1057,207 +1234,4 @@ from and just live with it as a fact.&lt;/p&gt;
 and as a result shouldn’t even try, try to understand where this is coming from
 and whether this is still actually the case. Perhaps it is not anymore.&lt;/p&gt;
 
-&lt;p&gt;Happy self improvement, while crashing your irrational self doubts!&lt;/p&gt;</content><author><name></name></author><summary type="html">Often we can get conditioned from outside that we have no talent in some area and it is just not our thing. Thus, we shouldn’t even try. It is easy to get into this trap as a kid due to yet low self-confidence. Consider stopping for a moment and explicitly catching all ideas like that. Let’s see why you might discover a lot of new about yourself this way.</summary></entry><entry><title type="html">Thought experiment #8: jobs in 2030</title><link href="https://merelycurious.me/post/thought-experiment-8-jobs-in-2030" rel="alternate" type="text/html" title="Thought experiment #8: jobs in 2030" /><published>2019-10-15T09:01:00+02:00</published><updated>2019-10-15T09:01:00+02:00</updated><id>https://merelycurious.me/post/thought_experiment_8_jobs_in_2030</id><content type="html" xml:base="https://merelycurious.me/post/thought-experiment-8-jobs-in-2030">&lt;p&gt;Thought experiment #8 about jobs in 2030. Jump in!
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;This time I noticed the new thought experiment by chance and didn’t plan to write it yet,
-but I have some time, so why not. Excited to know that it was proposed by 
-&lt;a href=&quot;https://twitter.com/MoneyModernGirl&quot;&gt;@MoneyModernGirl&lt;/a&gt;. Also funny that 
-&lt;a href=&quot;https://twitter.com/SavingNinja&quot;&gt;@SavingNinja&lt;/a&gt; started to have so many external thought
-experiment ideas. This is likely just a recency bias. I remember that last 2 experiments
-were proposed by other people. Perhaps, participants just started to propose their ideas.
-Ok, feels like I am already in “dump everything verbatim” mood.
-Thus, it is the time to read the new experiment! I actually feel much more excited than I was
-when I started writing this paragraph. Wow, the magic of writing and just starting.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-statement&quot;&gt;The statement&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I recently read a statistic that 85% of the jobs there will be in 2030 have not yet been created. What do you think these jobs are, and which ones will no longer exist? What does this mean for education? What will offices look like in 11 years? Will people continue to commute to a physical office or will remote work and digital nomadism take over? Finally, how do you think this will affect the overall global economic balance?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The experiment page is
-&lt;a href=&quot;https://thesavingninja.com/the-future-of-work&quot;&gt;here&lt;/a&gt; and it has links to other answers!&lt;/p&gt;
-
-&lt;h2 id=&quot;my-answer&quot;&gt;My answer&lt;/h2&gt;
-
-&lt;p&gt;Oh, at least I understand all the words in the description and don’t need a dictionary.
-Thank you!&lt;/p&gt;
-
-&lt;p&gt;I think this time there are 2 major ways to answer this question for me.
-The first one “I read that” and the second one “My own opinion”.
-The issue is that the second one is very tricky to produce aka I don’t have much opinion yet.
-But I will just write and I am pretty sure that by the end of this post I will have a pretty strong 
-opinion.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What do you think these jobs are, and which ones will no longer exist?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I read in multiple places that these will be mostly creative jobs. I tend to agree.
-People are doing great at improving efficiency in areas which are necessary for life.
-E.g. fewer and fewer people are involved in agriculture (I read this somewhere and feel
-lazy to find a proof, sorry). Thus, I assume that this trend will to some degree continue.
-2030 is actually pretty soon, so I don’t think there will be full automation by 2030. 
-At least I would be very surprised. I suspect that current technology is not sufficient yet
-for that (or I just don’t know enough).&lt;/p&gt;
-
-&lt;p&gt;Thus, more and more people will be forced to move away from these “strictly-needed-for-life” fields
-into “technically-not-needed-but-makes-fun” fields. Some part of this outflow of people should definitely
-go to existing creative professions. E.g. writing, making music, videos, painting. This also gets
-easier and easier nowadays. One can make a video and publish it on Youtube or even self publish
-a book on Amazon. This does not mean that someone will buy it, but at least it is much easier
-than publishing a paper book (and so muuuuuuuuuuuuch cheaper).&lt;/p&gt;
-
-&lt;p&gt;This tendency to automation will create demand for make-automation-happen jobs. Some people need
-to maintain the automation. Hm, could this be automated? Not sure, perhaps not at first. Some
-people will need to develop automation (thus, research). Some people will need to produce tools
-for automation (thus, hardware, software). These areas won’t be that relatively large.&lt;/p&gt;
-
-&lt;p&gt;I also presume that it will be cheaper to buy all the necessities in life. I.e. something like on
-the way to Universal Basic Income, but not that dramatic. Since producing stuff needed for life 
-gets more efficient and, thus, cheaper, one will need to work less to be able to afford all of that.
-One will also have less pressure to work due to that. That’s another argument for creative fields.
-People will get more fun from work, because they are not forced to work that much as now.&lt;/p&gt;
-
-&lt;p&gt;What I also read is that customized stuff will be super expensive (this time I remember the source:
-&lt;a href=&quot;https://twitter.com/levelsio/&quot;&gt;levelsio&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/levelsio/status/1170997682728361985&quot;&gt;specific tweet&lt;/a&gt;). These cheap ways to satisfy one’s needs will be produced by automation
-and will be quite generic. In some sense it is like mass produced clothing now. You do have some choice
-(e.g. which color or size), but you don’t get to choose everything about the item (e.g. how it should
-be made, precise template). I assume that something like that will happen in the future as well.
-Probably, not in 2030, but I think it will already be much cheaper to satisfy basic needs in 2030.
-Here I definitely remember that making future predictions is risky, but I am also not betting any
-money, so I am fine to do some here.&lt;/p&gt;
-
-&lt;p&gt;Thus, highly customized stuff will become more expensive and there will be people who produce it.
-In some sense this still fulfills the old description - these jobs can be creative. One can buy
-a cheap mass produced t-shirt and know that there are thousands (or millions) of them in the world. Or they can pay
-much more to a tailor to make a unique one specifically for them. For a tailor this can definitely
-be like a creative endeavor.&lt;/p&gt;
-
-&lt;p&gt;Ok, now I see that the two ways above (what I read vs what I think) do intersect a lot.
-So please excuse the mess, but we are going further!&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What does this mean for education?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Oh. That’s tricky one. It definitely means that the education will have to change.
-Currently the education is meant as a way to produce humans who can create some value in the
-world to be able to satisfy their basic life needs. If it becomes much easier to satisfy these needs 
-(the extreme case is Universal Basic Income), then the pressure to study should become much smaller.
-Obviously, there will be people who will study, but their intention will be very different.
-It will be just for their intrinsic fun. If they decide to drop out for some reason, they can definitely
-do that. I also think that the studies will have to become more practical. The demand for 
-some highly theoretic stuff should go down, but for practical “how to do XYZ” - up.&lt;/p&gt;
-
-&lt;p&gt;But this is mostly about higher education, e.g. uni. It is actually hard to imagine what kind of
-knowledge will be necessary to be learned in the school. Obviously, in 2030 few will worry about this
-and just continue having the old material they used to have, but at some point people will notice
-that a lot of it does not make much sense anymore and stop teaching it. Perhaps the mandatory school part
-will be compressed in couple years with some really basic stuff like reading, writing, counting,
-using Internet, writing blog posts, paying with a credit card.&lt;/p&gt;
-
-&lt;p&gt;While writing the paragraph above, I noticed that this absence of pressure to study should create a field
-producing these pressure artificially. If you don’t have to do anything, it is very easy to overreact and quit
-stuff. For example, “oh, I am having a headache today, let’s drop this university course, perhaps this will help”.
-Also I suspect that psychology should become more popular too (not studying it, but using).&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What will offices look like in 11 years?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I think they will mostly look like they do nowadays.
-There are already examples of companies with no office. surveymonkey.com came to mind
-and I can’t remember the second example I heard recently. I assume that the trend will continue.
-In some sense the number of jobs which require physical presence are decreasing.
-Being in one office is good for communication, but there are workarounds for that too.&lt;/p&gt;
-
-&lt;p&gt;I also suspect that coworking spaces will continue to become more popular. If everyone is into
-something creative and completely on their own, they will get lonely fast. Thus, being able to
-communicate/collaborate with others even when you are not from one company will be valuable.&lt;/p&gt;
-
-&lt;p&gt;Again I suspect that 11 years is just not that much. Or perhaps am I being to conservative?
-I think a good way to sanity check this claim is to think about what changed since 2008 
-(i.e. 11 years before today). To be honest, nothing too major gets in my mind.
-There are many more smart-phones for sure. The offices seem to be pretty much the same.
-Yes, the nomad movement is much more popular (I don’t think I ever heard about it back
-then at all).&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Will people continue to commute to a physical office or will remote work and digital nomadism take over?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;See above.
-Some will do, because their job requires that, e.g. hardware development or maintenance. 
-Majority won’t have too. Some will do this voluntarily when they feel like it.&lt;/p&gt;
-
-&lt;p&gt;It is funny that so many office people find the other extreme of having no office 
-so nice and attractive. I am pretty sure that once they try it, they will find
-plenty of aspects in which their office job wasn’t that bad. E.g. I read that nomads
-have very few deep friendships, because it is trickier to build a friendship without
-being able to meet and spend time together. I didn’t say impossible. E.g. 
-&lt;a href=&quot;https://sivers.org/&quot;&gt;Derek Sivers&lt;/a&gt; claims to have phone calls with his friends
-and this seems to work well for him.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Finally, how do you think this will affect the overall global economic balance?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Another hard question. I suspect that everyone will become a bit more frugal when compared to now.
-Now one has to work quite a lot, because otherwise they won’t be able to live sustainably.
-At the same time, the job offerings are often such that one has to work a lot more than
-they would need to just satisfy their needs. As a result, they have plenty of spare money
-and this ends up in consumerism. I feel like being able to work creatively with little financial
-pressure should change this. I.e. people will refuse to work that much for stuff they don’t need.
-To be honest, once I wrote this it is hard to believe. At least that’s my hope in some sense.&lt;/p&gt;
-
-&lt;p&gt;I don’t think that this will stop the economic growth though. These creative endeavors can still
-produce value and one could invest into this.&lt;/p&gt;
-
-&lt;p&gt;Now I got a feeling that my hand-wavy descriptions are missing something, so let’s try
-consider a concrete example. This is probably not from 2030, somewhat later.&lt;/p&gt;
-
-&lt;p&gt;Let’s take Jane. She is 12 now. She has already finished her mandatory part of education.
-She is free to choose what to do next. She needs 100$ per month to have basic food, some
-reasonable-but-modest shelter, minimal fun. She can study a lot for the next years and become
-an automation robot developer and earn like 10k$ per month. This produces a lot of value
-(scales well) and not many people want to do this - learning all the tricky stuff is boring and hard.
-Or she can take some shorter more practical classes. E.g. music, drawing, writing.
-She can produce some content on her own and be payed for (or by donations).&lt;/p&gt;
-
-&lt;p&gt;This seems to uncover what makes me feel uneasy about my arguments. If everyone is lazy and frugal,
-why would someone pay Jane for her music? E.g. nowadays it is extremely hard to get payed by
-one’s creative endeavors. In some sense, you must be pretty good to get there. It cannot be the
-case that everyone will be equally good. Thus, there will be some competition anyway.
-So I am not sure how to resolve this. If Jane gets 100$ per month from her country, then
-my model seems to work. If she needs to earn them - than it is tricky. It some sense
-Jane is not needed anywhere. This sounds a bit scary. Perhaps she could start her own 
-“industry” the same way “let’s-play” videos and streams have started.&lt;/p&gt;
-
-&lt;p&gt;Again I suspect that not much will change by 2030. The descriptions above are in my view
-more likely for 2050-2100.&lt;/p&gt;
-
-&lt;p&gt;It is funny to experience this conflict, which automation brings. In some sense it tells
-you - hey, your work is not needed anymore, but providing for your basic needs is so cheap
-that we are happy to do so (perhaps even completely for free). Thus, just enjoy your life.
-So will we become a bunch of low educated pleasure seeking constantly depressed weirdos?
-It is also funny to think of the impact of this survival pressure on my life. I think I would
-have achieved much less if there was no pressure to work and earn money. I also wouldn’t end
-up discovering the areas which I enjoy a lot now. I would consider them too difficult and not
-worth it. However, I like them a lot now. Perhaps, I would discover something else then.&lt;/p&gt;
-
-&lt;p&gt;At the same time for people who are adults right now this switch should be okeyish. They already have
-developed their sense of “I must stick to this and get through”. Thus, they will be able to figure
-out some way to live reasonably happy life even when their job is not needed anymore.
-I have no clue how new generations will handle this. Will they be able to self challenge
-themselves the same way the world challenges us nowadays?&lt;/p&gt;
-
-&lt;p&gt;Funny that I produced more questions than original post even had.
-Overall, despite my descriptions above I do like optimism and I do believe
-that everything will be fine. People have got through a lot of bad stuff
-and such jobs turmoil does not seem that major from this perspective.&lt;/p&gt;
-
-&lt;p&gt;Happy future!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;About me&quot;, &quot;Thought experiments&quot;]" /><summary type="html">Thought experiment #8 about jobs in 2030. Jump in!</summary></entry></feed>
+&lt;p&gt;Happy self improvement, while crashing your irrational self doubts!&lt;/p&gt;</content><author><name></name></author><summary type="html">Often we can get conditioned from outside that we have no talent in some area and it is just not our thing. Thus, we shouldn’t even try. It is easy to get into this trap as a kid due to yet low self-confidence. Consider stopping for a moment and explicitly catching all ideas like that. Let’s see why you might discover a lot of new about yourself this way.</summary></entry></feed>
