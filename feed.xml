@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-12-15T09:21:55+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Thought experiment #9: brave new world with all needs met</title><link href="https://merelycurious.me/post/thought-experiment-9-brave-new-world-with-all-needs-met" rel="alternate" type="text/html" title="Thought experiment #9: brave new world with all needs met" /><published>2019-12-15T07:00:00+01:00</published><updated>2019-12-15T07:00:00+01:00</updated><id>https://merelycurious.me/post/thought_experiment_9_brave_new_world_with_all_needs_met</id><content type="html" xml:base="https://merelycurious.me/post/thought-experiment-9-brave-new-world-with-all-needs-met">&lt;p&gt;Thought experiment #9 about a magical planet where all your needs are met by a magical entity.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2019-12-17T08:39:27+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 13)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-13-advanced-neurology-and-endocrinology" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 13)" /><published>2019-12-17T07:00:00+01:00</published><updated>2019-12-17T07:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_13_advanced_neurology_and_endocrinology</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-13-advanced-neurology-and-endocrinology">&lt;p&gt;Advanced Neurology and Endocrinology. Basically we consider simplifications made during the last two
+lectures.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;In the 3 last lectures, everything was very simple and smooth. Let’s now see ways in which everything is more
+complex than it seemed (e.g. what was omitted, simplified).&lt;/p&gt;
+
+&lt;p&gt;Neuro and endocrine systems can change their function over time in many ways.&lt;/p&gt;
+
+&lt;p&gt;Cells in pituitary gland are specialized (each produces only one hormone). However, they are mixed in terms
+of location (i.e. not clustered). Moreover, how strongly a given cell reacts depends on its neighborhood.
+Brain can use this to control the production better (i.e. target only specific cells in specific
+neighborhood). This means that there is a communication across cells in pituitary to achieve the neighborhood
+differentiation.&lt;/p&gt;
+
+&lt;h2 id=&quot;dales-laws&quot;&gt;Dale’s laws&lt;/h2&gt;
+
+&lt;p&gt;There are two of them, both have been disproved.&lt;/p&gt;
+
+&lt;p&gt;First: action potential of a neuron starts in its body and causes neurotransmitters to be released from every
+single terminal.&lt;/p&gt;
+
+&lt;p&gt;False, you can get blockades, which prevent signal propagation in some branches.&lt;/p&gt;
+
+&lt;p&gt;Second: each neuron has one and only one characteristic type of neurotransmitter, that it releases through all
+its terminals.&lt;/p&gt;
+
+&lt;p&gt;There are examples of multiple neurotransmitters in the same neuron. Peculiarly in this case every single axon terminal
+contains both types of neurotransmitters (i.e. there is no division across axon terminals). There are even
+examples of 3 neurotransmitters in one neuron. Usually one neurotransmitter has short effect and the other - long.&lt;/p&gt;
+
+&lt;h2 id=&quot;multiple-ways-to-trigger-same-hormone-production&quot;&gt;Multiple ways to trigger same hormone production&lt;/h2&gt;
+
+&lt;p&gt;ACTH in pituitary gland can be produced due to receiving CRH or many other hormones. Brain can create different
+mixtures of these. This affects the shape of ACTH production curve. It also has additional effects (i.e. not
+only produces ACTH). There are also hormones inhibiting ACTH production. E.g. when one goes to sleep,
+there is no need for stress hormones. Hormone profile released to produce ACTH during stress due to thinking
+about “mortality” differs from stress when “burning big toe”. I.e. by having different “cocktails” the brain is
+able to react differently to different stress situations.&lt;/p&gt;
+
+&lt;h2 id=&quot;quantity-regulation-feedback-loops&quot;&gt;Quantity regulation (feedback loops)&lt;/h2&gt;
+
+&lt;h3 id=&quot;neuron&quot;&gt;Neuron&lt;/h3&gt;
+
+&lt;p&gt;Autoreceptor - a receptor at the axon on the neuron, which binds the same neurotransmitter this neuron produces.
+Every time the receptor binds something, neuron “concludes” “I released N neurotransmitter
+units” (i.e. counts in a statistical way). This enables a negative feedback loop.&lt;/p&gt;
+
+&lt;h3 id=&quot;hormones&quot;&gt;Hormones&lt;/h3&gt;
+
+&lt;p&gt;Brain also measures how much of a specific hormone there is in blood. Thus, there must be brain areas counting specific
+hormones. Then it can inhibit hormone production when there is enough of it (negative feedback loop). Most
+feedback works by “the more of a given hormone I observe, the more I inhibit”, i.e. inhibition is proportional
+to an absolute number. However, there are examples when a rate of change is measured instead. I.e. the 
+faster the rate of change is, the stronger the inhibition is. In this case, increase from 10 to 12 &amp;amp;
+from 10M to 12M cause the same level of inhibition. This happens at a level of pituitary gland, not brain.
+Measuring rate of change is a non-obvious approach.&lt;/p&gt;
+
+&lt;p&gt;There are also examples of positive feedback loops.&lt;/p&gt;
+
+&lt;h2 id=&quot;autoregulation&quot;&gt;Autoregulation&lt;/h2&gt;
+
+&lt;p&gt;If someone constantly screams at you, you stop paying attention to them. Cells do the same to hormones.
+If there is too much of some hormone, they decrease number of its receptors to become less sensitive.
+This can happen when system fails. This may be related to depression, however people still don’t know whether
+depressions is due to too much or too little serotonin (because the mechanism is so complex).&lt;/p&gt;
+
+&lt;h3 id=&quot;diabetes&quot;&gt;Diabetes&lt;/h3&gt;
+
+&lt;p&gt;You eat sugar, glucose ends up in blood. Pancreas secretes insulin to tell fat cells to capture sugar
+from the blood. Fat cells are already full (due to western diet) and they can’t take more sugar, so they
+ignore the signal. Pancreas secretes even more insulin to compensate. Fat cells decrease number of receptors.
+You get a feedback loop. Fat cells become less and less sensitive and pancreas produces more and more insulin.
+Eventually pancreas “burns” its insulin producing mechanism and can’t produce it anymore.&lt;/p&gt;
+
+&lt;p&gt;Amount of the messenger is as important as cells sensitivity to it.&lt;/p&gt;
+
+&lt;h2 id=&quot;variability-in-receptor-structure&quot;&gt;Variability in receptor structure&lt;/h2&gt;
+
+&lt;p&gt;Ligand - whatever the receptor binds.&lt;/p&gt;
+
+&lt;p&gt;Receptors consist of proteins, thus, are encoded using multiple genes. This creates variability. Cells can
+change subunits of their receptors. This changes how well receptor does its job. E.g. an epilepsy can be
+caused by cells reacting too much.&lt;/p&gt;
+
+&lt;p&gt;Corticosteroids have cell type specific functions (due to having variability in subunits on the other end
+of the receptor).&lt;/p&gt;
+
+&lt;h2 id=&quot;variability-in-receptor-triggers&quot;&gt;Variability in receptor triggers&lt;/h2&gt;
+
+&lt;p&gt;Many receptors can bind more than one ligand.
+E.g. Gaba binds Gaga. It is inhibitory.
+It also binds the following 3 things:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;major tranquilizers (barbiturates) - that’s how anesthesia works&lt;/li&gt;
+  &lt;li&gt;minor tranquilizers (Valium &amp;amp; Librium) - inhibits not that much&lt;/li&gt;
+  &lt;li&gt;derivatives of progesterone - this has been used as anesthesia in 1950s. This may be related to mood shifts
+over the course of reproductive cycle. Premenstrual syndrome = shortage of progesterone.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;modulation&quot;&gt;Modulation&lt;/h2&gt;
+
+&lt;p&gt;Imagine two neurons A &amp;amp; B. A sends signal to B. When Gaba inhibits, it actually does not affect B (i.e.
+how it reacts to the signal). Instead it affects terminals of A (i.e. its ability to impact B). Thus,
+Gaba has effect only when A is triggered. Tranquilizers have the same modulation effect on Gaba. I.e.
+they have any impact only when Gaba already has some effect (i.e. A is triggered).&lt;/p&gt;
+
+&lt;p&gt;Hormones can do modulation too. E.g. CRH + Vasopressin can produce much more ACTH than just CRH alone, but
+Vasopressin alone produces very little ACTH. Thus, Vasopressin just modulates effect of CRH and does not
+trigger ACTH production on its own. Thus, it has effect only when CRH has effect.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><category term="courses" /><category term="review" /><summary type="html">Advanced Neurology and Endocrinology. Basically we consider simplifications made during the last two lectures.</summary></entry><entry><title type="html">Thought experiment #9: brave new world with all needs met</title><link href="https://merelycurious.me/post/thought-experiment-9-brave-new-world-with-all-needs-met" rel="alternate" type="text/html" title="Thought experiment #9: brave new world with all needs met" /><published>2019-12-15T07:00:00+01:00</published><updated>2019-12-15T07:00:00+01:00</updated><id>https://merelycurious.me/post/thought_experiment_9_brave_new_world_with_all_needs_met</id><content type="html" xml:base="https://merelycurious.me/post/thought-experiment-9-brave-new-world-with-all-needs-met">&lt;p&gt;Thought experiment #9 about a magical planet where all your needs are met by a magical entity.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1169,39 +1279,4 @@ grateful for medicine (this extends life and its quality a lot), Internet and kn
 available there (a way to multiply your impact, partial equalization of opportunities independent
 of your initial conditions like wealth).&lt;/p&gt;
 
-&lt;p&gt;Happy living in this bizarre world!&lt;/p&gt;</content><author><name></name></author><summary type="html">Today I stumbled upon a tweet about an SMS which was sent before Valentine’s day, but was delivered only recently (i.e. 9 months later). This made me think about the impact of technology on our lives. Let’s look more into what has happened and my thoughts as well as speculations about the reasons for such a delay.</summary></entry><entry><title type="html">Github Pages refused to refresh my Jekyll blog</title><link href="https://merelycurious.me/post/github-pages-not-refreshing-my-jekyll-blog" rel="alternate" type="text/html" title="Github Pages refused to refresh my Jekyll blog" /><published>2019-11-05T19:00:00+01:00</published><updated>2019-11-05T19:00:00+01:00</updated><id>https://merelycurious.me/post/github_pages_not_refreshing_my_jekyll_blog</id><content type="html" xml:base="https://merelycurious.me/post/github-pages-not-refreshing-my-jekyll-blog">&lt;p&gt;Recently I was trying to publish a post (namely
-&lt;a href=&quot;/post/thought-experiment-8-jobs-in-2030&quot;&gt;thought experiment #8&lt;/a&gt;
-) and I was in a hurry. Peculiarly, Github Pages (the hosting I use) didn’t completely refresh the site
-after my commit with the post. Let’s see how I fixed this.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;fix&quot;&gt;Fix&lt;/h2&gt;
-
-&lt;p&gt;Not to waste your time - here is what fixed the issue for me. I just recompiled the blog locally
-(this just changes the timestamp in a couple of places) and committed again. This time everything worked.
-I don’t know why. I cross my fingers for it to work for you as well :)&lt;/p&gt;
-
-&lt;h2 id=&quot;context&quot;&gt;Context&lt;/h2&gt;
-
-&lt;p&gt;I use Jekyll on Github pages. Since I want to have more control over the visual theme
-and plugins, I do the Jekyll compilation locally and publish the final html to Github pages.
-Usually it takes up to couple minutes for Github pages to start showing the new content
-after my commit.&lt;/p&gt;
-
-&lt;h2 id=&quot;symptom&quot;&gt;Symptom&lt;/h2&gt;
-
-&lt;p&gt;However, that time the link just didn’t work. I kept getting 404. Obviously, I assumed that
-I made a typo in the link. I double checked - it was fine. I started the Jekyll server locally
-and it also worked. I manually crafted Github Pages URL from a local URL and still got 404.&lt;/p&gt;
-
-&lt;p&gt;I then tried the same link with “.html” in the end and it worked. I might have given up,
-but this was a thought experiment and Savings Ninja &lt;a href=&quot;https://thesavingninja.com/the-future-of-work/&quot;&gt;had already published&lt;/a&gt;
-my link without “.html”, so this was not an option.&lt;/p&gt;
-
-&lt;h2 id=&quot;discovering-the-fix&quot;&gt;Discovering the fix&lt;/h2&gt;
-
-&lt;p&gt;I just decided to follow the usual “turn it off and on again” advice and did another commit with
-no user visible changes (just some timestamps after Jekyll recompilation).&lt;/p&gt;
-
-&lt;p&gt;Happy blogging with timely refreshes of your Github Pages websites!&lt;/p&gt;</content><author><name></name></author><summary type="html">Recently I was trying to publish a post (namely thought experiment #8 ) and I was in a hurry. Peculiarly, Github Pages (the hosting I use) didn’t completely refresh the site after my commit with the post. Let’s see how I fixed this.</summary></entry></feed>
+&lt;p&gt;Happy living in this bizarre world!&lt;/p&gt;</content><author><name></name></author><summary type="html">Today I stumbled upon a tweet about an SMS which was sent before Valentine’s day, but was delivered only recently (i.e. 9 months later). This made me think about the impact of technology on our lives. Let’s look more into what has happened and my thoughts as well as speculations about the reasons for such a delay.</summary></entry></feed>
