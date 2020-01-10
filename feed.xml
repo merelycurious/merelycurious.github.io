@@ -1,4 +1,279 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-01-10T23:26:54+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Overview of this blog’s life in 2019 and plans for 2020</title><link href="https://merelycurious.me/post/blog-summary-2019" rel="alternate" type="text/html" title="Overview of this blog's life in 2019 and plans for 2020" /><published>2020-01-05T14:00:00+01:00</published><updated>2020-01-05T14:00:00+01:00</updated><id>https://merelycurious.me/post/blog_summary_2019</id><content type="html" xml:base="https://merelycurious.me/post/blog-summary-2019">&lt;p&gt;I’ve got an idea to start a blog in the end of 2018 and published the first post
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-01-10T23:31:23+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 15)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-15-human-sexual-behavior" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 15)" /><published>2020-01-10T22:00:00+01:00</published><updated>2020-01-10T22:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_15_human_sexual_behavior</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-15-human-sexual-behavior">&lt;p&gt;Human Sexual Behavior - part 1.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Our goal is to look at a behavior. First to consider its fixed action patterns. Then step back and look at origins
+for this behavior, i.e. what happened in the brain &amp;amp; environment, its stimulus. All of these at different
+time scales - 1 second ago, 1 minute and up to millions of years.&lt;/p&gt;
+
+&lt;p&gt;There is a proximal mechanism for sexual behavior - it feels good (driven by sensory stimuli,
+feedback and sensations). In species with only reproductive sex, pleasure depends 
+on ovulation. In humans it is different (but it is still easier when estrogen levels are higher).&lt;/p&gt;
+
+&lt;p&gt;Many species have similar fixed action patterns, e.g. lordosis reflex, pelvic thrusting, orgasm,
+ejaculation. At the same time there are differences across species.&lt;/p&gt;
+
+&lt;p&gt;Fixed action patterns create chains of behavior:
+1) Fixed action pattern of individual A is a releasing stimuli for individual B.
+2) Resulting fixed action pattern of B is a releasing stimuli for individual A.
+3) Loop.&lt;/p&gt;
+
+&lt;p&gt;This creates species specificity.&lt;/p&gt;
+
+&lt;p&gt;Thus, ethological approach is essential when studying sexual behavior.
+E.g. studying female rat sexual behavior in a cage is like studying dolphin swimming in a bathtub.
+In case of a female rat, there was a large belief that the role of a female rat was very passive. However,
+this was caused by the cage and lack of space to run around.&lt;/p&gt;
+
+&lt;p&gt;Studying in people - anonymous surveys or something like &lt;a href=&quot;https://en.wikipedia.org/wiki/Randomized_response&quot;&gt;randomized response&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;terms&quot;&gt;Terms&lt;/h2&gt;
+
+&lt;p&gt;Libido was used before, but it is now outdated. Instead in the literature one uses:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;attractivity (how attractive an individual is)&lt;/li&gt;
+  &lt;li&gt;proceptivity (active behaviors being carried out in response to being attracted to that individual)&lt;/li&gt;
+  &lt;li&gt;receptivity (how receptive a given individual to the interest of others)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The flow is the following. Because of attractiveness of individual A, individual B began proceptive 
+behaviors, which did or did not prove to meet receptive fixed action patterns of A in response.&lt;/p&gt;
+
+&lt;h2 id=&quot;female-orgasm&quot;&gt;Female orgasm&lt;/h2&gt;
+
+&lt;p&gt;It is present not only in humans.&lt;/p&gt;
+
+&lt;p&gt;Fertility does not depend on female orgasm. 
+Thus, it is not necessary to increase number copies of your genes.
+However, it may facilitate fertilization:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;orgasm increases vaginal secretion and vaginal fluid increases sperm motility (indirect evidence)&lt;/li&gt;
+  &lt;li&gt;orgasm exhausts - a female lays horizontally - sperm does not have to swim against gravity 
+(leading model)&lt;/li&gt;
+  &lt;li&gt;it feels good, thus, positive reinforcement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the end, no connection between fertility and female propensity towards orgasm was observed.
+There is a certain degree of heritability of propensity towards orgasm in females.
+Likelihood of female orgasm depends more on a female than on a male.&lt;/p&gt;
+
+&lt;h3 id=&quot;clitoral-orgasm&quot;&gt;Clitoral orgasm&lt;/h3&gt;
+&lt;p&gt;Can be spandrel - baggage from male ejaculation.
+E.g. nipples are spandrels in men (women have to go through lactation, it is “expensive” to evolve
+men without nipples).&lt;/p&gt;
+
+&lt;h2 id=&quot;sexual-behavior-unique-to-humans&quot;&gt;Sexual behavior unique to humans&lt;/h2&gt;
+
+&lt;p&gt;There are many examples of behavior which are falsely believed to be unique to humans:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Non-reproductive sex (bonobo, chimps, dolphins)&lt;/li&gt;
+  &lt;li&gt;Foreplay (bonobo, chimps)&lt;/li&gt;
+  &lt;li&gt;Homosexuality&lt;/li&gt;
+  &lt;li&gt;Quest for variety (bonobo)&lt;/li&gt;
+  &lt;li&gt;Confusion with violence (psychopathological)&lt;/li&gt;
+  &lt;li&gt;Masturbation&lt;/li&gt;
+  &lt;li&gt;Fantasy (baboons)&lt;/li&gt;
+  &lt;li&gt;Cheating&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unique behaviors:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Egalitarian sex&lt;/li&gt;
+  &lt;li&gt;Private setting&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Marriage. &amp;gt; 90% of human end up in stable relationship even across polygamous cultures. However, there is 
+a lot of social monogamy, but less of sexual monogamy. In Western countries 10-40% of all children in marriage
+are not from marriage husband. Note: I tried to find a proof (since this looked like a lot) and there is at
+least &lt;a href=&quot;https://www.discovermagazine.com/the-sciences/the-paternity-myth-the-rarity-of-cuckoldry&quot;&gt;one article&lt;/a&gt;
+mentioning 1-5% range instead, which feels more plausible to me. The number is hard to estimate, since fathers
+who doubt their paternity are more likely to do the test. Thus, the rate can reach 10-40% if you just consider
+rate at paternity testing laboratories (which is not a good proxy for general population).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Romance. Couple centuries old concept. The notion that it should last through relationship is only 30-50
+years old.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Somewhat boring - no sex changes, not hermaphrodites.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Average duration of a marriage is 2-4 years, which is close to average inter-birth period
+and for how long children critically depend on parents.
+Thus, humans tend to be serial monogamists.&lt;/p&gt;
+
+&lt;h2 id=&quot;neurobiology&quot;&gt;Neurobiology&lt;/h2&gt;
+
+&lt;p&gt;Limbic system is responsible for fixed action patterns.
+Different areas are relevant for different genders.
+In case of female:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Subsection of hypothalamus (HT). Here is a ventral medial (VMH) - hot spot for receptors for
+estrogen and progesterone.&lt;/li&gt;
+  &lt;li&gt;Midbrain&lt;/li&gt;
+  &lt;li&gt;Spinal pathways&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Male:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Medial preoptic area in HT responsible for performing. Here are receptors for testosterone &amp;amp; androgen.&lt;/li&gt;
+  &lt;li&gt;Amygdala (sexual motivation). Thus, males confuse sexuality with aggression.&lt;/li&gt;
+  &lt;li&gt;Autonomic nervous system for erection (clitoral erections in females work like that too).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;types-of-erection-mechanisms&quot;&gt;Types of erection mechanisms&lt;/h3&gt;
+&lt;p&gt;It can be vascular or muscular. Vascular is based on blood flowing in and not flowing out and lasts longer.
+Muscular is based on a muscle and occurs faster.&lt;/p&gt;
+
+&lt;h3 id=&quot;dimorphism-across-genders&quot;&gt;Dimorphism across genders&lt;/h3&gt;
+
+&lt;p&gt;There is a similar orgasm physiology across sexes, but recovery time is different (slower for females).
+E.g. for males too fast transition from parasympathetic system to sympathetic leads to premature ejaculation.
+For females a failure of transition leads to inability to reach orgasm.&lt;/p&gt;
+
+&lt;p&gt;Brain also has areas, which differ across sexes, e.g.
+INAH cluster in hypothalamus. Size 2:1 for men:women. One can almost identify gender by size of this area.&lt;/p&gt;
+
+&lt;h4 id=&quot;hormonal-response&quot;&gt;Hormonal response&lt;/h4&gt;
+
+&lt;p&gt;In females having sex leads to increase of progesterone derived hormones (i.e. reinforcing pleasure).
+Also without adrenal glands sexual motivation and arousal goes down in females (i.e. androgens play a role).
+Oxytocin is responsible for forming attachments and pair bonds. Higher level of oxytocin leads to more trust
+and cooperation (even when sprayed through nose). Neuromarketing is very interested in such topics.&lt;/p&gt;
+
+&lt;p&gt;Normally oxytocin is used for nursing and milk. As a result, monogamous attachment is a descendant of
+neurobiology of mother-offspring attachment.&lt;/p&gt;
+
+&lt;p&gt;For males - testosterone goes up after sex. There is no evidence for higher testosterone causing more sex activity.&lt;/p&gt;
+
+&lt;p&gt;Vasopressin is responsible for forming pair bonds.
+Monogamous species have receptors for vasopressin on dopamine releasing neurons.
+More such receptors, the faster pair bonds can be produced.
+Similar in monkeys.
+Humans are as usual somewhere in between on this mono-poly scale, but there are 
+genetic variations.&lt;/p&gt;
+
+&lt;p&gt;However, the mechanism is not fully understood, e.g. bonobos have monogamous receptors, but they are
+hyper polygamous.&lt;/p&gt;
+
+&lt;h4 id=&quot;sexual-orientation&quot;&gt;Sexual orientation&lt;/h4&gt;
+
+&lt;p&gt;As it was mentioned above, INAH area differs across genders. 
+However, homosexual men have size of this area similar to hetero women.
+This was discovered in a study by Simon Levay and has been replicated.
+However, the brains were from AID victims.&lt;/p&gt;
+
+&lt;p&gt;There is also hypothalamus difference. Dr. Schwab published this and 
+even got death treats from homosexual community, since this was perceived
+as pathology. Levay was gay and his finding was met much better.
+Partially since its connection to gender and sexuality was better understood.
+This hypothalamus area just happened to be close to the area Levay discovered
+(i.e. its size difference is caused by proximity to and INAH size difference).&lt;/p&gt;
+
+&lt;p&gt;Overall, INAH study was perceived positively, since it was showing
+that orientation can not be chosen, but it is just a biology instead.
+There was even a t-shirt “the only small thing about me is my sexually dimorphic nucleus” (i.e. INAH).&lt;/p&gt;
+
+&lt;p&gt;There is also a difference in ratio of length of 2nd finger vs 4th. Homosexual men on average tend to have 
+this ratio close to straight women.&lt;/p&gt;
+
+&lt;p&gt;Otoacoustic reflex. If you close your ears, you hear oscillations and their rate differs by sex.
+Homosexual men have frequency more typical of straight women.&lt;/p&gt;
+
+&lt;p&gt;For homosexuality in women there are fewer studies. The 2nd/4th finger ratio is the same (i.e.
+homosexual women have ratio of straight men) as well as otoacoustic reflex.&lt;/p&gt;
+
+&lt;h4 id=&quot;trans-sexuality&quot;&gt;Trans-sexuality&lt;/h4&gt;
+
+&lt;p&gt;Used to be a psychiatric disorder (as well as homosexuality).&lt;/p&gt;
+
+&lt;p&gt;There is a gender difference in size of bed nucleus of the stria terminals (reliable predictor for gender).&lt;/p&gt;
+
+&lt;p&gt;Transsexuals have the size of their self identified gender (i.e. not their physical gender).
+This holds even for people who didn’t do gender change.
+Moreover when men with testicular cancer are treated with feminine hormones, this does not change
+size of this area.&lt;/p&gt;
+
+&lt;p&gt;60% of victims of penile cancer have phantom penile sensations. Transgender people, who changed
+their gender from male to female get no phantom penile sensations.&lt;/p&gt;
+
+&lt;p&gt;In other words, transsexuals got a wrong gender body.&lt;/p&gt;
+
+&lt;h3 id=&quot;dopamine&quot;&gt;Dopamine&lt;/h3&gt;
+
+&lt;p&gt;Neurobiology of pleasure, anticipation and reward is common. Role of dopamine is identical across genders
+and is huge. Loss of sexual interest is one of defining symptoms of clinical depression.
+Mesolimbic dopamine system is central to reinforcing aspects of sexual behavior.
+It is about anticipation of the reward and fueling of behaviors needed to achieve reward.&lt;/p&gt;
+
+&lt;p&gt;In males this system activates, if one finds another person attractive and there is eye contact or
+the other person is not attractive and there is no eye contact. Same holds for homosexual men looking 
+at pictures of other men. Sexual orientation in this mechanism is just like having other gender areas.&lt;/p&gt;
+
+&lt;p&gt;Dopamine is related to uncertainty. E.g. if a monkey gets reward only in 50% of cases,
+the dopamine level will be even higher than when 100% reward.
+This is called intermittent reinforcement. If the rate is changed to 25% or 75%,
+the level falls, but still higher than 100% (i.e. corresponds to level of uncertainty).
+Thus, the goal of Las Vegas is to convince people that there is 50% change, when there is not.&lt;/p&gt;
+
+&lt;p&gt;Joke: relationship is the price you pay for anticipation of it.&lt;/p&gt;
+
+&lt;h3 id=&quot;bonding&quot;&gt;Bonding&lt;/h3&gt;
+
+&lt;p&gt;There are receptor subtypes D1 and D2, which are relevant for sex behavior.
+In monogamous rodents, when bonding happens level of D2 goes down and D1 increases.
+If D2 falls before mating, no pair bond happens.
+If decrease of D2 or increase of D1 is prevented, the individuals will bond with someone else.&lt;/p&gt;
+
+&lt;p&gt;D2 - rewarding anticipatory aspects of pair bonding
+D1 - pleasure of monogamous features of pair bond.&lt;/p&gt;
+
+&lt;p&gt;In human ratio of D2/D1 predicts stability of relationships.&lt;/p&gt;
+
+&lt;p&gt;There was a brain imaging study which considered couples after 2.5 weeks and after 5 years.
+In the first case, just seeing their beloved one activated this dopamine system.
+In the second case, anterior cingulate was activated instead (i.e. empathy, comfort)&lt;/p&gt;
+
+&lt;h3 id=&quot;brain-areas&quot;&gt;Brain areas&lt;/h3&gt;
+
+&lt;p&gt;Frontal cortex is responsible for context of sexual behavior (i.e. how to be appropriate).
+This does not change fixed action patterns, but their context instead.
+Damage to this area can lead e.g. to a rape in a nursing home.&lt;/p&gt;
+
+&lt;h3 id=&quot;stimuli&quot;&gt;Stimuli&lt;/h3&gt;
+
+&lt;p&gt;Non human primates (as well as humans) are very visual (males usually more).
+As a result, they get more dopamine activation due to visual stimuli.&lt;/p&gt;
+
+&lt;p&gt;Sometimes some tactile receptors activate more dopamine, this explains erogenous zones.&lt;/p&gt;
+
+&lt;p&gt;Responsiveness to stimuli also depends on hormone levels.
+In women, there is more sensitivity during ovulation (especially genitals).
+Overall skin is more sensitive to sexually arousing touch during ovulation.
+In men testosterone is required.&lt;/p&gt;
+
+&lt;h4 id=&quot;olfactory&quot;&gt;Olfactory&lt;/h4&gt;
+
+&lt;p&gt;There are olfactory cues, i.e. pheromones.&lt;/p&gt;
+
+&lt;p&gt;In both sexes right hormones are required to generate pheromones.
+Men with low testosterone don’t generate pheromones, neither do women without ovaries.&lt;/p&gt;
+
+&lt;p&gt;Pheromones - breakdown products of sex hormones.
+Neuromarketing is also interested in this area.&lt;/p&gt;
+
+&lt;p&gt;Perfumes are classically made of sweat of various animals (typically male).
+E.g. Chanel #5 was based on sweat of whipped male Abyssinian cats.
+Currently it is more synthetic and made of androgens.
+The sweat is from males, because majority of perfumes are not bought by men.&lt;/p&gt;
+
+&lt;p&gt;Pheromones convey a lot of info, e.g. species, gender, whether castrated or not,
+health, terrified or not, family-related to you.&lt;/p&gt;
+
+&lt;p&gt;To perceive pheromones, the receiver needs right hormones, e.g. castrated men don’t
+distinguish sweat of men and women.&lt;/p&gt;
+
+&lt;p&gt;Females identify gender via pheromones even better when they ovulate.
+Homosexual men are even better at detecting other homosexual men smell.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Human Sexual Behavior - part 1.</summary></entry><entry><title type="html">Overview of this blog’s life in 2019 and plans for 2020</title><link href="https://merelycurious.me/post/blog-summary-2019" rel="alternate" type="text/html" title="Overview of this blog's life in 2019 and plans for 2020" /><published>2020-01-05T14:00:00+01:00</published><updated>2020-01-05T14:00:00+01:00</updated><id>https://merelycurious.me/post/blog_summary_2019</id><content type="html" xml:base="https://merelycurious.me/post/blog-summary-2019">&lt;p&gt;I’ve got an idea to start a blog in the end of 2018 and published the first post
 in the early January of 2019. In other words, this blog is now kind of one year old.
 This was not my New Year resolution, but somehow it worked out.
 Let’s reflect a bit, see some stats and what I am going to do differently in 2020.&lt;/p&gt;
@@ -1184,214 +1459,4 @@ something myself, it is also unclear whether I will be able to provide any value
 on what should be the most important to the customer, prototype it as fast as possible and polish later once you see that it
 works and provides value (if any polish is needed).&lt;/p&gt;
 
-&lt;p&gt;Happy value creation!&lt;/p&gt;</content><author><name></name></author><summary type="html">I am interested in startups and try to pay attention to how exactly value is created around me. I am also somewhat a perfectionist and when I try to create value myself, I tend to over-polish the details, often not being even sure whether the value is actually created. I noticed a couple examples of projects with imperfections (sometimes major), which people use anyway. Let’s look at these examples more.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 9) - Ethology</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-9-ethology" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 9) - Ethology" /><published>2019-11-23T10:00:00+01:00</published><updated>2019-11-23T10:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_9_ethology</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-9-ethology">&lt;p&gt;Lecture 9, ethology.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h3 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h3&gt;
-
-&lt;p&gt;Ethology is a field, which studies behavior under the following assumptions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;you will need to study the behavior in as many environments as possible&lt;/li&gt;
-  &lt;li&gt;these environments must be as natural as possible&lt;/li&gt;
-  &lt;li&gt;you will have to translate a language.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;In other words, ethology is a process of interviewing animal in its own language,
-i.e. an expansion of “if you want to understand behavior, get your animal out of the lab”.&lt;/p&gt;
-
-&lt;h3 id=&quot;history&quot;&gt;History&lt;/h3&gt;
-
-&lt;p&gt;To understand the historical context, let’s have a look at the history of psychology.
-At first it was a branch of philosophy and wasn’t about numbers (i.e. not a science in the modern terms).&lt;/p&gt;
-
-&lt;p&gt;Then behavioralism appeared, which treated an organism as a black box and the goal was to measure as much as possible.
-The field had number of strong beliefs:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Extreme environmentalism - impact of environment is very high.&lt;/li&gt;
-  &lt;li&gt;Reinforcement theory - when I can control positive/negative reinforcement, I can form any behavior.&lt;/li&gt;
-  &lt;li&gt;Universality across species. Everything is black box, thus, it does not matter whether it is a human child,
-a puppy or an elephant. As a result, the studies used mostly rats and pigeons for practical reasons.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Then meanwhile in Britain people started to collect butterflies as a hobby. The goal was to just observe
-variability. Then ethology emerged, which was like butterfly collection, but for behaviors. 
-There were 3 main figures in the field:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Nikolaas Tinbergen&lt;/li&gt;
-  &lt;li&gt;Konrad Lorenz&lt;/li&gt;
-  &lt;li&gt;Karl von Frisch.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The field was about&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;gene-environment interaction&lt;/li&gt;
-  &lt;li&gt;examples of animals acquiring new (often unexpected) behaviors&lt;/li&gt;
-  &lt;li&gt;every species solving its own evolutionary challenges in its own way.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Example: in 1960s it was discovered that, if a lab rat was placed in a richer environment (cage with toys), 
-its cortex got thicker. As a result, people started to assume reversibility of early brain damage using
-richer environments. However, then it was observed that a simple wild rat had very thick cortex, which was
-unreachable using any artificially rich environment.&lt;/p&gt;
-
-&lt;h3 id=&quot;approach&quot;&gt;Approach&lt;/h3&gt;
-
-&lt;p&gt;Ethologists look for&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;what the behavior was - fixed action pattern&lt;/li&gt;
-  &lt;li&gt;what triggered it&lt;/li&gt;
-  &lt;li&gt;what happens in the head of the animal, when it is triggered by the stimulus&lt;/li&gt;
-  &lt;li&gt;what the adaptive value of this behavior is&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;fixed-action-pattern&quot;&gt;Fixed action pattern&lt;/h4&gt;
-
-&lt;p&gt;Fixed action pattern - a sequence of actions, which animals don’t have to learn, but they have to improve it.
-Experience can also change context of fixed action patterns.
-Examples:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;a squirrel raised in a cage on a liquid diet still can crack a nut without any preparation. It will get even better at it practice.&lt;/li&gt;
-  &lt;li&gt;“visual cliff” = baby animals scared to sit on glass over a height (floating = falling). Baby sloths are not scared of this.&lt;/li&gt;
-  &lt;li&gt;Take a male monkey, which was raised in isolation and have never seen another monkey. Show him a video of a face of huge scary
-monkey of the same species with threating display. He will freak out and do subordinate gesture. Experience: who to do the subordinate
-gesture to, i.e. not kids.&lt;/li&gt;
-  &lt;li&gt;Vervet monkeys have different alarm calls for eagle, snake and leopard. As kids they know how to do the call, but may not know when to do it
-(i.e. mix up them). Adults don’t trust young monkey calls, but double check.&lt;/li&gt;
-  &lt;li&gt;In humans:
-    &lt;ul&gt;
-      &lt;li&gt;Infants smiling as well as fetuses and blind babies. Learning: who to smile to.&lt;/li&gt;
-      &lt;li&gt;Nursing. Learning: increase efficiency.&lt;/li&gt;
-      &lt;li&gt;Detecting anger, fear, disgust in others; Learning: social context (i.e. when the meaning is not obvious).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;adaptive-value&quot;&gt;Adaptive value&lt;/h4&gt;
-
-&lt;p&gt;To understand adaptive value, they did experiments. E.g. Tinbergen experimented with a bird turning egg shells non-white side up
-after its chick hatching. Tinbergen turned them back. As a result, predators could detect the nest better. Frisch looked into bee
-dancing. Bees communicate info about food sources (direction, how far, how much). They do this by dancing on the floor in patterns
-shaped as “8”. Axes of “8” define the direction. The duration of the dance - distance. The more frantic the dance is (more back
-wiggling), the more exciting the food source is. E.g. Frisch rotated a bee hive after the dance and all bees went in wrong direction.&lt;/p&gt;
-
-&lt;h4 id=&quot;stimulus&quot;&gt;Stimulus&lt;/h4&gt;
-
-&lt;p&gt;There are number of techniques to study stimulus (so-called releasing stimulus in the field). One can assume what the stimulus is and then
-subtract it, then put it back (replacement), then substitute (replace with something else), then superstimulate (exaggerate).&lt;/p&gt;
-
-&lt;p&gt;Recently people started to use robotic animals (e.g. bees or cockroaches) for this.&lt;/p&gt;
-
-&lt;p&gt;Sample findings:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Female deer ovulate when they hear male mating calls&lt;/li&gt;
-  &lt;li&gt;Rats can be tickled on their ribcage and they giggle in ultrasonic
-(&lt;a href=&quot;https://www.youtube.com/watch?v=78PfGQbL-g0&quot;&gt;youtube&lt;/a&gt;). Other rats come over to check “the party”.&lt;/li&gt;
-  &lt;li&gt;Female ovulation in human leads to higher voices. Males can subliminally detect this.&lt;/li&gt;
-  &lt;li&gt;There was research (&lt;em&gt;Stimuli eliciting sexual behavior&lt;/em&gt; by Schein, M.W., &amp;amp; E.B. Hale, 
-&lt;a href=&quot;https://www.atlasobscura.com/articles/how-to-seduce-a-turkey-the-bizarre-poultry-sex-experiments-of-the-1960s&quot;&gt;atlasobscura&lt;/a&gt;) on what makes a female turkey attractive to a male turkey.&lt;/li&gt;
-  &lt;li&gt;Olfactory information in people. People can subliminally
-(amygdala activation) distinguish scared people sweat from normal exercise sweat.
-After “scary” sweat, they tended to interpret ambiguous faces as more frightened.&lt;/li&gt;
-  &lt;li&gt;Electric fish - males jam each other frequency when courting.&lt;/li&gt;
-  &lt;li&gt;Vibration in insects - animals have vibration detectors in their feet. They can communicate this way.&lt;/li&gt;
-  &lt;li&gt;Surrogate mom monkeys - a monkey is given a choice of two fake moms - one made with cloth (warm) and one
-made out of wire, but with milk. Behaviorists claimed that mom attraction is due to milk. However, animals choose cloth.&lt;/li&gt;
-  &lt;li&gt;Baby animals look cute (large eyes, ears) even across species. Early illustrators of Disney studied this
-(e.g. evolution of Micky Mouse, youtube: &lt;a href=&quot;https://www.youtube.com/watch?v=4vDiykIUwSo&quot;&gt;with commentary&lt;/a&gt;,
-&lt;a href=&quot;https://www.youtube.com/watch?v=3hWXfrANSd8&quot;&gt;without&lt;/a&gt;,
-&lt;a href=&quot;http://faculty.wwu.edu/rcm/mickey.pdf&quot;&gt;“A biological homage to Mickey Mouse” by S. Gould&lt;/a&gt;).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;neuroethology&quot;&gt;Neuroethology&lt;/h4&gt;
-
-&lt;p&gt;Before it was hard to study how stimulus is processed in the brain. Currently there is neuroethology. Examples:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;neurobiology of bird songs&lt;/li&gt;
-  &lt;li&gt;“Lordosis” reflex in female hamsters. When having a pressure on their back, they arch their back to make mating easier.
-Only works when the hamster is ovulating. Specific neurons responsible for this are known, even which ones of them 
-are affected by estrogen.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This can be done in the field:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Adding electrodes to the brain&lt;/li&gt;
-  &lt;li&gt;Sapolsky studied baboons.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;learning&quot;&gt;Learning&lt;/h4&gt;
-
-&lt;p&gt;Examples of learning:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Female childcare competence in female monkeys is not a strong instinct. Evidence: later offsprings have higher likelihood to 
-survive. If she has a sister with a baby, her first child is more likely to survive (observed sister doing the care). The same
-when having a niece or a nephew.&lt;/li&gt;
-  &lt;li&gt;Meerkats eat scorpions. Mom has to teach her kids. First, she brings a dead one, baby learns how to eat it.
-Then mom brings alive scorpion, but she bites off the stinger. Kid has to tackle this one. Finally, she brings 
-a normal scorpion. Thus, incremental learning steps (with progressing difficulty).&lt;/li&gt;
-  &lt;li&gt;Animals make tools (e.g. apes). Chimps use sticks to get termites. One learns by observing others.
-Daughters learn better (much more attentive). The larger the social group is, the earlier in life kids learn to use tools.&lt;/li&gt;
-  &lt;li&gt;One trial learning (imprint after one exposure) - after hatching bird chicks imprint on something big around to bond for mom.
-In this case, there is no place for trial and error.&lt;/li&gt;
-  &lt;li&gt;Prepared learning, e.g. Sauce-Bearnaise Syndrome. One ate the sauce and then went to opera. They had stomach pain.
-The next time they were to taste the sauce, they had repulsion (unpleasant smell). The pain was not attributed to opera
-(even though it occurred during opera), but to the sauce, since there is a prepared learning of food -&amp;gt; stomach.&lt;/li&gt;
-  &lt;li&gt;bees learn smell better than color or shape&lt;/li&gt;
-  &lt;li&gt;humans are not inherently scared of spiders and snakes, but have prepared learning.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;cognitive-ethology&quot;&gt;Cognitive ethology&lt;/h3&gt;
-
-&lt;p&gt;Donald Griffin (random fact: discovered echolocation in bats) wrote “On awareness in animals”.&lt;/p&gt;
-
-&lt;h4 id=&quot;self-awareness&quot;&gt;Self awareness&lt;/h4&gt;
-
-&lt;p&gt;One can test for self awareness. E.g. dogs are not self aware.
-Take a chimp, anesthetize, put a black dot on its forehead with a marker. When looking into the mirror,
-chimps are much more likely to start scratching their head where the dot is. Elephants pass this test too.
-Marmoset monkeys don’t. They don’t look into eyes normally. Thus, when the dot is on their neck, they
-start noticing it too. An example of “interviewing” an animal in its own language.&lt;/p&gt;
-
-&lt;h4 id=&quot;theory-of-mind&quot;&gt;Theory of mind&lt;/h4&gt;
-
-&lt;p&gt;Realizing that other individuals can have different information than you. Humans start understanding this at the age of
-4-5 years.&lt;/p&gt;
-
-&lt;p&gt;To test, one can tell a child a story about another child X, who has a doll called Sally. X goes to school.
-Mom washes Sally and puts it into a different place. When X comes back, where would it look for Sally?
-With the theory of mind the child will say “the old place” (since X does not know that they doll has been moved).
-Without the theory of mind - “the new place” (since the child knows where the doll is and can’t imagine X having
-different info).&lt;/p&gt;
-
-&lt;p&gt;Chimps have this too. E.g. you can have two chimps (one high ranking, one low ranking) and a banana (all divided by dividers). 
-If there is a glass divider between high ranking and banana, low ranking won’t try to get the banana (he knows that high
-ranking knows). When you swap high ranking chimp with a different high ranking one, low ranking will go for the banana, 
-because he understand that the new high ranking chimp does not know about banana. However, they can do this only in
-competitive setting (no cooperation).&lt;/p&gt;
-
-&lt;p&gt;Corvus have this too. If they see someone observing them when they hide food, they won’t proceed with hiding the food.
-I.e. they understand that other birds will know about the food hidden here.&lt;/p&gt;
-
-&lt;p&gt;Animals can distinguish intentional action from unintentional. In chimps - they react more dramatically to a person throwing
-away their food vs. tripping over it. Dogs know the difference between an intentional kick and someone tripped over them.&lt;/p&gt;
-
-&lt;p&gt;Animals can plan for the future. E.g. take corvus living in a cage with 2 areas. In each of the areas, there is a place
-where researchers put food every other day. In one of them, they put more. Corvus starts bringing food from this place to another one for tomorrow.&lt;/p&gt;
-
-&lt;h4 id=&quot;flexible-cognitive-strategies&quot;&gt;Flexible cognitive strategies&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;Bees will distrust implausible dances. E.g. researchers put food in the middle of the lake. A bee tells others about this. Others
-don’t do anything, because there can’t be food in the middle of the lake.&lt;/li&gt;
-  &lt;li&gt;Numerosity.
-    &lt;ul&gt;
-      &lt;li&gt;Teach chimp to detect series of 3 objects, e.g. “ABC” and “HIJ”. When they see them, they should pull the lever and
-  they will get food. When shown “HI&lt;strong&gt;A&lt;/strong&gt;”, they make less mistakes than when shown “H&lt;strong&gt;B&lt;/strong&gt;J”. In the former case, the third object
-  was replaced with the first. In the latter - second with second. I.e. chimp detects that this object is “second”, but forgets
-  which triplet it belongs too.&lt;/li&gt;
-      &lt;li&gt;Take a chimp troop. Record foreign male chimp vocalizations. Play one foreign male chimp vocalization in the bush. The troop will
-  investigate. Play vocalizations of the same number or more other chimps than in the troop, the troop will know that they are outnumbered and
-  silently run away. They understand that 4 is more than 3.&lt;/li&gt;
-      &lt;li&gt;In fish. Fish C sees A defeating B and then B defeats C. C gives subordinate gesture to A (transitivity).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><category term="courses" /><category term="review" /><summary type="html">Lecture 9, ethology.</summary></entry></feed>
+&lt;p&gt;Happy value creation!&lt;/p&gt;</content><author><name></name></author><summary type="html">I am interested in startups and try to pay attention to how exactly value is created around me. I am also somewhat a perfectionist and when I try to create value myself, I tend to over-polish the details, often not being even sure whether the value is actually created. I noticed a couple examples of projects with imperfections (sometimes major), which people use anyway. Let’s look at these examples more.</summary></entry></feed>
