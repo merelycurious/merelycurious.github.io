@@ -1,4 +1,196 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-01-10T23:31:23+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 15)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-15-human-sexual-behavior" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 15)" /><published>2020-01-10T22:00:00+01:00</published><updated>2020-01-10T22:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_15_human_sexual_behavior</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-15-human-sexual-behavior">&lt;p&gt;Human Sexual Behavior - part 1.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-01-11T11:23:49+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Account fee on Flatex ⇒ Flatex alternatives</title><link href="https://merelycurious.me/post/flatex-account-fee-and-alternatives" rel="alternate" type="text/html" title="Account fee on Flatex ⇒ Flatex alternatives" /><published>2020-01-11T09:00:00+01:00</published><updated>2020-01-11T09:00:00+01:00</updated><id>https://merelycurious.me/post/flatex_account_fee_and_alternatives</id><content type="html" xml:base="https://merelycurious.me/post/flatex-account-fee-and-alternatives">&lt;p&gt;Recently Flatex shared &lt;a href=&quot;https://konto.biw-bank.de/formularcenter_bank/public/1300100.pdf&quot;&gt;an updated price PDF&lt;/a&gt;
+for the new year and to my surprise there will be
+an account fee starting from March. Since I have originally chosen Flatex to avoid percentage based fees
+(because they &lt;a href=&quot;/post/underestimating-ter&quot;&gt;delay&lt;/a&gt; FIRE), it is the time to move away.
+Let’s look where I will move.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
+
+&lt;p&gt;I actually was a great fan of Flatex. In the world, where almost all German brokers take at least 0.25% of your
+transaction value, having a constant fee is a great. I definitely don’t want to give away 0.25% or 0.5% (once for buying,
+once for selling) of &lt;em&gt;all&lt;/em&gt;
+my networth. This was the deciding point for me when going for Flatex.&lt;/p&gt;
+
+&lt;p&gt;However, it looks like the constant fee model Flatex has chosen is actually not sustainable. They have negative
+interest rate on cash since ages, but one could avoid it pretty easily by moving cash fast. Their fee structure
+is a bit weird for active trading (it is super expensive, especially for non European stock exchanges). Thus,
+they have likely attracted mostly ETF investors with buy &amp;amp; hold strategy. If one buys once a month, Flatex can’t
+get more than 100 EUR per year from such a user.&lt;/p&gt;
+
+&lt;h2 id=&quot;changes&quot;&gt;Changes&lt;/h2&gt;
+
+&lt;p&gt;Thus, Flatex decided to change this and announced the news
+right before Christmas.&lt;/p&gt;
+
+&lt;h3 id=&quot;degiro&quot;&gt;Degiro&lt;/h3&gt;
+
+&lt;p&gt;Flatex bought Degiro. Surprise, surprise. 250M EUR (&lt;a href=&quot;https://www.flatex.com/fileadmin/fintech_relaunch/Public/pdf/news/2019/pm/Press_Release_flatex_to_buy_degiro.pdf&quot;&gt;press release&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;fees&quot;&gt;Fees&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Yearly depot fee of 0.1% (pre-VAT).&lt;/li&gt;
+  &lt;li&gt;Additional 2 EUR per transaction fee for some exchanges.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;impact&quot;&gt;Impact&lt;/h2&gt;
+
+&lt;p&gt;VAT in Germany is 19%, thus, for each 100k EUR invested or cash with Flatex, one will have to pay 119 EUR per year.
+This is not the end of the world, but unpleasant. If one has 100k EUR with them now and plans to FIRE (i.e. to hold
+the assets with them for 30 or more years), they may easily pay around 3k EUR in yearly fees. This is not a show stopper for FIRE,
+but just giving away 3k EUR is unpleasant.&lt;/p&gt;
+
+&lt;p&gt;Regarding the increased per transaction fee, this does have that much impact. If one buys once a month, it is 24 EUR
+per year. During FIRE, one can sell once a year.&lt;/p&gt;
+
+&lt;p&gt;If the new fees affect also Degiro, current Degiro clients will be &lt;em&gt;very happy&lt;/em&gt;. I personally never used Degiro,
+but their fees were much lower than Flatex.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternatives&quot;&gt;Alternatives&lt;/h2&gt;
+
+&lt;p&gt;I don’t mind spending my time and moving away from Flatex to save 3k EUR.&lt;/p&gt;
+
+&lt;p&gt;My criteria are:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;No depot fee.&lt;/li&gt;
+  &lt;li&gt;The broker should be doing German taxes.&lt;/li&gt;
+  &lt;li&gt;Ideally no percentage based fees.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;interactive-brokers&quot;&gt;Interactive Brokers&lt;/h3&gt;
+
+&lt;p&gt;I already have an account with IB and pretty happy with them (assuming that you have 100k USD with them to avoid monthly fee
+of 10 USD, it
+ends up cheaper than even old Flatex pricing). However, they don’t do German taxes. I am pretty sure
+that I will be able to figure our Vorabpauschale, but having an example from a broker
+would make the process much simpler. For such taxes example, I don’t even mind having a German broker with percentage based buying fee (since I don’t have to buy anything, I can just keep some
+assets there, but buy at IB).&lt;/p&gt;
+
+&lt;h3 id=&quot;dkb&quot;&gt;DKB&lt;/h3&gt;
+&lt;p&gt;I already did &lt;a href=&quot;/post/german-brokers-overview&quot;&gt;an overview of German brokers&lt;/a&gt; and somehow
+I completely missed that DKB technically has somewhat constant transaction fees.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dok.dkb.de/pdf/plv_pk.pdf&quot;&gt;Preis- und Leistungsverzeichnis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Basically, they take 10 EUR for an order up to 10k EUR and 25 EUR for larger orders.
+This does not include stock exchange fees (e.g. Fremdkosten). 
+The price jump at 10k EUR is weird, it may be that splitting e.g. 20k EUR transaction in two
+will save money on the transaction fee (depends on stock exchange fees).&lt;/p&gt;
+
+&lt;p&gt;10 EUR is actually quite pricey. If I were with a broker taking 0.25% transaction fee,
+I would need to perform 4 kEUR transaction to pay 10 EUR fee there.&lt;/p&gt;
+
+&lt;p&gt;They have saving plans and one contribution to a saving plan costs 1.5 EUR.
+One can have multiple saving plans, modify them frequently. They are executed only 
+once per month on a specific day. The resulting ETFs are just like normal, the only
+difference is that one chooses EUR amount, not number of shares, thus, you end up
+with fractional shares. Looks like selling “saving plans” follows the rules above.
+Theoretically one should be able to move their depot to a broker with cheapest
+selling feels before their retirement to mitigate selling fees.&lt;/p&gt;
+
+&lt;p&gt;Obviously there is no depot fee (at least so far).&lt;/p&gt;
+
+&lt;p&gt;They also have free depot transfer. There is a &lt;a href=&quot;https://www.dkb.de/info/depotwechselservice/&quot;&gt;form&lt;/a&gt; to fill in
+and to sent to the old broker.&lt;/p&gt;
+
+&lt;p&gt;Peculiar that they used to give 0.2% per year interest for up to 100k EUR for Aktivkunden.
+To become an active client, one needs to receive at least 700 EUR per month.
+Since 2020, the interest rate will be only 0.01%.&lt;/p&gt;
+
+&lt;p&gt;Since DKB is also a bank, it makes sense to consider their bank benefits. Active clients don’t
+pay 1.75% fee when paying in non-EUR currency (this only true for their Visa Credit Card, not Master Card).
+This actually looks attractive, since I occasionally
+need to pay in non-EUR and both Deutsche Bank and Ing have similar 1.75% fee.&lt;/p&gt;
+
+&lt;p&gt;smsTan costs 0.07 EUR per SMS.&lt;/p&gt;
+
+&lt;h3 id=&quot;onvista&quot;&gt;OnVista&lt;/h3&gt;
+
+&lt;p&gt;One can open an account here only if they are a citizen of Germany, France, Ireland, Luxembourg,
+Austria or Hungary.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.onvista-bank.de/files/dokumente/formulare/formularcenter/020.1-5EUR-festpreis-preis-leistungsverzeichnis.pdf&quot;&gt;Preis- und Leistungsverzeichnis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;5 + 2 EUR per transaction.&lt;/p&gt;
+
+&lt;p&gt;Buying for savings plan is 1 EUR pro transaction. Transaction volume is limited - from 50 EUR to 500 EUR.
+Selling is considered an ordinary transaction.&lt;/p&gt;
+
+&lt;p&gt;The account is free for existing clients. For new clients, there is a 0.5% yearly fee for amount over
+250k EUR. Funny fact, the PDF says that Depot-/ Kontoführung is free (with a small note that “there is a fee
+over 250k EUR, see the following section for details”). However, it looks like this affects only cash. The
+original quote is [&lt;a href=&quot;https://www.onvista-bank.de/files/dokumente/formulare/formularcenter/020.1-5EUR-festpreis-preis-leistungsverzeichnis.pdf&quot;&gt;source, page 6, note 2&lt;/a&gt;]:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Zur Berechnung des Verwahrentgelts ermittelt die onvista bank den täglichen Saldo der Euro-Sichteinlagen auf Kontobasis. Hiervon wird der Freibetrag von 250.000,- Euro pro Konto subtrahiert. Ein positiver Restsaldo wird anschließend mit dem von der Europäischen Zentralbank (EZB) für die Einlagenfazilität jeweiligen tagesgültigen vorgegebenen Zinssatz multipliziert, sofern dieser Zinssatz negativ ist&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“Sichteinlagen” is “checking account”. Looks like they try to forward negative interest rates from European Central Bank 
+to the clients (i.e. it costs money OnVista to store your cash when interest rates are negative). Thus, this is not the end of the world. If I were you, I would definitely double check with them.&lt;/p&gt;
+
+&lt;p&gt;If this fee was to include stocks, this would be a party stopper for me for sure.
+In terms of FIRE, 250k EUR is pretty reachable. At 312.5k EUR this would become
+even more expensive than Flatex.&lt;/p&gt;
+
+&lt;h3 id=&quot;trade-republic&quot;&gt;Trade Republic&lt;/h3&gt;
+
+&lt;p&gt;New broker, which I haven’t even seen before. Looks like a “let’s disrupt everything” startup 
+similar to Robinhood in the US.&lt;/p&gt;
+
+&lt;p&gt;Free orders (when not taking into account stock exchange fees).&lt;/p&gt;
+
+&lt;p&gt;They do your German taxes.&lt;/p&gt;
+
+&lt;p&gt;Looks like they have a limited set of ETFs and stocks. Their website says 7800 stocks and ETFs.
+&lt;a href=&quot;https://www.solarisbank.com/blog/interview-how-trade-republic-is-revolutionizing-stock-trading/&quot;&gt;This interview&lt;/a&gt;
+with the founder mentions 500 ETFs. It is also mentioned that they have 25 employees and 10M EUR investment
+round (the article was written in July 2019). &lt;a href=&quot;https://www.crunchbase.com/organization/trade-republic#section-overview&quot;&gt;Crunchbase&lt;/a&gt;
+gives 17M EUR as total funding amount.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Trade Republic looks attractive, but I am scared to put a sizable chuck of my FIRE portfolio there.
+My timeline is very long. I agree that these folks are doing a great thing, but I am not yet
+convinced that they will still exist in a couple years. This is a startup with 2 rounds of investment.
+This is very early for a startup. Moreover, Robinhood has plenty of problems in the US (e.g.
+the latest infinite margin bug). Disruptiveness of startups in brokerages - no, thank you!
+Moreover, the set of ETFs to buy is currently limited (e.g. &lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/dp9mtk/place_to_buy_etfs_and_stocks_traderepublic_any/&quot;&gt;this Reddit thread&lt;/a&gt;
+mentions only iShares ETFs).&lt;/p&gt;
+
+&lt;p&gt;OnVista has citizenship limitations and presumably cash depot fee starting from 250k EUR.
+I am worried that it may become “non-cash” too. 250k are reachable for a FIRE person.&lt;/p&gt;
+
+&lt;p&gt;Looks like DKB is the only option with constant buying/selling fees at this stage.
+Unfortunately, their fees are quite large. Thus, one may prefer to bundle investments into 
+10k EUR chunks or tinker with their saving plans.&lt;/p&gt;
+
+&lt;p&gt;I have already started opening DKB account. I will wait with the move until Flatex 
+sends me Tax report for 2019.&lt;/p&gt;
+
+&lt;p&gt;I will keep you posted with the process.&lt;/p&gt;
+
+&lt;p&gt;If DKB introduces depot fee, I will then consider moving to a broker with non-constant transaction fees,
+but won’t buy there anything.&lt;/p&gt;
+
+&lt;h2 id=&quot;further-pointers&quot;&gt;Further pointers&lt;/h2&gt;
+
+&lt;p&gt;r/Finanzen on Reddit has multiple related threads (mostly in German), e.g.:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/eeiyxe/flatex_wird_uninteressant_dkb_oder_onvista/&quot;&gt;DKB or OnVista when moving from Flatex?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/edp3gh/neues_depot_wechsel_von_flatex/&quot;&gt;Where to move from Flatex?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/edbz71/flatex_anpassung_preisleistungsverzeichnis_ab/&quot;&gt;Discussion of the changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/eg8ald/flatex_dkb_depot%C3%BCbertrag/&quot;&gt;Moving Depot from Flatex to DKB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/ekum1n/flatex_einfach_%C3%BCbertragen_und_komplett_leeren/&quot;&gt;Cancel Flatex account after the move or keep&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/ejeq8b/depot%C3%BCbertrag_von_flatex_zu_dkbtrade_republic_was/&quot;&gt;Moving Depot to DKB/Trade Republic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As we can see, many people will leave Flatex and quite a few will land at DKB.
+This can still be financially positive for Flatex - they may get more money in the end with 
+fewer clients left (the ones who are ok with the new fees).&lt;/p&gt;
+
+&lt;p&gt;Happy investing without account fees!&lt;/p&gt;</content><author><name></name></author><summary type="html">Recently Flatex shared an updated price PDF for the new year and to my surprise there will be an account fee starting from March. Since I have originally chosen Flatex to avoid percentage based fees (because they delay FIRE), it is the time to move away. Let’s look where I will move.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 15)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-15-human-sexual-behavior" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 15)" /><published>2020-01-10T22:00:00+01:00</published><updated>2020-01-10T22:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_15_human_sexual_behavior</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-15-human-sexual-behavior">&lt;p&gt;Human Sexual Behavior - part 1.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1393,70 +1585,4 @@ ETF companies your work with, each of them can have troubles and this will affec
 an overall impact of such an event (each provider has only a small portion of your money).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Happy diversification!&lt;/p&gt;</content><author><name></name></author><summary type="html">Many people talk about diversification in terms of geographic areas or economy sectors. However, the diversification does not stop there. One can also diversify over brokers where the shares are held. This way if something happens to one broker or the account gets hacked, not everything is lost. Another dimension is over ETF providers. This decreases impact of forced capital gain tax realizations. Let’s see how and why.</summary></entry><entry><title type="html">Value does not have to be perfect</title><link href="https://merelycurious.me/post/value-does-not-have-to-be-perfect" rel="alternate" type="text/html" title="Value does not have to be perfect" /><published>2019-11-26T17:00:00+01:00</published><updated>2019-11-26T17:00:00+01:00</updated><id>https://merelycurious.me/post/value_does_not_have_to_be_perfect</id><content type="html" xml:base="https://merelycurious.me/post/value-does-not-have-to-be-perfect">&lt;p&gt;I am interested in startups and try to pay attention to how exactly value is created around me.
-I am also somewhat a perfectionist and when I try to create value myself, I tend to over-polish 
-the details, often not being even sure whether the value is actually created. I noticed a couple examples
-of projects with imperfections (sometimes major), which people use anyway. Let’s look at these examples more.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;anki---memorizing&quot;&gt;Anki - memorizing&lt;/h2&gt;
-
-&lt;p&gt;Anki is a program to memorize whatever you want using spaced repetitions. The idea is that you forget
-exponentially and each repetition resets the curve and makes it not so steep. However, it does not make sense to
-repeat too often. Anki tries to estimate what you are about to forget and shows you these &lt;em&gt;cards&lt;/em&gt; for repetition.
-It works especially well for learning languages.&lt;/p&gt;
-
-&lt;p&gt;As far as I know, there is only one major Anki program on Desktop. There is also one on Android and iOS. At least Desktop and Android
-ones allow one to synchronize and backup their data through cloud for free. Pretty convenient, especially when one uses
-Anki one their phone (e.g. when travels). As a result, the data needs to be merged occasionally. This merge logic can
-become a nightmare pretty quickly. To my surprise, the authors of Anki just decided to refuse to merge in some cases.
-E.g. when a card type is changed (e.g. instead of “show me both sides as 2 items”, you replace it with “show me only 1 side”),
-the program just says - “hey, next time you will have to reupload all your data to the cloud, just FYI”. Then the other device
-just asks you whether you want to download or upload your data and whether you really want to overwrite your local data.
-My software engineering part feels pretty uncomfortable seeing that, but this is a great example of prioritization.
-The desktop and Android versions are completely free (even cloud storage). Thus, the authors probably didn’t have too much spare time.
-This reupload is definitely not perfect, but it is also not that bad at all.&lt;/p&gt;
-
-&lt;p&gt;I definitely get plenty of value from Anki and this reupload is just a minor nitpick. I personally would feel uncomfortable
-about making such decision not to merge some cases and just reupload everything. However, I haven’t seen anyone refusing to
-use Anki because of that. Also I am not aware of any competitors either (probably, because it is free).&lt;/p&gt;
-
-&lt;h2 id=&quot;shotcut---video-editing&quot;&gt;Shotcut - video editing&lt;/h2&gt;
-
-&lt;p&gt;I remember I needed to compose a small video. I definitely didn’t need any serious software, because this was a one-off thing.
-Thus, the goal was to have it done as easy as possible (i.e. no learning curve at all). Somehow I discovered Shotcut.&lt;/p&gt;
-
-&lt;p&gt;The program itself is pretty simple and easy to learn. At the same time there are some rough edges. It is obviously free.
-However, occasionally it could crash (pretty rarely though). Also my computer is not the newest, so keeping all the high
-resolution videos in memory got impossible pretty fast (especially when using preview function). Surprisingly, there is
-no built-in fix for that. However, the Shotcut community found a workaround. Basically, the program does not store videos
-themselves, but only their paths in the file system. Thus, we make a project with all the high resolution videos (add them from
-some folder). Then we backup this folder into some other temporary folder. In the old folder, we downscale the resolution of all
-videos. Now reopen the old project. Shotcut will just use downscaled versions as if it always was like that. Now you
-can do everything as usual (just the quality will be poor). Even the preview works. Once you are done, you restore the old
-high resolution backup and reopen the project again. Now you don’t need to look at the high resolution preview, you just
-produce the final video. This is not that RAM intense.&lt;/p&gt;
-
-&lt;p&gt;I was surprised by this solution. However, I discovered got stuck with this issue pretty far in the process,
-so I already had some part of my video
-done in Shotcut and what was even more important - I already knew how it worked. So I did the workaround precisely as described above.
-In the end it went very well.&lt;/p&gt;
-
-&lt;p&gt;Surprisingly, if I need to do another video, I will consider using Shotcut again (mostly because I already know how to use it).
-I even don’t mind this workaround at all.&lt;/p&gt;
-
-&lt;p&gt;This seems like quite an imperfection to me, however, the program still provides plenty of value.
-There are many competitors in this area, but they are not free and not so easy to use without much preparation.
-This “easy-to-start”-ness is the main value of Shotcut for me.&lt;/p&gt;
-
-&lt;h2 id=&quot;so-what&quot;&gt;So what?&lt;/h2&gt;
-
-&lt;p&gt;This is a reminder to myself to focus on the value when creating something. It is very easy to get stuck with small details
-and polish them forever. However, this polishing does not make sense, if there is no value provided. Unfortunately, it is much easier
-to do such value analysis once there is a finished product with some history and customer base. When I do
-something myself, it is also unclear whether I will be able to provide any value at all. Anyway, this is a great reminder to focus
-on what should be the most important to the customer, prototype it as fast as possible and polish later once you see that it
-works and provides value (if any polish is needed).&lt;/p&gt;
-
-&lt;p&gt;Happy value creation!&lt;/p&gt;</content><author><name></name></author><summary type="html">I am interested in startups and try to pay attention to how exactly value is created around me. I am also somewhat a perfectionist and when I try to create value myself, I tend to over-polish the details, often not being even sure whether the value is actually created. I noticed a couple examples of projects with imperfections (sometimes major), which people use anyway. Let’s look at these examples more.</summary></entry></feed>
+&lt;p&gt;Happy diversification!&lt;/p&gt;</content><author><name></name></author><summary type="html">Many people talk about diversification in terms of geographic areas or economy sectors. However, the diversification does not stop there. One can also diversify over brokers where the shares are held. This way if something happens to one broker or the account gets hacked, not everything is lost. Another dimension is over ETF providers. This decreases impact of forced capital gain tax realizations. Let’s see how and why.</summary></entry></feed>
