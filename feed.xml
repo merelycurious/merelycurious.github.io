@@ -1,4 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-01-25T21:15:23+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 18)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-18-aggression" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 18)" /><published>2020-01-25T20:00:00+01:00</published><updated>2020-01-25T20:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_18_aggression</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-18-aggression">&lt;p&gt;Aggression - part 2.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-02-02T17:54:41+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How to tune 12 string guitar</title><link href="https://merelycurious.me/post/how-to-tune-12-string-guitar" rel="alternate" type="text/html" title="How to tune 12 string guitar" /><published>2020-02-02T16:00:00+01:00</published><updated>2020-02-02T16:00:00+01:00</updated><id>https://merelycurious.me/post/how_to_tune_12_string_guitar</id><content type="html" xml:base="https://merelycurious.me/post/how-to-tune-12-string-guitar">&lt;p&gt;I recently needed to tune a 12 string guitar and this was less trivial
+than I expected. Thus, here is my guide, which does not involve any
+payed apps.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
+
+&lt;p&gt;When you install strings, try to keep the right order of pegs. In
+other words adjacent strings should be wired through adjacent pegs.
+This will help you a lot during tuning and will prevent any confusion.&lt;/p&gt;
+
+&lt;h2 id=&quot;tuning&quot;&gt;Tuning&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tune the lower string in each pair as if it is just a normal 6
+string guitar.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now we start tuning upper strings in each pair starting from the
+bottom.&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;The two lowest are just the same as their paired string.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The remaining 4 should be one octave higher than the other
+ string in the pair.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you have a tuner for 6 string guitar, tuning one octave higher may
+be non-trivial. However, you can use a tuner, which shows hertz
+measurements. I used an Android app
+&lt;a href=&quot;https://play.google.com/store/apps/deta
+ils?id=com.bork.dsp.datuna&quot;&gt;DaTuner&lt;/a&gt; for this (I am not associated with this
+app in any way and find it quite confusing, but it shows Hz
+measurements which was enough for me).&lt;/p&gt;
+
+&lt;p&gt;So the final tuning in herz should be:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;(bottom most string) E4 – 329.6 Hz&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;E4 – 329.6 Hz (same as above)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;B3 – 246.9 Hz&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;B3 – 246.9 Hz (same as above)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;G3 – 196 Hz&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;G4 – 392 Hz (one octave higher)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;D3 – 146.8 Hz&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;D4 – 293.7 Hz (one octave higher)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A2 – 110 Hz&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A3 – 220 Hz (one octave higher)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;E2 – 82.41 Hz&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;E3 – 164.81 Hz (one octave higher)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You may ignore everything except the Hz numbers. Just make sure that
+the app shows the given number for the given string.&lt;/p&gt;
+
+&lt;p&gt;People in the Internet suggest to tune the 6th string (i.e. G4) slowly
+and letting it to “rest” in the process, since it is so high.&lt;/p&gt;
+
+&lt;p&gt;Also the tension is high, so after tuning some strings, the later
+strings will detune earlier ones a bit and you can to check them
+again.&lt;/p&gt;
+
+&lt;p&gt;Once you have a guitar more or less tuned, you don’t need to use Hz
+measurements anymore, since majority of tuners know all the notes and
+will show you the distance to the closest note even if it is not one
+of 6 string guitar.&lt;/p&gt;
+
+&lt;p&gt;Happy well tuned playing!&lt;/p&gt;</content><author><name></name></author><summary type="html">I recently needed to tune a 12 string guitar and this was less trivial than I expected. Thus, here is my guide, which does not involve any payed apps.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 18)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-18-aggression" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 18)" /><published>2020-01-25T20:00:00+01:00</published><updated>2020-01-25T20:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_18_aggression</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-18-aggression">&lt;p&gt;Aggression - part 2.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -2038,122 +2137,4 @@ tough punishment).&lt;/p&gt;
 
 &lt;p&gt;P.S. I will now associate “brave new world” and this romanticism around the term with FIRE.
 A bit dangerous since FIRE does not solve all your problems automatically, but still looks interesting.
-Chao!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;About me&quot;, &quot;Thought experiments&quot;]" /><summary type="html">Thought experiment #9 about a magical planet where all your needs are met by a magical entity.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 12) - Endocrinology</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-12-endocrinology" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 12) - Endocrinology" /><published>2019-12-14T10:00:00+01:00</published><updated>2019-12-14T10:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_12_endocrinology</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-12-endocrinology">&lt;p&gt;Lecture 12, Endocrinology. I suspect that many people talk about this topic without having any clue
-(“oh, this is must be due to hormones”). Thus, I am very excited to learn more.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;function-of-hormones&quot;&gt;Function of hormones&lt;/h2&gt;
-
-&lt;p&gt;Everything started with single cell organisms. When multicell organisms appeared, the issue arised - how to
-communicate across cells? There are 4 main mechanisms:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Cell-to-cell contact - physically touching, thus, short range. Like passing a note to a neighbor in a class.&lt;/li&gt;
-  &lt;li&gt;Paracrine (secreting paracrine factors) - local. Like whispering to several neighbors.&lt;/li&gt;
-  &lt;li&gt;Neuronal - fast. Like texting your friend during class.&lt;/li&gt;
-  &lt;li&gt;Endocrine (hormones traveling through blood) - long range, but slow. Like sending email to entire class. Enables coordination across cells.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Coordination is useful for&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Multiple coordinated cell transformations (e.g. metamorphosis)&lt;/li&gt;
-  &lt;li&gt;To respond to environment (e.g. stress or sexual stimuli).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;types&quot;&gt;Types&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;col /&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr class=&quot;header&quot;&gt;
-&lt;th&gt;Type &lt;/th&gt;
-&lt;th&gt;Peptide&lt;/th&gt;
-&lt;th&gt;Steroid&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Made of&lt;/td&gt;
-&lt;td&gt;Amino acids&lt;/td&gt;
-&lt;td&gt;Cholesterol&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Hydrophilic (lypophobic)&lt;/td&gt;
-&lt;td&gt;Hydrophobic (lypophilic)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Soluble in water?&lt;/td&gt;
-&lt;td&gt;Yes&lt;/td&gt;
-&lt;td&gt;No&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Travel&lt;/td&gt;
-&lt;td&gt;Freely through blood stream&lt;/td&gt;
-&lt;td&gt;Bound to chaperones&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Onset&lt;/td&gt;
-&lt;td&gt;Quick&lt;/td&gt;
-&lt;td&gt;Slow&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Affect&lt;/td&gt;
-&lt;td&gt;Existing protein activity&lt;/td&gt;
-&lt;td&gt;Transcription (rate of new protein synthesis)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Can travel through cell membrane&lt;/td&gt;
-&lt;td&gt;No&lt;/td&gt;
-&lt;td&gt;Yes&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Examples&lt;/td&gt;
-&lt;td&gt;insulin, vasopressin, oxytocin&lt;/td&gt;
-&lt;td&gt;glucocorticoids&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Hormones have subtle chemical differences in structure, but the higher level structure is similar.&lt;/p&gt;
-
-&lt;h2 id=&quot;hormone-release&quot;&gt;Hormone release&lt;/h2&gt;
-
-&lt;p&gt;There are many endocrine glands in our body. Each secretes certain signal. Some are located in the brain. Often
-peripheral glands are regulated by brain glands.&lt;/p&gt;
-
-&lt;p&gt;The signal flows from brain to hypothalamus, then pituitary gland and finally rest of the body.&lt;/p&gt;
-
-&lt;h3 id=&quot;pituitary-gland&quot;&gt;Pituitary gland&lt;/h3&gt;
-
-&lt;p&gt;Consists of two parts - anterior and posterior. They secret different set of hormones and use different mechanisms.
-To secrete hormones in anterior part, hypothalamus has to release its hormones. For posterior part hormones come
-directly from neurons (i.e. there is a direct neural connection).&lt;/p&gt;
-
-&lt;p&gt;Anterior releases e.g ACTH, posterior - vasopressin, oxytocin.&lt;/p&gt;
-
-&lt;h3 id=&quot;feedback-loops&quot;&gt;Feedback loops&lt;/h3&gt;
-
-&lt;p&gt;The amount of hormones can be controlled through feedback loops, e.g. cortisol negative feedback loop.
-Cortisol gets secreted through CRH and ACTH. Each of glands producing these have receptors for cortisol.
-When they detect cortisol in blood stream, they start producing less of CRH and as a result ACTH, thus, lowering
-cortisol production.&lt;/p&gt;
-
-&lt;h2 id=&quot;effect-on-brain&quot;&gt;Effect on brain&lt;/h2&gt;
-
-&lt;p&gt;To affect brain hormones have to travel through blood stream (i.e. cross blood brain barrier). 
-This barrier is located in blood vessels. It regulates what gets inside/outside brain’s bloodstream.&lt;/p&gt;
-
-&lt;p&gt;Steroid hormones can simply pass this barrier. Peptide can’t on their own, but have a carrier transport for this.
-Alcohol also passes blood brain barrier.&lt;/p&gt;
-
-&lt;p&gt;In order for a hormone to have an effect in brain, neurons have to have its receptors.
-Different parts of the brain can be more or less receptive. Some areas just have more receptors.
-There can also be individual variation in number of receptors.&lt;/p&gt;
-
-&lt;p&gt;Level of hormones can affect number of receptors. E.g. if there is too much of some hormone, cells
-can decrease number of its receptor.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Lecture 12, Endocrinology. I suspect that many people talk about this topic without having any clue (“oh, this is must be due to hormones”). Thus, I am very excited to learn more.</summary></entry></feed>
+Chao!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;About me&quot;, &quot;Thought experiments&quot;]" /><summary type="html">Thought experiment #9 about a magical planet where all your needs are met by a magical entity.</summary></entry></feed>
