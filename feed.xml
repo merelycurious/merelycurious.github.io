@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-02-02T17:54:41+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How to tune 12 string guitar</title><link href="https://merelycurious.me/post/how-to-tune-12-string-guitar" rel="alternate" type="text/html" title="How to tune 12 string guitar" /><published>2020-02-02T16:00:00+01:00</published><updated>2020-02-02T16:00:00+01:00</updated><id>https://merelycurious.me/post/how_to_tune_12_string_guitar</id><content type="html" xml:base="https://merelycurious.me/post/how-to-tune-12-string-guitar">&lt;p&gt;I recently needed to tune a 12 string guitar and this was less trivial
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-02-08T14:34:51+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Canceling Amazon Prime</title><link href="https://merelycurious.me/post/canceling-amazon-prime" rel="alternate" type="text/html" title="Canceling Amazon Prime" /><published>2020-02-08T13:00:00+01:00</published><updated>2020-02-08T13:00:00+01:00</updated><id>https://merelycurious.me/post/canceling_amazon_prime</id><content type="html" xml:base="https://merelycurious.me/post/canceling-amazon-prime">&lt;p&gt;I canceled my free Amazon Prime trial recently. I was surprised how
+many stages this required. Overall this looked like a dark UI
+pattern.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
+
+&lt;p&gt;It is non-obvious how to actually cancel the membership.&lt;/p&gt;
+
+&lt;p&gt;The main page looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/canceling_amazon_prime/1_main_page.png&quot; alt=&quot;Main page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fortunately there is “Prime” section, let’s go there:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/canceling_amazon_prime/2_prime_page.png&quot; alt=&quot;Prime page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After some trial and error I landed at “Update your settings”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/canceling_amazon_prime/3_update.png&quot; alt=&quot;&amp;quot;Update your settings&amp;quot; dialog&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, “End Membership”, now we are talking. It is quite funny that this
+entire flow tries to tell me that I will lose all the benefits of
+“Prime” membership by canceling.&lt;/p&gt;
+
+&lt;p&gt;However, this is definitely not the end of the story (probably more
+like a middle point). The next screen gets more pushy and tries to
+hint me again that I will lose all my “benefits” if I cancel prime:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/canceling_amazon_prime/4.png&quot; alt=&quot;List of benefits&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The user is also presented with one bright blue button, which does not
+lead to cancellation and two very similar yellow buttons - only one of them
+is the correct one. Funny enough it is not the rightmost one. I think
+most of the UI teaches the user to click rightmost one. Ok, I increase
+my attention level to the maximum and click “I Do Not Want My
+Benefits”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/canceling_amazon_prime/5.png&quot; alt=&quot;Extend your membership?&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am pretty sure the though process was like “oh, looks like this guy
+is pretty serious, let’s use heavy artillery… and offer 7 days of
+Prime for 0.99 EUR”. WTH? I can’t imagine any use of 7 days of Prime
+for 0.99 EUR. Again we see nice blue button, which does not lead to
+cancellation and now 3 yellow very similar ones. Only one of
+them is the correct button and it is in the middle. At least I am still
+able to click it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/canceling_amazon_prime/6.png&quot; alt=&quot;Really cancel?&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yet another screen. Again two very similar buttons. The upper one is
+the correct one. For some reason they changed from horizontal button
+layout to vertical. I am pretty sure this just adds confusion and
+leads to a few more people clicking the wrong button by mistake.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, this was the last step (but I already braced myself for more):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/canceling_amazon_prime/7.png&quot; alt=&quot;Cancellation message&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+
+&lt;p&gt;I am very curious why they stop at 3 screens and not like 10? I find 3
+screens already awkward. Perhaps this is just to “protect a poor user
+from making a &lt;em&gt;wrong&lt;/em&gt; choice” and 10 would be too scammy. Fortunately
+they don’t require writing a poem in Chinese about why I want to
+cancel and lose “all the wonderful benefits”.&lt;/p&gt;
+
+&lt;p&gt;Happy navigation in dark UIs!&lt;/p&gt;</content><author><name></name></author><summary type="html">I canceled my free Amazon Prime trial recently. I was surprised how many stages this required. Overall this looked like a dark UI pattern.</summary></entry><entry><title type="html">How to tune 12 string guitar</title><link href="https://merelycurious.me/post/how-to-tune-12-string-guitar" rel="alternate" type="text/html" title="How to tune 12 string guitar" /><published>2020-02-02T16:00:00+01:00</published><updated>2020-02-02T16:00:00+01:00</updated><id>https://merelycurious.me/post/how_to_tune_12_string_guitar</id><content type="html" xml:base="https://merelycurious.me/post/how-to-tune-12-string-guitar">&lt;p&gt;I recently needed to tune a 12 string guitar and this was less trivial
 than I expected. Thus, here is my guide, which does not involve any
 payed apps.&lt;/p&gt;
 
@@ -1988,153 +2056,4 @@ they have any impact only when Gaba already has some effect (i.e. A is triggered
 
 &lt;p&gt;Hormones can do modulation too. E.g. CRH + Vasopressin can produce much more ACTH than just CRH alone, but
 Vasopressin alone produces very little ACTH. Thus, Vasopressin just modulates effect of CRH and does not
-trigger ACTH production on its own. Thus, it has effect only when CRH has effect.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><category term="courses" /><category term="review" /><summary type="html">Advanced Neurology and Endocrinology. Basically we consider simplifications made during the last two lectures.</summary></entry><entry><title type="html">Thought experiment #9: brave new world with all needs met</title><link href="https://merelycurious.me/post/thought-experiment-9-brave-new-world-with-all-needs-met" rel="alternate" type="text/html" title="Thought experiment #9: brave new world with all needs met" /><published>2019-12-15T07:00:00+01:00</published><updated>2019-12-15T07:00:00+01:00</updated><id>https://merelycurious.me/post/thought_experiment_9_brave_new_world_with_all_needs_met</id><content type="html" xml:base="https://merelycurious.me/post/thought-experiment-9-brave-new-world-with-all-needs-met">&lt;p&gt;Thought experiment #9 about a magical planet where all your needs are met by a magical entity.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;Wow, I am actually looking forward to the next thought experiment and feel pretty excited
-before starting to write (even though I haven’t read it yet). I think I got a habit now.&lt;/p&gt;
-
-&lt;p&gt;“How will you live in a brave new world?” from the tweet sounds very interesting.
-It reminds me of Brave New World by Aldous Huxley. Now I am actually pretty sure that they
-two are connected. Look, all 3 words are the same. Hm… Let’s have a look inside.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-statement&quot;&gt;The statement&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You’ve arrived at Firearto, better known as ‘Earth 2.0’, an exo planet located over 200,000 light years away. As you walk down the exit corridor of your spaceship along with another million colonizers you think to yourself: What will I do here? Firearto is a planet that has no monetary system, all of your needs are provided for by FSY (Firearto Space Corp). How will you live your life?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The experiment page is
-&lt;a href=&quot;https://thesavingninja.com/a-brave-new-world&quot;&gt;here&lt;/a&gt; and it has links to other answers!&lt;/p&gt;
-
-&lt;h2 id=&quot;my-answer&quot;&gt;My answer&lt;/h2&gt;
-
-&lt;p&gt;Em…&lt;/p&gt;
-
-&lt;p&gt;WTH?&lt;/p&gt;
-
-&lt;p&gt;So it is like Universal Basic Income, but without money?&lt;/p&gt;
-
-&lt;p&gt;I think a little bit more of explanation would be helpful. What confuses me is that it is hard to 
-imagine such no money system. Is it like communism? Or I don’t have to work? Somehow from the text
-it looks like no work is required. Can I have different needs from others? What if I want more than others?
-Tricky…&lt;/p&gt;
-
-&lt;p&gt;But the more freedom and vagueness we have, the more unique and personal our response can be.
-So let’s happily start reducing all this ambiguity. 
-Many of us are united by the idea of Financial Independence, so I assume that the thought experiment
-is at least somewhat about it.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;all of your needs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It is boring to assume that this literally means “any” need. First, I could just go to this magical entity and ask for anything,
-so there is not much to write about here. Second, this is hard to imagine in practice (yeah, I may have peculiar needs).
-Third, if anything is available so easily, life will probably be quite boring. No goals to reach, no targets to hit, no
-competition. It is actually funny to understand that I do enjoy this part of life. Before writing that I would have struggled
-with claiming so.&lt;/p&gt;
-
-&lt;p&gt;Thus, we say “all of your &lt;em&gt;basic&lt;/em&gt; needs” are covered. So we have shelter, food, basic fun probably. Oh, it is very hard not
-to regress to something-like-money system. I immediately think about people having different needs. Perhaps I want more
-books and other people like movies more. Thus, there should be some balance, which gets reduced with each need satisfied.
-And, abracadabra, we just implemented money. Sad.&lt;/p&gt;
-
-&lt;p&gt;Ok, so we assume that everyone gets the same and somehow magically there are ways to request additional stuff.
-E.g. if I want to do wood carving, I can hypothetically get the materials and tools. As you noticed above I have
-no clue how to preserve fairness in such a system, but this thought experiment is about me doing stuff and not
-designing such a system. Thus, I just ignore this inconsistency. Sorry.&lt;/p&gt;
-
-&lt;p&gt;Oh, but doesn’t then the question just become “what would you do if you were fat FI on a different planet”?
-Like I have access to resources (e.g. requesting wood carving tools), it is not that limited (i.e. not a lean FI),
-but I am just on a different planet.&lt;/p&gt;
-
-&lt;p&gt;And we back to square one. What does this planet have to offer? If it is all just metal rooms without anything,
-then it is quite tricky to live there. If it is exactly like Earth, then the answer is completely different.&lt;/p&gt;
-
-&lt;p&gt;I thought for a moment that I could read comments in the Twitter, perhaps someone tried to clarify, but there are none
-and it would be a spoiler. I could also ask SavingNinja in a private message, but I feel lazy to do that.&lt;/p&gt;
-
-&lt;p&gt;Ok, time to enable “thinking - no, writing - yes” mode and just go ahead.&lt;/p&gt;
-
-&lt;p&gt;No money raises an interesting question of motivation. Currently many people (including me) do a lot of stuff and
-spend great portions of their lives being driven by money. This is not per-se bad. This new planet completely removes
-this incentive (somewhat similarly to FIRE, but there it is only partially removed, since more money = smaller chances to run
-out of money). For someone who is very work driven, such change can be dramatic. Many people experience this on Earth
-when going into their retirement. So-called empty desk syndrome. I don’t think I am affected much. My money pursuits are motivated by
-FIRE and I am trying to build my FIRE life still while working. I.e. I want to have enough activities, so that 
-when I get more free time once I am FIRE, these activities just naturally fill the free time.&lt;/p&gt;
-
-&lt;p&gt;Thus, I am tempted to say that I would try to live on that planet the same way as I plan to leave on Earth during FIRE.&lt;/p&gt;
-
-&lt;p&gt;Done.&lt;/p&gt;
-
-&lt;p&gt;Ok, not yet, I could probably elaborate a bit more on the details. But this will just boil down to how to be happy.
-I am now super curious what others will write and how they will understand the question. Looking forward to reading that.
-It will likely be something very different from mine and I will be like “oh, how I could have missed this way to
-understand the statement, it is indeed so easy and makes sense”.&lt;/p&gt;
-
-&lt;p&gt;There still can be competition, it just won’t be motivated by money much, but instead by self-improvement and being
-better than others. In some sense that’s what sport is meant to be doing. So there will be a lot of sport (often
-non-physical) on that planet. Not sure whether I will participate much in the actual sport, but I will definitely 
-find some hobby in which I will try to get as best as I can and which I enjoy. Becoming the best is usually not 
-enough - there is always someone who is better than you, because they have spent plenty of time on it and
-are probably naturally inclined to excel in that activity (aka talent). I am a fan of growth mindset, but still people
-vary and e.g. one’s height matters in basketball.&lt;/p&gt;
-
-&lt;p&gt;Apart from that I will try to form a lot of relationships. Probably with people interested in the same hobby and
-just people whose company I enjoy in general. At least on Earth this seems to affect my happiness greatly. So I assume
-that there it will be the same. Having basic needs satisfied by a magic entity is quite good for forming romantic relationships.
-Often ways of satisfying needs (or having different needs) can become a source of conflict. E.g. if one person likes
-one kind of food and other likes something different, it may be tricky for them to live together.
-To be honest I struggle to come up with a good example of such kinds of food. But if you take the food out of equation,
-they just eat what this entity provides, then they can enjoy other qualities of each other. E.g. they could be a perfect
-match in all other categories.&lt;/p&gt;
-
-&lt;p&gt;I think I will also continue learning. Probably try to do some research. Even though this magic entity providing all the
-basic needs seems to be quite powerful, I don’t think that humanity will ever solve all the research. It would be pretty
-weird to at some point say: “Oh, we have researched everything, we are done”. Somehow it feels like there is no
-end and one will always be able to improve something or discover something new. Obviously no proof here, just random
-speculations. Some deep research always feels like a connection to nature for me. In many areas you solve problems
-which other people created. These feel somewhat artificial. In research you may be touching problems in some sense
-created by nature. This can then be perceived as you are a part of humanity, i.e. one entity competing with nature.
-This looks intrinsically beautiful. It is not some artificial problem created by someone else, it is something
-deep and intrinsic instead. Thus, if you take away money, this intrinsic beauty should become so much more important.
-This can be a powerful source for finding meaning in life.&lt;/p&gt;
-
-&lt;p&gt;It is a bit scary to get lazy and start fulfilling all my needs without a limit. E.g. one can crave fatty or sugary foods.
-Does it mean that one should eat them? Probably not. If all needs can be met, it is much easier to give up to such desires
-and just start fulfilling them. Also postponing something for tomorrow might be a problem. Why doing something today if you can
-do it later? I think the answer is “no reason, if you don’t want to, i.e. there is no intrinsic motivation”. The first issue
-is not that prominent in FIRE due to limited resources and in some sense I am exposed to this now. I could eat plenty of 
-sweet and fatty stuff already now, but I don’t. For the latter, it is hard to say. For intrinsically motivated stuff,
-I will do it just because I want to do it now. For other, I probably just won’t do it at all then. I assume that there won’t
-be any stuff which one has to do, since their needs are met. This also illustrated FI well. While not FI one has to work
-because one needs to satisfy their basic needs. After FI, one just needs to take care of themselves (still satisfying basic
-needs but on a different level), apart from that they are free to do whatever. E.g. they can lay in bed for days just because
-they feel so. Probably a stupid example, but I like it, sorry.&lt;/p&gt;
-
-&lt;p&gt;It is definitely interesting to see this connection between life on this magic planet and FIRE. I am now even curious
-whether SavingNinja intended it this way. “Let’s ask them what they will be doing during their FIRE in a very implicit way”.
-A bit “disappointed” that this has nothing to do with Huxley’s book. But the book was quite sad and dark, so I am happy
-that this experiment is not like that. Funny enough I discussed satisfying too many needs too much above, which was also
-in that book. In some sense even today people satisfy too many of their needs too well. Some shortage is beneficial (especially 
-voluntarily, since then you can stop it at any moment and it is not dangerous). You don’t get to enjoy the sun without having rain
-or winter. If you live by the sea you just get used to it and don’t care much anymore.&lt;/p&gt;
-
-&lt;p&gt;It is also interesting how thinking about this magical planet brings ideas about issues in FIRE. That’s an interesting thought
-experiment and it does precisely what thought experiments are intended to do - uncover stuff by thinking.&lt;/p&gt;
-
-&lt;p&gt;By the way, I thought for a moment how one could increase the difficulty of this thought experiment directly to insane level.
-Just assume that you are immortal on that planet. Oh, it is even scary for me to think about this, but I am not saying
-that being immortal is bad. In the worst case one can voluntarily die I assume (unless in jail, oh, it is probably a very
-tough punishment).&lt;/p&gt;
-
-&lt;p&gt;Anyway, happy finding, building / reaching and then living in your own brave new world!&lt;/p&gt;
-
-&lt;p&gt;P.S. I will now associate “brave new world” and this romanticism around the term with FIRE.
-A bit dangerous since FIRE does not solve all your problems automatically, but still looks interesting.
-Chao!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;About me&quot;, &quot;Thought experiments&quot;]" /><summary type="html">Thought experiment #9 about a magical planet where all your needs are met by a magical entity.</summary></entry></feed>
+trigger ACTH production on its own. Thus, it has effect only when CRH has effect.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><category term="courses" /><category term="review" /><summary type="html">Advanced Neurology and Endocrinology. Basically we consider simplifications made during the last two lectures.</summary></entry></feed>
