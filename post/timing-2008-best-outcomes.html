@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Timing 2008: what was the prize? | Merely curious</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Timing 2008: what was the prize?" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="With the bull market continuing, more and more people “predict” the crisis. Obviously, there is a temptation to try to time the market. Let’s try to estimate the best outcome of timing the market by considering the 2008 crisis. Perhaps it is not worth it at all (spoiler: the returns of ideal timing are actually substantial)." />
+<meta property="og:description" content="With the bull market continuing, more and more people “predict” the crisis. Obviously, there is a temptation to try to time the market. Let’s try to estimate the best outcome of timing the market by considering the 2008 crisis. Perhaps it is not worth it at all (spoiler: the returns of ideal timing are actually substantial)." />
+<link rel="canonical" href="https://merelycurious.me/post/timing-2008-best-outcomes" />
+<meta property="og:url" content="https://merelycurious.me/post/timing-2008-best-outcomes" />
+<meta property="og:site_name" content="Merely curious" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-09T12:00:00+01:00" />
+<script type="application/ld+json">
+{"description":"With the bull market continuing, more and more people “predict” the crisis. Obviously, there is a temptation to try to time the market. Let’s try to estimate the best outcome of timing the market by considering the 2008 crisis. Perhaps it is not worth it at all (spoiler: the returns of ideal timing are actually substantial).","@type":"BlogPosting","url":"https://merelycurious.me/post/timing-2008-best-outcomes","headline":"Timing 2008: what was the prize?","dateModified":"2020-02-09T12:00:00+01:00","datePublished":"2020-02-09T12:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://merelycurious.me/post/timing-2008-best-outcomes"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://merelycurious.me/feed.xml" title="Merely curious" /><script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-131503689-1', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Merely curious</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/queue/">Future post ideas</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Timing 2008: what was the prize?</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-02-09T12:00:00+01:00" itemprop="datePublished">Feb 9, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>With the bull market continuing, more and more people “predict” the
+crisis. Obviously, there is a temptation to try to time the market.
+Let’s try to estimate the best outcome of timing the market by
+considering the 2008 crisis. Perhaps it is not worth it at all
+(spoiler: the returns of ideal timing are actually substantial).</p>
+
+<!--more-->
+
+<h2 id="getting-the-data">Getting the data</h2>
+
+<p>Before simulating anything, we need the data. First, I arbitrarily
+select the following companies to analyze:</p>
+
+<ul>
+  <li>
+    <p>‘AAPL’, ‘AMZN’, ‘GOOGL’ - Apple, Amazon and Google, since IT
+companies were not that much affected by the crisis from the
+operational perspective and if I were <em>hypothetically</em> timing the market buying them
+would seem safer.</p>
+  </li>
+  <li>
+    <p>‘BAC’ - Bank of America as an example of a bank.</p>
+  </li>
+  <li>
+    <p>‘WMT’ - Walmart as an example of company which should not be
+affected much by the crisis (people still need their groceries).
+At least <a href="https://www.fool.com/investing/2020/01/04/3-recession-proof-stocks-to-buy-now.aspx">Motley Fool says so</a>.</p>
+  </li>
+  <li>
+    <p>‘^GSPC’ - S&amp;P500 index as a proxy for the US.</p>
+  </li>
+  <li>
+    <p>‘IWRD.AS’ - World index as a proxy for the world. Unfortunately
+plenty of world ETFs were created after the crisis, so this is the
+only I found with enough data.</p>
+  </li>
+</ul>
+
+<p>Then I just manually downloaded daily prices for these tickers from
+<a href="https://finance.yahoo.com/">https://finance.yahoo.com/</a> (dates: 1st of Jan 2006 - 1st of Jan 2014).</p>
+
+<p>You can get the same data by inserting the ticker in</p>
+
+<blockquote>
+  <p>https://finance.yahoo.com/quote/<ticker>/history?period1=1136073600&amp;period2=1388534400&amp;interval=1d&amp;filter=history&amp;frequency=1d</ticker></p>
+</blockquote>
+
+<p>and then manually clicking “Download Data”.</p>
+
+<h2 id="methodology">Methodology</h2>
+
+<p>Let’s consider time period from 3rd of Jan 2006 to 3rd of Jan 2013.
+You may be wondering why 3rd and not 1st - because there is no data
+for 1st and 2nd.</p>
+
+<p>First, we consider buy&amp;hold outcome, i.e. one buys on 3rd of Jan 2006
+and then sells on 3rd of Jan 2013. When buying we take “high” price of
+the day and when selling - “low”. This gives us baseline to compare to.
+I.e. if one does not time the market, this is their return.</p>
+
+<p>Second, let’s consider an investor who times the market, but only once. In
+other words they buy on 3rd of Jan 2006. Then at some point during the
+crisis they sell. Then eventually they rebuy. Finally, they sell again
+on 3rd of Jan 2013. Let’s enumerate all possibilities to sell and
+rebuy and find the best ones.</p>
+
+<p>When timing the market, I also take “high” price of
+the day for buying and “low” for selling. This gives lower bound.</p>
+
+<h2 id="results">Results</h2>
+
+<h3 id="world">World</h3>
+
+<p>Buy&amp;hold investor’s ROI is -3.5% (bought @ 22.82$ on 2006/01/03, sold @ 22$
+on 2013/01/03). Let’s have a look at daily prices during this period:</p>
+
+<p><img src="/assets/post_resources/timing_2008/IWRD.AS_1_daily_prices.png" alt="Daily prices for World Index" /></p>
+
+<p>As we can see, the fall has started in 2007 and the recovery in 2009.
+It is peculiar to observe how many times it grew during the crisis
+and then felt back again. Timing that wouldn’t be fun.</p>
+
+<p>If we time the world index once, our ROI becomes whooping 107.26% (sold @
+25.6$ on 2007/06/04, bought @ 11.91$ on 2009/03/09). Visually:</p>
+
+<p><img src="/assets/post_resources/timing_2008/IWRD.AS_2_best_timing
+.png" alt="Daily prices for World Index with the best time period for timing
+the crisis" /></p>
+
+<p>The red line connects sell and rebuy points.</p>
+
+<p>One can definitely see that figuring out when to rebuy in practice wouldn’t be
+easy at all. There are plenty of small recoveries before the actual
+minimum of 2009.</p>
+
+<p>Let’s now consider all possible scenarios:</p>
+
+<p><img src="/assets/post_resources/timing_2008/IWRD.AS_3_all_timing
+.png" alt="Outcomes of all possible ways to time the market through World Index" /></p>
+
+<p>This may be confusing to read, but please bear with me. Let’s say you
+sell in 2007. This corresponds to horizontal line at 2007 (i.e. pick
+2007 on the vertical axes). Then let’s say you rebuy in 2012. This
+means that you pick 2012 on horizontal axes. Your ROI is the
+intersection of the two. I.e. this plot represents all possible ways
+to time the market and their outcomes. As we can see, rebuying around
+2009 is generally better than others and selling around 2009 was a bad
+idea. Also if you misstimed the market, you would reach ~-40% ROI.</p>
+
+<p>Please note that I interpolate the missing days  (e.g. holidays) by taking
+average of neighbors. This just fills the holes in the graph,
+otherwise it is impossible to read (and if you don’t believe me <a href="/assets/post_resources/timing_2008/IWRD.AS_3_all_timing
+_no_interpolation.png">here
+is an example</a>).</p>
+
+<p>As we can see, timing the market through World Index in the best case
+would be very profitable (one could have 107.26% after 7
+years instead of -3.5%). However, it is definitely not easy.
+When looking at all possible timing scenarios there is a lot of
+blue-purple (which is 0 or negative return). Another problem is that
+there are plenty of smaller drops and recoveries during the crisis.</p>
+
+<h3 id="apple">Apple</h3>
+
+<p>Buy&amp;hold investor got 623.74% return (bought @ 10.67$ on 2006/01/03,
+sold @ 77.28$ on 2013/01/03).</p>
+
+<p>Daily prices and best market timing:</p>
+
+<p><img src="/assets/post_resources/timing_2008/AAPL_2_best_timing
+.png" alt="Daily prices for Apple stock with the best time period for timing
+the crisis" /></p>
+
+<p>There was plenty of growth after the crisis. The best timing scenario
+return is 1645.81% (sell @ 28.25 on 2007/12/27, rebuy @ 11.71 on
+2009/01/20). In some sense by doing this, one doubles their holdings
+and thus boosts the effect of the great growth afterwards.</p>
+
+<p><img src="/assets/post_resources/timing_2008/AAPL_3_all_timing
+.png" alt="Outcomes of all possible ways to time the market through Apple stock" /></p>
+
+<p>As we can see the “hot” area is much-much smaller than before.</p>
+
+<h3 id="amazon">Amazon</h3>
+
+<p>You know the drill now, so I will just add the numbers and graphs without
+too many words.</p>
+
+<p>Buy&amp;hold: 435.77% return (bought @ 47.84$ on 2006/01/03,
+sold @ 256.36$ on 2013/01/03)</p>
+
+<p><img src="/assets/post_resources/timing_2008/AMZN_2_best_timing
+.png" alt="Daily prices for Amazon stock with the best time period for timing
+the crisis" /></p>
+
+<p>Best market timing: 1201.66% (sell @ 94.75$ on 2007/10/09, rebuy @ 39$ on
+2008/11/21).</p>
+
+<p><img src="/assets/post_resources/timing_2008/AMZN_3_all_timing
+.png" alt="Outcomes of all possible ways to time the market through Amazon stock" /></p>
+
+<p>The peak returns area is very small now.</p>
+
+<h3 id="google">Google</h3>
+
+<p>Buy&amp;hold: 65.42% return (bought @ 218.05$ on 2006/01/03,
+sold @ 360.72$ on 2013/01/03)</p>
+
+<p><img src="/assets/post_resources/timing_2008/GOOGL_2_best_timing
+.png" alt="Daily prices for Google stock with the best time period for timing
+the crisis" /></p>
+
+<p>Best market timing: 345.24% (sell @ 362.86$ on 2007/11/06, rebuy @ 134.81$ on
+2008/11/21).</p>
+
+<p><img src="/assets/post_resources/timing_2008/GOOGL_3_all_timing
+.png" alt="Outcomes of all possible ways to time the market through Google stock" /></p>
+
+<p>I am surprised how small buy&amp;hold returns are.</p>
+
+<h3 id="bank-of-america">Bank of America</h3>
+
+<p>Buy&amp;hold: -74.81% return (bought @ 47.18$ on 2006/01/03,
+sold @ 11.88$ on 2013/01/03)</p>
+
+<p><img src="/assets/post_resources/timing_2008/BAC_2_best_timing
+.png" alt="Daily prices for Bank of America stock with the best time period for timing
+the crisis" /></p>
+
+<p>Best market timing: 293.26% (sell @ 54.82$ on 2006/11/17, rebuy @ 3.51$ on
+2009/03/05).</p>
+
+<p><img src="/assets/post_resources/timing_2008/BAC_3_all_timing
+.png" alt="Outcomes of all possible ways to time the market through Google stock" /></p>
+
+<p>Oh, the buy&amp;hold return is scary and rebuying at 3$ per share is very
+peculiar.</p>
+
+<h3 id="walmart">Walmart</h3>
+
+<p>Buy&amp;hold: 46.54% return (bought @ 46.66$ on 2006/01/03,
+sold @ 68.37$ on 2013/01/03)</p>
+
+<p><img src="/assets/post_resources/timing_2008/WMT_2_best_timing
+.png" alt="Daily prices for Walmart stock with the best time period for timing
+the crisis" /></p>
+
+<p>Best market timing: 91.92% (sell @ 61.58$ on 2008/09/12, rebuy @ 47.02$ on
+2009/02/02).</p>
+
+<p><img src="/assets/post_resources/timing_2008/WMT_3_all_timing
+.png" alt="Outcomes of all possible ways to time the market through Walmart stock" /></p>
+
+<p>This one looks surprisingly easy to time (probably, because the timing
+does not bring that much return anyway).</p>
+
+<h3 id="sp500">S&amp;P500</h3>
+
+<p>Buy&amp;hold: 14.58% return (bought @ 1270.21$ on 2006/01/03,
+sold @ 1455.53$ on 2013/01/03).</p>
+
+<p><img src="/assets/post_resources/timing_2008/^GSPC_2_best_timing
+.png" alt="Daily prices for S&amp;P500 with the best time period for timing
+the crisis" /></p>
+
+<p>Best market timing: 156.35% (sell @ 1545.45$ on 2007/10/10, rebuy @ 695.27$ on
+2009/03/09).</p>
+
+<p><img src="/assets/post_resources/timing_2008/^GSPC_3_all_timing
+.png" alt="Outcomes of all possible ways to time the market through Walmart stock" /></p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>Yes, timing 2008 well was a very profitable endeavor.</p>
+
+<h2 id="follow-ups">Follow-ups</h2>
+
+<p>I am now curious to estimate how hard it was to time the market. In 
+the follow-up post I want to consider how badly could one time the market
+and still make reasonable profit. Also it makes sense to color all timing
+scenarios based on whether they outperform buy&amp;hold.</p>
+
+  </div><a class="u-url" href="/post/timing-2008-best-outcomes" hidden></a>
+</article>
+
+      </div>
+    </main>
+<footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Merely curious</li><li><a class="u-email" href="mailto:merelycurious protonmail.com">merelycurious protonmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://www.twitter.com/merely_curious_"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">merely_curious_</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Everything I find interesting enough.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<script type="text/javascript" async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+</body>
+
+</html>

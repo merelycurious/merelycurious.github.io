@@ -1,4 +1,244 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-02-09T12:59:27+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How much Europe is there in the World ETF?</title><link href="https://merelycurious.me/post/europe-in-world-etf" rel="alternate" type="text/html" title="How much Europe is there in the World ETF?" /><published>2020-02-09T11:00:00+01:00</published><updated>2020-02-09T11:00:00+01:00</updated><id>https://merelycurious.me/post/europe_in_world_etf</id><content type="html" xml:base="https://merelycurious.me/post/europe-in-world-etf">&lt;p&gt;I’ve had a peculiar puzzle recently. What is the percentage of 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-02-09T14:07:27+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Timing 2008: what was the prize?</title><link href="https://merelycurious.me/post/timing-2008-best-outcomes" rel="alternate" type="text/html" title="Timing 2008: what was the prize?" /><published>2020-02-09T12:00:00+01:00</published><updated>2020-02-09T12:00:00+01:00</updated><id>https://merelycurious.me/post/timing_2008_best_outcomes</id><content type="html" xml:base="https://merelycurious.me/post/timing-2008-best-outcomes">&lt;p&gt;With the bull market continuing, more and more people “predict” the
+crisis. Obviously, there is a temptation to try to time the market.
+Let’s try to estimate the best outcome of timing the market by
+considering the 2008 crisis. Perhaps it is not worth it at all
+(spoiler: the returns of ideal timing are actually substantial).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;getting-the-data&quot;&gt;Getting the data&lt;/h2&gt;
+
+&lt;p&gt;Before simulating anything, we need the data. First, I arbitrarily
+select the following companies to analyze:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;‘AAPL’, ‘AMZN’, ‘GOOGL’ - Apple, Amazon and Google, since IT
+companies were not that much affected by the crisis from the
+operational perspective and if I were &lt;em&gt;hypothetically&lt;/em&gt; timing the market buying them
+would seem safer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;‘BAC’ - Bank of America as an example of a bank.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;‘WMT’ - Walmart as an example of company which should not be
+affected much by the crisis (people still need their groceries).
+At least &lt;a href=&quot;https://www.fool.com/investing/2020/01/04/3-recession-proof-stocks-to-buy-now.aspx&quot;&gt;Motley Fool says so&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;‘^GSPC’ - S&amp;amp;P500 index as a proxy for the US.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;‘IWRD.AS’ - World index as a proxy for the world. Unfortunately
+plenty of world ETFs were created after the crisis, so this is the
+only I found with enough data.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then I just manually downloaded daily prices for these tickers from
+&lt;a href=&quot;https://finance.yahoo.com/&quot;&gt;https://finance.yahoo.com/&lt;/a&gt; (dates: 1st of Jan 2006 - 1st of Jan 2014).&lt;/p&gt;
+
+&lt;p&gt;You can get the same data by inserting the ticker in&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;https://finance.yahoo.com/quote/&lt;ticker&gt;/history?period1=1136073600&amp;amp;period2=1388534400&amp;amp;interval=1d&amp;amp;filter=history&amp;amp;frequency=1d&lt;/ticker&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and then manually clicking “Download Data”.&lt;/p&gt;
+
+&lt;h2 id=&quot;methodology&quot;&gt;Methodology&lt;/h2&gt;
+
+&lt;p&gt;Let’s consider time period from 3rd of Jan 2006 to 3rd of Jan 2013.
+You may be wondering why 3rd and not 1st - because there is no data
+for 1st and 2nd.&lt;/p&gt;
+
+&lt;p&gt;First, we consider buy&amp;amp;hold outcome, i.e. one buys on 3rd of Jan 2006
+and then sells on 3rd of Jan 2013. When buying we take “high” price of
+the day and when selling - “low”. This gives us baseline to compare to.
+I.e. if one does not time the market, this is their return.&lt;/p&gt;
+
+&lt;p&gt;Second, let’s consider an investor who times the market, but only once. In
+other words they buy on 3rd of Jan 2006. Then at some point during the
+crisis they sell. Then eventually they rebuy. Finally, they sell again
+on 3rd of Jan 2013. Let’s enumerate all possibilities to sell and
+rebuy and find the best ones.&lt;/p&gt;
+
+&lt;p&gt;When timing the market, I also take “high” price of
+the day for buying and “low” for selling. This gives lower bound.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;h3 id=&quot;world&quot;&gt;World&lt;/h3&gt;
+
+&lt;p&gt;Buy&amp;amp;hold investor’s ROI is -3.5% (bought @ 22.82$ on 2006/01/03, sold @ 22$
+on 2013/01/03). Let’s have a look at daily prices during this period:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/IWRD.AS_1_daily_prices.png&quot; alt=&quot;Daily prices for World Index&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As we can see, the fall has started in 2007 and the recovery in 2009.
+It is peculiar to observe how many times it grew during the crisis
+and then felt back again. Timing that wouldn’t be fun.&lt;/p&gt;
+
+&lt;p&gt;If we time the world index once, our ROI becomes whooping 107.26% (sold @
+25.6$ on 2007/06/04, bought @ 11.91$ on 2009/03/09). Visually:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/IWRD.AS_2_best_timing
+.png&quot; alt=&quot;Daily prices for World Index with the best time period for timing
+the crisis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The red line connects sell and rebuy points.&lt;/p&gt;
+
+&lt;p&gt;One can definitely see that figuring out when to rebuy in practice wouldn’t be
+easy at all. There are plenty of small recoveries before the actual
+minimum of 2009.&lt;/p&gt;
+
+&lt;p&gt;Let’s now consider all possible scenarios:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/IWRD.AS_3_all_timing
+.png&quot; alt=&quot;Outcomes of all possible ways to time the market through World Index&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This may be confusing to read, but please bear with me. Let’s say you
+sell in 2007. This corresponds to horizontal line at 2007 (i.e. pick
+2007 on the vertical axes). Then let’s say you rebuy in 2012. This
+means that you pick 2012 on horizontal axes. Your ROI is the
+intersection of the two. I.e. this plot represents all possible ways
+to time the market and their outcomes. As we can see, rebuying around
+2009 is generally better than others and selling around 2009 was a bad
+idea. Also if you misstimed the market, you would reach ~-40% ROI.&lt;/p&gt;
+
+&lt;p&gt;Please note that I interpolate the missing days  (e.g. holidays) by taking
+average of neighbors. This just fills the holes in the graph,
+otherwise it is impossible to read (and if you don’t believe me &lt;a href=&quot;/assets/post_resources/timing_2008/IWRD.AS_3_all_timing
+_no_interpolation.png&quot;&gt;here
+is an example&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;As we can see, timing the market through World Index in the best case
+would be very profitable (one could have 107.26% after 7
+years instead of -3.5%). However, it is definitely not easy.
+When looking at all possible timing scenarios there is a lot of
+blue-purple (which is 0 or negative return). Another problem is that
+there are plenty of smaller drops and recoveries during the crisis.&lt;/p&gt;
+
+&lt;h3 id=&quot;apple&quot;&gt;Apple&lt;/h3&gt;
+
+&lt;p&gt;Buy&amp;amp;hold investor got 623.74% return (bought @ 10.67$ on 2006/01/03,
+sold @ 77.28$ on 2013/01/03).&lt;/p&gt;
+
+&lt;p&gt;Daily prices and best market timing:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/AAPL_2_best_timing
+.png&quot; alt=&quot;Daily prices for Apple stock with the best time period for timing
+the crisis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There was plenty of growth after the crisis. The best timing scenario
+return is 1645.81% (sell @ 28.25 on 2007/12/27, rebuy @ 11.71 on
+2009/01/20). In some sense by doing this, one doubles their holdings
+and thus boosts the effect of the great growth afterwards.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/AAPL_3_all_timing
+.png&quot; alt=&quot;Outcomes of all possible ways to time the market through Apple stock&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As we can see the “hot” area is much-much smaller than before.&lt;/p&gt;
+
+&lt;h3 id=&quot;amazon&quot;&gt;Amazon&lt;/h3&gt;
+
+&lt;p&gt;You know the drill now, so I will just add the numbers and graphs without
+too many words.&lt;/p&gt;
+
+&lt;p&gt;Buy&amp;amp;hold: 435.77% return (bought @ 47.84$ on 2006/01/03,
+sold @ 256.36$ on 2013/01/03)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/AMZN_2_best_timing
+.png&quot; alt=&quot;Daily prices for Amazon stock with the best time period for timing
+the crisis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Best market timing: 1201.66% (sell @ 94.75$ on 2007/10/09, rebuy @ 39$ on
+2008/11/21).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/AMZN_3_all_timing
+.png&quot; alt=&quot;Outcomes of all possible ways to time the market through Amazon stock&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The peak returns area is very small now.&lt;/p&gt;
+
+&lt;h3 id=&quot;google&quot;&gt;Google&lt;/h3&gt;
+
+&lt;p&gt;Buy&amp;amp;hold: 65.42% return (bought @ 218.05$ on 2006/01/03,
+sold @ 360.72$ on 2013/01/03)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/GOOGL_2_best_timing
+.png&quot; alt=&quot;Daily prices for Google stock with the best time period for timing
+the crisis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Best market timing: 345.24% (sell @ 362.86$ on 2007/11/06, rebuy @ 134.81$ on
+2008/11/21).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/GOOGL_3_all_timing
+.png&quot; alt=&quot;Outcomes of all possible ways to time the market through Google stock&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am surprised how small buy&amp;amp;hold returns are.&lt;/p&gt;
+
+&lt;h3 id=&quot;bank-of-america&quot;&gt;Bank of America&lt;/h3&gt;
+
+&lt;p&gt;Buy&amp;amp;hold: -74.81% return (bought @ 47.18$ on 2006/01/03,
+sold @ 11.88$ on 2013/01/03)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/BAC_2_best_timing
+.png&quot; alt=&quot;Daily prices for Bank of America stock with the best time period for timing
+the crisis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Best market timing: 293.26% (sell @ 54.82$ on 2006/11/17, rebuy @ 3.51$ on
+2009/03/05).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/BAC_3_all_timing
+.png&quot; alt=&quot;Outcomes of all possible ways to time the market through Google stock&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, the buy&amp;amp;hold return is scary and rebuying at 3$ per share is very
+peculiar.&lt;/p&gt;
+
+&lt;h3 id=&quot;walmart&quot;&gt;Walmart&lt;/h3&gt;
+
+&lt;p&gt;Buy&amp;amp;hold: 46.54% return (bought @ 46.66$ on 2006/01/03,
+sold @ 68.37$ on 2013/01/03)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/WMT_2_best_timing
+.png&quot; alt=&quot;Daily prices for Walmart stock with the best time period for timing
+the crisis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Best market timing: 91.92% (sell @ 61.58$ on 2008/09/12, rebuy @ 47.02$ on
+2009/02/02).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/WMT_3_all_timing
+.png&quot; alt=&quot;Outcomes of all possible ways to time the market through Walmart stock&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This one looks surprisingly easy to time (probably, because the timing
+does not bring that much return anyway).&lt;/p&gt;
+
+&lt;h3 id=&quot;sp500&quot;&gt;S&amp;amp;P500&lt;/h3&gt;
+
+&lt;p&gt;Buy&amp;amp;hold: 14.58% return (bought @ 1270.21$ on 2006/01/03,
+sold @ 1455.53$ on 2013/01/03).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/^GSPC_2_best_timing
+.png&quot; alt=&quot;Daily prices for S&amp;amp;P500 with the best time period for timing
+the crisis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Best market timing: 156.35% (sell @ 1545.45$ on 2007/10/10, rebuy @ 695.27$ on
+2009/03/09).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/timing_2008/^GSPC_3_all_timing
+.png&quot; alt=&quot;Outcomes of all possible ways to time the market through Walmart stock&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Yes, timing 2008 well was a very profitable endeavor.&lt;/p&gt;
+
+&lt;h2 id=&quot;follow-ups&quot;&gt;Follow-ups&lt;/h2&gt;
+
+&lt;p&gt;I am now curious to estimate how hard it was to time the market. In 
+the follow-up post I want to consider how badly could one time the market
+and still make reasonable profit. Also it makes sense to color all timing
+scenarios based on whether they outperform buy&amp;amp;hold.&lt;/p&gt;</content><author><name></name></author><summary type="html">With the bull market continuing, more and more people “predict” the crisis. Obviously, there is a temptation to try to time the market. Let’s try to estimate the best outcome of timing the market by considering the 2008 crisis. Perhaps it is not worth it at all (spoiler: the returns of ideal timing are actually substantial).</summary></entry><entry><title type="html">How much Europe is there in the World ETF?</title><link href="https://merelycurious.me/post/europe-in-world-etf" rel="alternate" type="text/html" title="How much Europe is there in the World ETF?" /><published>2020-02-09T11:00:00+01:00</published><updated>2020-02-09T11:00:00+01:00</updated><id>https://merelycurious.me/post/europe_in_world_etf</id><content type="html" xml:base="https://merelycurious.me/post/europe-in-world-etf">&lt;p&gt;I’ve had a peculiar puzzle recently. What is the percentage of 
 European companies in MSCI World index? Surprisingly I couldn’t find 
 this anywhere, so let’s calculate it on our own .&lt;/p&gt;
 
@@ -1808,195 +2048,4 @@ health, terrified or not, family-related to you.&lt;/p&gt;
 distinguish sweat of men and women.&lt;/p&gt;
 
 &lt;p&gt;Females identify gender via pheromones even better when they ovulate.
-Homosexual men are even better at detecting other homosexual men smell.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Human Sexual Behavior - part 1.</summary></entry><entry><title type="html">Overview of this blog’s life in 2019 and plans for 2020</title><link href="https://merelycurious.me/post/blog-summary-2019" rel="alternate" type="text/html" title="Overview of this blog's life in 2019 and plans for 2020" /><published>2020-01-05T14:00:00+01:00</published><updated>2020-01-05T14:00:00+01:00</updated><id>https://merelycurious.me/post/blog_summary_2019</id><content type="html" xml:base="https://merelycurious.me/post/blog-summary-2019">&lt;p&gt;I’ve got an idea to start a blog in the end of 2018 and published the first post
-in the early January of 2019. In other words, this blog is now kind of one year old.
-This was not my New Year resolution, but somehow it worked out.
-Let’s reflect a bit, see some stats and what I am going to do differently in 2020.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;To be honest I don’t remember precisely why I wanted to start this blog. It was probably an attempt
-to express myself, see what other people find interesting. However, with time these intentions
-mutated greatly. Currently I consider a blog as a nice lever for doing stuff I like.
-When I have an idea, I can not only do it, but also write about it on the blog
-and this increases the impact of my idea. Moreover, I do enjoy writing itself.&lt;/p&gt;
-
-&lt;h2 id=&quot;proposed-changes&quot;&gt;Proposed changes&lt;/h2&gt;
-
-&lt;p&gt;However, this blog is a living organism on its own and I constantly experiment
-with my approach to it. And I definitely want to continue doing that.&lt;/p&gt;
-
-&lt;p&gt;In the second part of 2019 I have adopted two posts per week schedule.
-My hope was that this would make the blog more interesting to regular readers.
-I also usually scheduled 1 hour per post for writing and ~30 minutes for after-baking
-modifications (if you are confused by “baking”, I’ve described the process 
-&lt;a href=&quot;/post/how-i-write-this-blog&quot;&gt;here&lt;/a&gt;). And as people often say -
-“you get what you measure”. As a result, many of my posts are rather short and somewhat shallow.
-I did do a couple posts which took much longer than allocated and I did enjoy working on them a lot
-(e.g. &lt;a href=&quot;/post/luckiest-investor-or-investing-when-knowing-the-future&quot;&gt;luckiest investor&lt;/a&gt;).
-Also it looked like others found such posts more interesting as well.&lt;/p&gt;
-
-&lt;p&gt;Thus, I am going to try to have no schedule from now on.
-As well as no time allocation per post. This means that I may “disappear” for longer,
-but eventually come back with much deeper posts (and hopefully of better quality).&lt;/p&gt;
-
-&lt;p&gt;This way I hope to preserve the part of the blog which I like (writing deep posts
-and exploring the topic well) and to get rid of less interesting parts (having to post something
-twice a week). The former was always a pure flow. The latter definitely felt like a chore sometimes.&lt;/p&gt;
-
-&lt;p&gt;In other words, I somewhat implicitly used to optimize for quantity. Quality might
-have been implicitly sacrificed. Again, this was all implicit, I just wanted regularity.
-Now I will try to optimize for quality and very likely quantity will suffer.&lt;/p&gt;
-
-&lt;h3 id=&quot;expected-challenges&quot;&gt;Expected challenges&lt;/h3&gt;
-
-&lt;p&gt;I already see one possible issue with my new approach. 
-I am quite a perfectionist and having strict deadlines helps me to fight that.
-However, without a schedule, I might polish a post forever.
-I am not sure how to counter that, perhaps some upper bound time limit
-per post. In any case, I will try to split the posts into smaller chunks
-and to publish them sooner this way.&lt;/p&gt;
-
-&lt;h3 id=&quot;topics&quot;&gt;Topics&lt;/h3&gt;
-
-&lt;p&gt;I also hope that the new approach will change topic allocation of my posts.
-Due to allocated time limit in 2019 I often did write personal reflections on 
-various topics. This is not bad per-se, but it is often very anecdotal,
-doesn’t have any proof and not that rigorous. I hope that with the new approach
-I will do more coding, simulations, deep rigorous posts with citations and
-sources.&lt;/p&gt;
-
-&lt;h2 id=&quot;stats&quot;&gt;Stats&lt;/h2&gt;
-
-&lt;p&gt;Ok, now let’s look back and see how 2019 went for this blog.&lt;/p&gt;
-
-&lt;p&gt;I started time tracking in March and overall I spent at least 120 hours since then.
-This is clean time (i.e. just me actively doing something blog related) and might be a lower
-bound. This also includes various non-writing activities, e.g. Jekyll related fixes, actually posting stuff,
-updating twitter.&lt;/p&gt;
-
-&lt;p&gt;To be honest, this feels less than I expected.
-Overall there were 76 posts in 2019, 8 of which were before March.
-Thus, we are left with 68 posts in 120 hours or 1 hour 45 minutes per post.
-Funny enough this matches very closely my time allocation of 1 hour for writing
-and ~0.5 hour for after-baking corrections. Unfortunately, I don’t have time tracking with per 
-post granularity, but I definitely remember that there was a lot of variation.
-Some posts did take 7-10 hours (very few though), some more like 10-20 minutes.
-After-baking fixes often took 5-10 minutes.&lt;/p&gt;
-
-&lt;p&gt;Let’s now analyze the posts themselves and build various graphs.&lt;/p&gt;
-
-&lt;h3 id=&quot;post-counts&quot;&gt;Post counts&lt;/h3&gt;
-
-&lt;p&gt;If we look at posts published over day of week, we definitely see my chosen Tuesday - Sunday schedule.
-Closer to the end of the year, I replaced Sunday with “weekend”, so that explains the Saturday’s value.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/blog_summary_2019/1_posts_per_day_of_week.png&quot; alt=&quot;Bar plot of #posts published per day of week&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When looking per month only October is unusual. Unfortunately I was traveling and didn’t have much chance to write.
-It is peculiar to observe me ramping up in January and February and reaching steady state in March.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/blog_summary_2019/2_posts_per_month.png&quot; alt=&quot;Bar plot of #posts published per month&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When looking at number of posts published per day for the entire year, we can definitely
-see how I started with no schedule and then in March switched to 2 posts per week.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/blog_summary_2019/3_posts_per_day.png&quot; alt=&quot;Calendar histogram #posts published per day&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;characters-published&quot;&gt;Characters published&lt;/h3&gt;
-
-&lt;p&gt;For simplicity I just look at file sizes, which may be different from number of characters one observes
-on the screen.&lt;/p&gt;
-
-&lt;p&gt;Let’s have a look at average post size in characters per day of week:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/blog_summary_2019/4_average_characters_per_day_of_week.png&quot; alt=&quot;Bar plot of average #characters per post per day of week&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Somehow magically Thursday happens to have the longest average post.
-Actually there are only 2 posts on Thursdays - 
-&lt;a href=&quot;/post/underestimating-ter&quot;&gt;“Underestimating TER”&lt;/a&gt;
-and &lt;a href=&quot;/post/thought-experiment-7-true-happiness&quot;&gt;“Thought experiment #7 about true happiness”&lt;/a&gt;
-, both of which are 11-12k characters.&lt;/p&gt;
-
-&lt;p&gt;The longest post is &lt;a href=&quot;/post/the-science-of-wellbeing-course-review&quot;&gt;the review of “The science of wellbeing” course&lt;/a&gt;. 34411 characters, I am not surprised.&lt;/p&gt;
-
-&lt;p&gt;The shortest one is about &lt;a href=&quot;/post/interactive-brokers-monthly-fee&quot;&gt;interactive brokers monthly fee&lt;/a&gt;, 1657 characters.&lt;/p&gt;
-
-&lt;p&gt;The median is &lt;a href=&quot;/post/book-summary-the-dip&quot;&gt;the summary of “The dip”&lt;/a&gt; with
-7505 characters.&lt;/p&gt;
-
-&lt;p&gt;When looking at a histogram of post sizes, we can see that almost all posts are up to ~15k characters
-with only few outliers.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_resources/blog_summary_2019/5_post_sizes_histogram.png&quot; alt=&quot;Histogram of post sizes&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s have a look at characters published per day over entire year:
-&lt;img src=&quot;/assets/post_resources/blog_summary_2019/6_characters_per_day.png&quot; alt=&quot;Calendar histogram #characters published per day&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Some variation, but nothing peculiar.&lt;/p&gt;
-
-&lt;h3 id=&quot;words&quot;&gt;Words&lt;/h3&gt;
-
-&lt;p&gt;Top 10 most common words with their occurrence counts (case sensitive):&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;‘to’ - 2970&lt;/li&gt;
-  &lt;li&gt;‘the’ - 2749&lt;/li&gt;
-  &lt;li&gt;‘and’ - 2028&lt;/li&gt;
-  &lt;li&gt;‘a’ - 1940&lt;/li&gt;
-  &lt;li&gt;‘is’ - 1925&lt;/li&gt;
-  &lt;li&gt;‘I’ - 1815&lt;/li&gt;
-  &lt;li&gt;‘of’ - 1715&lt;/li&gt;
-  &lt;li&gt;‘you’ - 1358&lt;/li&gt;
-  &lt;li&gt;‘in’ - 1278&lt;/li&gt;
-  &lt;li&gt;‘this’ - 1161&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Funny that there is so much “I”, but fortunately “you” is not that far back.
-This quite matches the general distributing in English (e.g. &lt;a href=&quot;https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/PG/2006/04/1-10000&quot;&gt;Wiktionary&lt;/a&gt;). There you get 1.94 “I” for each “you”, 
-while in this blog it is 1.33. In other words, it is more about you than an average English text. Yay!&lt;/p&gt;
-
-&lt;p&gt;Also I suspect that I sometimes don’t use “the” where I should (the count is lower
-than on average in English).&lt;/p&gt;
-
-&lt;p&gt;Some notable mentions:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;‘time’, 450 occurrences, rank 27 vs 69 in English&lt;/li&gt;
-  &lt;li&gt;‘people’, 369, rank 40 vs 135&lt;/li&gt;
-  &lt;li&gt;‘something’, 259, rank 63 vs 219 (I should try using this less frequently)&lt;/li&gt;
-  &lt;li&gt;‘FIRE’, 218, rank 69 vs 351 (for ‘fire’)&lt;/li&gt;
-  &lt;li&gt;‘life’, 206, rank 74 vs 114&lt;/li&gt;
-  &lt;li&gt;‘money’, 159, rank 96 vs 271&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I think this illustrates well what this blog is about.&lt;/p&gt;
-
-&lt;h3 id=&quot;popularity&quot;&gt;Popularity&lt;/h3&gt;
-
-&lt;p&gt;The post with the most unique pageviews is 
-about &lt;a href=&quot;/post/interactive-brokers-fixed-vs-tiered-commissions&quot;&gt;fixed vs tiered Interactive Brokers commissions&lt;/a&gt;.
-It also has the largest average time spent on the page.
-Somehow people find this topic very interesting.
-I myself was also confused by all the intricate details and that’s why I decided to write the post
-in the first place. I definitely didn’t expect it to become that relatively popular.
-It also gets the most interest in search engines and badly dominates all
-search clicks and queries. What a peculiar world.&lt;/p&gt;
-
-&lt;p&gt;The runner up in unique pageviews is &lt;a href=&quot;/post/luckiest-investor-or-investing-when-knowing-the-future&quot;&gt;luckiest investor&lt;/a&gt;.
-This one was peculiar and I did expect it to pique some interest.
-This post also became my by far &lt;a href=&quot;https://www.reddit.com/r/investing/comments/cmnbyb/the_luckiest_investor_of_2018_or_how_much_you/&quot;&gt;most popular post on Reddit&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;afterword&quot;&gt;Afterword&lt;/h2&gt;
-
-&lt;p&gt;So this is 2019 for “Merely Curious”.
-I am definitely looking forward to build similar graphs for 2020 after getting rid of publishing schedule.
-There must be much less structure there and, thus, observations to be made.&lt;/p&gt;
-
-&lt;p&gt;I am grateful to you all for motivating me!
-You are very welcome to contact me, I am definitely not overwhelmed
-by reader communication at this point.
-See my email and twitter below.
-&lt;a href=&quot;https://www.reddit.com/user/merely_curious_&quot;&gt;Reddit&lt;/a&gt; would do too if you prefer.&lt;/p&gt;
-
-&lt;p&gt;Happy 2020 with plenty of beautiful stats!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve got an idea to start a blog in the end of 2018 and published the first post in the early January of 2019. In other words, this blog is now kind of one year old. This was not my New Year resolution, but somehow it worked out. Let’s reflect a bit, see some stats and what I am going to do differently in 2020.</summary></entry></feed>
+Homosexual men are even better at detecting other homosexual men smell.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Human Sexual Behavior - part 1.</summary></entry></feed>
