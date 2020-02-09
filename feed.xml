@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-02-08T14:46:05+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Summary of weeks 1&amp;amp;2 of Coursera Songwriting</title><link href="https://merelycurious.me/post/coursera-songwriting-weeks-1-2" rel="alternate" type="text/html" title="Summary of weeks 1&amp;2 of Coursera Songwriting" /><published>2020-02-08T13:01:00+01:00</published><updated>2020-02-08T13:01:00+01:00</updated><id>https://merelycurious.me/post/coursera_songwriting_weeks_1_2</id><content type="html" xml:base="https://merelycurious.me/post/coursera-songwriting-weeks-1-2">&lt;p&gt;I started to take &lt;a href=&quot;https://www.coursera.org/learn/songwriting-lyrics&quot;&gt;Songwriting course on
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-02-09T12:59:27+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">How much Europe is there in the World ETF?</title><link href="https://merelycurious.me/post/europe-in-world-etf" rel="alternate" type="text/html" title="How much Europe is there in the World ETF?" /><published>2020-02-09T11:00:00+01:00</published><updated>2020-02-09T11:00:00+01:00</updated><id>https://merelycurious.me/post/europe_in_world_etf</id><content type="html" xml:base="https://merelycurious.me/post/europe-in-world-etf">&lt;p&gt;I’ve had a peculiar puzzle recently. What is the percentage of 
+European companies in MSCI World index? Surprisingly I couldn’t find 
+this anywhere, so let’s calculate it on our own .&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
+
+&lt;p&gt;MSCI World publishes approximate country distribution
+&lt;a href=&quot;https://www.msci.com/developed-markets&quot;&gt;here&lt;/a&gt;, but it has 6% “other”
+category. Then one can see a list of all companies in the index with
+their weight &lt;a href=&quot;https://www.msci.com/constituents&quot;&gt;here&lt;/a&gt;, but this does
+not help either, since mapping from “company” to “region” is non-
+trivial.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;There is MSCI World ex Europe index. Presumably it is the same as MSCI
+World above, but without Europe (at least that’s what name suggests). 80.37% of MSCI World ex Europe is the
+US [&lt;a href=&quot;https://www.msci.com/documents/10199/674e5774-727b-
+4e85-ad07-1be63cb1d075&quot;&gt;source&lt;/a&gt;]. For the MSCI World it is 63.81%
+[&lt;a href=&quot;https://www.msci.com/documents/10199/149ed7bc-316e-4b4c-8ea4-43fcb5bd6523&quot;&gt;source&lt;/a&gt;]. Looks like the numbers in the PDFs change with time, so the state above is as of today (the PDFs say “Jan 31, 2020).
+Now we can build the following equation:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;0.8037 = \frac{\text{US}}{\text{world} - \text{Europe}}&lt;/script&gt;
+
+&lt;p&gt;Let’s swap numerators and denominators&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{1}{0.8037} = \frac{\text{world} - \text{Europe}}{\text{US}} = \frac{\text{world}}{\text{US}} - \frac{\text{Europe}}{\text{US}}&lt;/script&gt;
+
+&lt;p&gt;We know that \(\frac{\text{US}}{\text{world}}\) is 0.6381 (just ratio of the US in MSCI World):&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\text{Europe}}{\text{US}} = \frac{\text{world}}{\text{US}} - \frac{1}{0.8037} = \frac{1}{0.6381} - \frac{1}{0.8037} = 0.3410&lt;/script&gt;
+
+&lt;p&gt;We want \(\frac{\text{Europe}}{\text{world}}\)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\text{Europe}}{\text{world}} = \frac{\text{Europe}}{\text{US}} \cdot \frac{\text{US}}{\text{world}} = 0.3410 \cdot 0.6381 = 0.2176&lt;/script&gt;
+
+&lt;p&gt;In other words, the ratio of Europe in MSCI World index is 21.8%.&lt;/p&gt;
+
+&lt;h2 id=&quot;sanity-checking&quot;&gt;Sanity checking&lt;/h2&gt;
+
+&lt;p&gt;My first attempt at calculating this was actually wrong, so let’s
+sanity check. &lt;a href=&quot;https://www.msci.com/developed-markets&quot;&gt;This page&lt;/a&gt;
+says (as of September 2019):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;UK - 5.47%&lt;/li&gt;
+  &lt;li&gt;France - 3.8%&lt;/li&gt;
+  &lt;li&gt;Switzerland - 3.15%&lt;/li&gt;
+  &lt;li&gt;Germany - 2.86%&lt;/li&gt;
+  &lt;li&gt;Netherlands - 1.33%&lt;/li&gt;
+  &lt;li&gt;Others - 6.27%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;\( 5.47+3.8+3.15+2.86+1.33 = 16.61 \) - looks plausible!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve had a peculiar puzzle recently. What is the percentage of European companies in MSCI World index? Surprisingly I couldn’t find this anywhere, so let’s calculate it on our own .</summary></entry><entry><title type="html">Summary of weeks 1&amp;amp;2 of Coursera Songwriting</title><link href="https://merelycurious.me/post/coursera-songwriting-weeks-1-2" rel="alternate" type="text/html" title="Summary of weeks 1&amp;2 of Coursera Songwriting" /><published>2020-02-08T13:01:00+01:00</published><updated>2020-02-08T13:01:00+01:00</updated><id>https://merelycurious.me/post/coursera_songwriting_weeks_1_2</id><content type="html" xml:base="https://merelycurious.me/post/coursera-songwriting-weeks-1-2">&lt;p&gt;I started to take &lt;a href=&quot;https://www.coursera.org/learn/songwriting-lyrics&quot;&gt;Songwriting course on
 Coursera&lt;/a&gt; (yeah,
 life is unpredictable). Here are my notes for weeks 1&amp;amp;2.&lt;/p&gt;
 
@@ -1944,173 +1999,4 @@ by reader communication at this point.
 See my email and twitter below.
 &lt;a href=&quot;https://www.reddit.com/user/merely_curious_&quot;&gt;Reddit&lt;/a&gt; would do too if you prefer.&lt;/p&gt;
 
-&lt;p&gt;Happy 2020 with plenty of beautiful stats!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve got an idea to start a blog in the end of 2018 and published the first post in the early January of 2019. In other words, this blog is now kind of one year old. This was not my New Year resolution, but somehow it worked out. Let’s reflect a bit, see some stats and what I am going to do differently in 2020.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 14)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-14-limbic-system" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 14)" /><published>2019-12-21T13:00:00+01:00</published><updated>2019-12-21T13:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_14_limbic_system</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-14-limbic-system">&lt;p&gt;Limbic System. Finally we get closer to emotions and this gets super interesting fast.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Limbic system is a part of brain, which is involved in emotions, but does not get much interest e.g. in
-medical schools.&lt;/p&gt;
-
-&lt;p&gt;In rats olfactory bulb is a large part of the brain. Its signals are processed in limbic system. Rat’s emotional
-world is driven by olfactory information. In birds it is more based on sounds.&lt;/p&gt;
-
-&lt;h2 id=&quot;triune-brain-model&quot;&gt;Triune brain model&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ancient, archaic part. Hypothalamus talks to pituitary, so called reptilian part. It is responsible for purely
-automatic regulation. E.g. monitors and controls temperature, blood pressure.&lt;/p&gt;
-
-    &lt;p&gt;Ondine’s curse - stroke damage to this area. As a result no capacity for automatic breathing. Affected
-person dies of sleep deprivation. One can’t fall asleep, because then they don’t breathe and get at
-the edge of asphyxiation and wake up.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;[On top] Limbic system - mostly mammalian.&lt;/li&gt;
-  &lt;li&gt;[On top] Cortex. Greatly expanded in primates and especially in humans. Cortex can be influenced by other two
-systems or influence them (e.g. emotional/physiological response after thinking about future death).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;subparts-of-limbic-system&quot;&gt;Subparts of limbic system&lt;/h2&gt;
-
-&lt;p&gt;We say that parts are &lt;em&gt;connected&lt;/em&gt;, when neurons located in that part have axons in the other part (i.e. this area
-&lt;em&gt;projects&lt;/em&gt; into the other area).&lt;/p&gt;
-
-&lt;p&gt;Entire limbic system is structured around how to influence hypothalamus. Each part tries to inhibit other parts
-and tell hypothalamus what to do.&lt;/p&gt;
-
-&lt;p&gt;The fewer hops (synapses in-between) to hypothalamus some projection has, the better control that part has
-(faster, neurons downstream don’t affect the signal).&lt;/p&gt;
-
-&lt;p&gt;Olfactory system is the only system, which is only 1 synapse away from limbic system. All other sensory
-systems have minimum 3 synapses (e.g. layer responsible for detecting dots and lines in visual signal).&lt;/p&gt;
-
-&lt;p&gt;Amygdala - cluster of neurons. Means almond in Greek. Responsible for fear, anxiety, aggression. 
-Thus, there is connection between fear and aggression. Also covers male sexual motivation. This partially explains
-why one can confuse sex behavior and aggression.&lt;/p&gt;
-
-&lt;p&gt;Septum - inhibits aggression.&lt;/p&gt;
-
-&lt;p&gt;Hypocampus - handles memory &amp;amp; turns off stress response. This combination (memory &amp;amp; stress) in one center is
-important:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;saving how you got away from a stress situation&lt;/li&gt;
-  &lt;li&gt;when ending up in the same situation, retrieving how you fixed it last time.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Mammillary bodies - maternal behavior.&lt;/p&gt;
-
-&lt;p&gt;PFC - cortical component of limbic system. It is responsible for impulse control, postponing gratification,
-long-term planning, learning appropriate sexual behavior, how not to be aggressive and when to be.
-PFC is larger in humans (that’s what makes us humans). It is only recently evolved and
-also the last part of the brain to fully mature (not fully myelinated until mid 20s).
-Best predictor for ratio of PFC over entire brain is size of species social group. I.e. PFC is important
-for gossip, social intelligence, appropriate behavior.
-Part of PFC is anterior cingulate - empathy (related to clinical depression).&lt;/p&gt;
-
-&lt;p&gt;VFA - depression, release dopamine -&amp;gt; pleasure. All addictive drugs (e.g. cocaine) affect this area.
-This activates when you anticipate getting pleasure (i.e. not getting the reward itself, but just
-anticipation). As a result, this powers the behavior to get the reward.
-Motivation for pursuing pleasure is more addictive than pleasure itself.&lt;/p&gt;
-
-&lt;p&gt;Hypothalamus - sexual behavior. Size depends on sexual orientation (e.g. transgender people have
-configuration of self-identified gender).&lt;/p&gt;
-
-&lt;p&gt;FCN - circadian rhythms.&lt;/p&gt;
-
-&lt;p&gt;PT - makes CRH, i.e. stress response. All other parts send projections here.&lt;/p&gt;
-
-&lt;p&gt;LHT - hunger. Measures glucose and insulin in blood. Also hunger for other rewards than food, e.g. other types 
-of information.&lt;/p&gt;
-
-&lt;h2 id=&quot;ways-to-study-limbic-system&quot;&gt;Ways to study limbic system&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Evolution is not an inventor, it is a tinkerer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Warfare is a good source of subjects for brain experiments (there are often casualties, which lead to removal
-of parts of the brain). After a war, neuroscientists get their careers jump-started.&lt;/p&gt;
-
-&lt;p&gt;E.g. patient NA, who had their septum taken out.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;N.A. has been amnesic since 1960 when at the age of 22 years he sustained a penetrating brain injury with a miniature fencing foil.
-Source: Description of brain injury in the amnesic patient N.A. based on magnetic resonance imaging. Squire LR et al.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Frontal lobotomy - “intentional” brain damage (e.g. cutting off limbic structures).&lt;/p&gt;
-
-&lt;p&gt;Gray matter - nuclei, cell bodies, white matter - cables of axons wrapped in myelin (they do actually
-have these colors).&lt;/p&gt;
-
-&lt;p&gt;Experimental animals - destroy part of the brain, look what does not work anymore.&lt;/p&gt;
-
-&lt;p&gt;Put an electrode in a brain region and stimulate it (i.e. provide an input signal there).&lt;/p&gt;
-
-&lt;p&gt;Put a recording electrode and see when that area is excited.&lt;/p&gt;
-
-&lt;p&gt;Nowadays it is possible to record one neuron and even one ion channel of a neuron.&lt;/p&gt;
-
-&lt;p&gt;This way one can find out which parts of the brain send their signals into a particular area and how many
-hops it takes.&lt;/p&gt;
-
-&lt;p&gt;Imaging brain regions (CT scan, CAT, MRI, functional brain imaging).&lt;/p&gt;
-
-&lt;h3 id=&quot;difficulties&quot;&gt;Difficulties&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Hard to distinguish centers from fibers of passage. I.e. did one destroy a center responsible for some
-function or a passage which carries this signal? One can imagine that we want to find out source
-of garlic, that brings garlic to Stanford. And we can do this only by carpet-bombing. Eventually garlic
-stops coming to the campus. Did we destroy the garlic farm or a highway?
-Sometimes fibers can pass very close to nuclei (no way to destroy only one of them).&lt;/li&gt;
-  &lt;li&gt;What is a center in the brain? Everything is highly intermixed.&lt;/li&gt;
-  &lt;li&gt;You need to know your species (i.e. to know ethology). 
-Let’s say you put stimulating electrode and observe a lion extending its claw.
-When you do the same to a human, they start cursing. I.e. this is irritation
-and lion just expressed it this way. Another example is a rat running around and
-collecting pieces of a newspaper. When the same is done to a rhesus monkey,
-it grabs something cylindrical and hugs it. This is nursing behavior.
-It is also difficult to distinguish aggression from food acquisition (e.g. a rat attacking a mouse after
-a stimulation). This can also vary across individuals even in the same species, e.g. in case of portraying dominance,
-a subordinate won’t do power display (even when this area is stimulated).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;james-lange-theory-of-emotion&quot;&gt;James-Lange theory of emotion&lt;/h2&gt;
-
-&lt;p&gt;Stimulus comes into brain. Before brain processes it, your body already responds (e.g. increased heart rate).
-How do you figure out which emotion you feel? Your brain looks at changes in your body.&lt;/p&gt;
-
-&lt;p&gt;There was an old experiment, where adrenalin was given to people without them knowing it (nowadays this
-wouldn’t be allowed). Then people sit in waiting room. There is an accomplice. For one group,
-the accomplice is pissed off. For another group - happy and friendly. People in the experiment
-just overtook the emotion. I.e. adrenalin mediates emotion you socially observe. It does not cause
-a concrete behavior, but exaggerates the emotional state provoked externally (i.e. like Gaba inhibition).&lt;/p&gt;
-
-&lt;p&gt;As a result, one can affect emotional state by affection body. E.g. when one is anxious, they get valium.
-When one needs to relax muscles, they get something similar. I.e. to get rid of anxiety, one needs to relax,
-since anxiety is based on feedback from muscle tone.&lt;/p&gt;
-
-&lt;p&gt;The same with aggression. E.g. let’s say your significant other pissed you off. Then they apologize and you
-accept the apology. Cognitively you have resolved the conflict, but your body is still in pissed off state.
-It takes time to change the state. You can easily fall back into being angry due to this.&lt;/p&gt;
-
-&lt;p&gt;The same can work other way around, e.g. meditation &amp;amp; biofeedback for blood pressure control. One can find trigger
-(e.g. a pleasant thought), which decreases blood pressure and by using it, make the effect even stronger.&lt;/p&gt;
-
-&lt;p&gt;There is a gender difference in how long it takes to get back to baseline (including after orgasm) - males
-faster.&lt;/p&gt;
-
-&lt;p&gt;Take someone in depression, force them to smile mechanically repetitively. Eventually they will start feeling better
-due to this body-emotion feedback.&lt;/p&gt;
-
-&lt;h2 id=&quot;misc&quot;&gt;Misc&lt;/h2&gt;
-
-&lt;p&gt;Peculiar motor system inefficiency. When you want to bend one particular finger, there is a system which
-tells all 5 of them to bend. Then there is another system which tells other fingers: “if you receive command
-‘bend’, ignore it”. This shows evolution of these systems. Many species don’t need to bend one finger, thus,
-they have a system for bending all fingers (e.g. claw) at the same time. It was “easier” to add an add-on 
-to allow bending one finger instead of redesigning everything.&lt;/p&gt;
-
-&lt;p&gt;Some regions change size with time. Amygdala gets bigger in people with post traumatic stress disorder.
-In people with long term major depression, hippocampus get smaller (atrophy).&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Limbic System. Finally we get closer to emotions and this gets super interesting fast.</summary></entry></feed>
+&lt;p&gt;Happy 2020 with plenty of beautiful stats!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve got an idea to start a blog in the end of 2018 and published the first post in the early January of 2019. In other words, this blog is now kind of one year old. This was not my New Year resolution, but somehow it worked out. Let’s reflect a bit, see some stats and what I am going to do differently in 2020.</summary></entry></feed>
