@@ -1,4 +1,533 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-02-09T14:07:27+01:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Timing 2008: what was the prize?</title><link href="https://merelycurious.me/post/timing-2008-best-outcomes" rel="alternate" type="text/html" title="Timing 2008: what was the prize?" /><published>2020-02-09T12:00:00+01:00</published><updated>2020-02-09T12:00:00+01:00</updated><id>https://merelycurious.me/post/timing_2008_best_outcomes</id><content type="html" xml:base="https://merelycurious.me/post/timing-2008-best-outcomes">&lt;p&gt;With the bull market continuing, more and more people “predict” the
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://merelycurious.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://merelycurious.me/" rel="alternate" type="text/html" /><updated>2020-04-18T18:26:05+02:00</updated><id>https://merelycurious.me/feed.xml</id><title type="html">Merely curious</title><subtitle>Everything I find interesting enough.</subtitle><entry><title type="html">Fundamentals of music: week 3</title><link href="https://merelycurious.me/post/coursera-fundamentals-of-music-week-3" rel="alternate" type="text/html" title="Fundamentals of music: week 3" /><published>2020-04-18T18:00:00+02:00</published><updated>2020-04-18T18:00:00+02:00</updated><id>https://merelycurious.me/post/coursera_fundamentals_of_music_week_3</id><content type="html" xml:base="https://merelycurious.me/post/coursera-fundamentals-of-music-week-3">&lt;p&gt;Rhythm and form.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;We can imagine pitch as Y axis and time as X axis.&lt;/p&gt;
+
+&lt;h2 id=&quot;note-durations&quot;&gt;Note durations&lt;/h2&gt;
+
+&lt;p&gt;In western notation note duration is always expressed as fraction
+of beat rather than in seconds:&lt;/p&gt;
+
+&lt;p&gt;(illustrations are from &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_musical_symbols#Time_signatures&quot;&gt;Wikipedia&lt;/a&gt;)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Semibreve (whole note in US) - full duration of one bar in 4/4 meter.
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/Music-wholenote.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Minim (half note) - semibreve / 2
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-halfnote.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Crotchet (quarter note) - semibreve / 4
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-quarternote.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quaver (eighth note) - semibreve / 8
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-eighthnote.svg.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Semiquaver (sixteenth note) - semibreve / 16
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-sixteenthnote.svg.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Demisemiquaver (thirty-second note) - semibreve / 32
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-thirtysecondnote.svg.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The same we can do with pauses - rests:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;1 - 
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-wholerest.svg.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1/2 - 
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-halfrest.svg.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1/4 - 
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Crochet2.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1/8 - 
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-eighthrest.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1/16 - 
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-sixteenthrest.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1/32 - 
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-thirtysecondrest.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;beams&quot;&gt;Beams&lt;/h3&gt;
+
+&lt;p&gt;Notes with “flags” can be joined using a beam
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-beam.svg.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This can ease reading.&lt;/p&gt;
+
+&lt;h3 id=&quot;tuplets&quot;&gt;Tuplets&lt;/h3&gt;
+
+&lt;p&gt;Occasionally we need to subdivide rhythm differently, we can use
+tuples e.g. for 3 notes in 2:
+&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-triplet.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These actually changes duration of these notes. Basically this notation
+says play 3 notes in 2 quarter notes, so duration of this modified
+quarter note is 2/3 of an ordinary one.&lt;/p&gt;
+
+&lt;h3 id=&quot;extensions&quot;&gt;Extensions&lt;/h3&gt;
+
+&lt;p&gt;We can extend note duration.&lt;/p&gt;
+
+&lt;p&gt;Either using a tie:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-tie.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There can be multiple ties in a row. Tie means - play the first note
+with the duration = sum of all tied notes.&lt;/p&gt;
+
+&lt;p&gt;Or using dotted note:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-dotnote.svg.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This means play the note with duration = its ordinary duration + half. One can
+use multiple dots, each dot adds another halved period. It is important
+that the dot is on the side (dots in other locations mean other stuff).&lt;/p&gt;
+
+&lt;p&gt;One can mark a note using Fermata - out of time pause:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_3/100px-Music-fermata.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The performer decides on their own how long the pause should be.
+Rule of thumb - twice of the note duration.&lt;/p&gt;
+
+&lt;h2 id=&quot;meter&quot;&gt;Meter&lt;/h2&gt;
+
+&lt;h3 id=&quot;simple&quot;&gt;Simple&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Duple - 2 beats per bar.&lt;/li&gt;
+  &lt;li&gt;Triple - 3 beats per bar.&lt;/li&gt;
+  &lt;li&gt;Quadruple - 4 beats per bar (aka common time)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Time signature is written as a fraction. Numerator is “beats per bar”
+and denominator is “beat type”. In other words denominator defines
+note type (i.e. duration) by giving its bar fraction, e.g. 4 means
+quarter. Numerator tells how many such notes are there per one bar.&lt;/p&gt;
+
+&lt;p&gt;Beats can be weak and strong. 
+In 4/4 usually 1 and 3 are strong.&lt;/p&gt;
+
+&lt;p&gt;Beats are subdivided into two.&lt;/p&gt;
+
+&lt;h3 id=&quot;compound&quot;&gt;Compound&lt;/h3&gt;
+
+&lt;p&gt;Beats are subdivided into three.&lt;/p&gt;
+
+&lt;p&gt;Usually denominator is 8 and numerator mod 3 = 0.&lt;/p&gt;
+
+&lt;h2 id=&quot;form&quot;&gt;Form&lt;/h2&gt;
+
+&lt;p&gt;Anacrusis - unstressed notes before the first bar line of a piece (can be one note aka pickup note).&lt;/p&gt;
+
+&lt;p&gt;Phrase - complete piece (e.g. 4 bars or one breath etc).&lt;/p&gt;
+
+&lt;p&gt;Rhythms are combined into beats, beats into bars, phrases,
+periods, sections, movements (or songs), symphonies or concertos (or albums).&lt;/p&gt;
+
+&lt;p&gt;Motive - is an isolated short musical phrase.&lt;/p&gt;
+
+&lt;h3 id=&quot;combining-sections&quot;&gt;Combining sections&lt;/h3&gt;
+
+&lt;p&gt;Binary form - A B (usually B is in different key)&lt;/p&gt;
+
+&lt;p&gt;Ternary - A B A or A B A’ (sonata, A’ means A modified).
+Exposition -&amp;gt; development -&amp;gt; recapitulation&lt;/p&gt;
+
+&lt;p&gt;Rondo form ABACA&lt;/p&gt;
+
+&lt;p&gt;There is 12 bar blues.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Rhythm and form.</summary></entry><entry><title type="html">Unexpected lesson from checking portfolio in crisis</title><link href="https://merelycurious.me/post/checking-portfolio-in-crisis" rel="alternate" type="text/html" title="Unexpected lesson from checking portfolio in crisis" /><published>2020-04-18T17:00:00+02:00</published><updated>2020-04-18T17:00:00+02:00</updated><id>https://merelycurious.me/post/checking_portfolio_in_crisis</id><content type="html" xml:base="https://merelycurious.me/post/checking-portfolio-in-crisis">&lt;p&gt;As you all know, the stock market is down. Even though I knew this,
+I’ve had a peculiar experience recently, when checking my portfolio.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;happiness&quot;&gt;Happiness&lt;/h2&gt;
+
+&lt;p&gt;Basically I knew that everything should be 20-30% down and this was
+perfectly fine with me. I obviously had nagging thoughts: “You should
+time it, let’s sell, it’s going to fall more, let’s sell”, but I
+successfully managed to shoo them away. Then one day I needed to log
+state of my portfolio (I try to do this monthly). Once I did this,
+I was surprised how much money I was missing. It was much more than
+I expected. After a brief calculation, I confirmed that this was
+around 25% and then I understood that I just have a lot of money.
+Somehow my brain was ok with 30% down, but never translated that
+into absolute amounts. Even though I was “missing” quite a chunk of my
+portfolio, understanding that I had money in the first place (and I still
+have quite a lot left) made me super happy.&lt;/p&gt;
+
+&lt;h2 id=&quot;lesson&quot;&gt;Lesson&lt;/h2&gt;
+
+&lt;p&gt;Try to find positive side. These are challenging times, but our 
+hedonic adaptation will kick in very fast (mine has done so
+already). In the end, it is a good opportunity to be even happier
+than before, since you get a very different view. Even
+small stuff like having a walk feels super cool and makes me so
+happy, especially when understanding that I may have no such
+opportunity in the future. The same can be applied in the future to everything you
+are missing now. Meeting friends? Going to restaurants? Yeap, it
+sucks, but once everything is back, it is will be super special and
+pleasant.&lt;/p&gt;
+
+&lt;p&gt;As a trick, I also suggest you to prepare yourself morally to 
+living in such mode e.g. for a year or two. This way it just becomes
+new normal, you get used, everything becomes fine. Once there are 
+improvements you get happy, because stuff becomes better than your normal.
+If you keep “when will this shit be over?” mode, this sets your mood to be negative.
+Basically, you say that this is not normal and even
+worse then normal and you are waiting (=suffer), i.e. unhappy. Once
+it gets back to normal, you will probably feel better, but not that
+much, since you just get back to your old normal.&lt;/p&gt;
+
+&lt;p&gt;Happy setting proper reference points!&lt;/p&gt;</content><author><name></name></author><summary type="html">As you all know, the stock market is down. Even though I knew this, I’ve had a peculiar experience recently, when checking my portfolio.</summary></entry><entry><title type="html">Fundamentals of music: week 1</title><link href="https://merelycurious.me/post/coursera-fundamentals-of-music-week-1" rel="alternate" type="text/html" title="Fundamentals of music: week 1" /><published>2020-04-18T17:00:00+02:00</published><updated>2020-04-18T17:00:00+02:00</updated><id>https://merelycurious.me/post/coursera_fundamentals_of_music_week_1</id><content type="html" xml:base="https://merelycurious.me/post/coursera-fundamentals-of-music-week-1">&lt;p&gt;I started taking &lt;a href=&quot;https://www.coursera.org/learn/edinburgh-music-theory&quot;&gt;“Fundamentals of Music Theory “ on Coursera&lt;/a&gt;.
+Summary of week 1. So far there are a lot of stuff “just by definition”,
+so I honestly felt a need to wrote a summary to structure everything in
+my head (since I already forgot quite a lot).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;We can compare sounds and we call them low and high. Some sounds
+we can’t sing. For the ones we can, we say they have pitch.&lt;/p&gt;
+
+&lt;p&gt;We denote notes using letters A, B, C, D, E, F, G.
+This is our music alphabet.&lt;/p&gt;
+
+&lt;h3 id=&quot;notation&quot;&gt;Notation&lt;/h3&gt;
+
+&lt;p&gt;One can write relative changes in pitch, but this is still ambiguous
+for a reader, if they don’t know any absolute value. Thus, monks
+struggled with writing down and transmitting melodies. As a result,
+stave notation was born.&lt;/p&gt;
+
+&lt;p&gt;Stave is based on 5 horizontal lines. A symbol on the left
+is called G-clef or Treble-clef. It circles itself on line representing
+note G. Each line and space between lines represent a note (a white
+key on piano keyboard).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_1/1_notes.png&quot; alt=&quot;stave with notes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mnemonics:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;spaces between lines starting from bottom - F A C E&lt;/li&gt;
+  &lt;li&gt;lines starting from bottom - Every Good Boy Deserves Fruit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One can add additional lines when leaving stave’s range.
+E.g. middle C is the first line under the stave.&lt;/p&gt;
+
+&lt;p&gt;However, we have 12 pitches on guitar (i.e. also black keys on
+piano keyboard) in one octave.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_1/2_piano_notes.png&quot; alt=&quot;stave with notes and piano keys&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_1/3_piano_notes_horizontal.png&quot; alt=&quot;stave with notes and piano keys (horizontal)&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;intervals&quot;&gt;Intervals&lt;/h2&gt;
+
+&lt;p&gt;Octave - interval between (and including) two notes, one having twice
+or half the vibration frequency of the other.&lt;/p&gt;
+
+&lt;p&gt;Semitone - distance between two adjacent keys on piano.&lt;/p&gt;
+
+&lt;p&gt;Tone = 2 semitones.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_1/4_tones_semitones.png&quot; alt=&quot;tones and semitones on piano keys&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s call one line or space in stave - a unit. 
+We say that interval between two notes is “a second” if 
+there are no units between them on the stave (i.e. this is a line
+and its adjacent space).&lt;/p&gt;
+
+&lt;p&gt;When there is one unit - “a third” (
+i.e. two lines with one space in between or two spaces with one line).&lt;/p&gt;
+
+&lt;p&gt;Here comes a bit confusing part. F to G is a second. C to B is a
+second. There is a black key between F and G, but not between C &amp;amp; B.
+Nevertheless both are called - “a second”.&lt;/p&gt;
+
+&lt;h2 id=&quot;scales&quot;&gt;Scales&lt;/h2&gt;
+
+&lt;p&gt;Scale - a pathway through octave.&lt;/p&gt;
+
+&lt;p&gt;Example - C Major (we just go through notes one by one)&lt;/p&gt;
+
+&lt;p&gt;C &amp;lt;T&amp;gt; D &amp;lt;T&amp;gt; E &amp;lt;S&amp;gt; F &amp;lt;T&amp;gt; G &amp;lt;T&amp;gt; A &amp;lt;T&amp;gt;&amp;gt; B &amp;lt;S&amp;gt; C&lt;/p&gt;
+
+&lt;p&gt;where &amp;lt;T&amp;gt; is a tone and &amp;lt;S&amp;gt; is a semitone.&lt;/p&gt;
+
+&lt;p&gt;C is called a tonic.&lt;/p&gt;
+
+&lt;p&gt;Sequence TTSTTTS defines “quality of scale”.
+This one belongs to Diatonic Scale (because it has
+5 tones and 2 semitones).&lt;/p&gt;
+
+&lt;p&gt;There are different approaches in the world, this one is so called
+common practice, i.e. Western Europe 1600-1900.&lt;/p&gt;
+
+&lt;p&gt;If we take A as a tonic and again go through notes one by one, we get natural minor scale&lt;/p&gt;
+
+&lt;p&gt;A &amp;lt;T&amp;gt; B &amp;lt;S&amp;gt; C &amp;lt;T&amp;gt; D &amp;lt;T&amp;gt; E &amp;lt;S&amp;gt; F &amp;lt;T&amp;gt; G &amp;lt;T&amp;gt; A&lt;/p&gt;
+
+&lt;p&gt;i.e. the sequence of T’s and S’s is different from major
+This is still Diatonic Scale (still 5 T and 2 S).
+The sequence itself is called Aeolian mode.&lt;/p&gt;
+
+&lt;p&gt;When starting from D, we get Dorian mode&lt;/p&gt;
+
+&lt;p&gt;D &amp;lt;T&amp;gt; E &amp;lt;S&amp;gt; F &amp;lt;T&amp;gt; G &amp;lt;T&amp;gt; A &amp;lt;T&amp;gt; B &amp;lt;S&amp;gt; C &amp;lt;T&amp;gt; D&lt;/p&gt;
+
+&lt;p&gt;E -&amp;gt; Phrygian&lt;/p&gt;
+
+&lt;p&gt;E &amp;lt;S&amp;gt; F &amp;lt;T&amp;gt; G &amp;lt;T&amp;gt; A &amp;lt;T&amp;gt; B &amp;lt;S&amp;gt; C &amp;lt;T&amp;gt; D &amp;lt;T&amp;gt; E&lt;/p&gt;
+
+&lt;p&gt;Basically we just traverse the stave starting from a note and write
+down all the notes we meet on our way.&lt;/p&gt;
+
+&lt;p&gt;F -&amp;gt; Lydian.&lt;/p&gt;
+
+&lt;p&gt;G -&amp;gt; Mixolydian (also 5th degree of C Major, interval between C and G
+is a fifth).&lt;/p&gt;
+
+&lt;p&gt;B -&amp;gt; Locrian mode.&lt;/p&gt;
+
+&lt;h2 id=&quot;chords&quot;&gt;Chords&lt;/h2&gt;
+
+&lt;p&gt;Let’s take a piece of natural minor scale&lt;/p&gt;
+
+&lt;p&gt;A B C D E&lt;/p&gt;
+
+&lt;p&gt;and count semitones&lt;/p&gt;
+
+&lt;p&gt;A &amp;lt;T - 1 2&amp;gt; B &amp;lt;S - 3&amp;gt; C &amp;lt;T - 4 5&amp;gt; D &amp;lt;T - 6 7&amp;gt; E&lt;/p&gt;
+
+&lt;p&gt;We can do the same for C Major&lt;/p&gt;
+
+&lt;p&gt;C &amp;lt;T - 1 2&amp;gt; D &amp;lt;T 3 4&amp;gt; E &amp;lt;S 5&amp;gt; F &amp;lt;T 6 7&amp;gt; G&lt;/p&gt;
+
+&lt;p&gt;7 semitones = perfect fifth&lt;/p&gt;
+
+&lt;p&gt;A -&amp;gt; C = a minor third (3 semitones)&lt;/p&gt;
+
+&lt;p&gt;C -&amp;gt; E = a major third (4 semitones)&lt;/p&gt;
+
+&lt;p&gt;C Major chord is C E G (C major triad).&lt;/p&gt;
+
+&lt;p&gt;Triad = three notes.&lt;/p&gt;
+
+&lt;p&gt;Abbreviations:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;C Major = C, Cmaj, CM&lt;/li&gt;
+  &lt;li&gt;A Minor = Amin, Am, A-&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One can construct a major triad by taking major third and perfect
+fifth (i.e. a note 4 semitones away and a note 7 semitones away).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_1/5_c_maj.png&quot; alt=&quot;c maj on piano keys&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For a minor triad - minor third (3 semitones) + perfect fifth
+(7 semitones).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_1/6_a_min.png&quot; alt=&quot;a min on piano keys&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is also Diminished Triad (B0 Bdim) = Minor third (3 semitones) + Diminished Fifth (6 semitones).&lt;/p&gt;
+
+&lt;p&gt;Note that “third” and “fifth” are taken from the stave, but whether
+it is “perfect”, “minor”, “diminished” is based on the underlying 
+notes. I.e. we take C, count one stave unit, get E, count another
+stave unit - get G. Now we can count semitones and identify whether
+this is maj, min or dim.&lt;/p&gt;
+
+&lt;p&gt;If we repeat taking third and fifth from every note, we get:&lt;/p&gt;
+
+&lt;p&gt;Cmaj Dmin Emin Fmaj Gmaj Amin Bdim&lt;/p&gt;
+
+&lt;h3 id=&quot;three-chord-trick&quot;&gt;Three Chord Trick&lt;/h3&gt;
+
+&lt;p&gt;C, F and G work well together.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;C - tonic triad (I)&lt;/li&gt;
+  &lt;li&gt;F - subdominant (IV) - the tonic is domimant of the subdomimant. It is
+as far below the tonic as domimant is above.&lt;/li&gt;
+  &lt;li&gt;G - 5th degree (C -&amp;gt; G is a fifth) - dominant (V)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can harmonize notes with chords which have it.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">I started taking “Fundamentals of Music Theory “ on Coursera. Summary of week 1. So far there are a lot of stuff “just by definition”, so I honestly felt a need to wrote a summary to structure everything in my head (since I already forgot quite a lot).</summary></entry><entry><title type="html">Fundamentals of music: week 2</title><link href="https://merelycurious.me/post/coursera-fundamentals-of-music-week-2" rel="alternate" type="text/html" title="Fundamentals of music: week 2" /><published>2020-04-18T17:00:00+02:00</published><updated>2020-04-18T17:00:00+02:00</updated><id>https://merelycurious.me/post/coursera_fundamentals_of_music_week_2</id><content type="html" xml:base="https://merelycurious.me/post/coursera-fundamentals-of-music-week-2">&lt;p&gt;Summary of week 2. Sharps, flats, keys, intervals, other clefs.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sharps--flats&quot;&gt;Sharps &amp;amp; flats.&lt;/h2&gt;
+
+&lt;p&gt;We can play major scale starting from any note. When we start from C,
+we use only white keys on the piano, but that’s not always the case.
+E.g. if we start from G, we use F# (“F sharp” - one semitone sharper
+than F). F# can also be denoted as Gb (“G flat”).&lt;/p&gt;
+
+&lt;p&gt;Black piano keys (notes) asymmetry (i.e. the fact that not between
+any two white keys there is a black key) creates landmarks for our ears.&lt;/p&gt;
+
+&lt;h2 id=&quot;key&quot;&gt;Key&lt;/h2&gt;
+
+&lt;p&gt;If we use notes from some scale, we say that we are in the key of
+this scale tonic, e.g. C-maj.&lt;/p&gt;
+
+&lt;p&gt;Scale - ordered sequence of notes.
+Key - relationship, feelings, that pull us back to tonic.&lt;/p&gt;
+
+&lt;p&gt;So far we can’t write sharp note on the stave (only white piano keys
+are represented). There is a way to define sharps as well. One can
+put sharp sign on a note in the stave (in the beginning) and now 
+all occurrences of that note have to be sharp. Some selections of
+sharps actually represent a valid key. There is a mnemonic to
+recognize such keys, called “Circle of fifths”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_2/600px-Circle_of_fifths_deluxe_4.svg.png&quot; alt=&quot;circle of fifths&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Circle of fifths. Author: &lt;a href=&quot;https://en.wikipedia.org/wiki/en:User:Just_plain_Bill&quot;&gt;Just plain Bill&lt;/a&gt;
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/File:Circle_of_fifths_deluxe_4.svg#filelinks&quot;&gt;Wikipedia&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Moving by a fifth adds one sharp. Moving by a fourth adds one flat.&lt;/p&gt;
+
+&lt;p&gt;Mnemonic for remembering sharps: Father Christmas Gave Dad an Electric
+Blanket. For flats: Blanket Explodes And Dad Get Cold Feet.&lt;/p&gt;
+
+&lt;p&gt;Sample usage - let’s say we see 5 flats. These means that first 5
+notes on the left side of the circle (F, B, E, A, D) will be flattened
+(and this is key of Db).&lt;/p&gt;
+
+&lt;p&gt;However, we may want to use non sharp or flat note. We can do this 
+by using accidentals (inlined signs). These can be sharps or 
+flats or a natural (♮, cancels out previous sharps and flats).
+Accidentals have their effect to the next vertical bar.&lt;/p&gt;
+
+&lt;h3 id=&quot;minor-keys&quot;&gt;Minor keys&lt;/h3&gt;
+
+&lt;h4 id=&quot;related-minor-key&quot;&gt;Related minor key&lt;/h4&gt;
+
+&lt;p&gt;Each set of sharps or flats defining a major key, actually defines 
+related minor key.&lt;/p&gt;
+
+&lt;p&gt;To find a related minor key tonic, you need to take 6th degree
+of major scale.&lt;/p&gt;
+
+&lt;p&gt;E.g. D maj = D E F# G A B C# D&lt;/p&gt;
+
+&lt;p&gt;B is 6th degree, so it is relative minor for D.&lt;/p&gt;
+
+&lt;p&gt;We can illustrate this visually in the following way. Let’s plot
+note frequencies:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_2/1_non_log.svg&quot; alt=&quot;note frequencies&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This does not give us much, since they grow multiplicatively, let’s
+do a log plot instead:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_2/1_log.svg&quot; alt=&quot;log plot of note frequencies&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we see that all notes are uniformly spaced in log space. This
+means that in log space, a semitone can be represented via a distance
+on the picture. This allows us to represent a major scale as a 
+template with holes:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_2/2_log_major.svg&quot; alt=&quot;C maj on log plot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The same can be done for Natural Minor and we can see why there is
+always a related minor to each major at 6th:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_2/3_log_minor.svg&quot; alt=&quot;A min with C maj on log plot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically when you take 2 major scales together, a natural minor is just
+a subset of the resulting notes (on the picture A Natural Minor is
+built using notes from C major).&lt;/p&gt;
+
+&lt;p&gt;Similarly B natural minor = B C# D E F# G A B - all notes from D maj, just
+rearranged (the sequence just starts from B instead of D).&lt;/p&gt;
+
+&lt;h4 id=&quot;other-kinds-of-minor-scales&quot;&gt;Other kinds of minor scales&lt;/h4&gt;
+
+&lt;p&gt;There are different types of minor scales. We already saw B natural
+minor, it still tends into D as a tonic.&lt;/p&gt;
+
+&lt;p&gt;B &lt;em&gt;harmonic&lt;/em&gt; minor = B C# D E F# G A# B - A# is 7th degree and it
+leads our ear to B being new tonic. You can get harmonic minor by
+raising 7th note by semitone in natural minor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_2/3_log_harmonic_minor.svg&quot; alt=&quot;A min harmonic with C maj on log plot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We already know that 1th is called Tonic, 5th - Dominant and now 
+we learned that 7th is called “Leading”.&lt;/p&gt;
+
+&lt;p&gt;In harmonic minor there is 1.5 tone jump (from G to A#) and it can be hard for
+people to sing.&lt;/p&gt;
+
+&lt;p&gt;B &lt;em&gt;melodic&lt;/em&gt; minor scale - B C# D E F# G# A# B and backward A G F# E D
+C# B. Backward is same as natural minor. To get melodic minor scale
+we take natural minor and raise both sixth and seventh notes by a
+semitone.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_2/4_log_melodic_minor.svg&quot; alt=&quot;A min melodic with C maj on log plot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;intervals&quot;&gt;Intervals&lt;/h2&gt;
+
+&lt;p&gt;You define interval by a number and its quality. The number is easy
+to get, we just count number of notes on a stave from the lowest
+note to the highest (inclusive). As we already know, we can add
+sharps and flats to the stave, this won’t affect position of the note,
+i.e. the number for the interval will stay the same. In order to 
+distinguish such intervals, we define their quality. One cannot 
+determine number or quality of an interval just by counting semitones.&lt;/p&gt;
+
+&lt;p&gt;There are 5 qualities - Perfect, Diminished, Augmented, Major and
+Minor. Unison, fourth, fifth and octave are called perfect and they
+can be diminished (semitone smaller) or augmented (semitone larger).
+The remaining intervals (second, third, sixth, seventh) can be major
+or minor.&lt;/p&gt;
+
+&lt;p&gt;Let’s start with perfect ones. We say that an interval is perfect
+if upper note is in the major key of the lower note. An interval, which is semitone lower
+than perfect, is called diminished, if semitone higher - augmented.&lt;/p&gt;
+
+&lt;p&gt;For seconds, thirds, sixths and seventh - if upper note is in the
+key of the lower note, we say that interval is major. Semitone lower - minor, semitone higher - augmented&lt;/p&gt;
+
+&lt;h2 id=&quot;ledger-lines-and-clefs&quot;&gt;Ledger lines and clefs&lt;/h2&gt;
+
+&lt;p&gt;We can extend the stave using ledger lines, but this becomes hard
+to read if you stay there for long time. So there are different
+clefs to use the stave in different ranges, e.g. bass, alto and 
+tenor. You can combine G clef stave with bass clef stave to get
+Grand stave. The both staves “meet” at the first ledger line (i.e.
+middle C).&lt;/p&gt;
+
+&lt;p&gt;Here is Grand stave on log plot:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_2/5_grand_stave_log.svg&quot; alt=&quot;Grand stave on log plot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a mnemonic for other clefs - the center of the sign is always
+placed at middle C (i.e. C4), e.g. tenor clef:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_resources/coursera_fundamentals_of_music_week_2/405px-Tenor_clef_with_ref.svg.png&quot; alt=&quot;Grand stave on log plot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Summary of week 2. Sharps, flats, keys, intervals, other clefs.</summary></entry><entry><title type="html">Timing 2008: what was the prize?</title><link href="https://merelycurious.me/post/timing-2008-best-outcomes" rel="alternate" type="text/html" title="Timing 2008: what was the prize?" /><published>2020-02-09T12:00:00+01:00</published><updated>2020-02-09T12:00:00+01:00</updated><id>https://merelycurious.me/post/timing_2008_best_outcomes</id><content type="html" xml:base="https://merelycurious.me/post/timing-2008-best-outcomes">&lt;p&gt;With the bull market continuing, more and more people “predict” the
 crisis. Obviously, there is a temptation to try to time the market.
 Let’s try to estimate the best outcome of timing the market by
 considering the 2008 crisis. Perhaps it is not worth it at all
@@ -955,1097 +1484,4 @@ subordinate gesture). Low ranking females also get clitoral erections.&lt;/p&gt;
 &lt;p&gt;The lecturer told a story about his friend getting invited to a
 conference on predatory behavior organized by the military. The
 explanation was that they wanted to teach tank corps to hunt like
-carnivores (in a good tank). The exact reason is not known.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Aggression - part 2.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 17)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-17-human-sexual-behavior" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 17)" /><published>2020-01-25T19:00:00+01:00</published><updated>2020-01-25T19:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_17_human_sexual_behavior</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-17-human-sexual-behavior">&lt;p&gt;Human Sexual Behavior - part 3 &amp;amp; Aggression - part 1.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;There is female-female competition in pair bonding species, since male
-takes care of the kids (if he believes that he is the father). A
-female wants a male, who is good at this.&lt;/p&gt;
-
-&lt;p&gt;There are species (e.g. New World monkeys) where females are more
-aggressive than males and have larger bodies. I.e. exactly opposite to
-the majority of species.&lt;/p&gt;
-
-&lt;h2 id=&quot;evolution-of-homosexuality&quot;&gt;Evolution of homosexuality&lt;/h2&gt;
-
-&lt;p&gt;The estimated homosexuality rate is from 5% to 20% (across all human 
-cultures).&lt;/p&gt;
-
-&lt;p&gt;There are 3 theories (all based on the assumption of genetic component
-of sexual orientation):&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;heterozygotic-vigor argument&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Gender dependent genetic argument - sisters of gay men have higher
-than average reproductive rate&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Helper at the nest - homosexual individuals spend resources on
-helping their siblings and, thus, pass their genes indirectly. In
-other words both sisters and brothers of homosexual siblings should
-have increased reproductive rates (this has been observed).&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;looking-good&quot;&gt;Looking good&lt;/h2&gt;
-
-&lt;h3 id=&quot;facial-symmetry&quot;&gt;Facial symmetry&lt;/h3&gt;
-
-&lt;p&gt;In 19th century there was a theory of “criminal face”. They overlapped
-faces of criminals and produced a composite face. Everyone perceived
-this face as very good looking. When you average faces, they look more
-attractive than the individuals they came from. The more faces there
-are in the composite, the more attractive it is perceived.&lt;/p&gt;
-
-&lt;p&gt;The explanation - you get highly symmetrical face. Symmetry is a good
-reliable marker of health. Wildly asymmetrical faces are typically
-results of developmental issues.&lt;/p&gt;
-
-&lt;p&gt;People can pick up astonishingly subtle asymmetries in faces. Two
-months old babies already prefer to look at pictures of more
-symmetrical faces. This is also observed in other species.&lt;/p&gt;
-
-&lt;p&gt;There was a study, which has shown that people with more symmetrical
-faces are better dancers. They recorded people dancing and removed all
-features of a person (e.g. replaced with a 3D model). Other people
-rated the resulting dances. Dances of people with more symmetrical
-faces (the faces were not shown to the raters) were rated higher.
-Possible explanation: people with more symmetrical faces are more
-attractive, thus, treated better, thus, more confident, thus, more
-comfortable dancing.&lt;/p&gt;
-
-&lt;p&gt;Women faces at ovulation become a bit more symmetrical.&lt;/p&gt;
-
-&lt;h3 id=&quot;secondary-sexual-characteristics&quot;&gt;Secondary sexual characteristics.&lt;/h3&gt;
-
-&lt;p&gt;There is a handicap principle from Zahavi. Individuals show through
-secondary sexual characteristics that they have so much energy that
-they can afford to spend it on such not immediately useful features.
-Such features are also often markers of health and immune system (lots
-of evidence).&lt;/p&gt;
-
-&lt;p&gt;In Marsupial mice - males with more dramatic secondary characteristics
-have more fertile sperm.&lt;/p&gt;
-
-&lt;p&gt;Study - the better a western country is doing (life expectancy,
-economy, quality of life), the less bias women have for secondary
-sexual characteristics in males (big jaw,  high forehead, better
-developed muscles).&lt;/p&gt;
-
-&lt;p&gt;One can also detect whether other individual is infectious via
-secondary sexual characteristics. Many such characteristics advertise
-having no communicable diseases. Many species are good at detecting
-smells of parasitic infections.&lt;/p&gt;
-
-&lt;p&gt;There is also cheating - a selection to uncouple these characteristics
-from one’s health. In birds, one observes sick animals spending too
-many calories on developing their secondary sexual characteristics.&lt;/p&gt;
-
-&lt;p&gt;Problem with all such research - intensity of such characteristics
-has to reflect quality of immune system. Facial coloration linearly
-depends on immune system. However, in vultures - one gets carotenoids
-for face coloration by eating ungulate feces. They also contain a lot
-of parasites. This way they say “see, I can handle so many infections,
-thus, my DNA must be really good”. This is a controversy.&lt;/p&gt;
-
-&lt;p&gt;Lions are highly tournamental species. Black mane in males is the most
-attractive and the most expensive to develop. However, your head heats
-up more, so you have to balance the attractiveness of your mane with
-spending more energy on your thermo regulation.&lt;/p&gt;
-
-&lt;p&gt;Some such characteristics are direct markers of fertility. In primates
-females have external swellings when ovulating. Humans are concealed
-ovulators. Some baboon females have bigger swellings than other. Male
-baboons prefer larger swellings. They are a marker of estrogen levels.
-Females with larger swellings have better infant survival rate.
-However, it is also a handicap, one can gain 25% more weight due to
-water retention for the swelling.&lt;/p&gt;
-
-&lt;p&gt;In humans there is waist-hip ratio. The bigger this ratio is, the
-better the fertility is. However, in more traditional societies you
-don’t see this preference that much. Perhaps this is just a bias of
-western culture.&lt;/p&gt;
-
-&lt;p&gt;In human males - larger jaws &amp;amp; high foreheads, more developed muscle
-mass - markers of testosterone levels.&lt;/p&gt;
-
-&lt;p&gt;Rounder faces of men are perceived as more likable, more honest, more
-trustworthy, but less desirable.&lt;/p&gt;
-
-&lt;p&gt;When women ovulate, they prefer more expressed secondary sexual
-characteristics.&lt;/p&gt;
-
-&lt;p&gt;However, there is another problem with this line of reasoning. Let’s
-say a female gazelle mates with a male with amazing secondary sexual
-characteristics and gets a kid. She will expand more calories to take
-care of the kid, because it has great reproductive potential. In birds&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;larger eggs when mating with more attractive males. In other words,
-a female makes this a self fulfilling prophecy.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Also females take into account how other females perceive males. Lee
-Gugatkin did a study looking at female rejecting males. After a
-rejection, fake female birds were placed around the male to make him
-look really popular. The rejecting female was than more likely to do
-solicitive courting. In other words she is jumping in a band wagon:
-“If I don’t find him attractive, but others do, these traits must be
-actually good and I want them in my kids”.&lt;/p&gt;
-
-&lt;p&gt;In pair bonding species males show that they can be a good parent.
-Thus, there are markers of parenting skills. In non-pair bonding
-primates, females with kids are more preferred, since this is a marker
-of parental competence.&lt;/p&gt;
-
-&lt;h3 id=&quot;homogamy&quot;&gt;Homogamy&lt;/h3&gt;
-
-&lt;p&gt;Individuals like other individuals, who are more similar to them.
-E.g. in the US for marriages there is 90% likelihood to share same
-religion, 3 year age window, race, ethnicity, socioeconomic status
-during childhood, political views. 40% for IQ and education. 20-40% -
-same percentile of height (taken per gender), weight, hair color, lung
-capacity, width of nostrils, width of eyes (probably markers for race
-and ethnicity).&lt;/p&gt;
-
-&lt;p&gt;This brings us again to kin selection. Mating with third to fourth
-cousin is optimal and also improves fertility. I.e. you should share
-great-great-grandparents (grand parents of your grandparents) or
-great-great-great-grand parents.&lt;/p&gt;
-
-&lt;p&gt;In agricultures villages people in marriages originally lived less
-than 10 kilometers away. In Iceland people are not more than 6th
-cousin apart and they have clear records going back centuries.&lt;/p&gt;
-
-&lt;p&gt;Children have optimal survival rate in third-fourth cousin marriages.&lt;/p&gt;
-
-&lt;p&gt;In the US people make less homogenous choices when they are younger.
-This illustrates that people get more close minded as they get older.
-There is an exception for religion, there is a second peak of
-likelihood to enter non-homogenous marriage around 50-60 years old.
-Such people often have already been living for a long time together.
-One possible explanation - they wait for their parents to die, in
-order not to disappoint them with such a marriage.&lt;/p&gt;
-
-&lt;h3 id=&quot;commonalities-across-cultures&quot;&gt;Commonalities across cultures&lt;/h3&gt;
-
-&lt;p&gt;In every single cultures women are more likely than men to want older
-males. Men - younger females. Women look at economic prowess, men -
-fertility markers. This is researched by David Buss.&lt;/p&gt;
-
-&lt;p&gt;These are also cliches. Because in all cultures across sexes there is
-the same top ranked preference to wind up with someone who is nice to
-you.&lt;/p&gt;
-
-&lt;h2 id=&quot;aggression&quot;&gt;Aggression&lt;/h2&gt;
-
-&lt;p&gt;You learn when to be aggressive, e.g. brutally tackling an aggressive
-football player is perceived much better than doing the same to Nelson
-Mandela. We welcome violence when it is of the right kind.&lt;/p&gt;
-
-&lt;p&gt;Aspects which were considered unique to humans, but are not:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Killing for pleasure. There is competitive infanticide. First
-observed in langur monkeys by Sara Hardy. Initially people explained
-this as a psychopathology and caused by humans invading their habitat.
-Jane Goodall observed killings in chimpanzees. They even make weapons
-and have organized violence. All adult males in the group are
-relatives, so they have cooperative aggression and border patrols.
-They get extremely excited and start patrolling their territory. When
-encountering a male from a different group, they will kill him. There
-are cases of male chimps systematically killing males of neighboring
-groups, i.e. genocide (killing because of the group one belongs to).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;// While looking up this topic, I encountered “&lt;a href=&quot;https://en.wikipedia.org/wiki/Gombe_Chimpanzee_War&quot;&gt;Gombe Chimpanzee
-War&lt;/a&gt;” article
-in Wikipedia with casualties and commanders. I was surprised. Looks
-like this was observed by Goodall.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;reconciliation - doing something affiliative after aggression. Frans
-de Waal studies this. Observed in rhesus monkeys, dolphins, whales,
-gorillas - social grooming after fight.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Odds of reconciliation increase when the relationship is more
-important (e.g. in macaque). E.g. pairs which had history of
-cooperation (like bringing food together to a cage).&lt;/p&gt;
-
-&lt;p&gt;There can be gender differences - e.g. in baboons only females
-reconcile. In bonobos they have sex instead of grooming. One also
-requires aggression for reconciliation.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;empathy - chimps, lab rats (studied by Frans de Waal). If a male is
-attacked by a more dominant male - an innocent bystander (i.e. not
-picking a fight) is far more likely to be groomed by females
-afterwards than the one who picked up the fight with more dominant
-male. Rats send ultrasonic alarm calls when restrained. Rats who hear
-the alarm have lower pain threshold, but only when the rat producing
-the alarm is e.g. their cage mate.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;sense of justice. Chimps - after a cooperation in which one chimp
-gets the food, that chimp is more likely to share the food.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;dominance hierarchies. Top down - single (despotic) most aggressive
-individual with uneven resource distribution due to threats, e.g.
-baboons, chimps, rhesus monkeys. Bottom up (egalitarian) - (e.g.
-velvet monkeys) - number one cooperates with everyone, if they get
-abusive - they get overthrown.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;rough-and-tumble play. In famine times this is the last of behaviors&lt;/li&gt;
-  &lt;li&gt;to disappear in kids.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Unique aspects:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;sado- &amp;amp; masochism (due to confusing sex behavior with aggression).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;unusual domains of empathy. E.g. &lt;a href=&quot;https://www.youtube.com/watch?v=dBqhIVyfsRg&quot;&gt;an Ikea
-ad&lt;/a&gt;, showing a lamp being
-thrown out causing empathy reaction to the lamp and then “What’s wrong
-with you, it is just a lamp, a new one also works better”.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;being passive aggressive, killing indirectly (e.g. by releasing a
-bomb or looking away). E.g.&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;a 5 year old child broke other kid easter egg and then was
-  forced by paint a new one. They painted it completely black
-  (complied with the requirement, but still were aggressive).&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Professor’s wife. Once she was driving and they were cut off by
-  someone. His wife started following that person and eventually
-  reached them on a long red light. She came to the window and
-  threw a lollipop inside with “Anyone who does something like
-  that, needs this”.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;In Nevada, many men every day wake up, kiss their family and go
-  to work to control drone airplanes in Iraq killing people
-  thousands of miles away.&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Extreme empathy&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;truth and reconciliation commissions in South Africa.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;“I will let no man to spoil my soul by causing me to hate him.”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Sister Helen Prejean: “the less forgivable the act is, the more
-  it must be forgiven”.&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;tricky-aspects-of-studying-aggression&quot;&gt;Tricky aspects of studying aggression&lt;/h3&gt;
-
-&lt;p&gt;Take Paras monkeys - no male fights in nature. Put two in a cage -
-they will fight to death. Their social structure is built around
-keeping males as far as possible from each other (the tension is
-high), thus, they live in very dispersed patterns. Are they non-
-aggressive (no fights) or extremely aggressive?&lt;/p&gt;
-
-&lt;p&gt;Ripping other individual to shreds can be an aggression or getting
-dinner.&lt;/p&gt;
-
-&lt;h3 id=&quot;mechanisms-in-the-brain&quot;&gt;Mechanisms in the brain&lt;/h3&gt;
-
-&lt;p&gt;One second before a violent act in the brain - limbic system plays
-important role. E.g. amygdala. Individuals with destroyed amygdala are
-incapable to elicit aggression. In humans there were court ordered
-amygdalectomies in 60-70s. They would decrease aggression and a lot of
-other stuff. Basically there wouldn’t be a whole lot of a person left
-afterwards.&lt;/p&gt;
-
-&lt;p&gt;There is also stimulation evidence - produces wildly aggressive
-behavior. There is rare epilepsy in amygdala. Normally epileptics
-observe some signs of coming seizure - can be odor, seeing math
-equations, auditory. When amygdala is affected - people become
-extremely furious. Charles Whitman - mass murdered in 1962, was found
-to have a tumor in his amydgala. In 1970s there was Baader Meinhof
-gang in Germany, one of them had a tumor in her amygdala.&lt;/p&gt;
-
-&lt;p&gt;One’s amygdala activates when you evoke anger in someone. It also gets
-bigger in PSTD victims, which leads to increased frequency of violent
-behavior.&lt;/p&gt;
-
-&lt;p&gt;People with lesions in this area are very bad at detecting faces,
-which express anger. They are more trusting than average and more
-likely to forgive. There is a study by Antonio Damasio showing that
-such people don’t look at eyes of other people. In other words
-amygdala is able to direct you to look for aggression.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Human Sexual Behavior - part 3 &amp;amp; Aggression - part 1.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 16)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-16-human-sexual-behavior" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 16)" /><published>2020-01-18T08:00:00+01:00</published><updated>2020-01-18T08:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_16_human_sexual_behavior</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-16-human-sexual-behavior">&lt;p&gt;Human Sexual Behavior - part 2.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;pheromone-effects&quot;&gt;Pheromone effects&lt;/h2&gt;
-
-&lt;p&gt;Many pheromones are breakdown products of sex hormones.&lt;/p&gt;
-
-&lt;p&gt;Women preference for the smell of males gets more dramatic around the time of ovulation
-(and they become more sensitive to this smell as well).&lt;/p&gt;
-
-&lt;p&gt;Men rate women sweat generally unpleasant, but it is the least unpleasant around ovulation.
-The same for pheromones (but testosterone dependent phenomenon) - men prefer pheromones derived from women
-around ovulation.&lt;/p&gt;
-
-&lt;p&gt;Wellesley effect - ability of females to synchronize each other cycles (this is done via pheromones).&lt;/p&gt;
-
-&lt;p&gt;In rodents, smell of an adult female delays onset of puberty of younger females (gene competition).
-For males, the effect depends on the relative ranks of males involved. When smelling higher rank male,
-the lower rank male testosterone levels can go down (again gene competition mechanism). In some species,
-this leads to sudden burst of sperm production instead (counter strategy).&lt;/p&gt;
-
-&lt;p&gt;Female’s puberty can occur faster due to male smell.&lt;/p&gt;
-
-&lt;p&gt;One can induce ovulation via sensory stimuli in some species, e.g. pigs. 
-One can buy ovulatory pheromone - boarmate. The same pheromones are found in truffles.&lt;/p&gt;
-
-&lt;p&gt;There was a paper from anonymous author, which looked at author’s testosterone levels (male) when
-close to their significant other and in other city. Facial hair growth was used as a proxy.
-After shaving, the author weighted stubble. The result was a step function with high levels
-when close to significant other.&lt;/p&gt;
-
-&lt;p&gt;Level of relatedness has impact on all these pheromone based effects. E.g. when a male smells his sister,
-no testosterone increase.&lt;/p&gt;
-
-&lt;p&gt;All these mechanisms under different sexual orientation work like in an opposite gender. E.g. homosexual men prefer
-other men smell (and the more testosterone the donor has, the stronger the preference is).&lt;/p&gt;
-
-&lt;p&gt;Animals can lick each other private parts (e.g. dogs, giraffe) to get more info via pheromones via
-gustatory channel (i.e. taste).&lt;/p&gt;
-
-&lt;p&gt;In human female voices get a little bit higher around ovulation (auditory priming) and this is 
-detectable.&lt;/p&gt;
-
-&lt;p&gt;All of these effects are subliminal.&lt;/p&gt;
-
-&lt;h2 id=&quot;impacts-on-libido&quot;&gt;Impacts on libido&lt;/h2&gt;
-
-&lt;p&gt;To drive down libido, terrify individual. 
-Fear and extreme rage suppress reproductive behavior as well as chronic stress.
-Short term stress can stimulate (e.g. in males, e.g. during warfare leading to
-violent sexual behaviors).&lt;/p&gt;
-
-&lt;p&gt;Coolidge effect - take sexually sated male (i.e. he decided that he mated enough),
-put him together with a different female and he will start mating again.
-Variety is simulating.&lt;/p&gt;
-
-&lt;h2 id=&quot;long-term-hormonal-impact&quot;&gt;Long term hormonal impact&lt;/h2&gt;
-
-&lt;p&gt;In species which ovulate at a specific time of the year, proceptive female behavior 
-highly depends on whether they ovulate. In such species, likelihood to have sex
-is almost a step function around ovulation. In non-human primates this is
-like a smoothed-out step function, i.e. with softer edges.&lt;/p&gt;
-
-&lt;p&gt;In humans it is similar, but there is a second peak around 28th day of the cycle.
-This can be explained by females worrying less of unwanted pregnancy.
-Likelihood to have orgasm follows the same shape.&lt;/p&gt;
-
-&lt;p&gt;In women sexual arousal increases around time of ovulation. They act a bit differently
-in terms of proceptive signaling around the time of ovulation. E.g. wear more provocative
-clothing (as assessed by both men and women).&lt;/p&gt;
-
-&lt;p&gt;There is a paper by &lt;a href=&quot;https://www.unm.edu/~gfmiller/cycle_effects_on_tips.pdf&quot;&gt;Geoffrey Miller et al (Ovulatory cycle effects on tip earnings by lap dancers:
-economic evidence for human estrus)&lt;/a&gt;
-about impact of ovulation on lap dancers tips. The tips were larger (335$ for 5 hours vs 
-260$ during luteal phase vs 185$ during menstruation phase).&lt;/p&gt;
-
-&lt;p&gt;This is achieved via estrogen increase of receptors for progesterone
-(i.e. brain gets more sensitive to progesterone and this increases
-rewarding aspects of sex).&lt;/p&gt;
-
-&lt;p&gt;Also oxytocin is synthesized, which makes women feel more affilative
-with someone they had sex with around the time of ovulation.&lt;/p&gt;
-
-&lt;p&gt;Estrogen also has effects on body - it becomes more sensitive to touch around ovulation.
-Olfactory sensitivity increases too. All of this creates bias towards males around ovulation.&lt;/p&gt;
-
-&lt;h3 id=&quot;testosterone-in-males&quot;&gt;Testosterone in males.&lt;/h3&gt;
-
-&lt;p&gt;For males - testosterone is the driving force.
-However, there is only correlative evidence. When males mate (e.g. specific time of the year),
-testosterone levels are higher. Over one’s life span testosterone levels reach peak around puberty
-and from 30 cascade down.&lt;/p&gt;
-
-&lt;p&gt;More sexually active men tend to have higher testosterone levels (correlative studies).&lt;/p&gt;
-
-&lt;p&gt;There is a dramatic drop of testosterone when becoming a father (and increase of vasopressin,
-i.e. bonding).&lt;/p&gt;
-
-&lt;p&gt;When you castrate a hamster (i.e. remove testosterone), sexual activity drops, but not to 0
-(residual sexual behavior).
-When you reintroduce a normal level of testosterone, sexual activity goes back to normal.
-The more sex experience an individual has before castration, the more residual
-sexual behavior there will be (i.e. this is driven by social experience).&lt;/p&gt;
-
-&lt;p&gt;When you reintroduce 10% or 200% of normal testosterone levels, sexual activity goes back to normal.
-I.e. testosterone is necessary for sexual activity, but exact levels are not that important.
-1000% level is supraphysiological (out of normal range) and leads to increase in sexual behavior
-and arousal (e.g. when applying anabolic steroids for muscle mass). Body tries to downregulate
-receptors in this case (this is only partially successful).
-As we will see later, the same applies to aggression.&lt;/p&gt;
-
-&lt;p&gt;In other words, testosterone is playing a modulatory role. 
-I.e. it sensitizes one towards stimuli, but not evocative of sexual arousal.&lt;/p&gt;
-
-&lt;h3 id=&quot;melatonin&quot;&gt;Melatonin&lt;/h3&gt;
-
-&lt;p&gt;Tells body what time of the year it is (based on amount of light).
-One of driving forces for seasonal mating.
-There is a smidgen of evidence in humans for seasonal mating variations.&lt;/p&gt;
-
-&lt;h2 id=&quot;impact-of-early-life&quot;&gt;Impact of early life&lt;/h2&gt;
-
-&lt;p&gt;Perinatal factors - before birth. Prenatal - after birth. Postnatal - very early development.&lt;/p&gt;
-
-&lt;p&gt;Early experience is not about learning how to be sexual (these are fixed action patterns),
-but for appropriate social context. Same will apply to aggression later.&lt;/p&gt;
-
-&lt;p&gt;In 1950s there were studies about captive primates and consequences of growing up
-in certain degree of social isolation. In therms of sex behavior, it was normal,
-but in totally wrong context (e.g. towards towel or bowl of food or fully ignoring social dominance).&lt;/p&gt;
-
-&lt;p&gt;There were studies of Kibbutz communities - if you spend a lot of time with someone before age of 6,
-you subliminaly stop treating them as a potential mate (like imprinting), but instead like a sibling,
-i.e. pseudo kin.&lt;/p&gt;
-
-&lt;p&gt;Before people thought that early experience in life affects sex orientation.
-There were 2 models:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;absence of father figure model&lt;/li&gt;
-  &lt;li&gt;neurotic mother&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;However, currently there is no evidence for this.&lt;/p&gt;
-
-&lt;h3 id=&quot;prenatal-hormonal-effects&quot;&gt;Prenatal hormonal effects&lt;/h3&gt;
-
-&lt;p&gt;Hormones have so called organizational effects early in one’s life (i.e. on their brain and nervous system).
-Later they have activation effects.&lt;/p&gt;
-
-&lt;p&gt;In rodents there are massive organizational effects.
-E.g. if female rhesus monkey fetus is affected by testosterone, this masculinizes their brain.
-If later in life there are no other impact, this has no effect.
-However, when testosterone is injected later in life, she exhibits male fixed action patterns.
-This is another example of “if-then” clause - iff masculinized brain, testosterone has effect.
-In all other variations (i.e. testosterone on not masculinized brain or no testosterone with masculinized brain)&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;no changes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In humans androgenization of females can happen too:
-E.g. due to&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;congenital adrenal hyperplasia (overactive adrenal system)&lt;/li&gt;
-  &lt;li&gt;drug in 1950s - diethylstilbestrol (DES). In some cases fetus body converted 
-this to androgens.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This leads to higher chances of becoming a lesbian in adulthood.
-However, the mechanism may be not obvious. E.g. androgenized female
-has intersexual genitals. They have to go through re-constructive
-plastic surgeries. This can affect the outcome.&lt;/p&gt;
-
-&lt;h4 id=&quot;testosterone-mechanism&quot;&gt;Testosterone mechanism&lt;/h4&gt;
-
-&lt;p&gt;Testosterone can be converted to estrogen inside cell (intracellular phenomenon,
-one needs special enzyme for this conversion).
-This conversion happens e.g. in brain.
-In genitals and gender-specific skin parts testosterone is converted to DHT.&lt;/p&gt;
-
-&lt;p&gt;Why not all female fetuses get androgenized (since their mother body has estrogen)?
-There is a special protein (alpha fetoprotein) during pregnancy which binds estrogen 
-and degrades it. I.e. the only fetuses that have estrogen inside their neurons
-are males and estrogen comes from testosterone.&lt;/p&gt;
-
-&lt;p&gt;We already mentioned testicular feminized males before. Phenotypically a girl, but
-does not hit puberty, no menstruation. In the end she happens to be a testicular feminized male.
-The individual is chromosomally male and has underdeveloped testis. This is caused by mutation
-in testosterone receptor. Sexual identification is female, but the body has
-masculinized organization effects. As a result, the individual is just like a normal woman,
-who can’t get pregnant.&lt;/p&gt;
-
-&lt;h2 id=&quot;genes&quot;&gt;Genes&lt;/h2&gt;
-
-&lt;p&gt;Genes determine which gonads you make as a fetus and gender.&lt;/p&gt;
-
-&lt;p&gt;There is a certain degree of heritability for sex orientation.
-E.g. in twin studies - a given mono-zygotic twin has 50% chance to be homosexual if other twin is 
-homosexual. For dizygotic it is 22%, for sibling - 9%.&lt;/p&gt;
-
-&lt;p&gt;Dean Hamer had a paper about genetic markers for sexual orientation.
-Media immediately screamed about “the gay gene”.
-However,&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;this is not a gene, but a genetic marker&lt;/li&gt;
-  &lt;li&gt;there is no consistency, each pair of siblings have this marker in a different location&lt;/li&gt;
-  &lt;li&gt;this was never replicated.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;evolution&quot;&gt;Evolution&lt;/h2&gt;
-
-&lt;p&gt;The belief that sexual behavior is for the good of species is wrong as we discussed in previous lectures.
-There was a belief that sexual behavior is about reproduction, but there are plenty of examples
-of non-reproductive sex.&lt;/p&gt;
-
-&lt;p&gt;E.g. bonobo chimps:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;no sexual dimorphism (-&amp;gt; low degree of aggression)&lt;/li&gt;
-  &lt;li&gt;female dominance&lt;/li&gt;
-  &lt;li&gt;a lot of sex -&amp;gt; the most sexually promiscuous species on Earth. Majority non-reproductive:
-    &lt;ul&gt;
-      &lt;li&gt;no ovulation&lt;/li&gt;
-      &lt;li&gt;same gender&lt;/li&gt;
-      &lt;li&gt;sexual behavior which traditionally doesn’t result in eggs getting fertilized&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For them it is about promoting group cohesion, e.g. other species do
-social grooming for the same reason.&lt;/p&gt;
-
-&lt;h3 id=&quot;pregnancy-cost-asymmetry&quot;&gt;Pregnancy cost asymmetry&lt;/h3&gt;
-&lt;p&gt;Sperm does not cost a lot, but for females more effort is involved - eggs, pregnancy, postnatal care.
-As a result, females are more selective who to mate with.
-Usually the males are not selective in the slightest.
-Exception - pair bonding species. There male can invest even more calories into a kid
-(e.g. by carrying it around). This can create cuckoldry from female side.&lt;/p&gt;
-
-&lt;h3 id=&quot;males-controlling-female-reproductive-behavior&quot;&gt;Males controlling female reproductive behavior&lt;/h3&gt;
-&lt;p&gt;Males can control female reproductive behavior (mate guarding) as a competition with other males.
-In human e.g.:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;clitoridectomies (making sex less pleasant)&lt;/li&gt;
-  &lt;li&gt;chastity belts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But only in groups where males disappear for long periods of time (e.g. nomadic pastoralists).&lt;/p&gt;
-
-&lt;p&gt;In animals:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;copulatory plugs - semen plug hardens in vagina&lt;/li&gt;
-  &lt;li&gt;barbed penis in flies, which male leaves (they can make a new one)&lt;/li&gt;
-  &lt;li&gt;sperm competition - when mating, male biochemically decreases female sexual attractiveness.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Monogamous species have small amounts of sperm and small testis. Polygamous - large testis.
-Chimps have gigantic testis when compared to body size. Humans are in-between.&lt;/p&gt;
-
-&lt;p&gt;Females have counter strategies. E.g. hidden ovulation.
-This is useful to decrease paternal certainty, competitive infanticide
-and effectiveness of control over female (less clear when to actually control).
-There can also be pseudo estrus.&lt;/p&gt;
-
-&lt;p&gt;Male-male competition for reproductive success is the leading cause of aggression.&lt;/p&gt;
-
-&lt;h3 id=&quot;alternative-mating-strategies&quot;&gt;Alternative mating strategies&lt;/h3&gt;
-&lt;p&gt;It was believed that rank of a male predicts reproductive success (i.e. if there is N females,
-N the most dominant males get to mate) - so-called linear model.&lt;/p&gt;
-
-&lt;p&gt;However, there is female choice (arguments against linear model).
-In tournament species, males are physically able to dominate the female.
-However, she can e.g. exhaust the male. E.g. walk when he tries to eat or sleep
-or bring him to his worst rival. When they start fighting - run away and have
-“stolen copulation” with the guy she is interested in.&lt;/p&gt;
-
-&lt;p&gt;Female baboons prefer baboons who are nice to them (suggestion, no strong proofs).
-E.g. the ones who groom them a lot, play with infants, don’t beat them up.&lt;/p&gt;
-
-&lt;p&gt;Barbara Smuts coined a term of inter-sexual friendship in nonhuman primates based on this.&lt;/p&gt;
-
-&lt;p&gt;Stolen copulations is a viable strategy for males. You don’t get injured by being top dominant male.
-you live longer and, thus, have more cases of stolen copulations.
-This is an alternative strategy.&lt;/p&gt;
-
-&lt;p&gt;In orangutans, the alternative strategy for low ranking males is to mate against female will (i.e. rape).&lt;/p&gt;
-
-&lt;p&gt;Low ranking male fish can pretend to be female and eventually mate with female.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Human Sexual Behavior - part 2.</summary></entry><entry><title type="html">Account fee on Flatex ⇒ Flatex alternatives</title><link href="https://merelycurious.me/post/flatex-account-fee-and-alternatives" rel="alternate" type="text/html" title="Account fee on Flatex ⇒ Flatex alternatives" /><published>2020-01-11T09:00:00+01:00</published><updated>2020-01-11T09:00:00+01:00</updated><id>https://merelycurious.me/post/flatex_account_fee_and_alternatives</id><content type="html" xml:base="https://merelycurious.me/post/flatex-account-fee-and-alternatives">&lt;p&gt;Recently Flatex shared &lt;a href=&quot;https://konto.biw-bank.de/formularcenter_bank/public/1300100.pdf&quot;&gt;an updated price PDF&lt;/a&gt;
-for the new year and to my surprise there will be
-an account fee starting from March. Since I have originally chosen Flatex to avoid percentage based fees
-(because they &lt;a href=&quot;/post/underestimating-ter&quot;&gt;delay&lt;/a&gt; FIRE), it is the time to move away.
-Let’s look where I will move.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
-
-&lt;p&gt;I actually was a great fan of Flatex. In the world, where almost all German brokers take at least 0.25% of your
-transaction value, having a constant fee is a great. I definitely don’t want to give away 0.25% or 0.5% (once for buying,
-once for selling) of &lt;em&gt;all&lt;/em&gt;
-my networth. This was the deciding point for me when going for Flatex.&lt;/p&gt;
-
-&lt;p&gt;However, it looks like the constant fee model Flatex has chosen is actually not sustainable. They have negative
-interest rate on cash since ages, but one could avoid it pretty easily by moving cash fast. Their fee structure
-is a bit weird for active trading (it is super expensive, especially for non European stock exchanges). Thus,
-they have likely attracted mostly ETF investors with buy &amp;amp; hold strategy. If one buys once a month, Flatex can’t
-get more than 100 EUR per year from such a user.&lt;/p&gt;
-
-&lt;h2 id=&quot;changes&quot;&gt;Changes&lt;/h2&gt;
-
-&lt;p&gt;Thus, Flatex decided to change this and announced the news
-right before Christmas.&lt;/p&gt;
-
-&lt;h3 id=&quot;degiro&quot;&gt;Degiro&lt;/h3&gt;
-
-&lt;p&gt;Flatex bought Degiro. Surprise, surprise. 250M EUR (&lt;a href=&quot;https://www.flatex.com/fileadmin/fintech_relaunch/Public/pdf/news/2019/pm/Press_Release_flatex_to_buy_degiro.pdf&quot;&gt;press release&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h3 id=&quot;fees&quot;&gt;Fees&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Yearly depot fee of 0.1% (pre-VAT).&lt;/li&gt;
-  &lt;li&gt;Additional 2 EUR per transaction fee for some exchanges.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;impact&quot;&gt;Impact&lt;/h2&gt;
-
-&lt;p&gt;VAT in Germany is 19%, thus, for each 100k EUR invested or cash with Flatex, one will have to pay 119 EUR per year.
-This is not the end of the world, but unpleasant. If one has 100k EUR with them now and plans to FIRE (i.e. to hold
-the assets with them for 30 or more years), they may easily pay around 3k EUR in yearly fees. This is not a show stopper for FIRE,
-but just giving away 3k EUR is unpleasant.&lt;/p&gt;
-
-&lt;p&gt;Regarding the increased per transaction fee, this does have that much impact. If one buys once a month, it is 24 EUR
-per year. During FIRE, one can sell once a year.&lt;/p&gt;
-
-&lt;p&gt;If the new fees affect also Degiro, current Degiro clients will be &lt;em&gt;very happy&lt;/em&gt;. I personally never used Degiro,
-but their fees were much lower than Flatex.&lt;/p&gt;
-
-&lt;h2 id=&quot;alternatives&quot;&gt;Alternatives&lt;/h2&gt;
-
-&lt;p&gt;I don’t mind spending my time and moving away from Flatex to save 3k EUR.&lt;/p&gt;
-
-&lt;p&gt;My criteria are:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;No depot fee.&lt;/li&gt;
-  &lt;li&gt;The broker should be doing German taxes.&lt;/li&gt;
-  &lt;li&gt;Ideally no percentage based fees.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;interactive-brokers&quot;&gt;Interactive Brokers&lt;/h3&gt;
-
-&lt;p&gt;I already have an account with IB and pretty happy with them (assuming that you have 100k USD with them to avoid monthly fee
-of 10 USD, it
-ends up cheaper than even old Flatex pricing). However, they don’t do German taxes. I am pretty sure
-that I will be able to figure our Vorabpauschale, but having an example from a broker
-would make the process much simpler. For such taxes example, I don’t even mind having a German broker with percentage based buying fee (since I don’t have to buy anything, I can just keep some
-assets there, but buy at IB).&lt;/p&gt;
-
-&lt;h3 id=&quot;dkb&quot;&gt;DKB&lt;/h3&gt;
-&lt;p&gt;I already did &lt;a href=&quot;/post/german-brokers-overview&quot;&gt;an overview of German brokers&lt;/a&gt; and somehow
-I completely missed that DKB technically has somewhat constant transaction fees.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dok.dkb.de/pdf/plv_pk.pdf&quot;&gt;Preis- und Leistungsverzeichnis&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Basically, they take 10 EUR for an order up to 10k EUR and 25 EUR for larger orders.
-This does not include stock exchange fees (e.g. Fremdkosten). 
-The price jump at 10k EUR is weird, it may be that splitting e.g. 20k EUR transaction in two
-will save money on the transaction fee (depends on stock exchange fees).&lt;/p&gt;
-
-&lt;p&gt;10 EUR is actually quite pricey. If I were with a broker taking 0.25% transaction fee,
-I would need to perform 4 kEUR transaction to pay 10 EUR fee there.&lt;/p&gt;
-
-&lt;p&gt;They have saving plans and one contribution to a saving plan costs 1.5 EUR.
-One can have multiple saving plans, modify them frequently. They are executed only 
-once per month on a specific day. The resulting ETFs are just like normal, the only
-difference is that one chooses EUR amount, not number of shares, thus, you end up
-with fractional shares. Looks like selling “saving plans” follows the rules above.
-Theoretically one should be able to move their depot to a broker with cheapest
-selling feels before their retirement to mitigate selling fees.&lt;/p&gt;
-
-&lt;p&gt;Obviously there is no depot fee (at least so far).&lt;/p&gt;
-
-&lt;p&gt;They also have free depot transfer. There is a &lt;a href=&quot;https://www.dkb.de/info/depotwechselservice/&quot;&gt;form&lt;/a&gt; to fill in
-and to sent to the old broker.&lt;/p&gt;
-
-&lt;p&gt;Peculiar that they used to give 0.2% per year interest for up to 100k EUR for Aktivkunden.
-To become an active client, one needs to receive at least 700 EUR per month.
-Since 2020, the interest rate will be only 0.01%.&lt;/p&gt;
-
-&lt;p&gt;Since DKB is also a bank, it makes sense to consider their bank benefits. Active clients don’t
-pay 1.75% fee when paying in non-EUR currency (this only true for their Visa Credit Card, not Master Card).
-This actually looks attractive, since I occasionally
-need to pay in non-EUR and both Deutsche Bank and Ing have similar 1.75% fee.&lt;/p&gt;
-
-&lt;p&gt;smsTan costs 0.07 EUR per SMS.&lt;/p&gt;
-
-&lt;h3 id=&quot;onvista&quot;&gt;OnVista&lt;/h3&gt;
-
-&lt;p&gt;One can open an account here only if they are a citizen of Germany, France, Ireland, Luxembourg,
-Austria or Hungary.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.onvista-bank.de/files/dokumente/formulare/formularcenter/020.1-5EUR-festpreis-preis-leistungsverzeichnis.pdf&quot;&gt;Preis- und Leistungsverzeichnis&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;5 + 2 EUR per transaction.&lt;/p&gt;
-
-&lt;p&gt;Buying for savings plan is 1 EUR pro transaction. Transaction volume is limited - from 50 EUR to 500 EUR.
-Selling is considered an ordinary transaction.&lt;/p&gt;
-
-&lt;p&gt;The account is free for existing clients. For new clients, there is a 0.5% yearly fee for amount over
-250k EUR. Funny fact, the PDF says that Depot-/ Kontoführung is free (with a small note that “there is a fee
-over 250k EUR, see the following section for details”). However, it looks like this affects only cash. The
-original quote is [&lt;a href=&quot;https://www.onvista-bank.de/files/dokumente/formulare/formularcenter/020.1-5EUR-festpreis-preis-leistungsverzeichnis.pdf&quot;&gt;source, page 6, note 2&lt;/a&gt;]:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Zur Berechnung des Verwahrentgelts ermittelt die onvista bank den täglichen Saldo der Euro-Sichteinlagen auf Kontobasis. Hiervon wird der Freibetrag von 250.000,- Euro pro Konto subtrahiert. Ein positiver Restsaldo wird anschließend mit dem von der Europäischen Zentralbank (EZB) für die Einlagenfazilität jeweiligen tagesgültigen vorgegebenen Zinssatz multipliziert, sofern dieser Zinssatz negativ ist&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;“Sichteinlagen” is “checking account”. Looks like they try to forward negative interest rates from European Central Bank 
-to the clients (i.e. it costs money OnVista to store your cash when interest rates are negative). Thus, this is not the end of the world. If I were you, I would definitely double check with them.&lt;/p&gt;
-
-&lt;p&gt;If this fee was to include stocks, this would be a party stopper for me for sure.
-In terms of FIRE, 250k EUR is pretty reachable. At 312.5k EUR this would become
-even more expensive than Flatex.&lt;/p&gt;
-
-&lt;h3 id=&quot;trade-republic&quot;&gt;Trade Republic&lt;/h3&gt;
-
-&lt;p&gt;New broker, which I haven’t even seen before. Looks like a “let’s disrupt everything” startup 
-similar to Robinhood in the US.&lt;/p&gt;
-
-&lt;p&gt;Free orders (when not taking into account stock exchange fees).&lt;/p&gt;
-
-&lt;p&gt;They do your German taxes.&lt;/p&gt;
-
-&lt;p&gt;Looks like they have a limited set of ETFs and stocks. Their website says 7800 stocks and ETFs.
-&lt;a href=&quot;https://www.solarisbank.com/blog/interview-how-trade-republic-is-revolutionizing-stock-trading/&quot;&gt;This interview&lt;/a&gt;
-with the founder mentions 500 ETFs. It is also mentioned that they have 25 employees and 10M EUR investment
-round (the article was written in July 2019). &lt;a href=&quot;https://www.crunchbase.com/organization/trade-republic#section-overview&quot;&gt;Crunchbase&lt;/a&gt;
-gives 17M EUR as total funding amount.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
-
-&lt;p&gt;Trade Republic looks attractive, but I am scared to put a sizable chuck of my FIRE portfolio there.
-My timeline is very long. I agree that these folks are doing a great thing, but I am not yet
-convinced that they will still exist in a couple years. This is a startup with 2 rounds of investment.
-This is very early for a startup. Moreover, Robinhood has plenty of problems in the US (e.g.
-the latest infinite margin bug). Disruptiveness of startups in brokerages - no, thank you!
-Moreover, the set of ETFs to buy is currently limited (e.g. &lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/dp9mtk/place_to_buy_etfs_and_stocks_traderepublic_any/&quot;&gt;this Reddit thread&lt;/a&gt;
-mentions only iShares ETFs).&lt;/p&gt;
-
-&lt;p&gt;OnVista has citizenship limitations and presumably cash depot fee starting from 250k EUR.
-I am worried that it may become “non-cash” too. 250k are reachable for a FIRE person.&lt;/p&gt;
-
-&lt;p&gt;Looks like DKB is the only option with constant buying/selling fees at this stage.
-Unfortunately, their fees are quite large. Thus, one may prefer to bundle investments into 
-10k EUR chunks or tinker with their saving plans.&lt;/p&gt;
-
-&lt;p&gt;I have already started opening DKB account. I will wait with the move until Flatex 
-sends me Tax report for 2019.&lt;/p&gt;
-
-&lt;p&gt;I will keep you posted with the process.&lt;/p&gt;
-
-&lt;p&gt;If DKB introduces depot fee, I will then consider moving to a broker with non-constant transaction fees,
-but won’t buy there anything.&lt;/p&gt;
-
-&lt;h2 id=&quot;further-pointers&quot;&gt;Further pointers&lt;/h2&gt;
-
-&lt;p&gt;r/Finanzen on Reddit has multiple related threads (mostly in German), e.g.:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/eeiyxe/flatex_wird_uninteressant_dkb_oder_onvista/&quot;&gt;DKB or OnVista when moving from Flatex?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/edp3gh/neues_depot_wechsel_von_flatex/&quot;&gt;Where to move from Flatex?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/edbz71/flatex_anpassung_preisleistungsverzeichnis_ab/&quot;&gt;Discussion of the changes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/eg8ald/flatex_dkb_depot%C3%BCbertrag/&quot;&gt;Moving Depot from Flatex to DKB&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/ekum1n/flatex_einfach_%C3%BCbertragen_und_komplett_leeren/&quot;&gt;Cancel Flatex account after the move or keep&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Finanzen/comments/ejeq8b/depot%C3%BCbertrag_von_flatex_zu_dkbtrade_republic_was/&quot;&gt;Moving Depot to DKB/Trade Republic&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As we can see, many people will leave Flatex and quite a few will land at DKB.
-This can still be financially positive for Flatex - they may get more money in the end with 
-fewer clients left (the ones who are ok with the new fees).&lt;/p&gt;
-
-&lt;p&gt;Happy investing without account fees!&lt;/p&gt;</content><author><name></name></author><summary type="html">Recently Flatex shared an updated price PDF for the new year and to my surprise there will be an account fee starting from March. Since I have originally chosen Flatex to avoid percentage based fees (because they delay FIRE), it is the time to move away. Let’s look where I will move.</summary></entry><entry><title type="html">“Human Behavioral Biology” - course summary (lecture 15)</title><link href="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-15-human-sexual-behavior" rel="alternate" type="text/html" title="&quot;Human Behavioral Biology&quot; - course summary (lecture 15)" /><published>2020-01-10T22:00:00+01:00</published><updated>2020-01-10T22:00:00+01:00</updated><id>https://merelycurious.me/post/human_behavioral_biology_sapolsky_course_summary_lecture_15_human_sexual_behavior</id><content type="html" xml:base="https://merelycurious.me/post/human-behavioral-biology-sapolsky-course-summary-lecture-15-human-sexual-behavior">&lt;p&gt;Human Sexual Behavior - part 1.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Our goal is to look at a behavior. First to consider its fixed action patterns. Then step back and look at origins
-for this behavior, i.e. what happened in the brain &amp;amp; environment, its stimulus. All of these at different
-time scales - 1 second ago, 1 minute and up to millions of years.&lt;/p&gt;
-
-&lt;p&gt;There is a proximal mechanism for sexual behavior - it feels good (driven by sensory stimuli,
-feedback and sensations). In species with only reproductive sex, pleasure depends 
-on ovulation. In humans it is different (but it is still easier when estrogen levels are higher).&lt;/p&gt;
-
-&lt;p&gt;Many species have similar fixed action patterns, e.g. lordosis reflex, pelvic thrusting, orgasm,
-ejaculation. At the same time there are differences across species.&lt;/p&gt;
-
-&lt;p&gt;Fixed action patterns create chains of behavior:
-1) Fixed action pattern of individual A is a releasing stimuli for individual B.
-2) Resulting fixed action pattern of B is a releasing stimuli for individual A.
-3) Loop.&lt;/p&gt;
-
-&lt;p&gt;This creates species specificity.&lt;/p&gt;
-
-&lt;p&gt;Thus, ethological approach is essential when studying sexual behavior.
-E.g. studying female rat sexual behavior in a cage is like studying dolphin swimming in a bathtub.
-In case of a female rat, there was a large belief that the role of a female rat was very passive. However,
-this was caused by the cage and lack of space to run around.&lt;/p&gt;
-
-&lt;p&gt;Studying in people - anonymous surveys or something like &lt;a href=&quot;https://en.wikipedia.org/wiki/Randomized_response&quot;&gt;randomized response&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;terms&quot;&gt;Terms&lt;/h2&gt;
-
-&lt;p&gt;Libido was used before, but it is now outdated. Instead in the literature one uses:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;attractivity (how attractive an individual is)&lt;/li&gt;
-  &lt;li&gt;proceptivity (active behaviors being carried out in response to being attracted to that individual)&lt;/li&gt;
-  &lt;li&gt;receptivity (how receptive a given individual to the interest of others)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The flow is the following. Because of attractiveness of individual A, individual B began proceptive 
-behaviors, which did or did not prove to meet receptive fixed action patterns of A in response.&lt;/p&gt;
-
-&lt;h2 id=&quot;female-orgasm&quot;&gt;Female orgasm&lt;/h2&gt;
-
-&lt;p&gt;It is present not only in humans.&lt;/p&gt;
-
-&lt;p&gt;Fertility does not depend on female orgasm. 
-Thus, it is not necessary to increase number copies of your genes.
-However, it may facilitate fertilization:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;orgasm increases vaginal secretion and vaginal fluid increases sperm motility (indirect evidence)&lt;/li&gt;
-  &lt;li&gt;orgasm exhausts - a female lays horizontally - sperm does not have to swim against gravity 
-(leading model)&lt;/li&gt;
-  &lt;li&gt;it feels good, thus, positive reinforcement.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In the end, no connection between fertility and female propensity towards orgasm was observed.
-There is a certain degree of heritability of propensity towards orgasm in females.
-Likelihood of female orgasm depends more on a female than on a male.&lt;/p&gt;
-
-&lt;h3 id=&quot;clitoral-orgasm&quot;&gt;Clitoral orgasm&lt;/h3&gt;
-&lt;p&gt;Can be spandrel - baggage from male ejaculation.
-E.g. nipples are spandrels in men (women have to go through lactation, it is “expensive” to evolve
-men without nipples).&lt;/p&gt;
-
-&lt;h2 id=&quot;sexual-behavior-unique-to-humans&quot;&gt;Sexual behavior unique to humans&lt;/h2&gt;
-
-&lt;p&gt;There are many examples of behavior which are falsely believed to be unique to humans:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Non-reproductive sex (bonobo, chimps, dolphins)&lt;/li&gt;
-  &lt;li&gt;Foreplay (bonobo, chimps)&lt;/li&gt;
-  &lt;li&gt;Homosexuality&lt;/li&gt;
-  &lt;li&gt;Quest for variety (bonobo)&lt;/li&gt;
-  &lt;li&gt;Confusion with violence (psychopathological)&lt;/li&gt;
-  &lt;li&gt;Masturbation&lt;/li&gt;
-  &lt;li&gt;Fantasy (baboons)&lt;/li&gt;
-  &lt;li&gt;Cheating&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Unique behaviors:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Egalitarian sex&lt;/li&gt;
-  &lt;li&gt;Private setting&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Marriage. &amp;gt; 90% of human end up in stable relationship even across polygamous cultures. However, there is 
-a lot of social monogamy, but less of sexual monogamy. In Western countries 10-40% of all children in marriage
-are not from marriage husband. Note: I tried to find a proof (since this looked like a lot) and there is at
-least &lt;a href=&quot;https://www.discovermagazine.com/the-sciences/the-paternity-myth-the-rarity-of-cuckoldry&quot;&gt;one article&lt;/a&gt;
-mentioning 1-5% range instead, which feels more plausible to me. The number is hard to estimate, since fathers
-who doubt their paternity are more likely to do the test. Thus, the rate can reach 10-40% if you just consider
-rate at paternity testing laboratories (which is not a good proxy for general population).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Romance. Couple centuries old concept. The notion that it should last through relationship is only 30-50
-years old.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Somewhat boring - no sex changes, not hermaphrodites.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Average duration of a marriage is 2-4 years, which is close to average inter-birth period
-and for how long children critically depend on parents.
-Thus, humans tend to be serial monogamists.&lt;/p&gt;
-
-&lt;h2 id=&quot;neurobiology&quot;&gt;Neurobiology&lt;/h2&gt;
-
-&lt;p&gt;Limbic system is responsible for fixed action patterns.
-Different areas are relevant for different genders.
-In case of female:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Subsection of hypothalamus (HT). Here is a ventral medial (VMH) - hot spot for receptors for
-estrogen and progesterone.&lt;/li&gt;
-  &lt;li&gt;Midbrain&lt;/li&gt;
-  &lt;li&gt;Spinal pathways&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Male:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Medial preoptic area in HT responsible for performing. Here are receptors for testosterone &amp;amp; androgen.&lt;/li&gt;
-  &lt;li&gt;Amygdala (sexual motivation). Thus, males confuse sexuality with aggression.&lt;/li&gt;
-  &lt;li&gt;Autonomic nervous system for erection (clitoral erections in females work like that too).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;types-of-erection-mechanisms&quot;&gt;Types of erection mechanisms&lt;/h3&gt;
-&lt;p&gt;It can be vascular or muscular. Vascular is based on blood flowing in and not flowing out and lasts longer.
-Muscular is based on a muscle and occurs faster.&lt;/p&gt;
-
-&lt;h3 id=&quot;dimorphism-across-genders&quot;&gt;Dimorphism across genders&lt;/h3&gt;
-
-&lt;p&gt;There is a similar orgasm physiology across sexes, but recovery time is different (slower for females).
-E.g. for males too fast transition from parasympathetic system to sympathetic leads to premature ejaculation.
-For females a failure of transition leads to inability to reach orgasm.&lt;/p&gt;
-
-&lt;p&gt;Brain also has areas, which differ across sexes, e.g.
-INAH cluster in hypothalamus. Size 2:1 for men:women. One can almost identify gender by size of this area.&lt;/p&gt;
-
-&lt;h4 id=&quot;hormonal-response&quot;&gt;Hormonal response&lt;/h4&gt;
-
-&lt;p&gt;In females having sex leads to increase of progesterone derived hormones (i.e. reinforcing pleasure).
-Also without adrenal glands sexual motivation and arousal goes down in females (i.e. androgens play a role).
-Oxytocin is responsible for forming attachments and pair bonds. Higher level of oxytocin leads to more trust
-and cooperation (even when sprayed through nose). Neuromarketing is very interested in such topics.&lt;/p&gt;
-
-&lt;p&gt;Normally oxytocin is used for nursing and milk. As a result, monogamous attachment is a descendant of
-neurobiology of mother-offspring attachment.&lt;/p&gt;
-
-&lt;p&gt;For males - testosterone goes up after sex. There is no evidence for higher testosterone causing more sex activity.&lt;/p&gt;
-
-&lt;p&gt;Vasopressin is responsible for forming pair bonds.
-Monogamous species have receptors for vasopressin on dopamine releasing neurons.
-More such receptors, the faster pair bonds can be produced.
-Similar in monkeys.
-Humans are as usual somewhere in between on this mono-poly scale, but there are 
-genetic variations.&lt;/p&gt;
-
-&lt;p&gt;However, the mechanism is not fully understood, e.g. bonobos have monogamous receptors, but they are
-hyper polygamous.&lt;/p&gt;
-
-&lt;h4 id=&quot;sexual-orientation&quot;&gt;Sexual orientation&lt;/h4&gt;
-
-&lt;p&gt;As it was mentioned above, INAH area differs across genders. 
-However, homosexual men have size of this area similar to hetero women.
-This was discovered in a study by Simon Levay and has been replicated.
-However, the brains were from AID victims.&lt;/p&gt;
-
-&lt;p&gt;There is also hypothalamus difference. Dr. Schwab published this and 
-even got death treats from homosexual community, since this was perceived
-as pathology. Levay was gay and his finding was met much better.
-Partially since its connection to gender and sexuality was better understood.
-This hypothalamus area just happened to be close to the area Levay discovered
-(i.e. its size difference is caused by proximity to and INAH size difference).&lt;/p&gt;
-
-&lt;p&gt;Overall, INAH study was perceived positively, since it was showing
-that orientation can not be chosen, but it is just a biology instead.
-There was even a t-shirt “the only small thing about me is my sexually dimorphic nucleus” (i.e. INAH).&lt;/p&gt;
-
-&lt;p&gt;There is also a difference in ratio of length of 2nd finger vs 4th. Homosexual men on average tend to have 
-this ratio close to straight women.&lt;/p&gt;
-
-&lt;p&gt;Otoacoustic reflex. If you close your ears, you hear oscillations and their rate differs by sex.
-Homosexual men have frequency more typical of straight women.&lt;/p&gt;
-
-&lt;p&gt;For homosexuality in women there are fewer studies. The 2nd/4th finger ratio is the same (i.e.
-homosexual women have ratio of straight men) as well as otoacoustic reflex.&lt;/p&gt;
-
-&lt;h4 id=&quot;trans-sexuality&quot;&gt;Trans-sexuality&lt;/h4&gt;
-
-&lt;p&gt;Used to be a psychiatric disorder (as well as homosexuality).&lt;/p&gt;
-
-&lt;p&gt;There is a gender difference in size of bed nucleus of the stria terminals (reliable predictor for gender).&lt;/p&gt;
-
-&lt;p&gt;Transsexuals have the size of their self identified gender (i.e. not their physical gender).
-This holds even for people who didn’t do gender change.
-Moreover when men with testicular cancer are treated with feminine hormones, this does not change
-size of this area.&lt;/p&gt;
-
-&lt;p&gt;60% of victims of penile cancer have phantom penile sensations. Transgender people, who changed
-their gender from male to female get no phantom penile sensations.&lt;/p&gt;
-
-&lt;p&gt;In other words, transsexuals got a wrong gender body.&lt;/p&gt;
-
-&lt;h3 id=&quot;dopamine&quot;&gt;Dopamine&lt;/h3&gt;
-
-&lt;p&gt;Neurobiology of pleasure, anticipation and reward is common. Role of dopamine is identical across genders
-and is huge. Loss of sexual interest is one of defining symptoms of clinical depression.
-Mesolimbic dopamine system is central to reinforcing aspects of sexual behavior.
-It is about anticipation of the reward and fueling of behaviors needed to achieve reward.&lt;/p&gt;
-
-&lt;p&gt;In males this system activates, if one finds another person attractive and there is eye contact or
-the other person is not attractive and there is no eye contact. Same holds for homosexual men looking 
-at pictures of other men. Sexual orientation in this mechanism is just like having other gender areas.&lt;/p&gt;
-
-&lt;p&gt;Dopamine is related to uncertainty. E.g. if a monkey gets reward only in 50% of cases,
-the dopamine level will be even higher than when 100% reward.
-This is called intermittent reinforcement. If the rate is changed to 25% or 75%,
-the level falls, but still higher than 100% (i.e. corresponds to level of uncertainty).
-Thus, the goal of Las Vegas is to convince people that there is 50% change, when there is not.&lt;/p&gt;
-
-&lt;p&gt;Joke: relationship is the price you pay for anticipation of it.&lt;/p&gt;
-
-&lt;h3 id=&quot;bonding&quot;&gt;Bonding&lt;/h3&gt;
-
-&lt;p&gt;There are receptor subtypes D1 and D2, which are relevant for sex behavior.
-In monogamous rodents, when bonding happens level of D2 goes down and D1 increases.
-If D2 falls before mating, no pair bond happens.
-If decrease of D2 or increase of D1 is prevented, the individuals will bond with someone else.&lt;/p&gt;
-
-&lt;p&gt;D2 - rewarding anticipatory aspects of pair bonding
-D1 - pleasure of monogamous features of pair bond.&lt;/p&gt;
-
-&lt;p&gt;In human ratio of D2/D1 predicts stability of relationships.&lt;/p&gt;
-
-&lt;p&gt;There was a brain imaging study which considered couples after 2.5 weeks and after 5 years.
-In the first case, just seeing their beloved one activated this dopamine system.
-In the second case, anterior cingulate was activated instead (i.e. empathy, comfort)&lt;/p&gt;
-
-&lt;h3 id=&quot;brain-areas&quot;&gt;Brain areas&lt;/h3&gt;
-
-&lt;p&gt;Frontal cortex is responsible for context of sexual behavior (i.e. how to be appropriate).
-This does not change fixed action patterns, but their context instead.
-Damage to this area can lead e.g. to a rape in a nursing home.&lt;/p&gt;
-
-&lt;h3 id=&quot;stimuli&quot;&gt;Stimuli&lt;/h3&gt;
-
-&lt;p&gt;Non human primates (as well as humans) are very visual (males usually more).
-As a result, they get more dopamine activation due to visual stimuli.&lt;/p&gt;
-
-&lt;p&gt;Sometimes some tactile receptors activate more dopamine, this explains erogenous zones.&lt;/p&gt;
-
-&lt;p&gt;Responsiveness to stimuli also depends on hormone levels.
-In women, there is more sensitivity during ovulation (especially genitals).
-Overall skin is more sensitive to sexually arousing touch during ovulation.
-In men testosterone is required.&lt;/p&gt;
-
-&lt;h4 id=&quot;olfactory&quot;&gt;Olfactory&lt;/h4&gt;
-
-&lt;p&gt;There are olfactory cues, i.e. pheromones.&lt;/p&gt;
-
-&lt;p&gt;In both sexes right hormones are required to generate pheromones.
-Men with low testosterone don’t generate pheromones, neither do women without ovaries.&lt;/p&gt;
-
-&lt;p&gt;Pheromones - breakdown products of sex hormones.
-Neuromarketing is also interested in this area.&lt;/p&gt;
-
-&lt;p&gt;Perfumes are classically made of sweat of various animals (typically male).
-E.g. Chanel #5 was based on sweat of whipped male Abyssinian cats.
-Currently it is more synthetic and made of androgens.
-The sweat is from males, because majority of perfumes are not bought by men.&lt;/p&gt;
-
-&lt;p&gt;Pheromones convey a lot of info, e.g. species, gender, whether castrated or not,
-health, terrified or not, family-related to you.&lt;/p&gt;
-
-&lt;p&gt;To perceive pheromones, the receiver needs right hormones, e.g. castrated men don’t
-distinguish sweat of men and women.&lt;/p&gt;
-
-&lt;p&gt;Females identify gender via pheromones even better when they ovulate.
-Homosexual men are even better at detecting other homosexual men smell.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Human Sexual Behavior - part 1.</summary></entry></feed>
+carnivores (in a good tank). The exact reason is not known.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Course reviews&quot;]" /><summary type="html">Aggression - part 2.</summary></entry></feed>
